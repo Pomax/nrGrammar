@@ -1,0 +1,25 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Acknowledgements ======
+
+This book, like its precursors, wasn't written in one go — many people contributed in some way or other to making sure that this book got turned from just a thought into something real. Foremost my teachers at Leiden University, Mr. M. Kunimori and Mr. N. Oya, have contributed to me enjoying learning the language greatly, much more than I would have had I merely kept on studying the language at home. Their comments while teaching, sometimes related to the language, and sometimes going off on completely random tangents, have enriched my experience of the language in such a way that has made it fun, as well as something to play with rather than to formally study. I owe them gratitude.
+
+Secondly, many people from the online community helped me in learning how to phrase myself so that explanations were understandable, and corrected me when I got things wrong — something that definitely improves anyone's skill at anything by reinforcing that some things shouldn't be what you thought them to be. Many of these were from the IRC channel "\#nihongo" on the irchighway network, and while some people have since moved on, others have stuck around and it remains a nice source of conversation concerning Japanese and other matters to this day.
+
+My thanks go out to those people that have helped proof the book or parts of its content in either the old or new incarnation; Sarah Wiebe, Ayako Sasaki, Andreas Wallin, Raymond Calla, Maarten van der Heijden, Giulio Agostini, Emmanuel Auclair, Sergi Esteve and many unnamed others deserve not just my, but also your thanks — they helped refine the material from a mass of typos and convoluted phrases into the publication it is now!
+
+Special thanks goes out to Edmund Dickinson, who took upon him the task of scrutinising the book's English. Without his help, this book would have been of far lower quality.
+
+Gratitude should also be extended to the people on the XeTeX mailing list, without whose help this book would have taken far longer to realise. Their help with (Xe)LaTeX related questions has been greatly appreciated, and although singling individual users out would be nearly impossible, the principle creater of XeTeX, Jonathan Kew, and the author of Fontspec, Will Robertson, do deserve special mention.
+
+\pagebreak
+
+\vspace*{\fill}
+
+Finally, as a special dedication, I would like to thank Cynthia Ng, who has been my support for years now, kept me motivated to finish this book, helped in editing the content, and became my wife during the final stages of finishing this book. Thank you for being in my life — this book is dedicated to you.
+
+\vspace*{\fill}
+
+\vspace*{\fill}

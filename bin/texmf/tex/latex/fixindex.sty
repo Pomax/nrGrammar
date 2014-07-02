@@ -1,0 +1,41 @@
+\ProvidesPackage{fixindex}
+
+% ---------------------------------------------
+% fine tuning: we do not want the "INDEX" title
+% ---------------------------------------------
+
+\newcommand{\setindextitle}[1]{\renewcommand{\indexname}{#1}}
+
+\renewenvironment{theindex} 
+{\if@twocolumn 
+  \@restonecolfalse 
+\else 
+  \@restonecoltrue 
+\fi 
+\twocolumn[\section*{\indexname}]% 
+\addcontentsline{toc}{section}{\indexname}%
+\thispagestyle{plain}\parindent\z@ 
+\parskip\z@ \@plus .3\p@\relax 
+\columnseprule \z@ 
+\columnsep 35\p@ 
+\let\item\@idxitem}
+{\if@restonecol\onecolumn\else\clearpage\fi}
+
+
+%\renewenvironment{theindex} 
+%{\if@twocolumn 
+%  \@restonecolfalse 
+%\else 
+%  \@restonecoltrue 
+%\fi 
+%\twocolumn[\section*{\indexname}]% 
+%\@mkboth{\MakeUppercase\indexname}% 
+%		{\MakeUppercase\indexname}% 
+%\thispagestyle{plain}\parindent\z@ 
+%\parskip\z@ \@plus .3\p@\relax 
+%\columnseprule \z@ 
+%\columnsep 35\p@ 
+%\let\item\@idxitem}
+%{\if@restonecol\onecolumn\else\clearpage\fi}
+
+\endinput

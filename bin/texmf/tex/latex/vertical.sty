@@ -1,0 +1,44 @@
+\ProvidesPackage{vertical}
+
+\RequirePackage{ifxetex}
+\RequireXeTeX
+
+\RequirePackage{ifthen}
+\RequirePackage{graphics}
+\RequirePackage{fontspec}
+\RequirePackage{varwidth}
+\RequirePackage{relsize}
+
+
+\DeclareRobustCommand*{\vruby}[2]{%
+\mbox{%
+\setlength{\parskip}{0ex}%
+\BeginAccSupp{method=pdfstringdef,ActualText={#1}}%
+\rule{0pt}{1.7em}\rubystack{\phantom{#2}}{#1}%
+\llap{%
+\rule{0pt}{1.7em}\rubystack{\smaller #2}{\phantom{#1}}%
+}%
+\EndAccSupp{}%
+}%
+}
+
+\newcommand{\vertical}[4]{%
+\XeTeXinterchartokenstate = 0 %
+\begin{center}%
+\rotatebox{-90}{%
+\begin{varwidth}{\textwidth}%
+\fontsize{#2pt}{#2pt}
+\fontspec[RawFeature=vertical, Script=CJK]{#1}#4
+\vspace{#2pt}%
+\vspace{#2pt}%	this padding should only exist if ruby is present, for visual offset
+\vspace{#2pt}%
+\end{varwidth}}%
+\\
+\vspace{12pt}
+\XeTeXinterchartokenstate = 1 %
+\fontsize{8pt}{10pt}#3
+\end{center}%
+\XeTeXinterchartokenstate = 1 %
+}
+
+\endinput

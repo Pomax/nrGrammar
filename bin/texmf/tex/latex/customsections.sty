@@ -1,0 +1,35 @@
+\ProvidesPackage{customsections}
+
+% ----------------------------------------------------------------
+% custom look for sections, subsections and subsubsections
+%
+% \@startsection {NAME}{LEVEL}{INDENT}{BEFORESKIP}{AFTERSKIP}{STYLE} 
+% ----------------------------------------------------------------
+
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
+{\larger\larger\bfseries}}
+
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
+{\larger\larger\bfseries}}
+
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
+{\larger\bfseries}}
+
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
+{\larger\bfseries}}
+
+\newcommand{\bigsection}{%
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{8.0ex \@plus.2ex}%
+{\Huge\bfseries}}}
+
+\endinput

@@ -1,0 +1,34 @@
+%
+% This package ensures that the "newXeTeXintercharclass" command is known.
+%
+\ProvidesPackage{newxetexintercharclass}
+
+\RequirePackage{ifxetex}
+\RequireXeTeX
+
+\@ifundefined{newXeTeXintercharclass}{%
+% ----------------------------------------------------------------
+%
+% Allocator for \XeTeXintercharclass values, from Enrico Gregorio,
+% straight copy from the xelatex.ini that comes with TeX Live 2009
+%
+% ----------------------------------------------------------------
+\catcode`\@=11
+\newcount\xe@alloc@intercharclass % allocates intercharclass
+\xe@alloc@intercharclass=\thr@@ % from 4 (1,2 and 3 are used by CJK, AFAIK)
+\def\xe@alloc@#1#2#3#4#5{\global\advance#1\@ne
+\xe@ch@ck#1#4#2% make sure there's still room
+\allocationnumber#1%
+\global#3#5\allocationnumber
+\wlog{\string#5=\string#2\the\allocationnumber}}
+\def\xe@ch@ck#1#2#3{%
+\ifnum#1<#2\else
+ \errmessage{No room for a new #3}%
+\fi}
+\def\newXeTeXintercharclass{%
+\xe@alloc@\xe@alloc@intercharclass\XeTeXintercharclass\chardef\@cclv} %at most 254
+\catcode`\@=12
+}{%
+% if it's already defined, no need to redeclare it
+\PackageWarning{uccalloc}{newXeTeXintercharclass already defined, not redeclaring.}}
+\endinput

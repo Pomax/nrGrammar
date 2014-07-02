@@ -1,0 +1,23 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Preface ======
+
+You are reading the first print version of the Japanese grammar book that I started writing while I was still taking classes in Japanese... and consequently failed at (the book, not the courses). I have to admit, I was a bit overzealous. While I enjoyed learning and through the process of explaining the things I had learnt to others via what became www.nihongoresources.com, I was still a first year student with not exactly a lot of weight or experience under my belt. The first version of my book I offered to my teacher to scrutinise, and scrutinise he did. In retrospect, it's a good thing he did, because it took forever to get from the draft version to an edited final version. Instead, in 2005 I decided that the information I was offering the world was somewhat out of date, and needed a rewrite. I also knew that I had to do something with the book: I had promised many people by now I would finish it and I didn't like the idea of letting those people down. As such, I began to write what ended up as a permanent draft copy of a grammar book, freely available from the nihongoresources.com website, in 2005-2006.
+
+Three years later, the book has certainly proved its popularity. Well over a hundred thousand downloads later, and with over fifteen thousand hits on it per week still, the time has finally come to revise it, and give everyone what they've been asking for for some time now: a proper paper version in addition to the digital copy.
+
+It's taken close to a year to go from deciding to revise the old grammar book to being able to offer you a restructured, reworked, and more than half rewritten book on the Japanese language, but hopefully the wait was worth it. I've spent as much time on it as I could, in between my normal job and spending time on vacations in Canada to be with the person who has helped me tremendously in getting this book done and keeping me motivated to do so, and I hope the result is something you feel was worth paying money for.
+
+This book was written in several phases, using several programs. The first full-content version was based on the original "An Introduction to Japanese Syntax, Grammar and Language" written in 2005, which was written in plain text using Textpad, after which it got turned into DocBook XML using XMLmind XML Editor. This was then converted to WordprocessingML using a custom script, and final styling was done in Microsoft Word, before converting that to PDF form using Adobe's Acrobat PDF building tools. This was an interesting process to run through, but prooved not very revision-friendly, so another approach had to be taken.
+
+The new process is actually much more fun, and allows me to automate the whole book-making process for when errata must be processed or new content is added. The data itself now lives on the internet, and can be found as a dokuwiki documentation project on http://grammar.nihongoresources.com.
+
+Because dokuwiki stores its data as plain text files, I wrote a set of conversion scripts to turn the dokuwiki code into LaTeX code, which then gets run through the XeLaTeX processing engine, which results in a fully indexed, cross-referenced, ToC-ed and for all intents and purposes publication-ready PDF file. 
+
+In the end, I had fun rewriting the book, and putting together the technologies to turn the book content into something you can actually read, and I hope you will have fun reading this, and find it aids you in your studies of Japanese. Thank you for making writing this worth while, and good luck!
+
+\vspace{2em}
+
+Mike "Pomax" Kamermans

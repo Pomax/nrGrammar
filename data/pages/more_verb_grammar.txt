@@ -1,0 +1,1909 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== More grammar ======
+
+Having covered the basics in the previous chapter, we will revisit and elaborate on certain inflections and conjugations, as well as list all of the other inflections that are used in the Japanese language. This chapter treats the inflections one by one, starting with a recap of politeness and explaining how it applies to all verbs, then treating all the basic — but not yet covered — inflections, followed by the more advanced inflections that are used in Japanese.
+
+Note that as of this chapter all the verbs and adjectives that have been used in the previous chapter, which we will continue to use in this one, will not come with furigana. At this point, you should know how they are read (and if you don't, just flip back to the previous chapter for the readings).
+
+===== Revisits and simple inflections =====
+
+==== {idx:english:inflections!Politeness} ====
+
+Politeness, or the use of {idx:english:丁寧語(ていねいご)} as it is called in Japanese, revolves around using {idx:english:です} and {idx:english:ます}. We saw these explained in the previous chapter, but for completeness their bases will be listed again here:
+
+	ます		です	だ	{idx:english:copula}
+
+未然形	ませ (ましよ)		でしよ	だろ	でしょ/だろ
+連用形	まし		でし	だっ (で)	で
+終止形				だ	です/だ
+連体形	ます		です	な	です/な
+已然形	ませ (ますれ)			なら	なら
+命令形	ませ
+
+Of these, the copulae are used in combination with nouns and verbal adjectives, and ます is used in combination with verbs (in their 連用形 form). For both verb classes the procedure is the same: the present polite is formed by adding ます to the 連用形, whereas the past polite is formed by taking the present polite, and turning ます into its past tense, ました:
+
+五段	present polite	past polite
+
+	連用形 + ます	polite present 連用形 + た
+会う	会い + ます	会いまし + た
+歩く	歩き + ます	歩きまし + た
+急ぐ	急ぎ + ます	急ぎまし + た
+話す	話し + ます	話しまし + た
+待つ	待ち + ます	待ちまし + た
+死ぬ	死に + ます	死にまし + た
+学ぶ	学び + ます	学びまし + た
+読む	読み + ます	読みまし + た
+
+五段	present polite	past polite
+
+	連用形 + ます	polite present 連用形 + た
+分かる	分かり + ます	分かりまし + た
+切る	切り + ます	切りまし + た
+売る	売り + ます	売りまし + た
+帰る	帰り + ます	帰りまし + た
+怒こる	怒こり + ます	怒こりまし + た
+
+一段	present polite	past polite
+
+	連用形 + ます	polite present 連用形 + た
+見る	見 + ます	見まし + た
+伸びる	伸び + ます	伸びまし + た
+食べる	食べ + ます	食べまし + た
+
+The irregular verbs する, ある and 来(く)る are regular with respects to using ます, although of course する's "す" becomes "し", and 来る's stem gets pronounced "き".
+
+For nouns we use です, which is inflected to indicate tense:
+
+noun	meaning	polite present	polite past
+
+		noun + です	noun + でした
+友達(ともだち)	friend	友達 + です	友達 + でした
+家(いえ)	house	家 + です	家 + でした
+
+For verbal adjectives, we also use です, but unlike nouns, verbal adjectives inflect to show tense, rather than です:
+
+adjective	polite present	polite past
+
+	連体形 + です	past tense + です
+高い	高い + です	高かった + です
+楽しい	楽しい + です	楽しかった + です
+薄い	薄い + です	薄かった + です
+遅い	遅い + です	遅かった + です
+
+A cautionary note: many beginning students of Japanese make the mistake of forgetting that verbal adjectives are verbal, and are themselves inflected, rather than using です for tense. One of the first mistakes (and arguably one of the biggest) made by beginning students is saying something like:
+
+  楽(たの)しいでした。
+
+To mean "it was fun". Try, very hard, not to make this mistake. Remember for verbal adjectives "inflect first, then add です for politeness", not "add です first, then inflect".
+
+==== {idx:english:inflections!Attributive} ====
+
+When something is attributive, it means that it is essentially doing what an adjective does: it attributes some quality to a noun. Verbs, verbal adjectives and nouns can all do this, but they do so in different ways.
+
+For verbs  and verbal adjectives, the {idx:english:連体形@れんたいけい (連体形)} is attributive by its very definition (it is the "attributive" base). For verbal adjectives this seems fairly obvious, but for verbs, things are no different:
+
+  いい人(ひと)です。
+  "(he/she/it) is (a/the) good person."
+
+  コーヒーを飲(の)む人です。
+  "(he/she/it)'s (a/the) coffee drinking person."
+
+For nouns, things are a little trickier. There are two classes of nouns, namely the ones we already saw in the previous chapter, linking up using の, and "noun adjectives", which are nouns denoting qualities or aspects, and are used in combination with the {idx:english:連体形@れんたいけい (連体形)}for {idx:english:だ}, {idx:english:な}, as attributives:
+
+  きれいな部屋(へや)です。
+  "(this/it) is (a) clean/tidy room."
+
+  静(しず)かな人(ひと)です。
+  "(he/she/it) is (a/the) quiet person."
+
+The reason for this is that we want to use the qualities that these nouns express attributively. On their own, the qualities in these two sentences would be "きれいだ", "is clean", and 静かだ, "is quiet". When we wish to use these attributively, we must change だ from its 終止形, or finalising form, to 連体形, which is the attributive form. So:
+
+  きれいだ → きれいな[noun]
+  静かだ → 静かな[noun]
+
+For these kind of nouns, using の as in "きれいの[noun]" or "静かの[noun]" would be incorrect, because の is not used to attribute qualities. Sadly, without any prior knowledge it is essentially impossible to tell whether a noun will require の or な when it is being linked with other nouns. Sometimes you can guess, based on the fact that the noun marks some quality or aspect, but often you cannot.
+
+==== Adverbial ====
+
+In addition to the attributive, which attributes qualities to nouns, there are {idx:english:adverbs}, which attribute qualities to verb actions. There are three word classes that can do this, namely the {idx:english:verbal adjectives}, the {idx:english:noun "adjectives"} (the ones that take な) and, of course, {idx:english:true adverbs}.
+
+True adverbs are easy, since they do exactly what you'd expect:
+
+  本(ほん)を読(よ)みます。
+  "(I, you, he, she, we, they) read(s) (a) book(s)."
+
+  {idx:english:quantifiers!時々(ときどき)}本を読みます。
+  "(I, you, he, she, we, they) sometimes read(s) (a) book(s)."
+
+Here, the adverb 時々, 'sometimes', also written 時時 (the symbol 々 indicates kanji repetition) qualifies the action of reading to apply only sometimes, rather than in general.
+
+We can achieve the same effect of qualifying the verb action by using verbal adjectives in 連用形 form:
+
+  直(なお)します。
+  "(I, you, he, she, we, they) will fix (it)."
+
+  速(はや)く直します。
+  "(I, you, he, she, we, they) will fix (it) quickly."
+
+In this sentence, the adjective 速い, 'fast' (not to be confused with 早(はや)い, 'early'), is turning into the adverb 'quickly' by using its 連用形.
+
+With noun adjectives, which do not inflect but must be paired up with the right particle to show their use in a sentence, we must use に, instead of な, to use them as adverbial words:
+
+  分(わ)ける。
+  "divide (up)."
+
+  きれいに分ける
+  "divide cleanly/neatly"
+
+You might recognise this {idx:english:verb particles!に} from the section on verb particles from the previous chapter. When used with quality or aspect nouns (and noun adjectives in general), using に leads to the noun being interpreted as a verb detail, which we grammatically term as being used adverbially. However, when the noun is a true noun, に does something very different. To illustrate this, two sentences:
+
+  完全(かんぜん)に負(ま)ける。
+
+  友達(ともだち)に負ける。
+
+The first sentence has a noun that describes an aspect, 完全, meaning 'complete'. Thus, because it is paired with に, this noun is being used as an adverb to 負ける, 'lose'. This sentence translates to "Losing completely". On the other hand, 友達 does not describe a quality or aspect, it just means 'friend(s)'. As such, when it is paired with に it becomes a verb detail: "(I, you, he, she, we, they) lost to (my, your, his, her, our, their) friend(s)."
+
+So be careful. If the noun you're using is not a noun 'adjective', you can quite easily say something completely different from what you intended to say.
+
+==== {idx:english:Noun forms} ====
+
+Not just nouns can act as nouns: verbs and verbal adjectives, too, can be inflected so that they act like nouns. In the same way that we can either "walk" through a neighbourhood, or take "a walk" through a neighbourhood in English, so too in Japanese can verbs be used as nouns, provided we use their 連用形:
+
+  僕(ぼく)の負(ま)けだ。
+  "(It)'s my loss."
+
+Here, the noun 負け, "loss", comes from the 一段 verb 負ける, "to lose". By using its 連用形, it can be used as a noun in a sentence. Both 一段 and 五段 verbs follow this rule.
+
+For verbal adjectives, things are a bit more complicated, because {idx:english:using an adjective as a noun@noun forms!adjectives as nouns} requires you to know what kind of noun you want to use. For instance, in English we can turn the adjective "deep" into the noun "depth". This noun is then ambiguous in meaning: do we mean a measurable depth, like the depth of a crevasse or a lake, or do we mean the immeasurable quality of "depth" of paintings or poetry, for instance? In Japanese, this ambiguity doesn't exist, because the two different interpretations are expressed through different noun forms: turning a verbal adjective into a measurable (quantifiable) noun requires adding {idx:english:noun forms!さ} to the stem, whereas turning it into an immeasurable (qualifying) noun requires adding {idx:english:noun forms!み} to the stem:
+
+adjective	meaning	{idx:english:noun forms!quantified noun}	meaning
+
+高(たか)い	high	高さ	height (e.g., of a mountain)
+深(ふか)い	deep	深さ	depth (e.g., of a lake)
+
+adjective	meaning	{idx:english:noun forms!qualified noun}	meaning
+
+高い	high	高み	height (e.g., of an achievement or position)
+深い	deep	深み	depth (e.g., of a poem or painting)
+
+In addition to these two, there's also け, げ or き (all pronunciations for {idx:english:気@noun forms!け, げ, ぎ (気)}), which instead of creating a quantified noun or qualified noun, creates a noun that stands for "having the {idx:english:noun forms!impression} of". To use this in a sentence, it is used as a noun adjective (as 気 itself is a noun adjective):
+
+adjective	meaning	impression noun	meaning
+
+寒(さむ)い	cold	寒気(さむけ)	the sense/feeling of being cold
+危(あぶ)ない	dangerous	危(あぶ)な気(げ)	the sense/feeling of danger
+堅(かた)い	firm, honest	堅気(かたぎ)	instilling a sense/feeling of honesty
+
+There are two notes to this scheme. The most important one is: "this does not apply to all adjectives". That may sound odd, but it comes down to the fact that while grammatically these rules are valid for all verbal adjectives, Japanese has been in use for many centuries and verbal adjectives for which this kind of {gls:glossary:nominalising} made sense have long since been accepted as words on their own, while verbal adjectives for which this nominalising was simply not required simply aren't accepted as natural speech when you use them.
+
+Secondly, the two irregular verbal adjectives, いい and ない, have their own forms. The よさ (良さ) form exists, but よみ does not, and rather than some よ気, there is 良さ気(げ). For ない, there is no なさ, except in the pattern なさそう, which will be treated in the section on impressions and likeness, and there are no み or 気 variants either.
+
+=== More {idx:english:noun forms}: 連用形 + {idx:english:noun forms!方(かた)} ===
+
+A more subtle noun form for verbs is the "{idx:english:noun forms!way of doing} ..." noun form. For instance, "the way one reads" in English is a full noun phrase, but in Japanese it's a compound noun consisting of the verb "read" in 連用形, paired with the noun 方 (pronounced かた in this use) meaning "way". Thus, 読(よ)む, meaning "read", becomes 読み方, meaning "way of reading".
+
+  お箸(はし)の使(つか)い方に慣(な)れてない人(ひと)に難(むずか)しいです。
+  "It's hard for people who aren't used to the "way of using" chopsticks."
+
+The verb "to use", 使う, is a transitive verb, and since transitive verbs have their direct object marked with を, the {gls:glossary:subphrase} "to use chopsticks" could be お箸を使う. However, since both お箸 and 使い方 are nouns, we can also choose to use の to link them together. The difference is the following, noting the placement of the brackets:
+
+  (お箸を使い)方
+  The way of 'using chopsticks'
+
+  お箸の(使い方)
+  The 'way of using', for chopsticks
+
+Both express the same idea, but the emphasis in the first sentence lies on the fact that it's about using chopsticks, while the emphasis in the second sentence simply lies with the 'way of using' something, which in this case happens to be chopsticks.
+
+==== More {idx:english:inflections!negative}s ====
+
+The basic negative form was already discussed in the previous chapter, but it only covered one of the two plain negative forms, and didn't cover polite negative forms at all.
+
+Let us first look at the second plain negative form first. In addition to the helper adjective of negation, ない, there is a classical helper verb of negation, ぬ, which is used quite frequently in {gls:glossary:formal speech} (in its 連用形 form ず) and even more often in daily speech as part of the polite negation in the form of ん at the end of ません.
+
+bases	form
+
+連用形	{idx:english:ず}
+連体形	{idx:english:ん} ({idx:english:ぬ})
+已然形	ね
+
+Technically, the 連体形 for this classical helper verb can be placed at the end of any verb's 未然形, to form a {idx:english:curt negative}. While not in use in standard Japanese, this use is still prevalent in several modern Japanese dialects, such as Kansaiben. In addition to this, it is used for the negative of the helper verb of politeness, ます, to form its (polite by very definition) negative form ません.
+
+The 連用形 form, ず, is used frequently to form a rather special kind of word: the adverbial negative. Added to a verb's 未然形, and paired with に (as it acts as a noun adjective) it turns the verb action into a 'not-taken' verb action instead. To illustrate this, an example:
+
+  朝(あさ)ご飯(はん)を食(た)べずに来(き)ました。
+  "I came (over) without eating (my) breakfast."
+
+In this sentence, the phrase 朝ご飯を食べず acts as adverb to 来ました, so that we can say that "きました is performed in an 朝ご飯を食べなかった manner". In this sentence, ず itself has no temporal aspect, so it gets its tense from whatever follows. As such, present or past tense comes from the final verb:
+
+  朝ご飯を食べずに来ました。
+  "I came (over) without eating (my) breakfast."
+
+  朝ご飯を食べずに来ます。
+  "I will come (over) without eating (my) breakfast."
+
+This is considered an elegant form of negation, and is in formal and semi-formal settings preferred to the negative continuative for ない, which for our example sentence would be:
+
+  朝ご飯を食べなくて来ました。
+  "I didn't eat (my) breakfast and came (over)."
+
+We will look at continuative forms that use this 'て' in detail later in this chapter, when looking at continuatives.
+
+==== Basic inflections summarised ====
+
+With the knowledge of what ん does, we can now (finally) look at the complete inflection schemes in terms of plain and polite, present and past, and affirmative and negative forms. First off, {idx:english:ます}; since ます is inherently polite, it only has four forms we need to know:
+
+	affirmative	negative
+
+present	ます	ませ + ん
+past	まし + た	ませ + ん + でした
+
+Second, {idx:english:です}. This too is inherently polite, so again we see four forms, two of which are contractions with a corresponding full form:
+
+	affirmative	negative
+
+present	です	じゃありません
+		ではありません
+past	でした	じゃありませんでした
+		ではありませんでした
+
+Then, {idx:english:だ}. As this is the plain counterpart to です, it has no inherent politeness forms, although two forms are contractions with a corresponding full form. However, because the negative forms rely on ない, and because ない is a verbal adjective, this copula can also be made polite (at least for its negative forms) by adding です. It will make the inflection more polite than plain form, but not as polite as the corresponding negative form for です itself.
+
+	affirmative	negative
+
+present	だ	じゃない(です)
+		ではない(です)
+past	だった	じゃなかった(です)
+		ではなかった(です)
+
+Next up are the {idx:english:verbal adjectives}. Verbal adjectives have one polite affirmative form, using です, and two polite negative forms, because we can either use ない, or the polite counterpart to ない: ありません (the polite negative form of the verb ある). This leads to the following inflection table:
+
+		affirmative	negative
+
+present	plain	連体形	未然形 + ない
+	polite	連体形 + です	未然形 + ない + です
+	polite (2)		連用形 + ありません
+past	plain	連用形 + あった (c)	未然形 + なかった
+	polite	連用形 + あった (c) + です	未然形 + なかった + です
+	polite (2)		連用形 + ありません + でした
+
+In this table, (c) has been used to indicate that a contraction occurs.
+
+For completeness, the two irregular verbal adjectives get their own tables. First, {idx:english:いい} (which is really {idx:english:よい}):
+
+		affirmative	negative
+
+present	plain	よい, いい	よくない
+	polite	よいです, いいです	よくありません
+past	plain	よかった	よくなかった
+	polite	よかったです	よくなかったです
+
+  (of the two possible 連体形, いい is considered normal, while よい is considered formal)
+
+And then finally, the helper adjective of negation, {idx:english:ない} (無い):
+
+		affirmative	negative
+
+present	plain	ない	なくない
+	polite	ないです	なくないです
+past	plain	なかった	なくなかった
+	polite	なかったです	なくなかったです
+
+Note that while technically ない has negative forms, they need pretty specific context before they make any sense.
+
+Then the verbs: while the polite forms are the same for the two verb classes (as well as the irregular verbs), all verb classes will have all forms listed for completeness.
+
+First, 五段 verbs, except for ある:
+
+		affirmative	negative
+
+present	plain	連体形	未然形 + ない
+	polite	連用形 + ます	連用形 + ません
+past	plain	連用形 + た (c)	未然形 + なかった
+	polite	連用形 + ました	連用形 + ませんでした
+
+In this table, (c) has been used to indicate that a contraction occurs, depending on whether it's a す, く, ぐ, つ, ぬ, ぶ, む or る 五段 verb. It should also be noted that the verb 行(い)く has an irregular past tense: 行った instead of 行いた, and that the rather rare verbs 問う, 訪う, 乞う and 請う get た suffixed to their 連体形, not 連用形.
+
+For {idx:english:ある}, the scheme is subtly different:
+
+		affirmative	negative
+
+present	plain	連体形	ない
+	polite	連用形 + ます	連用形 + ません
+past	plain	連用形 + た (c)	なかった
+	polite	連用形 + ました	連用形 + ませんでした
+
+Then, the 一段 verbs, including {idx:english:来(く)る}
+
+		affirmative	negative
+
+present	plain	連体形	未然形 + ない
+	polite	連用形 + ます	連用形 + ません
+past	plain	連用形 + た	未然形 + なかった
+	polite	連用形 + ました	連用形 + ませんでした
+
+  (The stem for 来る changes: its 連体形 is く, its 連用形 is き, and its 未然形 is こ - however, inflection uses the same rules)
+
+And finally, the irregular verb {idx:english:する}:
+
+		affirmative	negative
+
+present	plain	連体形	し-未然形 + ない
+	polite	連用形 + ます	連用形 + ません
+past	plain	連用形 + た	し-未然形 + なかった
+	polite	連用形 + ました	連用形 + ませんでした
+
+And so, with these basic inflection tables finally complete, we can move on to genuinely new inflections, to examine the rest of what can be done with verbs and verbal adjectives in the Japanese language.
+
+===== Further inflections =====
+
+==== {idx:english:inflections!Conjunctive} ====
+
+Conjunctives are words or constructions that join up two or more phrases. For instance, in the English sentence "The birds are singing, the flowers are blooming; spring had arrived properly", the comma between 'the birds are singing' and 'the flowers are blooming' acts as a conjunctive, as does the semi-colon between 'the flowers are blooming' and 'spring had arrived'. In Japanese, this particular kind of conjunction can be done in a remarkably simple way: each sentence that is to be "{idx:english:conjoin}ed" with the next has its final verb put in {idx:english:連用形@れんようけい (連用形)}, and we're done:
+
+  鳥(とり)が鳴(な)く。
+  "(The) birds sing."
+
+  花(はな)が咲(さ)く。
+  "(The) flowers bloom."
+
+  春(はる)が来(き)た。
+  "Spring is here."
+
+If we change the final verbs in the first two sentence from 連体形 to 連用形, then we can join them up to form the translation for our original English sentence:
+
+  鳥が鳴き花が咲き春が来た。
+  "(The) birds are singing, (the) flowers are blooming; spring is here."
+
+For added emphasis, we can also place a Japanese comma after each of the conjoined sentences:
+
+  鳥が鳴き、花が咲き、春が来た。
+
+While not required for the sentence to be grammatically correct, the addition of a comma can make a sentence easier to read. When translating this kind of conjoined sentence, one can usually either use a comma, or the conjunctive "{idx:english:and}". However, it should be noted that the real meaning is just a comma or a semi-colon: since this construction creates a sentence where the second part of the full sentence is merely a continuation of a story started in the first part, there is no real "and" to speak of. Typically in English the word "and" will look like it belongs there, but you should remember that the Japanese sentence only faintly implies it. As such the following translations are all possible, but not all of them sound like natural English.
+
+  鳥が鳴き花が咲き春が来た。
+
+  "(The) birds are singing, (the) flowers are blooming; spring has arrived."
+
+  "(The) birds are singing and (the) flowers are blooming; spring has arrived."
+
+  "(The) birds are singing, (the) flowers are blooming and spring has arrived."
+
+  "(The) birds are singing and (the) flowers are blooming and spring has arrived."
+
+A further note on translating "and": even though a Japanese conjunction can be translated to "... and ...", going the other way — from English to Japanese — typically means you cannot translate "and" with this 連用形 construction. The reason for this is that conjunction is a very specific thing, whereas the word "and" performs many roles in English:
+
+"I ate breakfast and went to school"	{idx:english:serial action}
+"I bought juice and tomatos"	{idx:english:noun list}
+"It's my car, and don't you forget it"	{idx:english:emphatic}
+
+Typically, when you encounter "and" in an English sentence, the Japanese sentence (unless you're translating to formal Japanese) will not have it mapped to a 連用形 construction.
+
+In addition to this conjoining of sentences, the 連用形 conjunctive also works for certain word combinations, which we shall look at here.
+
+=== {idx:english:conjunctions!Verb/verb} conjunctions ===
+
+The most common conjunction is the verb/verb conjunction. This takes two verbs, and forms a compound verb with them, by placing the first verb in 連用形 and combining it with the second verb in its normal form. There are plenty of examples to choose from for this type of conjunction:
+
+first verb	second verb	compound verb
+
+飛(と)ぶ, "fly"	出(だ)す, "take out"	飛び出す, "come flying out"
+歩(ある)く, "walk"	回(まわ)る, "go round", "turn"	歩き回る, "walk around in circles"
+
+When verbs are conjoined this way, it is quite common for the {idx:english:okurigana} (the hiragana that indicates inflection on verbs and verbal adjectives) of the first verb to be omitted: 飛び出す may be written as 飛出す, but is still pronounced とびだす, and 歩き回る may be written as 歩回る but is still pronounced あるきまわる.
+
+A lot of the time, compound verbs created this way have a meaning which is readily guessable. However, sometimes the compound verb is one that's been in use for ages and its meaning has changed over time. This is a good reminder that while the grammar explains forms, it doesn't necessarily explain semantics (i.e., the actual intended meaning). Be careful when creating your own compound verbs - it's not unlikely you will come up with a combination that already means something else in some subtle, or even not so subtle way.
+
+=== {idx:english:conjunctions!Common conjunctions} ===
+
+There are a few common verbs which, when used in this fashion, add a specific meaning to the compound. These are:
+
+== {idx:english:special compound verbs!直(なお)す} — 'Fix', 'correct', 'repair' ==
+
+Used as second verb in a verb/verb compound, this verb creates a "to re-[...]" verb, such as:
+
+original verb	meaning	joined verb	meaning
+
+書(か)く	write	書き直す	rewrite
+やる	do	やり直す	redo, do over
+
+== {idx:english:special compound verbs!込(こ)む} — 'Crowd', 'fill up' ==
+
+This verb helps create compound verbs that calls forth a mental image of something going into something else, such as something being filled up, something entering something else, or even something being invested in something else. Examples of this are:
+
+original verb	meaning	joined verb	meaning
+
+入(はい)る	enter	入り込む	go into (someone's) house/room
+巻(ま)く	roll, wind	巻き込む	become involved/entangled in
+
+== {idx:english:special compound verbs!切(き)る} — 'Cut' ==
+
+Used in compounds, 切る can mean anything from cutting physically to cutting conceptually, such as cutting off someone's speech, cutting a meeting short, or doing nothing but that one thing (which can be thought of as cutting off any other action). A few examples are:
+
+original verb	meaning	joined verb	meaning
+
+言(い)う	say	言い切る	declare, assert
+分(わ)かる	understand	分かり切る	to fully understand
+
+== {idx:english:special compound verbs!出(だ)す} — 'Come out' ==
+
+When used in compounds, 出す roughly speaking indicates the inverse of 込む, signifying something is going or coming out of something else. This can be objects from a container, words from a mouth, or even thoughts from a cloudy mind:
+
+original verb	meaning	joined verb	meaning
+
+思(おも)う	think	思い出す	to suddenly remember
+言(い)う	say	言い出す	to break the ice (i.e., to start talking)
+
+=== {idx:english:conjunctions!Verb/adjective} conjunctions ===
+
+There are three adjectives that are commonly used in verb/adjective compounds, being {idx:english:易(やす)い}, {idx:english:難(にく)い} and {idx:english:難(がた)い}, used to mean "{idx:english:easy to ...}" and "{idx:english:hard to ...}" (twice). For instance, if a book is easy to read, then this can be said in Japanese by combining the verb for reading, 読(よ)む, with the adjective easy, 易い, to form 読み易い, meaning "easy to read". In English this is a noun phrase, but in Japanese this is still an adjective, and can be used to describe objects, such as for instance:
+
+  読(よ)み易い本(ほん)。
+  An easy to read book.
+
+And of course the same goes for 難い:
+
+  言(い)い難(にく)い事(こと)。
+  Something that is hard to say.
+  (literally: "a hard-to-say thing")
+
+Unlike the verb/verb conjunctions, this type of conjunction never drops the verb's okurigana.
+
+While both にくい and がたい signify "hard to ...", にくい is a more modern reading; most things that are "hard to ..." in modern Japanese will use the にくい reading. Examples of the がたい reading are found in for instance 有(あ)り難(がた)い, which is commonly known as paired with the verb ございます, with which it becomes ありがとうございます, meaning "thank you".
+
+=== {idx:english:conjunctions!Verb/noun} conjunctions ===
+
+This conjunction is a very nice one, because it shows an elementary simplicity in the creation of some of Japanese's nouns: compounding. By combining a verb in 連用形, which we know can act as a noun on its own, with another noun, we can form a new compound noun. This particular conjunction can be seen in some words that one would not immediately think of as compound nouns:
+
+verb	meaning	noun	meaning	conjunction	meaning
+
+着(き)る	wear (on the body)	物(もの)	thing	着物(きもの)	kimono
+乗(の)る	board, get on	場(ば)	place	乗(の)り場(ば)	a stop (i.e. bus stop)
+
+==== {idx:english:inflections!Continuative}: {idx:english:inflections!て form} ====
+
+The continuative in Japanese is also commonly referred to as the "て form", because it relies on the {idx:english:連用形@れんようけい (連用形)} of the classical helper verb for completion, {idx:english:つ}, which is て. This inflection is used for at least three things in Japanese, of which verb chaining is probably the most frequently used. Aside from this, it is also used to issue (implied) imperatives, and it can be used in combination with several special verbs to create special constructions.
+
+bases	form
+
+未然形	て
+連用形	て
+終止形	つ
+連体形	つ (or る)
+已然形	つれ
+命令形	てよ
+
+For 五段 verbs, the combination of 連用形 with て leads to contracted forms in modern Japanese, with different contractions occurring for the different 五段 verbs, just like for the plain past tense た. The following table again lists which contractions occur, and what the "change rule" is:
+
+五段	{idx:english:classical continuative@Classical!continuative}	{idx:english:modern continuative}	{idx:english:change rule@て form!change rules}
+
+話す	連用形+て: 話して	話して	す verbs: no change
+歩く	連用形+て: 歩きて	歩いて	く verbs: きて → いて
+急ぐ	連用形+て: 急ぎて	急いで	ぐ verbs: ぎて → いで
+死ぬ	連用形+て: 死にて	死んで	ぬ verbs: にて → んで
+学ぶ	連用形+て: 学びて	学んで	ぶ verbs: びて → んで
+読む	連用形+て: 読みて	読んで	む verbs: みて → んで
+会う	連用形+て: 会いて	会って	う verbs: いて → って
+待つ	連用形+て: 待ちて	待って	つ verbs: ちて → って
+分かる	連用形+て: 分かりて	分かって	る verbs: りて → って
+ある	連用形+て: ありて	あって	る verbs: りて → って
+
+And again 行く is an exception:
+
+Irregular	連用形	{idx:english:classical continuative}	{idx:english:modern continuative}
+
+行(い)く	行き	連用形+て	いって
+
+For the 一段 verbs, as well as verbal adjectives, no contractions occur:
+
+一段	continuative
+
+見る	連用形+て: 見て
+伸びる	連用形+て: 伸びて
+食べる	連用形+て: 食べて
+
+Irregular	連用形	continuative
+
+する	し	連用形+て: して
+来る	き	連用形+て: きて
+
+And finally, no contractions occur either for the small set of formal literary verbs that use their 連体形 instead of their 連用形 for this inflection:
+
+verb	meaning	continuative
+
+問(と)う	ask, question, accuse	問うて
+訪(と)う	〃	訪うて
+乞(こ)う	ask	乞うて
+請(こ)う	〃	請うて
+
+
+As we saw earlier, the 連用形 conjoins sentences, and so it should be relatively obvious that this construction conjoins sentences too, but in a slightly different way from the plain 連用形. Rather than simply joining sentences in such a way that there's no order in which verb actions take place, the て form explicitly preserves the order in which the actions occur. For instance, the following two sentences say different things, in terms of which actions follow which other actions:
+
+  朝(あさ)ご飯(はん)を食(た)べて、学校(がっこう)に行(い)って、授業(じゅぎょう)に出(で)ました。
+  "(I) had breakfast, went off to school and went to class."
+
+  学校に行って、授業に出て、朝ご飯を食べました。
+  "(I) went off to school, went to class and had breakfast."
+
+These are two very different ways of spending one's morning.
+
+You may have noticed that in these two sentences only the last verb in the sentence has an inflection indicating tense (present/\linebreak[0]past) and {gls:glossary:polarity} (affirmative/\linebreak[0]negative). This is a consequence of using て: while つ itself is the classical helper verb for verb completion, its 連用形 means there is no indication in which way the action has been completed. To indicate the particular completion, the last verb is placed in whichever form is required, and this form then applies to all previous verbs in て form. To illustrate:
+
+  本(ほん)を読(よ)んで音楽(おんがく)を聞(き)きます。
+  "(I) read a book and listen to music."
+
+  本を読んで音楽を聞きました。
+  "(I) read a book and listened to music."
+  ('read' is past tense in this sentence)
+
+=== {idx:english:continuative!Verbal adjective} continuative ===
+
+Verbal adjectives, too, can be chained in this way by using their 連用形 + て:
+
+adjective	て form
+
+高い	高く + て
+楽しい	楽しく + て
+薄い	薄く + て
+大きい	大きく + て
+よい (いい)	よく + て
+ない	なく + て
+
+This lets us write the previous "book" sentence in the following manner, using the adjectives 大(おお)きい, big, 赤(あか)い, red and 重(おも)い, heavy.:
+
+  これは大(おお)きくて赤(あか)くて重(おも)い本(ほん)です。
+  "This is a big, red, heavy book."
+
+Just like with verbs, the actual inflection of the adjectives in て is determined by the final adjective. To illustrate, the following sentence is entirely in past tense affirmative:
+
+  大きくて赤くて重かった箱(はこ)です。
+  "(It) was a big, red, heavy box."
+
+To make everything {idx:english:negative@て form!negative}, we take the plain negative form of adjectives, ending on ない, and simply use ない's て form:
+
+  大きくなくて赤くなくて重い本です。
+  "(It)'s a not big, not red, heavy book."
+
+Of course, since they're both just て forms, we can even mix the two:
+
+  大きくて赤くなくて重かった箱(はこ)です。
+  "(It) was a big, not red, heavy box."
+
+This "placing ない in て form" to form the negative て form for verbal adjectives also applies to verbs, by first forming their plain negative form, 未然形 + ない, and then turning this negative into a て form:
+
+  食(た)べなくて帰(かえ)りました。
+  "(I) didn't eat, and went home."
+
+=== {idx:english:continuative!Noun} continuative ===
+
+For nouns, which rely on copulae for inflections, we do not use the 連用形 for つ, but instead rely on the 連用形 for です, which is {idx:english:continuative!で}:
+
+  きれいで、明(あか)るい部屋(へや)です。
+  "A tidy, bright room."
+
+As with the verbal て form, tense and polarity are expressed by the final verbal (which can be either a verb, verbal adjective or a copula), so that if we want to place the previous sentence in past tense, we need only change the tense for 明(あか)るい:
+
+  きれいで、明るかった部屋です。
+  "(It) was a tidy, bright room."
+
+The negative form for this continuative uses じゃない (or ではない), which due to it ending on ない uses the adjectival て form. So far so good, but this is where things get a little complicated: because ない is a verbal adjective, and verbal adjectives can be paired with です, we can actually choose between two "て" forms. One is the regular て form, なくて; the other is ない + 連用形 of です, giving us ないで instead. Both are used, but depending on the speaker's intention, one is usually preferred over the other. For regular chaining, ないで tends to be preferred; for a chaining with an implied contrast of sorts, なくて is typically preferred. To illustrate:
+
+  きれいじゃないで、明るい部屋です。
+  "(it) is a not (so) tidy, (but) bright room."
+  (no real contrast, although in English the phrasing makes it sound like one)
+
+  静(しず)かじゃなくて、賑(にぎ)やかな空気(くうき)でした。
+  "Rather than quiet, it was a very lively atmosphere."
+  (real contrast, explicit "rather than X, Y instead" connotation)
+
+Of course this continuative also works for verbal adjectives and verbs in plain negative form, as these end on ない:
+
+  大(おお)きくて赤(あか)くないで重(おも)かった箱(はこ)です。
+  "(It) was a big, not red, heavy box."
+
+  食(た)べないで帰(かえ)りました。
+  "(I) didn't eat, (then) went home."
+
+As mentioned in the section on negatives in this chapter, the negative continuative ないで/なくて is actually similar in role to using a verbal 未然形 + {idx:english:ず} + に, meaning "without ...", but there is the subtle difference: ないで is a verb form, while -ずに is an adverbial form. Chaining many affirmative and negative verb actions using the negative て form is possible, while 未然形+ずに doesn't allow you to 'chain':
+
+  食べなくて学校へ行(い)ってバスを乗(の)らなくて着(つ)きました。
+  食べないで学校へ行ってバスを乗らないで着きました。
+  "[I] didn't eat, went to school, didn't take the bus and arrived."
+
+We can interpret this sentence as the more natural sounding "I went to school without eating and (then) arrived without taking the bus." but this misrepresents the actual Japanese, which chains four verb phrases. For actual Japanese that reflects this English sentence, we must use the following:
+
+  食べずに学校へ行って、バスを乗らずに着きました。
+
+In the て form sentence, we're chaining four different actions, namely not eating, going, not boarding, and arriving. However, in this sentence using -ずに we are listing just two actions, and both of these are adverbially constrained: 食べずに行く is "going without eating" and バスを乗らずに着く is "arriving without having taken the bus".
+
+==== {idx:english:Special て form conjunctions} ====
+
+We're not quite done with the て form yet, because there are a number of special て form combinations with verbs that should not be taken literally, but should be considered idiomatic: they mean something different from what the used words would normally imply themselves. These combinations only work for verbs in て form, and do not apply to verbal adjectives in て form or nouns followed by で (or ないで).
+
+=== Special conjunctions: {idx:english:Special conjunctions!ている}/{idx:english:Special conjunctions!てある} ===
+
+Combining the て form with ある and いる profoundly changes the verb's meaning in terms of its grammatical role. Using these two verbs as helper verbs lets us turn any verb into a {gls:glossary:resultant state}, a present {gls:glossary:progressive} form or an {gls:glossary:habitual} act, depending on whether the verb is transitive or intransitive, and whether we use ある or いる. The table of which combinations can imply which constructions is as follows:
+
+	て+ある	て+いる
+
+transitive	1. {idx:english:Resultant state}	1. {idx:english:Habitual}
+	(implying something or	2. {idx:english:Progressive}
+	someone caused the state)
+intransitive 	(impossible combination)	1. Habitual
+		2. Progressive
+		3. Resultant state
+
+Looking at the table, we see that the て+ある form is used to indicate that something is in a particular state, and that this state was caused by someone or something. Examples of this "resultant state" are for instance:
+
+  ボタンが外(はず)してある。
+  "The button is (in an) unfastened (state) (because someone unfastened it)."
+
+  車(くるま)が止(と)めてある。
+  "The car is (in a) stopped (state) (because someone stopped it)."
+
+This construction describes the state of something, just like a normal intransitive verb would, but also implies that someone is responsible for this state. The reason for this is the fact that a transitive verb is used as basis: a transitive verb describes an action being performed by something or someone. Thus, even if the something or someone that performs the verb is left off, the fact that a transitive verb was used is in itself enough to tell us that something or someone must have performed it.
+
+On the other hand, the resultant state that is created using the て+いる form does not imply this additional "someone did it", because it uses an intransitive verb instead, which merely passively describes the current state of the world without any implications of how it might have come to be this way:
+
+  ボタンが外している。
+  "The button is (in an) unfastened (state)"
+
+  車が止まっている。
+  "The car is (in a) stopped (state)."
+
+One principal difference is that while て+ある operates on transitive verbs for resultant state, て+いる operates on intransitive verbs. Another difference is that while て+ある can only be used to create a resultant state, て+いる can also be used to create the progressive verb form, as well as to indicate a habitual action. Both these forms can be made with either transitive or intransitive verbs:
+
+  いま映画(えいが)を見(み)ています。
+  "(I) am watching a film right now."
+  Form: transitive progressive
+
+  よく新聞(しんぶん)を読(よ)んでいます。
+  "(I) frequently read the newspaper."
+  Form: transitive habitual act
+
+  窓(まど)が開いています。
+  "(The) window is opening."
+  Form: intransitive progressive
+
+  そのドアがよく軋(きし)っています。
+  "That door often creaks."
+  Form: intransitive habitual
+
+To make sure there's no mistakes possible: て+ある/ て+いる can both do resultant state, but they operate on transitive and intransitive verbs, respectively: "//A//ru, Tr//A//nsitive - //I//ru, //I//ntransitive". In addition to this, て+ いる can also signify progressive state and habitual form of any verb.
+
+Colloquially, the て+いる form is often shortened by dropping the い, to create {idx:english:て+る@special conjunctions!てる} instead. This means that the following two sentences are technically the same, but the first is formal, and the second less formal:
+
+  何(なに)をしていますか。
+  何をしてますか。
+  "What are [you] doing?"
+
+=== Special conjunctions: {idx:english:Special conjunctions!ていく}/{idx:english:Special conjunctions!てくる} ===
+
+Another important pair is the て+行(い)く/て+来(く)る pair, where 行く is sometimes written or pronounced as ゆく instead (this is not wrong, but simply an older, alternate way to write and say 行く, used a lot in songs, poetry and still commonly used in many dialects). These two constructions stand for a {idx:english:gradual process} directed either towards the speaker in some way, or heading away from the speaker in some way. This towards/away can be either a physical process or an abstract process such as "it feels like her mind is slowly slipping away":
+
+  夜(よる)になっていく。
+  "It's (gradually) becoming night."
+
+  春(はる)になってきた。
+  "It has (gradually) become spring."
+
+  富士山(ふじさん)が見(み)えてきます。
+  "Mt. Fuji is (gradually) coming into view."
+
+When used in this way, 来る or 行く are usually written くる and いく instead of using kanji.
+
+Note that these "gradual process" interpretations do not always apply. For instance, [...]て+くる is also a common pattern used in combination with activity verbs to indicate "{idx:english:てくる@doing and coming back}". For example, 買(か)ってくる means "going to buy something (and then come back afterwards)" or 行ってくる means "going (somewhere) (and then coming back after whatever one had to do there is done)".
+
+Note that a verb can sometimes be interpreted in two or three ways:
+
+  飛(と)んできた。
+  Interpreted normally: "(He) came flying over."
+  As a gradual process: "It came flying into view."
+
+  今(いま)出(で)てきます。
+  As a gradual process: "It's coming out (into view) right now."
+  As 'do and come back': "(I'm) going out (to do something, and will then come back) now."
+
+=== Special conjunctions: {idx:english:Special conjunctions!てください} ===
+
+This construction signifies a semi-formal {idx:english:request}, something which we will look at in more detail when treating verbs for giving and receiving in the chapter on language patterns. For now it suffices to say that using て+下(くだ)さい turns a verb into a polite command or request:
+
+  窓(まど)を開(あ)けて下さい。
+  "Please open the window."
+
+  食(た)べて下さい。
+  "Please eat (this)."
+
+=== Special conjunctions: {idx:english:Special conjunctions!てしまう} ===
+
+The construction て+しまう is a very interesting construction. It lacks an adequate corresponding construction in English, but indicates that some action has been irrevocably performed. This can either be a good thing ("we are done working on this project"), a bad thing ("I broke the radio...") or something of which one might wish it wasn't irrevocable ("I finished reading this series of books... I wish there were more"). Because of this, translations for this construction are highly context sensitive:
+
+  ああ、言(い)ってしまった......
+  "Oh (man), now (you)'ve said it..."
+  literally: "Ah, you've said it (even though it would have been better if you hadn't, but you can't take it back now)"
+
+One can expect to hear something like this when someone says something that everyone knows, but no one had dared say because of the repercussions, such as telling the boss that everyone in his department is better suited for his job than he is.
+
+  ラジオを壊(こわ)してしまった。
+  "(I) broke the radio... (and that's something I wish I hadn't)."
+
+In this line, it should be obvious why the fact that 壊せる, "break", having been completed is a bad thing.
+
+Colloquially, て + しまう can be contracted into {idx:english:ちまう} or {idx:english:ちゃう}, (with で + しまう contracting to {idx:english:じまう} or {idx:english:じゃう} respectively) resulting, for instance, in:
+
+  あっ、教科書(きょうかしょ)を忘(わす)れちゃった。
+  "Ah! (I) forgot (my) textbook..."
+
+Again, it is clear that 忘れる, "forget", is a bad or regrettable thing when completed, especially in relation to needing your textbook in class.
+
+=== Special conjunctions: {idx:english:Special conjunctions!ておく} ===
+
+Also important is the て+おく construction. On its own, the verb 置(お)くmeans "to put [something] [somewhere]", but when paired with a verb in て form, it creates a construction meaning "to do something with the intention of leaving it that way [for whatever reason]". This may sound a bit cryptic, so let's look at an example for clarification:
+
+  電気(でんき)を付(つ)けておいて下(くだ)さい。
+  "Please turn on the lights."
+
+This sentence uses the て form of おく for a polite command (using 下さい), and asks for the lights to be turned on without there being a need for them to be on right now, other than it saving having to turn them on later. Literally this sentence would read "Please turn on the lights and leave them that way". Colloquially, the combination of て+お is often changed to {idx:english:と@special conjunctions!とく} instead, so the following two sentences are the same, except that the first is more formal, and the second more colloquial:
+
+  窓(まど)を開(あ)けておきます。
+  窓を開けときます。
+  "(I)'ll open the windows (now, rather than having to do it later when it becomes genuinely necessary)."
+
+=== Special conjunctions: {idx:english:Special conjunctions!てみる} ===
+
+Another construction that changes the meaning of the suffixed verb is the て+みる form. みる (見る) alone means "to see", but suffixed to て forms, this construction means {idx:english:"to do ... to see what it's like" or "to do ... to see what happens"@trying something}:
+
+  寿司(すし)を食(た)べてみませんか。
+  "Won't (you) try eating (some) sushi?"
+
+Here a negative question is asked as a more polite way of offering a suggestion, and the 食べてみます part stands for "trying to eat, to see what happens". In this case, the "to see what happens" is probably related to "seeing if you like it".
+
+  自転車(じてんしゃ)を乗(の)ってみましたが全然(ぜんぜん)だめでした。
+  "(I) tried to ride a bicycle, but failed horribly."
+  literally: "but (it/I) was no good at all."
+
+Here, the act of riding a bicycle was tried to see what would happen, but we can conclude from the remainder of the sentence that riding a bike isn't for this particular speaker.
+
+==== {idx:english:inflections!Representative listing}: {idx:english:たり} ====
+
+If, instead of chaining, you want to only list representative actions for which order doesn't matter, such as "Today I read my book, played some video games and walked the dog" in which you probably did all those things a few times in no real order, then the て form is of little use. Instead, the classical helper verb たり is the one you want to be working with. This verb has the following bases:
+
+bases	form
+
+未然形	{idx:english:たら}
+連用形	たり
+連体形	たり
+已然形	たれ
+命令形	たれ
+
+Just like て, the 連用形 of たり is used, and just like for て and た, contractions occur when used with 五段 verbs (with 行く having an irregular contraction, and 問う, 訪う, 乞う and 請う inflecting via their 連体形 rather than 連用形). However, unlike the て form, which can pair up with any 'final verb' for its inflection, たり gets its inflection specifically from the verb する, meaning "to do":
+
+  今日(きょう)は学校(がっこう)に行(い)ったり、授業(じゅぎょう)に出(で)たり、ご飯(はん)を食(た)べたりしました。
+  "Today (I) went to school, went to class and ate."
+
+This sentence literally reads "Today I did: going to school, going to class, eating", without any distinction in which action occurred when, in relation to other actions; we're literally only summarising activities performed.
+
+Verbs in たり form can also be used on their own in a sentence, in which case it translates to "doing things such as", and still get closed off by する:
+
+  昨日(きのう)、本(ほん)を読(よ)んだりした。
+  "Yesterday (I) did things like reading a book."
+
+The negative たり form is constructed by placing a verb in plain negative form first (未然形 + ない) and then turning this verbal negative into a たり form by the same formula: 連用形+たり (with a contraction just as for past tense), forming 未然形 + なかったり.
+
+==== {idx:english:inflections!Conditional}: {idx:english:たら}, {idx:english:なら} ====
+
+In the same series of inflections that contract with 五段 verbs (た, て and たり), we find たら, which is the {gls:glossary:conditional} form, or {idx:english:仮定形(かていけい)}, for た. It combines in the same way as た, て and たり do, being added to the 連用形, and contracts with 五段 verbs as well as with verbal adjectives:
+
+五段	conditional
+
+会う	会ったら
+歩く	歩いたら
+急ぐ	急いだら
+話す	話したら
+死ぬ	死んだら
+学ぶ	学んだら
+読む	読んだら
+待つ	待ったら
+分かる	分かったら
+
+Noting the exception for the verb 行(い)く:
+
+Irregular	conditional
+
+行く	行ったら
+
+No contractions occur for 一段 verbs:
+
+一段	conditional
+
+見る	見たら
+伸びる	伸びたら
+食べる	食べたら
+
+And the irregular verbs get their own table:
+
+Irregular	連用形	conditional
+
+する	し	したら
+来る	き	きたら
+ある	あり	あったら
+ます	まし	ましたら
+
+For verbal adjectives we see contractions:
+
+verbal adjectives	conditional
+
+高い	高かったら
+楽しい	楽しかったら
+薄い	薄かったら
+大きい	大きかったら
+
+And for nouns the copulae inflect instead:
+
+nouns	past tense
+
+noun + だ	noun + だったら
+noun + です	noun + でしたら
+
+So what does it do? In simple terms, this construction sets up an {idx:english:"if ..., then ..."} condition:
+
+  町(まち)を歩いたら、面白(おもしろ)いお見物(みもの)をいっぱい見ます。
+  "If (you) walk around town, (you) will see many interesting sights."
+
+This can also be used for actions that are constrained by some condition, such as:
+
+  ２時間(にじかん)したら、勉強(べんきょう)します。
+  "I'll go study 2 hours from now"
+
+Here, the act of studying is constrained by 2 hours of something else needing to pass first.
+
+In less simple terms, the たら construction is a "{idx:english:hypothetical future past}". That is, it sets up a hypothetical future in which some action has already been taken, about which comments are then made. Looking at the previous sentences using this explanation, we get some rather conceptual translations:
+
+  町を歩いたら、面白いお見物をいっぱい見ます。
+  "In a future where you are walking around town, you see lots of interesting things"
+
+  ２時間したら、勉強します。
+  "In a future in which I have spent 2 hours doing (something), I will (then) go study."
+
+This explanation doesn't quite work for noun conditionals, which use {idx:english:なら}. This is the 已然形 for the copula だ, rather than for the conditional form of the helper verb of past tense, and rather than a hypothetical future past, is essentially just a plain if[...]then[...] construction:
+
+  先生(せんせい)ならきっと分かる。
+  "I'm sure the teacher will understand."
+  literally: "If the teacher, (he/she) will understand."
+
+There are a few more conditionals in Japanese, so (much like with "and" and the 連用形) when translating from Japanese to English, translating たら with "if ... then ..." is fine, but translating an English sentence that has an if/then construction to Japanese requires figuring out exactly which style of if/then is being used.
+
+For instance, "If you walk around town, you will see many interesting sights" is an example of a conditional pertaining to a current situation, "If you get fired, I'll quit too" is a conditional pertaining to a hypothetical situation, and "If you're late for the exam, you fail it." is actually not a conditional but a factual statement ("if A, then B as well").
+
+Of these, the first uses たら as conditional, the second uses the hypothetical construction -えば (explained later in this chapter) and the third uses the simultaneous action marker, と (possibly the most abused particle by beginning students), which is explained in the chapter on particles.
+
+==== {idx:english:inflections!Desire} ====
+
+=== {idx:english:First person desirative@desire!first person}: {idx:english:たい} ===
+
+Unlike the previous constructions starting with the syllable た, this inflection doesn't involve a classical helper verb, but a helper adjective, たい (which has a kanji form, {idx:english:度い@たい (度い)}, but this is not used in modern Japanese).  This also means that unlike the previous -た, -て, -たり and たら constructions, no contractions occur with 五段 verbs, which makes forming the first person {gls:glossary:desirative} very easy. Since this is an adjective, rather than a verb, it has a slightly different set of bases for further conjugation:
+
+bases	form
+
+未然形	たく
+連用形	たく
+連体形	たい
+已然形	たけれ
+
+However, as an inflection the first person desirative is about as simple as it gets, pairing with 連用形:
+
+verb	first person desirative
+
+会う	会い + たい
+歩く	歩き + たい
+急ぐ	急ぎ + たい
+話す	話し + たい
+死ぬ	死に + たい
+学ぶ	学び + たい
+読む	読み + たい
+待つ	待ち + たい
+分かる	分かり + たい
+
+verb	first person desirative
+
+見る	見 + たい
+伸びる	伸び + たい
+食べる	食べ + たい
+
+verb	first person desirative
+
+する	し + たい
+来る	き + たい
+
+You may have noticed that です and ます are not listed here. The absence of です is easy to explain because it is the copula, and one cannot want something to have a particular property in Japanese using the copula (this uses the adjective 欲(ほ)しい instead, explained later in this section on desiratives). The absence of a たい form for ます is more subtle: there is no たい form for ます because using たい to express one's desire is intrinsically selfish, and thus mutually exclusive with polite phrasing. To make a statement that expresses desire that is less selfish, the Japanese use a construction that expresses "I think I want/would like to ...", using the particle と and the verb 思(おも)う, which makes the actual desire less strong because it's only a thought, rather than a 'genuine' desire:
+
+  新(あたら)しい車(くるま)を買(か)いたいと思(おも)います。
+  "I think I would like to buy a new car."
+
+This is a very civil way of expressing one's own desire, compared to the plain:
+
+  新しい車を買いたい。
+  "I want to buy a new car."
+
+Because たい is an adjective, it can also be followed by です to make it more polite, in which case the translation stays the same, but the perceived strength of the desire is tuned down just a bit, although not as much as when the desire is turned into a thought using +と+思う:
+
+  新しい車を買いたいです。
+  "I want to buy a new car."
+
+To say one doesn't want something, all we have to do is form the negative of たい, which we know is たくない:
+
+  今日(きょう)は何(なに)もしたくない。
+  "I don't want to do anything today."
+
+=== {idx:english:Second and third person desirative@desire!second and third person}: {idx:english:たがる} ===
+
+Because of the way Japanese works, and the way the world is interpreted and thought about in the Japanese mindset, one never presumes to truly know what's going on in someone else's head. Because of this, you cannot say that "Bob wants an apple", because even though he might give off all the signals that he does, and even though he may have said so himself, you might still be interpreting the signals wrong, and he might have only said he wanted one instead of really wanting one. Because of this, rather than using たい for second/third person desiratives, the classical helper verb たがる is used.
+
+bases	form
+
+未然形	たがら / たがろ
+連用形	たがり / たがつ
+連体形	たがる
+已然形	たがれ
+
+Like たい, this form does not suffer from contracted inflections, and is added directly to the 連用形:
+
+verb	second/third person desirative
+
+会う	会い + たがる
+歩く	歩き + たがる
+急ぐ	急ぎ + たがる
+話す	話し + たがる
+死ぬ	死に + たがる
+学ぶ	学び + たがる
+読む	読み + たがる
+待つ	待ち + たがる
+分かる	分かり + たがる
+
+verb	second/third person desirative
+
+見る	見 + たがる
+伸びる	伸び + たがる
+食べる	食べ + たがる
+
+verb	second/third person desirative
+
+する	し + たがる
+来る	き + たがる
+
+Again です and ます are missing. Not unlike たい, たがる can be considered somewhat rude as it presumes to know something about someone else. This construction can be made less rude by adding the noun adjective そう to the 連体形, to emphasise that this is merely an impression:
+
+  君子(きみこ)さんが出(で)たがるそうです。
+  "It seems Kimiko wants to leave."
+
+However, note that the following is also possible, using そう with the 連用形:
+
+  君子さんが出たがりそうです。
+  "It seems Kimiko wants to leave."
+
+When {idx:english:そう} follows a 連体形, it generally does not mean the same thing as when it follows a 連用形. Normally, そう following a 連体形 expresses a form of {idx:english:hearsay}, implying the information's been read somewhere or has been told to the speaker by someone, and そう following a 連用形 expresses the concept of something "being {idx:english:at the point of} ..." or "{idx:english:seeming to} be ...". While generally two different things, both can be used due to the nature of たがる, but the different uses have difference nuances:
+
+  君子さんが出たがるそうです。
+  "It seems Kimiko wants to leave (I know this because she for instance told us, or someone else told me this was the case)."
+
+  君子さんが出たがりそうです。
+  "It seems Kimiko wants to leave (this is my impression, because she's giving off all the signs of someone who wants to leave)."
+
+The negative form for たがる is a normal verb negative, being either たがらない or たがりません.
+
+=== {idx:english:Desiring a particular state@desire!states}: —{idx:english:て欲(ほ)しい} ===
+
+Unlike the previous two desirative forms, there is also the 'desire for something to be in a particular state' that was previously hinted at. For instance "I want this door to be red" cannot be expressed with the previous two forms, because they cannot express this state, but can only express verb actions or processes. To express a state desirative, the verbal adjective て form plus the adjective 欲しい, a verbal adjective for indicating that something is desirable, is used:
+
+  このドアが赤(あか)くて欲しい。
+  "(I) want this door red."
+
+Note that because these are verbal adjectives, we use the particle が, not を. Even though "desire" is a verb in English, it is an adjective in Japanese, so rather than saying "I want this door red", the more literal translation would be "this door is (more) desired (when) red".
+
+In terms of politeness, 欲しい is just as direct and selfish as たい, and it can be softened by adding です:
+
+  使(つか)って欲しい。
+  "[I] want it made."
+
+  使って欲しいです。
+  "(I) want it made (being said in a less direct manner than the above sentence)"
+
+Since 欲しい is a normal verbal adjective, we can inflect it further like any other verbal adjective:
+
+bases	form
+
+未然形	欲しく
+連用形	欲しく
+連体形	欲しい
+已然形	欲しけれ
+
+==== {idx:english:inflections!Pseudo-future}: おう/よう ====
+
+The {gls:glossary:pseudo-future} is used for three things, which are called the {gls:glossary:presumptive} ("it's probably the case that..."), the {gls:glossary:dubitative} ("will/shall ...?") and the {gls:glossary:cohortative} ("let's ...").
+=== {idx:english:inflections!Dubitative} / {idx:english:inflections!cohortative} ===
+
+These forms, as mentioned in the outline for Japanese, turn the 未然形 into something that ends on an お sound through a contraction. There are both a normal and a polite form of this construction, with the polite form simply being the verb in polite form, with ます turned into a pseudo-future.
+
+The way in which the direct pseudo-future is constructed differs for the two verb classes: 五段 verbs get う added to the 未然形, but the combination of the 未然形 あ—row syllable and the う changes the pronunciation (as well as written form) to an お—row syllable instead, so か+う becomes こう, ま+う becomes もう, etc. To see why this happens we have to look back at {idx:english:classical Japanese@Classical!Japanese}, where the combination of an あ—row syllable and an う always changed the pronunciation to that of the corresponding お—row syllable; not just for 未然形 constructions, but for any written combination of the two. While the language reforms of the mid 20th century changed many of the rules for written language so that it would correspond to spoken language more, constructions involving the 未然形 have generally been left alone (another 未然形 'quirk' can be found in 五段 verbs ending on う, which becomes わ rather than あ).
+
+五段 verb	pseudo-future		polite pseudo-future
+
+会う	会 [わ → お] + う	= 会おう	会い + ましょう
+歩く	歩 [か → こ] + う	= 歩こう	歩き + ましょう
+急ぐ	急 [が → ご] + う	= 急ごう	急ぎ + ましょう
+話す	話 [さ → そ] + う	= 話そう	話し + ましょう
+死ぬ	死 [な → の] +う	= 死のう	死に + ましょう
+学ぶ	学 [ば → ぼ] + う	= 学ぼう	学び + ましょう
+読む	読 [ま → も] + う	= 読もう	読み + ましょう
+待つ	待 [た → と] + う	= 待とう	待ち + ましょう
+分かる	分か [ら → ろ] + う	= 分かろう	分かり + ましょう
+ある	あ [ら → ろ] + う	= あろう	あり + ましょう
+
+For 一段 verbs, we simply add よう to the 未然形, and for the irregular verbs and copulae we see special cases:
+
+一段 verb	pseudo-future	polite pseudo-future
+
+見る	見 + よう	見 + ましょう
+伸びる	伸び + よう	伸び + ましょう
+食べる	食べ + よう	食べ + ましょう
+
+irregular	pseudo-future		polite pseudo-future
+
+する	し + よう		し + ましょう
+来る	こ + よう		き + ましょう
+ます	まし + よう	= ましょう	already polite
+です	でしよ + う	= でしょう	already polite
+だ	で + あろう	= だろう	×
+
+For verbal adjectives, the plain pseudo-future is formed by (once again) combining the adjective's 連用形 with ある, this time in pseudo-future form. The polite version is simply the adjective followed by だ or です in pseudo-future form:
+
+adjective	pseudo-future		polite pseudo-future
+
+高い	高く + あろう	= 高かろう	高い + だろう/でしょう
+楽しい	楽しく + あろう	= 楽しかろう	楽しい + だろう/でしょう
+薄い	薄く + あろう	= 薄かろう	薄い + だろう/でしょう
+大きい	大きく + あろう	= 大きかろう	大きい + だろう/でしょう
+
+For nouns, there is little choice: they are followed by だ or です in pseudo-future form:
+
+noun + だ	→	noun + だろう
+noun + です	→	noun + でしょう
+
+Using the pseudo-future is fairly straight forward:
+
+  海(うみ)に行(い)こう。
+  "Let's go to the beach."
+
+  海に行こうか。
+  "Shall [we] go to the beach?"
+
+  どこでしょうか?
+  "Where could it be?"
+
+  あの本(ほん)は面白(おもしろ)いでしょうか。
+  "(I) wonder if that book (over there) is interesting."
+
+  そうしましょう。
+  "Let's do so."
+
+=== {idx:english:inflections!Presumptive} ===
+
+The presumptive form uses the pseudo-future of the copulae to turn verbs into presumed acts. While this form uses the 未然形 of the copula verb, the verb conjugation itself is actually technically a 連体形 conjugation, and therefore is explained in more detail in the section on 連体形. For now, it suffices to say that it lets us say things like "This computer will probably still work" or "I am sure my coffee isn't cold yet" and similar presumptive statements in Japanese:
+
+  コーヒーはもう冷(さ)めただろう。
+  "The coffee's probably cold by now."
+
+  あの人(ひと)は多分(たぶん)先生(せんせい)でしょう。
+  "(he/she)'s probably a teacher."
+
+=== The {idx:english:pseudo-future + と + verb}s ===
+
+One of the special things about the pseudo-future is that when combined with several verbs, the intuitive meaning isn't always preserved. We can distinguish at least two such cases: the pseudo-future + と + する and the pseudo-future + と + 思(おも)う. While [...]+と+する normally means "to consider something [...]", the meaning changes to "at the point of doing [...]" when combined with a pseudo-future:
+
+  ご飯(はん)を食べようとしたら、電話(でんわ)がかかってきた。
+  "As (we) were about to eat, the phone rang."
+
+Similarly, on its own 思う means "to think", but when used with the pseudo-future, the combination becomes more nuanced, expressing "to think about [doing ...]":
+
+  手紙(てがみ)を書(か)こうと思います。
+  "(I)'m thinking about writing a letter."
+=== {idx:english:inflections!Negative pseudo-future} ===
+
+Since the pseudo-future doesn't quite end on a verb that can be placed in a 未然形, creating the negative form cannot be done using {idx:english:ぬ} or {idx:english:ない}. Instead, the negative pseudo-future uses the classical helper verb {idx:english:まい}. To make matters slightly more confusing, while 一段 verbs use their 未然形 as base form, 五段 verbs use their 連体形 as base form for the negative pseudo-future.
+
+五段 verb	negative pseudo-future	polite negative pseudo-future
+
+会う	会う + まい	会い + ます + まい
+歩く	歩く + まい	歩き + ます + まい
+急ぐ	急ぐ + まい	急ぎ + ます + まい
+話す	話す + まい	話し + ます + まい
+死ぬ	死ぬ + まい	死に + ます + まい
+学ぶ	学ぶ + まい	学び + ます + まい
+読む	読む + まい	読み + ます + まい
+待つ	待つ + まい	待ち + ます + まい
+分かる	分かる + まい	分かり + ます + まい
+ある	ある + まい	あり + ます + まい
+
+一段 verb	negative pseudo-future	polite negative pseudo-future
+
+見る	見 + まい	見 + ます + まい
+伸びる	伸び + まい	伸び + ます + まい
+食べる	食べ + まい	食べ + ます + まい
+
+五段 verb	negative pseudo-future	polite negative pseudo-future
+
+する	する + まい	し + ます + まい
+来る	くる + まい	き + ます + まい
+ます	ます + まい	already polite
+
+And some example sentences:
+
+  そんな事が分かるまい。
+  "(I) do not expect (him) to understand such matters..."
+
+  その映画(えいが)を見(み)ようか見まいか。
+  "Should (I) go see that film, or not see that film..."
+
+  どうしても伸(の)びまい。
+  "That shouldn't stretch regardless of what (you) do."
+
+For verbal adjectives, the negative pseudo-future uses the verbal adjective in negative form, —くない, with ない in pseudo-future form, —{idx:english:なかろう}:
+
+adjective	negative pseudo-future	polite negative pseudo-future
+
+高い	高く + なかろう	高くありません + だろう/でしょう
+楽しい	楽しく + なかろう	楽しくありません + だろう/でしょう
+薄い	薄く + なかろう	薄くありません + だろう/でしょう
+大きい	大きく + なかろう	大きくありません + だろう/でしょう
+
+For nouns the idea is, again, to inflect {idx:english:だ} or {idx:english:です} appropriately:
+
+	negative pseudo-future	polite negative pseudo-future
+
+noun + だ	noun + じゃない + だろう	noun + じゃありません + だろう
+noun + だ	noun + ではない + だろう	noun + ではありません + だろう
+noun + です	noun + じゃない + でしょう	noun + じゃありません + でしょう
+noun + です	noun + ではない + でしょう	noun + ではありません + でしょう
+
+However, for the negative pseudo-future form for nouns the typical pattern involves the copula である instead, and its (small) table is as follows:
+
+negative pseudo-future	polite negative pseudo-future
+
+noun + である	noun + であるまい
+
+However, the negative pseudo-future is a pattern that you will likely not hear too often, as there are other, more frequently used constructions that express negative expectation.
+
+==== {idx:english:inflections!Hypothetical}: {idx:english:えば@...えば} ====
+
+The hypothetical construction, hinted at earlier in the section on たら, is created by adding the particle ば to the {idx:english:已然形@いぜんけい (已然形)}, forming the {idx:english:仮定形(かていけい)}, known as the hypothetical form. The negative hypothetical is formed by adding ば to the 已然形 of the plain negative form, as the following tables show:
+
+五段 verb	hypothetical	negative hypothetical
+
+会う	会え + ば	会わなけれ + ば
+歩く	歩け + ば	歩かなけれ + ば
+急ぐ	急げ + ば	急がなけれ + ば
+話す	話せ + ば	話さなけれ + ば
+死ぬ	死ね + ば	死ななけれ + ば
+学ぶ	学べ + ば	学ばなけれ + ば
+読む	読め + ば	読まなけれ + ば
+待つ	待て + ば	待たなけれ + ば
+分かる	分かれ + ば	分からなけれ + ば
+ある	あれ + ば	なけれ + ば
+
+一段 verb	hypothetical	negative hypothetical
+
+見る	見れ + ば	見なけれ + ば
+伸びる	伸びれ + ば	伸びなけれ + ば
+食べる	食べれ + ば	食べなけれ + ば
+
+irregular	hypothetical	negative hypothetical
+
+する	すれ + ば	しなけれ + ば
+来る	くれ + ば	こなけれ + ば
+
+For {idx:english:ます}, the negative hypothetical is a bit different, since its negative uses the classical helper verb {idx:english:ぬ}:
+
+	hypothetical	negative hypothetical
+
+ます	ますれ + ば	ませね + ば
+
+For verbal adjectives, the same rules apply as for verbs:
+
+adjective	hypothetical	negative hypothetical
+
+高い	高けれ + ば	高くなけれ + ば
+楽しい	楽しけれ + ば	楽しくなけれ + ば
+薄い	薄けれ + ば	薄くなけれ + ば
+大きい	大きけれ + ば	大きくなけれ + ば
+
+For nouns, the hypothetical construction has three possible affirmative versions, two using the 已然形 for だ, which is {idx:english:なら}, either with or without {idx:english:ば@ならば}, and a third using a slightly different copula: である, of which the ある part is the familiar verb.
+
+	hypothetical	negative hypothetical
+
+noun + だ	noun + なら	noun + じゃない + なら
+	noun + なら + ば	(noun + じゃない + なら + ば)
+noun + です	noun + であれ + ば	noun + じゃなけれ (ではなけれ)  + ば
+
+Note that the noun + じゃない + なら(ば) forms are possible due to the fact that ない is a verbal adjective; while it may not be followed by だ, it may be followed by なら. In this case, we cannot substitute ありません for ない, as this is a normal verb form and can therefore never be (directly) followed by a present tense copula. Also, while "noun + じゃない + なら + ば" is technically a valid negative hypothetical, it isn't really used, as the polite form "なら + ば" is considered not to mix with the plain form "じゃない".
+
+So which is what? For the affirmative, in increasing order of politeness: なら, then ならば, and then であれば. For the negative: じゃないなら, then じゃなければ, then ではなければ, and then finally the overly formal じゃありませねば and ではありませねば. As a word of caution, do not use these last two unless you know why you are using them. They will typically be considered clumsy speech.
+
+How do we interpret the hypothetical? The simplest explanation is that this creates an if/then construction, with the note that the specific type of conditional created is one that is best thought of as meaning "should [X] be the case, then [Y]". The following two example sentences should illustrate this quite clearly:
+
+  ハイデガーを読(よ)めば分(わ)かります。
+  "If (you) read Heidegger, (you)'ll understand."
+  literally: "Should (you) read Heidegger, (you)'ll understand."
+
+  お金(かね)があれば、おいしい食(た)べ物(もの)が買(か)えます。
+  "If (you) have money, (you) can buy delicious food."
+  literally: "Should (you) have money, (you) can buy delicious food."
+
+It is important to note that, while usually these sentences are translated with "if" or "when" (because they sound more natural than "should"), the real meaning of the 仮定形 is not really "if" or "when", but is really only a hypothetical conditional: "supposing that ..." or "should ...". The danger in using the word "if" lies in the fact that it implies a more general kind of truth: compare "If it rains, we get wet" to "assuming that it rains, we'll get wet". The first states a truth under all circumstances, the second gives a possible truth for only one instance. Similarly, "when" carries the implication that something will definitely happen, being only a matter of time before it does. The 仮定形 implies neither of these things.
+
+==== {idx:english:inflections!Commands} ====
+
+There are two kinds of commands, namely imperative commands (things one should do) and prohibitive commands (things one should not do). There are a number of ways in which to issue imperative and prohibitive commands, and we'll look at all of these.
+=== {idx:english:inflections!Imperative commands} ===
+
+Imperative commands are quite easy to form in Japanese: for 五段 verbs, simply take the {idx:english:命令形@めいれいけい (命令形)} and you're done:
+
+五段 verb	imperative form
+
+会う	会え
+歩く	歩け
+急ぐ	急げ
+話す	話せ
+死ぬ	死ね
+学ぶ	学べ
+読む	読め
+待つ	待て
+分かる	分かれ
+ある	あれ
+ます	ませ
+
+For 一段 verbs there is a bit of choice, as one can either use the {idx:english:命令形 + ろ@めいれいけい (命令形)! + ろ}, or the {idx:english:命令形 + よ@めいれいけい (命令形)! + よ}, depending on how strong the imperative should be:
+
+一段 verb	imperative form	alternative form
+
+見る	見 + ろ 	見 + よ
+伸びる	伸び + ろ	伸び + よ
+食べる	食べ + ろ	食べ + よ
+
+What is the difference between these two forms for 一段 verbs? In standard Japanese, the -ろ imperative is a true command. If someone says 見ろ, you look. The second is more of an instruction than a command. For instance, if you're browsing though a dictionary and there is a footnote telling you to see page 214 for further information, this will typically use 見よ, rather than 見ろ. However, this distinction only applies to {idx:english:standard Japanese}, or {idx:english:標準語(ひょうじゅんご)}, which is the "dialect" spoken in the {idx:english:関東(かんとう)} region, which is where Tokyo lies. North of this region, the -ろ form is typically used to issue imperatives, whereas South of this region the -よ form tends to be used instead.
+
+Not unexpectedly, the irregular verbs have their own 命令形:
+
+verb	imperative	alternative
+
+する	{idx:english:しろ}	{idx:english:せよ}
+来る	{idx:english:こい}	{idx:english:こよ}
+
+However, there is also another verb with an irregular commanding form, namely the 一段 verb 呉(く)れる (usually written in hiragana rather than using its kanji form). This verb is part of the set of verbs used in giving and receiving, and is thus vitally important to know. It only has one imperative form:
+
+verb	imperative
+
+くれる	くれ
+
+To illustrate the use of the imperative command, some example sentences:
+
+  みんな、よく聞(き)け。
+  "Everyone, listen up!"
+
+  速(はや)くしろ。
+  "Hurry up!"
+
+  もう、起(お)きろ。
+  "Oh come on, wake up already!"
+
+There is a second way to issue imperative commands, using the verb {idx:english:なさる}, which is the (normally) honorific counterpart to the verb {idx:english:する}. This verb belongs to a set of verbs with a deviant 連用形 and 命令形, so to see how these differ, let's briefly look at the bases for all five verbs in this set:
+
+	なさる	下(くだ)さる	いらっしゃる	おっしゃる	ござる
+
+meaning	do	issue	be, come, go	say	be
+未然形	なさら	下さら	いらっしゃら	おっしゃら	ござら
+連用形	なさい	下さい	いらっしゃい	おっしゃい	ござい
+連体形	なさる	下さる	いらっしゃる	おっしゃる	ござる
+已然形	なされ	下され	いらっしゃれ	おっしゃれ	ござれ
+命令形	なさい	下さい	いらっしゃい	おっしゃい	ござい
+
+This set tells us several things: first, it tells us that {idx:english:ください} in the special て form -てください is the 命令形 for くださる. Second, it explains why {idx:english:ござる} would become {idx:english:ございます}: its 連用形 is simply ござい. Third, it tells us what we need to know to form a command using なさる. If we add the 命令形 for なさる, {idx:english:なさい}, to a verb's 連用形, we get a command that is less direct than a plain 命令形 (and thus, more formal/polite), but is still a command:
+
+五段 verb	なさる imperative
+
+会う	会い + なさい
+歩く	歩き + なさい
+急ぐ	急ぎ + なさい
+話す	話し + なさい
+死ぬ	死に + なさい
+学ぶ	学び + なさい
+読む	読み + なさい
+待つ	待ち + なさい
+分かる	分かり + なさい
+
+一段 verb	なさる imperative
+
+見る	見 + なさい
+伸びる	伸び + なさい
+食べる	食べ + なさい
+
+irregular	なさる imperative
+
+する	し + なさい
+来る	き + なさい
+
+And finally, ある, ます and the copulae do not have this imperative form.
+
+For verbal adjectives, the idea of an imperative is a bit odd, but that doesn't mean we can't form one. Relying on 連用形 + ある for the inflection again, we can form the imperative command for verbal adjectives. We can either leave these as is, or contract them. The difference is subtle: the uncontracted form is considered an adjectival statement akin in use to, for instance, the English "be faster!" (in Japanese: 速(はや)くあれ). Contracted, this is an adverbial statement (速(はや)かれ), which has no English equivalent and is thus harder to explain; it is experienced as an adjectival statement in the same way that the past tense for verbal adjectives is still an adjectival statement.
+
+adjective	imperative form	contracted
+
+高い	高く + あれ	高かれ
+楽しい	楽しく + あれ	楽しかれ
+薄い	薄く + あれ	薄かれ
+大きい	大きく + あれ	大きかれ
+
+The same goes for the copula, for which we must use {idx:english:である} (since neither だ nor です have a commanding form of their own):
+
+copula	imperative form
+
+である	であれ
+
+=== {idx:english:inflections!Prohibitive commands} ===
+
+If you want to tell people to not do something, then the form of the command is much simpler: simply add the particle {idx:english:な} to the 連体形 of any verb:
+
+五段 verb	prohibitive form
+
+会う	会うな
+歩く	歩くな
+急ぐ	急ぐな
+話す	話すな
+死ぬ	死ぬな
+学ぶ	学ぶな
+読む	読むな
+待つ	待つな
+分かる	分かるな
+
+一段 verb	prohibitive form
+
+見る	見るな
+伸びる	伸びるな
+食べる	食べるな
+
+irregular	prohibitive form
+
+する	するな
+来る	くるな
+ます	ますな
+
+And finally ある, which has a negative imperative based on ない: なかれ.
+
+Even easier than the normal imperative command, some example sentences are:
+
+  二度(にど)と来(く)るな。
+  "Don't come (round here) a second time!"
+
+  なんだ、見るなよ。
+  "What, don't look (at me)."
+
+(よ is an {gls:glossary:emphatic} particle, added to the end of a sentence as an extra level of "I am telling you ...". This particle will be treated in more detail in the chapter on particles.)
+
+In addition to this rather simple prohibitive, we can also turn the 連用形 + なさい imperative into a prohibitive, by using 連用形 + なさる + な. However, while grammatically sound, practically speaking this form is very rarely used. This works for any verb, except for する, which is technically the same verb as なさる but at a different formality/politeness level. Rather than using し + なさる + な, just なさる + な is used.
+
+==== {idx:english:inflections!Requesting}: {idx:english:て@て form}, {idx:english:—て下(くだ)さい} ====
+
+=== {idx:english:inflections!Imperative request} ===
+
+We already saw that we can use the verb 連用形 + てください to form a request,
+
+  コーヒーを二杯(にはい)下(くだ)さい。
+  "Two coffee, please."
+
+But we can also use the plain て form to form an informal request, or plea:
+
+  待(ま)って。
+  "Wait (please)"
+
+  これを買(か)って？
+  "Buy this (for me)?"
+
+Of course, like all requests, they can be made to sound demanding, so intonation counts. If we say 待て instead of 待って, cutting out the stop in the middle to sound curt, then rather than a request this may very well be experienced as a command instead. Similarly, saying して in a stern tone might be less commanding than しろ, but will still be experienced as a command more than as request. However, using this plain て form (rather than paired with ください) can be experienced as curt, or even impolite language, depending on the setting it is used in, so be careful.
+
+=== {idx:english:inflections!Prohibitive request} ===
+
+This kind of requesting can of course also be done in a prohibitive manner, in which case we rely on the continuative form for ない using です, {idx:english:ないで}:
+
+  行(い)かないで。
+  (Please) don't go.
+
+In this sentence the "please" is implied, and depending on intonation and context this form may be experienced as anything between a mandate (such as a police officer asking you not to come too close to a crime scene) or a plea for someone to not do something (such as a friend in need asking you not to leave quite yet). We can also use an explicit "please" in the form of ください:
+
+  行かないで下(くだ)さい。
+  Please don't go.
+
+Again, depending on intonation and context this might be experienced as anything between a mandate and a plea.
+
+==== {idx:english:inflections!Passive}: {idx:english:れる}/{idx:english:られる} ====
+
+{gls:glossary:Passive} constructions are, as their name implies, constructions which describe actions in a passive voice. Unlike "I eat dinner" or "The cat is playing with the squeaky toy", which are in {gls:glossary:active} voice, they refer to phrases like "Dinner was eaten by me" or "The squeaky toy was played with by the cat". In Japanese, this {idx:english:passive voice}, called {idx:english:受身(うけみ)}, is achieved through the use of the two helper verbs れる (for 五段 verbs) and られる (for 一段 verbs), which are added to a verb's 未然形:
+
+五段 verb	passive
+
+会う	会わ + れる
+歩く	歩か + れる
+急ぐ	急が + れる
+話す	話さ + れる
+死ぬ	死な + れる
+学ぶ	学ば + れる
+読む	読ま + れる
+待つ	待た + れる
+分かる	分から + れる
+
+一段 verb	passive
+
+見る	見 + られる
+伸びる	伸び + られる
+食べる 	食べ + られる
+
+irregular	passive
+
+する (1)	さ—未然形 + れる, forming される (most common)
+する (2)	せ—未然形 + られる, forming せられる
+来る	こ + られる
+
+The helper verbs involved are both 一段 verbs, so they can themselves be conjugated further by using their appropriate base:
+
+bases	られる	れる
+
+未然形	-られ	-れ
+連用形	-られ	-れ
+連体形	-られる	-れる
+已然形	-られれ	-れれ
+命令形	-られ	-れ
+
+Thus, a simple phrase like 食(た)べます, meaning "(I) eat", can be made passive: 食べられます, "(something) is being eaten (by someone)".
+
+This change from {idx:english:active voice} to {idx:english:passive voice} comes with two complications in Japanese: first, what was first the direct object has now become the verb subject instead. This is no different from English, except because in Japanese the grammatical roles are explicitly written, we must make sure we use the right particles:
+
+  晩(ばん)ご飯(はん)を食べます。
+  "(I) eat dinner."
+  Active, verb uses を in relation to ご飯.
+
+  晩ご飯が食べられます。
+  "Dinner is being eaten (by me)."
+  Passive, verb uses が in relation to ご飯.
+
+Second, what used to be the {idx:english:verb actor} has become a {idx:english:verb detail@verb details} instead. In English we see this expressed by the fact that the verb actor moves to being part of a preposition phrase ("I" becomes "by me", for instance), and from the section on verb particles in chapter 2, we know that these kind of phrases are marked with {idx:english:verb particles!に} in Japanese:
+
+  俺(おれ)が晩ご飯を食べます。
+  "I eat dinner."
+  Active, actor is marked with が.
+
+  晩ご飯が俺に食べられます。
+  "Dinner is being eaten by me."
+  Passive, actor is marked with に.
+
+  犬(いぬ)がほえて、怖(こわ)かった。
+  "(A) dog barked (at me), (and that) was scary."
+  Active, actor is marked with が.
+
+  犬にほえられて怖かった。
+  "(I) was barked at by (a) dog, (and that) was scary."
+  Passive, actor is marked with に.
+
+In addition to the regular passive construction, these verbs are also used to form what is known as the {idx:english:迷惑(めいわく)の受身(うけみ)}, or "{idx:english:inflections!passive form of bother}". A somewhat inelegant name, this specific passive is used to indicate that some action (taken by someone) has inconvenienced you, or someone else. Let us look at how this works:
+
+  誰(だれ)かが弟(おとうと)の自転車(じてんしゃ)を盗(ぬす)みました。
+  "Someone stole my (younger) brother's bicycle."
+  Active, verb uses を in relation to 自転車.
+
+  誰かに弟の自転車が盗まれた。
+  "My brother's bike was stolen by someone."
+  Passive, verb uses が in relation to 自転車.
+
+However, this "form of bother" only applies to actions that were taken by someone, which inconvenienced you (or someone else). In the following sentence, for instance, the verb form is merely passive rather than a "passive form of bother":
+
+  雨(あめ)に降(ふ)られた。
+  "(I) was rained on."
+
+While inconvenient, this is not a 迷惑の受身, because the rain isn't actively inconveniencing you — it is simply something that happens. Remember that for a passive to also be a 迷惑の受身, the act has to have been performed, intentionally, by someone.
+
+In addition to describing the passive and passive form of bother, the helper verbs れる and られる are also used to form {gls:glossary:potential} verb constructions, as well as honorific verb forms, and we shall look at these later on in this chapter.
+==== {idx:english:inflections!Causative}: {idx:english:せる}/{idx:english:させる} ====
+
+Causative constructions are, as their name implies, constructions which indicate something was caused by someone. In English, this comes down to statements such as "I was made to do the dishes by my mom", and in Japanese, these constructions use the verbs せる (for 五段 verbs) and させる (for 一段 verbs). These are paired, like れる/られる with the 未然形.
+
+(さ)せる follow the 一段 scheme:
+
+bases	させる	せる
+
+未然形	-させ	-せ
+連用形	-させ	-せ
+連体形	-させる	-せる
+已然形	-させれ	-せれ
+命令形	-させ	-せ
+
+As mentioned, the way these two helper verbs are added is identical to the way (ら)れる are added:
+
+五段 verb	causative
+
+会う	会わ + せる
+歩く	歩か + せる
+急ぐ	急が + せる
+話す	話さ + せる
+死ぬ	死な + せる
+学ぶ	学ば + せる
+読む	読ま + せる
+待つ	待た + せる
+分かる	分から + せる
+
+一段 verb	causative
+
+見る	見 + させる
+伸びる	伸び + させる
+食べる 	食べ + させる
+
+irregular	causative
+
+する	さ—未然形 + せる
+来る	こ + させる
+
+Again, we should take note that we use the correct particles, except in this case we cannot rely on a parallel with English: the person doing the causing is marked with {idx:english:verb particles!が}, because they are the verb actor, the person(s) affected are marked with {idx:english:verb particles!に}, and the direct object is left as such (if there is one):
+
+  お母(かあ)さんが子供(こども)たちに朝ご飯を食べさせました。
+  "The mother made (her) children eat breakfast."
+
+Some more examples:
+
+  待(ま)たせたね。
+  "(I) made you wait, (didn't I)?"
+
+  妹(いもうと)が起(お)こさせました。
+  "My (younger) sister woke me up."
+
+In addition to being a causative, this construction is also a "{idx:english:permissive}", which just means that it's a construction that indicates {idx:english:giving permission} to "{idx:english:let someone do} something":
+
+  社長(しゃちょう)がプロジェクトを受(う)けさせました。
+  "(The) CEO let me take on (the) project."
+
+This sentence could technically also mean "The CEO caused me to take on the project" or "The CEO made me take on the project", so context is all-important. However, in most cases where it could either be a forced action or a permission, it's usually a permission.
+
+==== {idx:english:inflections!Causative passive}: {idx:english:せられる}/{idx:english:させられる} ====
+
+The title sounds like a combination of the causative and the passive, and that's essentially what it is. It's long, and its use is not rare. In English, this form reads "have been made to do ..." and is also quite long. So, just like in most western language, the more nuance you want to place in your verb conjugation, the longer it'll get.
+
+However, because this is a passive, we must make sure to use particles accordingly:
+
+  子供(こども)たちがお母(かあ)さんに朝(あさ)ご飯(はん)を食(た)べさせられました。
+  "The children were made to eat breakfast by their mother."
+
+  先生(せんせい)に宿題(しゅくだい)をやり直(なお)させられました。
+  "(I) was made to redo (my) homework by (the) teacher."
+
+==== {idx:english:inflections!Potential} ====
+
+=== {idx:english:inflections!Long potential}: {idx:english:られる} ===
+
+As mentioned in the section on the passive, one of the other roles that れる/られる can play is that of the (long) potential. The potential form of a verb in English is typically constructed using the auxiliary verb "{idx:english:can}", such as when turning "I swim" into "I can swim", but in Japanese this is a conjugation instead. The reason this form is called the "long" potential is that there exists a shorter potential form for the 五段 verbs, which will be discussed after this section. Forming the long potential is no different from forming the passive, except that it is generally not used for 五段 verbs:
+
+Formation of the long potential form is the same as for the passive form:
+
+verb	meaning	potential	meaning
+
+見る	see	見られる	be able to see
+伸びる	stretch	伸びられる	be able to stretch
+食べる	eat	食べられる	be able to eat
+来(く)る	come	来(こ)られる	be able to come
+
+There is one striking exception to this potential form, and that's the irregular verb {idx:english:する}, "do". Rather than inflecting, this verb is simply replaced entirely with the verb {idx:english:出来(でき)る}, which literally means "be able to do".
+
+We need to be mindful of particles again: verbs in potential form are always intransitive, and so any direct object it might take in normal use becomes a verb subject instead, requiring the use of {idx:english:verb particles!が} rather than {idx:english:verb particles!を}. However, quite often in colloquial Japanese, the direct object particle を will be heard used in combination with these verbs, rather than the subject particle が, not because this is grammatically correct, but because it "feels right". If you are a beginning student of Japanese, however, it is recommended you stick with proper grammar until you have mastered it to a level that allows you to interact with native speakers, so that you get a feel for what is "right" through exposure to the language as it is used by people.
+
+You may also hear people using {idx:english:れる} rather than {idx:english:られる}, but at the moment this is discouraged language abuse: the idea behind it is that the short potential form for 五段 verbs always ends on え—row syllable + る, and so using れる for 一段 verbs "does the same thing". However, while they might sound the same, れる is a classical helper verb, whereas the え—row syllable + る sound for 五段 verbs is actually a contraction from what used to be い—row syllable + える, so they have completely different background. So until the Japanese language authorities start accepting this highly colloquial "short potential for 一段 verbs" as right and proper, you're best off avoiding it; at least outside of colloquial interaction with Japanese people who use it.
+
+Note that because this is a potential form, を has to be swapped for が:
+
+  A: 車(くるま)を止(と)めて下(くだ)さい。
+  B: すみません、車が今(いま)止められません。
+
+  A: "Please stop the car."
+  B: "(I am) sorry, but (I) cannot stop the car right now."
+
+Also note that this potential form is one of a temporary nature. For instance, rather than meaning "I can see" in general (because you have eyes that work), 見られる means "I can see (whatever I am supposed to see right now)". Similarly, 食(た)べられる means "(I) can eat (this)", rather than the more general "(I) can eat". If we want to say that we have an inherent ability to do (or not do) something, we have to use 連体形 + ことが出来(でき)る, which will be explained after we cover the short potential form.
+
+Finally, some verbs are not inflected to form the potential form, instead requiring the use of a related, but different verb. For instance, while 見られる is a valid long potential form, you will find the verb 見(み)える is often used, instead. Similarly, there are 五段 verbs for which alternate potential forms exist, such as the verb 聞(き)く ("to hear/listen"). Rather than the normal potential form, explained in the next section, the verb 聞(き)こえる ("to be able to hear") is used. This highlights an important rule: when learning new verbs, make sure to learn to inflect them correctly; some inflections may in fact use a different verb entirely!
+
+=== {idx:english:inflections!Short potential}: 連用形 + {idx:english:得(え)る} ===
+
+The short potential form is called "short" because it is simply a lot shorter than the full 未然形+られる version of the potential. However, in modern Japanese, this construction only exists for 五段 verbs. For 一段 verbs, the only grammatically correct potential form is the られる potential form. To create the short potential form, the 連用形 is paired with the verb 得(え)る, meaning "to acquire", to form an "attainable" form of verbs.
+
+In this combination, the final い—row syllable of the 連用形 for 五段 verbs has become contracted with the え sound from 得る over the course of history, becoming an え—row syllable instead. To illustrate:
+
+verb	meaning	{idx:english:classical inflection@classical potential@Classical!potential}	contracted via	modern inflection
+
+会う	meet	会いえる	会いぇる	会える
+読む	read	読みえる	読みぇる	読める
+分かる	understand	分かりえる	分かりぇる	分かれる
+
+While this construction in modern Japanese is a contraction, there are a handful of verbs in which this contraction never occurred, and as such are still in use today in the uncontracted form. Verbs such as ありえる (from ある) or 起(お)こりえる (from 起こる, "to occur") are examples of this. Interestingly, this potential form can also be seen in certain modern 一段 verbs that have traditionally been paired with 得る, such as 見(み)える, "to (be able to) see", from the 一段 verb 見る, or 煮(に)える, "(be able to) boil", from the 一段 verb 煮る.
+
+Just like with the 未然形 potential form, verbs placed in this short potential form become intransitive, which means that technically they can only be used in relation to subjects, and no longer in relation to direct objects.
+
+五段 verb	short potential form
+
+会う	会える
+歩く	歩ける
+急ぐ	急げる
+話す	話せる
+死ぬ	死ねる
+学ぶ	学べる
+読む	読める
+待つ	待てる
+分かる	分かれる
+ある	ありえる
+
+Some examples to show this potential form:
+
+  病気(びょうき)であんまり歩(ある)けません。
+  "Because of (my) illness, I can't walk that well (at the moment)."
+
+  これでいけるでしょうか。
+  "I wonder if this will do."
+
+The {idx:english:いける} in this second sentence is actually a fairly important word to know. While strictly speaking the short potential form of 行(い)く, its meaning of "being able to go" has become overloaded with the figurative meaning of "something being able to go well". As such, いける means "being fine", "being good" as well as noting that something "will do" or "is acceptable".
+
+Note again that because this is a potential form, を has to be swapped for が:
+
+  A: 本(ほん)をいくら読みますか。
+  B: そうですね。時間(じかん)がたっぷりあって、本がいっぱい読めます。
+
+  A: "How much do you read?"
+  B: "Good question. (I) have plenty of time, so (I) can read a lot of books."
+
+=== {idx:english:inflections!Nominalised potential} ===
+
+A third way to form the potential, for any verb, is by using the construction 連体形 + {idx:english:事(こと)が出来(でき)る}. 事 literally means 'concept', and we already saw that 出来る means "be able to do", and this in combination with a verb in 連体形 creates a generalised ability.
+
+For instance, as mentioned earlier, 見られる means "being able to see (something) (at this moment)". Similarly, 歩(ある)ける means "being able to walk (at this moment)". In contrast, 見ることが出来る and 歩くことが出来る mean being able to see, or walk, in general. Particularly with negatives, this difference is striking. For instance, a person whose glasses are so dirty they can't really see any of the things we point out to them might say:
+
+  見られません。
+  "I can't (really) see (it)."
+
+This is hardly anything to worry about as the potential form used is one associated with temporary impairment. However, if they had used:
+
+  見ることが出来ません。
+
+We would have good reason to apologise for telling them to look at something; they're blind.
+
+===== Formal speech patterns =====
+
+In addition to being polite, an important aspect of formal Japanese is to use the right mix of {idx:english:humble@speech patterns!humble} ({idx:english:謙譲(けんじょう)}) and {idx:english:honorific@speech patterns!honorific} ({idx:english:尊敬(そんけい)}) speech patterns. In part, this is expressed by picking the right words to use, but in part it also depends on which verb inflections you pick. One can argue whether this belongs in a reader that should serve as introduction to Japanese, as it's a rather advanced subject, but I would argue that in terms of how verbs can generically be made humble or honorific, the rules are relatively straight forward. What makes it an advanced topic is not how to do it, but how to do it in such a way that a native speaker doesn't raise an eyebrow at it. And that's hard enough to make even Japanese people get it wrong once they need to start using it.
+
+Humble and honorific patterns are significantly different from politeness. This can be made fairly obvious by using an English example. Compare the following sentences:
+
+  - "I would like to humbly offer my apologies."
+  - "I do apologise."
+  - "I'm sorry."
+
+Of these, the first sentence is humble, polite English. The second sentence is merely polite, and the third is essentially neutral. It's not really polite, nor is it humble, but then it's not offensive either. Of course, we can mix these patterns to produce something that sounds odd to our ears:
+
+  "I humbly am sorry."
+
+This sentence mixes humble form with neutral terms. This sounds very odd to an English speaker, and likewise mixing humble or honorific speech without using appropriate politeness will sound odd in Japanese, but it can be done; just like in English.
+
+==== {idx:english:Humble verb patterns@speech patterns!humble} ====
+
+When one addresses someone who stands much higher on the social ladder than oneself (in a particular setting), it is customary to lower one's own status by using humble speech. Humble speech applies to everything that has to do with oneself; not just verb actions, but also opinions and things requiring copula statements.
+
+The way to turn any old verb into a humble variant is relatively straight forward: the honorific particle {idx:english:御@お, ご, み, おん, ぎょ (御)} (pronounced お for most verbs, and ご for noun+する verbs where the noun uses {idx:english:音読(おんよ)み} reading), is prefixed to the verb in 連用形 form, and suffixed either with する, or the explicitly humble counterpart to する, {idx:english:致(いた)す}. When する is used, the honorary prefix can sometimes be omitted for a slightly less formal humble form, but when 致す is used, it has to be present.
+
+五段 verb	お + 連用形+する	お + 連用形+致す
+
+会う	お + 会い + する	お + 会い + 致す
+歩く	お + 歩き + する	お + 歩き + 致す
+急ぐ	お + 急ぎ + する	お + 急ぎ + 致す
+話す	お + 話し + する	お + 話し + 致す
+死ぬ	お + 死に + する	お + 死に + 致す
+学ぶ	お + 学び + する	お + 学び + 致す
+読む	お + 読み + する	お + 読み + 致す
+待つ	お + 待ち + する	お + 待ち + 致す
+分かる	お + 分かり + する	お + 分かり + 致す
+
+一段 verb	お + 連用形+する	お + 連用形+致す
+
+見る	お + 見 + する	お + 見 + 致す
+伸びる	お + 伸び + する	お + 伸び + 致す
+食べる	お + 食べ + する	お + 食べ + 致す
+
+For the irregular verb する, the humble version is (necessarily) 致す, since this simply is the humble counterpart. However, in addition to する, there are several other verbs for which an established humble counterpart exists, typically being preferable to the お + 連用形 + する/致す construction:
+
+verb	meaning	humble counterpart
+
+来(く)る	come	{idx:english:参(まい)る}
+行(い)く	go	〃
+いる	be/exist (for animate objects)	{idx:english:おる}
+言(い)う	say/be called	{idx:english:申(もう)す}
+する	do	{idx:english:致(いた)す}
+知(し)る	know	{idx:english:存(ぞん)じる}
+見(み)る	see	{idx:english:拝見(はいけん)する}
+食(た)べる	eat	{idx:english:いただく}
+飲(の)む	drink	〃
+貰(もら)う	receive	〃
+聞(き)く	ask	{idx:english:伺(うかが)う}
+聞(き)く	listen	{idx:english:承(うけたまわ)る}
+上(あげ)る	give	{idx:english:差(さ)し上(あ)げる}
+会(あ)う	meet	{idx:english:お目(め)に掛(か)かる}
+見(み)せる	show	{idx:english:ご覧(らん)に入(い)れる}
+
+For verbs consisting of a noun + する, the noun gets prefixed with the honorific 御, pronounced ご, and する is either left as is, or replaced with 致す for a more humble pattern:
+
+verb	meaning	humble counterpart
+
+注意(ちゅうい)する	pay attention to	ご注意する or ご注意致す
+案内(あんない)する	guide (someone)	ご案内する or ご案内致す
+連絡(れんらく)する	contact (someone)	ご連絡する or ご連絡致す
+
+One confusing result of using these humble patterns and humble counterparts is that humble speech still means exactly the same thing as the normal verb form. The following seven sentences illustrate this idea: they all mean exactly the same thing, but express this meaning with an increasing degree of humility and politeness:
+
+  断(ことわ)る。
+  "(I, you, he, she, we, they) refuse(s)."
+  Form: plain.
+
+  断ります。
+  "(I, you, he, she, we, they) refuse(s)."
+  Form: polite.
+
+  断りします。
+  "(I, you, he, she, we, they) refuse(s)."
+  Form: polite, but only marginally humble, using noun form + する.
+
+  お断りする。
+  "I refuse."
+  Form: humble, but plain form. As this is humble form, the only person this can apply to is first person, so 'I' has become explicit.
+
+  お断りします。
+  "I refuse."
+  Form: humble polite.
+
+  お断り致(いた)す。
+  "I refuse."
+  Form: more humble, but plain. This sounds a tad odd, as using 致す typically implies a need to be polite, too.
+
+  お断り致します。
+  "I refuse."
+  Form: more humble, polite.
+
+While the copulae have, strictly speaking, no humble counterpart, there is a more polite copula that tends to be used in setting where humility is required: {idx:english:でござる}, used in the form {idx:english:でございます}. This copula does exactly the same thing as {idx:english:だ}, {idx:english:です} and {idx:english:である}, except its high level of politeness makes it particularly suited for use in humble speech patterns:
+
+  東京大学(とうきょうだいがく)の二年生(にねんせい)の木村(きむら)でございます。
+  "Kimura, second year student at the university of Tokyo."
+
+Careful observation reveals that this sentence is actually not humble, merely very polite, and as such it could have been spoken by the student in question, or by someone doing a formal introduction to someone else, whose social position requires a humble, or at the very least properly polite, form of speech.
+==== {idx:english:Honorific verb patterns@speech patterns!humble} ====
+
+While speech pertaining to oneself is humbled, things pertaining to the person of higher social status are elevated by using honorific patterns. Similar to how verbs can be made humble by using the お + 連用形 + する/致す pattern, nearly all verbs can be made honorific by using a similar pattern involving either に + なる or {idx:english:なさる}, similar to the humble choice between する and 致す:
+
+五段 verb	お+連用形+に+なる	お+連用形+なさる
+
+会う	お + 会い + に + なる	お + 会い + なさる
+歩く	お + 歩き + に + なる	お + 歩き + なさる
+急ぐ	お + 急ぎ + に + なる	お + 急ぎ + なさる
+話す	お + 話し + に + なる	お + 話し + なさる
+死ぬ	お + 死に + に + なる	お + 死に + なさる
+学ぶ	お + 学び + に + なる	お + 学び + なさる
+読む	お + 読み + に + なる	お + 読み + なさる
+待つ	お + 待ち + に + なる	お + 待ち + なさる
+分かる	お + 分かり + に + なる	お + 分かり + なさる
+
+一段 verb	お+連用形+に+なる	お+連用形+なさる
+
+見る	お + 見 + に + なる	お + 見 + なさる
+伸びる	お + 伸び + に + なる	お + 伸び + なさる
+食べる	お + 食べ + に + なる	お + 食べ + なさる
+
+Again, there are several verbs for which this pattern is essentially inferior to using an appropriate honorific counterpart instead:
+
+verb	meaning	honorific counterpart
+
+来(く)る	come	{idx:english:いらっしゃる}
+		{idx:english:お出(い)でになる}
+		{idx:english:お出でなさる@おいでなさる (お出でなさる)}
+行(い)く	go	いらっしゃる
+		お出(い)でになる
+		お出でなさる
+いる	be/exist (for animate objects)	いらっしゃる
+		お出でなさる
+言(い)う	say/be called	{idx:english:おっしゃる}
+する	do	{idx:english:なさる}
+知(し)る	know	{idx:english:ご存知(ぞんじ)る}
+		{idx:english:ご存知でいらっしゃる@ごぞんじでいらっしゃる (ご存知でいらっしゃる)}
+見(み)る	see	{idx:english:ご覧(らん)になる}
+		{idx:english:ご覧(らん)なさる}
+食(た)べる	eat	{idx:english:召(め)し上(あ)がる} ({idx:english:召(め)し} means 'summon' here)
+飲(の)む	drink	召し上がる
+寝(ね)る	sleep	{idx:english:お休(やす)みになる}
+		{idx:english:お休みなさる@おやすみなさる (お休みなさる)}
+思(おも)う	think	{idx:english:思(おぼ)し召(め)す} (normal honorific pattern also possible)
+着(き)る	wear (on the body)	{idx:english:お召しになる@おめしになる (お召しになる)} ({idx:english:召(め)し} means 'clothing' here)
+
+For compound verbs consisting of a noun paired with する, the noun gets prefixed with the honorific 御, pronounced ご, and する is either replaced by になる or なさる:
+
+verb	meaning	honorific counterpart
+
+注意(ちゅうい)する	pay attention to	ご注意になる or ご注意なさる
+案内(あんない)する	guide (someone)	ご案内になる or ご案内なさる
+連絡(れんらく)する	contact (someone)	ご連絡になる or ご連絡なさる
+
+When using a copula while being honorific, rather than using the polite でござる, the properly honorific {idx:english:でいらっしゃる} copula, in the form {idx:english:でいらっしゃいます}, is used instead:
+
+  お子様(こさま)はおいくつでいらっしゃいますか。
+  "How old is your child(/son/daughter)?"
+
+In this sentence, お子様 is an honorific for the noun 子, "child", and でいらっしゃいます acts as honorific form of です. The word いくつ, meaning "how old" in this sentence, can only be used for children that are (or seem) younger than ten (the reason for this being that it is a question word used for counting statements using the counter つ, which can only count up to and including nine. Anything higher uses the counter {idx:english:歳(さい)}, also written {idx:english:才@さい (才)}, with corresponding question word {idx:english:何歳(なんさい)}). Given this information, we see that the sentence is actually identical (in meaning) to the following, plain form, sentence:
+
+  いくつですか。
+  "How old is (your son/daughter)"
+
+In the plain form sentence, we can drop the fact that we're asking this in relation to some child, because the use of {idx:english:いくつ@いくつ (幾つ)} should be enough information for the listener to figure this out. Being much shorter than the honorific form, we once more see a confirmation of the general rule for politeness when it comes to Japanese: the longer a statement is, the more formal polite it will be.
+
+As with the humble pattern, there is no change in actual meaning when going from plain form to honorific, other than ruling out single person as implied actor or subject (since one cannot honour oneself).
+
+  断(ことわ)る。
+  "(I, you, he, she, we, they) refuse(s)."
+  Form: informal.
+
+  断ります。
+  "(I, you, he, she, we, they) refuse(s)."
+  Form: formal polite.
+
+  断りします。
+  "(I, you, he, she, we, they) refuse(s). "
+  Form: more formal than formal polite, using noun form + する.
+
+  お断りになる。
+  "(you, he, she, they) refuse(s)."
+  Form: plain honorific. As this is honorific form, this can no longer apply to first person single or plural.
+
+  お断りになります。
+  "(you, he, she, they) refuse(s)."
+  Form: polite honorific.
+
+  お断りなさる。
+  "(you, he, she, they) refuse(s)."
+  Form: plain, but more honorific than when using に+なる.
+
+  お断りなさいます。
+  "(you, he, she, they) refuse(s)."
+  Form: polite honorific.
+
+  お断りなさっています。
+  "(you, he, she, they) refuse(s)."
+  Form: (present progressive) polite honorific.
+
+===== {idx:english:Classical adjectives@Classilcal!adjectives} =====
+
+This final section is not about how classical adjectives inflect, but is actually about what happens when we pair modern verbal adjectives with certain special verbs, such as {idx:english:ござる} and {idx:english:出(い)でる}. While these very rarely get used on their own, there are certain set uses for them, where they pair up with specific adverbs, derived from verbal adjectives. In these cases, the adverbial form of the verbal adjective actually undergoes a sound change, the 連用形 く becoming a う instead, and leading to four possible classical pronunciation changes (meaning they will potentially change the pronunciation of the adjective with blatant disregard of their kanji):
+
+
+  * If the syllable preceding the 連用形 く is an あ row syllable, the adverb gets an —おう sound instead:
+
+  早(はや)い becomes はや[く→う], which contracts to 早(はよ)う.
+  有(あり)難(がた)い becomes ありがた[く→う], which contracts to {idx:english:有(あり)難(がと)う}.
+
+  * If the syllable preceding the 連用形 く is an い row syllable, the adverb gets an う-glide instead:
+
+  大(おお)きい becomes 大き[く→う], which contracts to 大きゅう
+  美味(おい)しい becomes 美味し[く→う], which contacts to 美味しゅう
+
+  * If the syllable preceding the 連用形 く is an う row syllable, the adverb gets a long う:
+
+  安(やす)い becomes 安[く→う], which does not contract and so stays 安う
+
+  * If the syllable preceding the 連用形 く is an お row syllable, the adverb gets a long お by virtue of the お—row syllable + う already being a long お sound:
+
+  面白(おもしろ)い becomes 面白[く→う], which does not contract and so stays 面白う
+
+And hopefully you noticed the first two entries, which are precisely the ones you may know from the phrases お早(あよ)うございます, translating to "good morning", and ありがとうございます, translating to "thank you very much".

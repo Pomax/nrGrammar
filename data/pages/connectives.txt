@@ -1,0 +1,347 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== CONNECTIVES ======
+
+There are a plethora of connectives in the Japanese language, meant to either connect full sentence in some way, or embed smaller sentences into larges ones in some way. In this chapter we'll look at regular conjunctives and interjections, special conjunctives consisting of the particle に plus the て forms of several specific verbs, as well as the nominalising 'particles', which allow us to embed phrases in larger sentences.
+
+===== CONJUNCTIVES AND INTERJECTIONS =====
+
+First up, the conjunctives. In English we know these as the words "and", "however", "therefore", "that not withstanding", and many more. All of these have as role to join up sentences, to act as glue in a sentence to hold two (or more) distinct parts together or even to connect a sentence to a conversation that's being held. Interjections do something similar, interrupting someone while they're speaking (although you can always wait for them to finish their sentence) and then getting your own words in. This list consists of three parts; one part with general conjunctions and interjections, one part focussing on a small number of copula conjunctions and interjections, and a somewhat more substantial part consisting of conjunctions and interjections that start with the こそあど prefix そ, and then mostly involving それ.
+
+	 THINK ABOUT WHETHER THIS SHOULD BE INDIVIDUATED ENTRIES,
+	 OR WHETHER THEY SHOULD BE GROUPED ON 'WHAT THEY DO'-NESS
+
+==== 或(ある)いは - OR, POSSIBLY, ALTERNATIVELY ====
+
+This conjunctive is a composite of the 連用形(れんようけい) of 或る, 或り, paired with the particle い -- a classical particle that emphasises a subject in a clause -- and the disambiguating particle は. It is comparable in function to または and もしくは in that it presents alternatives in a analysis of some situation. For instance:
+
+  曇(くも)りあるいは雨(あめ)でしょう。
+  "I'll probably get cloudy, or (even) rain."
+
+It can also be used in a double sentence pattern, where it expressing something similar to the English "on the one hand ..., on the other hand ...":
+
+  あるいは休(やす)みをのんびりして過(す)ごし、あるいはまじめに勉強(べんきょう)する者(もの)もいます。
+  "On the one hand we have those who spend their vacation relaxing, on the other we also have people who (spend it) study(ing)."
+
+あるいは follows verbals in 連用形, nouns directly, and can be used whenever one might use a comma.
+
+==== 又(また)は - OR, OTHERWISE ====
+
+Composed of また, "again", and the disambiguating particle は, this conjunctive is comparable to あるいは and もしくは in that it offers an alternative in an analysis of some situation. 
+
+  鉛筆(えんぴつ)で、またはボールペンで書(か)くんだ。
+  "(You can) write (it) either with a pencil or a ballpoint."
+
+Unlike あるいは, または does not have a double sentence pattern associated with it.
+
+==== 若(も)しくは - OR, OTHERWISE ====
+
+This conjunctive is the literary, or formal, counterpart to または.
+
+	 追(お)って - formal version of のちほど
+
+==== おまけに - IN ADDITION TO THAT ====
+
+This is a combination of お負(ま)け, which means 'bonus', 'extra', or 'an additional', and the particle に, to mean pretty much the obvious:
+
+  彼氏(かれし)に振(ふ)られて、おまけに友達(ともだち)に叱られた。
+  "(I) was dumped by (my) boyfriend, and to top it off (my) friends (then) scolded me (over it)."
+
+==== 及(およ)び - AS WELL ====
+
+	 TEXT GOES HERE
+
+==== かくして - THUS ====
+
+	 TEXT GOES HERE
+
+==== 片(かた)や - ON THE ONE HAND, ON THE OTHER HAND ====
+
+	 TEXT GOES HERE
+
+==== 逆(ぎゃく)に - CONVERSELY, QUITE THE OPPOSITE ====
+
+	 TEXT GOES HERE
+
+==== さもなければ - IF NOT, OTHERWISE ====
+
+	 TEXT GOES HERE
+
+==== 然(しか)し - BUT, HOWEVER ====
+
+	 TEXT GOES HERE
+
+==== 然(しか)しながら - BUT, HOWEVER ====
+
+	 TEXT GOES HERE
+
+==== 然(しか)も - MOREOVER, FURTHERMORE ====
+
+	 TEXT GOES HERE
+
+==== 従(したが)って - THEREFORE, CONSEQUENTLY ====
+
+	 TEXT GOES HERE
+
+==== 即(すなわ)ち - NAMELY, I.E. ====
+
+	 TEXT GOES HERE
+==== すると - THEREUPON ====
+
+	 TEXT GOES HERE
+
+==== 但(ただ)し - HOWEVER, PROVIDED THAT ====
+
+	 TEXT GOES HERE
+
+==== 例(たと)えば - FOR EXAMPLE ====
+
+	 TEXT GOES HERE
+
+==== だとすると, だとすれば - BY DOING SO ====
+
+	 TEXT GOES HERE
+
+==== 実(じつ)は - ACTUALLY ====
+
+	 TEXT GOES HERE
+
+==== 因(ちな)みに - BY THE WAY ====
+
+	 TEXT GOES HERE
+
+==== 次(つ)いで - SUBSEQUENTLY ====
+
+	 TEXT GOES HERE
+
+==== つまり - IN SUMMARY, BASICALLY ====
+
+	 TEXT GOES HERE
+
+==== でないと, でなければ - IF NOT ====
+
+	 TEXT GOES HERE
+
+==== ともあれ - IN ANY CASE ====
+
+	 TEXT GOES HERE
+
+==== と同時(どうじ)に - WHILE, AT THE SAME TIME ====
+
+	 TEXT GOES HERE
+
+==== 乃至(ないし)(は) - OR, OTHERWISE ====
+
+	 TEXT GOES HERE
+
+==== なぜなら - AS FOR WHY, BECAUSE ====
+
+	 TEXT GOES HERE
+
+==== なので, に - DESPITE OF THAT ====
+
+	 TEXT GOES HERE
+
+==== ならば - IF, IN CASE ====
+
+	 TEXT GOES HERE
+
+==== 並(なら)びに - ALSO, IN ADDITION ====
+
+	 TEXT GOES HERE
+
+==== にも拘(かかわ)らず, にも関(かか)わらず - IN SPITE OF, NEVERTHELESS ====
+
+	 TEXT GOES HERE
+
+==== 況(ま)してや - MUCH LESS, TO SAY NOTHING OF ====
+
+	 TEXT GOES HERE
+
+==== まずは - FIRST OF ALL ====
+
+	 TEXT GOES HERE
+
+==== 尤(もっと)も - ALTHOUGH, FROM THE OUTSET ====
+
+	 TEXT GOES HERE
+
+==== ゆえに - THEREFORE, CONSEQUENTLY ====
+
+	 TEXT GOES HERE
+
+==== 別・分(わ)けても - ABOVE ALL, ESPECIALLY ====
+
+	 TEXT GOES HERE
+
+==== CONJUNCTIVES USING です/だ ====
+
+	 TEXT GOES HERE
+
+=== ですが - HOWEVER, AND YET ===
+
+	 TEXT GOES HERE
+
+=== だが - HOWEVER, AND YET ===
+
+	 TEXT GOES HERE
+
+=== ですから - THEREFORE ===
+
+	 TEXT GOES HERE
+
+=== だから - THEREFORE ===
+
+	 TEXT GOES HERE
+
+=== だからこそ - THAT'S EXACTLY WHY ... ===
+
+	 TEXT GOES HERE
+
+=== だからと言(い)って - NOT NECESSARILY ===
+
+	 TEXT GOES HERE
+
+=== だけど - HOWEVER ===
+
+	 TEXT GOES HERE
+
+=== ですけれど - HOWEVER ===
+
+	 TEXT GOES HERE
+
+==== CONJUNCTIVES USING こそあど ====
+
+=== そう言(い)えば - NOW THAT YOU MENTION IT ===
+
+	 TEXT GOES HERE
+
+=== そうして, そして - AND, AND THEN, AND NOW ===
+
+	 TEXT GOES HERE
+
+=== そうですが - HOWEVER ===
+
+	 TEXT GOES HERE
+
+=== そこで - SO, ACCORDINGLY ===
+
+	 TEXT GOES HERE
+
+=== その上(うえ)で, に - MOREOVER, IN ADDITION ===
+
+	 TEXT GOES HERE
+
+=== それから - AFTER THAT ===
+
+	 TEXT GOES HERE
+
+=== それからというもの - AFTER THAT ===
+
+	 very different afterward
+
+=== それで - AND, BECAUSE OF THAT ===
+
+	 TEXT GOES HERE
+
+=== それでなければ - IF NOT ... THEN ===
+
+	 TEXT GOES HERE
+
+=== それでも - AND YET, NEVERTHELESS ===
+
+	 TEXT GOES HERE
+
+=== それどころか - ON THE CONTRARY ===
+
+	 TEXT GOES HERE
+
+=== それとともに - IN ADDITION, TAKEN TOGETHER ===
+
+	 TEXT GOES HERE
+
+=== それとも - OR, OR ELSE ===
+
+	 TEXT GOES HERE
+
+=== それなら - IF THAT'S THE CASE ===
+
+	 TEXT GOES HERE
+
+=== それに - BESIDES, MOREOVER ===
+
+	 TEXT GOES HERE
+
+=== それに加(くわ)えて - IN ADDITION ===
+
+	 TEXT GOES HERE
+
+=== それにしても - NEVERTHELESS ===
+
+	 TEXT GOES HERE
+
+=== それはそうと - INCIDENTALLY, BY THE WAY ===
+
+	 TEXT GOES HERE
+
+=== それもそうだけど - WHILE THAT MAY BE TRUE ===
+
+	 TEXT GOES HERE
+
+=== それより - RATHER, HOWEVER ===
+
+	 TEXT GOES HERE
+
+===== IDIOMATIC CONJUNCTIVES, USING に =====
+
+There are a number of particular combinations of the particle に and verbs in て form which are used idiomatically in the Japanese language, meaning that their meaning that as expression they mean something different from what the verbs would normally mean. An example of idiomatic use of a verb in English is the phrase "take a chair", where rather than meaning for someone to literally pick up a chair and consider it theirs, this combination of three words actually means the same as "sit down". The following list consists of twelve similar idioomatic expressions for Japanese.
+
+==== にとって - CONCERNING ====
+
+This is technically a combination of に and the て form of 取(と)る, meaning 'to take' or 'pick up'.
+
+==== について, につき - CONCERNING ====
+
+This is technically a combination of に and the て form of 付(つ)く, meaning 'to be attached' or 'to follow'.
+
+==== にかけて - CONCERNING ====
+
+This is technically a combination of に and the て form of 掛(か)ける, meaning 'to cover' or 'to turn on' or 'being to'.
+
+==== において - REGARDING ====
+
+This is technically a combination of に and the て form of 置(お)く, meaning 'to place' or 'to do (now, rather than later)'.
+
+==== によって, による - ACCORDING TO ====
+
+This is technically a combination of に and the て form of 因(よ)る, meaning 'to depend on' or 'be based on'.
+
+==== につれて - AS ..., ... ====
+
+This is technically a combination of に and the て form of 連(つ)れる, meaning 'to lead' or 'to take (a person somewhere)'.
+
+==== にたいして - CONTRASTED TO ====
+
+This is technically a combination of に and the て form of 対(たい)する, meaning 'to oppose' or 'to stand against'.
+
+==== にかんして - RELATING TO ====
+
+This is technically a combination of に and the て form of 関(かん)する, meaning 'to relate to'.
+
+==== にしたがって - IN ACCORDANCE WITH ====
+
+This is technically a combination of に and the て form of 従(したが)う, meaning 'to obey' or 'to follow'.
+
+==== にさいして - WHEN ... ====
+
+This is technically a combination of に and the て form of 際(さい)する, meaning 'to arrive' or 'to come by'.
+
+==== にあたって - AT THE TIME OF ====
+
+This is technically a combination of に and the て form of 当(あ)たる, meaning 'to be applicable'.
+
+==== にわたって - OVER A PERIOD OF ====
+
+This is technically a combination of に and the て form of 亙(わた)る, or 亘(わた)る, meaning 'to extend'.

@@ -1,0 +1,592 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== GLOSSARY ======
+
+===== Abstraction =====
+
+A generalisation, either through simplification(s) or by omission(s) of some (or more) part(s). For instance, the concept of "friendship" is an abstraction from all the individual instances of people being friends (an abstraction by generalisation). Similarly, the concept of "walking" is an abstraction of the concerted effort of all the muscles moving in the human body to effect that body walking on two legs (an abstraction by omission, because for "walking", all the unrelated information of muscles working, the brain balancing the body, the eyes determining the direction of travel, etc. is irrelevant), and the Japanese kana are abstractions of Chinese characters (either by simplification in the case of hiragana, or omission in the case of katakana).
+
+===== Accent =====
+
+Accent in speech is that part of a word that seems to jump out at the listener, placing more focus on one or more syllables than on the rest of the word. For instance, the word "attention" has its accent on "ten" in English, while the accent lies on "on" in French. Accents are typically in the form of a noticeably different pitch level or gradient for the syllable(s) in question than for the rest of the word.
+
+===== Accusative =====
+
+In this book, 'accusative' is used in the natural language meaning, not the grammatical meaning, representing a construction that accuses someone of something. The grammatical "accusative" form refers to the role of a direct object to a word that can take such direct objects (which typically means verbs).
+
+===== Active =====
+
+The verb form that describes actions taking place in the world, as performed by someone or something. For instance "I throw the ball" describes an activity performed by me. Contrast to "passive".
+
+===== Adverb =====
+
+Words that are used to describe the way in which a verb action or state is in effect. For instance, "To walk quickly" has the adverb "quickly" describing the way in which "walking" is performed.
+
+===== Affirmative =====
+
+A word or part of phrase that states ("asserts") something is the case. Contrast to "negative".
+
+===== Animate =====
+
+The quality of things that allows us to say they are alive, or seem lifelike. This covers not just things like people or animals, but also things that seem to move on their own, or even things which possess a "lively" quality, such as an animate conversation. Contrast to "inanimate".
+
+===== Article =====
+
+A particular kind of word that references particular objects. In English, these are the indefinite articles "a" and "an" and the definite article "the".
+
+===== Assertive =====
+
+Bold, confident, or even aggressively self-assured.
+
+===== Attributive =====
+
+Attributing a particular quality to something. For instance, used attributively, the word "blue" in the phrase "The blue book" attributes the quality "blue" to the object "book". Common attributive word classes include the adjectives (attributing quality to nouns) and adverbs (attributing qualities to verbs).
+
+===== Auxiliary verb =====
+
+A verb that is used to give additional meaning to another verb. For instance, in the English phrase "I can do this", the verb "can" is an auxiliary verb, combining with "do" to form a potential form, rather than a plain predicative form. These may also be referred to as 'helper verbs'.
+
+===== Binary =====
+
+Anything in which only two choices can be made, such as binary signals (high and low), binary numbers (zero or one) or any arbitrary choice ("one or the other"). Notice that no choice is ever truly binary, since there is always the choice to not pick either, and sometimes even allowing both to be picked, thus making binary choices secretly ternary choices, and  sometimes even quaternary choices.
+
+===== Cardinal =====
+
+A cardinal number differs from a normal number in that it refers to a number belonging to a particular set. Contrast this to ordinal numbers, which indicate a number is part of some sequence. For example, if we have a collection of 10 marbles marked 1 through 10, then the marble with number 6 written on it has cardinal number 6. However, if we look at in which order we can take the marbles out of some container and the marble marked with the number 6 is the first marble we pull out, then its ordinal number is 1 (because it's the first in the series of "drawn marbles"), but its cardinal number is still 6 (because it's still marble 6 in the collection of marbles).
+
+===== Clause =====
+
+A group of words that contain a subject and a predicate, but do not form a full sentence.
+
+===== Cohortative =====
+
+A word form or construction that suggests performing some action. In English, cohortatives are typically statements such as "shall we ...?" or "let's ...".
+
+===== Colloquial =====
+
+Spoken conversation, usually used to mean the informal spoken version of a language, as contrasted to formal language.
+
+===== Commanding =====
+
+A word form or construction that commands the listener or reader to perform some action. Contrast to "prohibiting".
+
+===== Comparative =====
+
+A word form or form of phrase that compares one or more things to each other in some way.
+
+===== Compound =====
+
+A word that has been formed by combining two or more words.
+
+===== Conditional =====
+
+A word form or construction that indicates something is dependent on something else happening, or being a particular way. The general description is in the form "If A, then B", with A representing a condition, and B representing the consequence should the condition be met.
+
+===== Conjugation =====
+
+A derived form of a verb, adjective or noun through inflection, either by modification, additions, or both.
+
+===== Conjugational bases =====
+
+A conjugational base is the most basic verbal "building block" in Japanese grammar, upon which all verbal inflections are built. These are: 1) the 未然形(みぜんけい), imperfect base, 2) the 連用形(れんよけい), continuative base, 3) the 終止形(しゅうしけい), finalising base, 4) the 連体形(れんたいけい), attributive base, 5) the 已然形(いぜんけい), perfective base, and 6) the 命令形(めいれいけい), commanding base.
+
+Of these, the 終止形 is no longer used, and the 已然形 is also referred to as the 仮定形(かていけい) (potential base) in modern Japanese, as it is only used for hypothetical constructions.
+
+===== Connotation =====
+
+The commonly understood meaning of a word or phrase, rather than its literal meaning. For instance, "take a chair" connotes sitting down, rather than the literal taking of a chair. Contrast to "denotation".
+
+===== Context =====
+
+All information, both explicit and implied, that indicates how to interpret pronouns and referential information in one or more sentences.
+
+===== Continuative =====
+
+An inflection indicating that the action represented by the inflected word is still in effect, either 'as is', or as part of a more complex inflection.
+
+===== Contraction =====
+
+The phenomenon in which certain parts of speech get shortened by either dropping (series of) syllables or replacing series of syllables with shorter, different syllables. An example of this in English is the word "cannot" being turned into "can't" through omission. An example in Japanese is なければ being turned into なきゃ through a combination of omission and replacement.
+
+===== Contrasting =====
+
+Showing two things as being different in one or more respects. The biggest possible contrast is called polar contrast, where two things are presented as opposites ('lying on opposite poles'), rather than merely differing.
+
+===== Copula =====
+
+A word or part of phrase used to define, or couple, things. In English, this is the verb "to be", which is used in definitions, such as "the sky is blue". In Japanese, these are a large number of copulae, with the two words だ and です being the most used, for informal and formal coupling respectively.
+
+===== Counter =====
+
+A word used to indicate that a numerical statement should be considered as representing a count of some thing(s), rather than a plain number.
+
+===== Decomposition =====
+
+Reducing compound constructions to their individual parts.
+
+===== Deferred =====
+
+Indirect.
+
+===== Denotation =====
+
+The literal meaning of a word or phrase. For instance, "take a chair" denotes actually physically taking a chair, and nothing else. Contrast to "connotation".
+
+===== Derogative =====
+
+A word or phrase that suggests someone or something is worth less than they really are. Belittling, detracting, expressing low opinion of.
+
+===== Desirative =====
+
+A word or phrase that expresses desires.
+
+===== Diacritic =====
+
+A mark or symbol added or attached to a letter or character to distinguish it from another of similar form.
+
+===== Direct =====
+
+Not hiding one's true intentions behind suggestive phrasing or formality patterns, "speaking one's mind".
+
+===== Direct object =====
+
+That part of phrase that receives the action of a transitive verb. For instance, in "I throw a ball" the word "ball" as direct object receives its action from the verb "throw". Contrast to "indirect object", compare to "subject".
+
+===== Discourse =====
+
+The flow of a text or conversation,  of such length that it deals with at least one context.
+
+===== Distal =====
+
+Impersonal.
+
+===== Dominant =====
+
+That which is most important. Contrast to "subordinate".
+
+===== Dubitative =====
+
+A word or part of phrase that expresses doubt about some matter.
+
+===== Effeminate =====
+
+A word or part of phrase that is associated with being used predominantly by women. Contrast to "masculine".
+
+===== Emphatic =====
+
+A word or part of phrase that places emphasis on a matter.
+
+===== Existential =====
+
+Referring to "being", either as a concrete or abstract thing.
+
+===== Familiar speech =====
+
+A speech pattern used when talking to people whom you are intimately acquainted with.
+
+===== Formal speech =====
+
+A speech pattern used when talking to people who you are not intimately acquainted with. Contrast to "informal speech".
+
+===== Formality =====
+
+A particular behavioural pattern used for the sake of procedure or decorum.
+
+===== Future tense =====
+
+A verb tense that indicates that something will occur in the future. In English, this uses the auxiliary verb "will". In Japanese, this tense does not explicitly exist.
+
+===== Genitive =====
+
+Expressing a word or part of phrase belongs to, or is specified by, another word or part of phrase. From the Latin "genitus", meaning "begotten".
+
+===== Gerund =====
+
+Using a verb in a way that acts as a noun. For instance, in the sentence "I like whistling", the verb "whistling" acts as gerund, as it can be replaced with any other noun, while remaining a valid sentence.
+
+===== Gerundive =====
+
+A verb or verb phrase that that is being used as noun or noun phrase.
+
+===== Glottal stop =====
+
+A stop consonant, formed by briefly closing the glottis while attempting to speak anyway, followed by opening the vocal cords to release the built up pressure.
+
+===== Grapheme =====
+
+A collection of strokes that form an identifiable part of a kanji. All kanji are implicitly graphemes.
+
+===== Habitual =====
+
+An act that is performed regularly, or some state that is regularly the case.
+
+===== Hepburn =====
+
+A phonetic romanisation scheme devised by the Reverend James Curtis Hepburn for his 1867 Japanese/English dictionary. This is a phonetic transcription system that approximates Japanese pronunciation in English.
+
+===== Hiragana =====
+
+The cursive Japanese sound script.
+
+===== Honorific =====
+
+A form of language in which one raises the perceived status of subjects.
+
+===== Humble =====
+
+A form of language in which one lowers one's own projected status.
+
+===== Imperative =====
+
+A word, part of phrase or full phrase that expresses a command or plea. Contrast to "prohibiting".
+
+===== Imperfect =====
+
+A verb form expressing that some action has not (yet) been performed, or some state is not (yet) the case.
+
+===== Implication =====
+
+A statement that suggests that something is the case without explicitly saying this.
+
+===== In-group =====
+
+The group of people that in a particular setting are considered part of the same group that you are part of. The in-group is a dynamic concept, and people who are part of one's in-group in one setting need not automatically be part of one's in-group in another setting. Contrast to "out-group".
+
+===== Inanimate =====
+
+Anything that is not animate.
+
+===== Indirect =====
+
+Hiding one's true intentions by using suggestive phrasing and formality patterns. Contrast to "direct".
+
+===== Indirect object =====
+
+Those parts of phrase that indirectly receive the action of a transitive verb or are described as state by an intransitive verb. For instance, in "Throw the ball to me", "me" is an indirect object to the verb "throw". There can be more than one indirect object. Contrast to "direct object", compare to "subject".
+
+===== Inflection =====
+
+Modifying a verbal word to indicate its grammatical role.
+
+===== Informal speech =====
+
+A speech pattern used when talking to people whom you are either familiar or intimately acquainted with. Contrast to "formal speech".
+
+===== Instrumentalis =====
+
+A part of phrase that is used to indicate actions are performed by some indicated means. For instance, "We went to school by car" has the word "by" acting as instrumentalis.
+
+===== Intangible =====
+
+Not being perceivable by any of the physical senses. Contrast to "tangible".
+
+===== Intelligible =====
+
+Something that can be understood.
+
+===== Interpunction =====
+
+The use of punctuation marks in written language to indicate its structure.
+
+===== Interrogative =====
+
+A word used to question something. In English these are words such as "who", "what", "where", "why", "when", "how", etc.
+
+===== Intimate =====
+
+Close or personal association or acquaintanceship.
+
+===== Intonation =====
+
+The way something is pronounced in terms of tonal progression.
+
+===== Intransitive =====
+
+A verb category that indicates that a verb is used to describe states of (part of) the world, rather than actions that take place in it. Contrast to "transitive".
+
+===== Intuit =====
+
+Using one's intuition to determine what is going on.
+
+===== Irregular verb =====
+
+A verb that conjugates in a manner that does not follow the usual rules of conjugation.
+
+===== Kana =====
+
+The collective term for the hiragana and katakana scripts. Also used to refer to syllables from these scripts.
+
+===== Kanji =====
+
+The Japanese version of Chinese characters. Note that not all kanji exist in the Chinese character set, and not all Chinese characters exist in the Japanese character set.
+
+===== Katakana =====
+
+The angular Japanese sound script.
+
+===== Kunrei =====
+
+Short for "kunrei shiki" (訓令式), this is a syntactic romanisation scheme developed by the Japanese cabinet and officially in use in its current form since 1954. However, both in and outside of Japan, it is not as popular as the phonetic Hepburn romanisation.
+
+===== Masculine =====
+
+A word or part of phrase that is associated with being used predominantly by men. Contrast to "effeminate".
+
+===== Mimesis =====
+
+Words that illustrate an aspect of the world. An example is the Japanese "kira kira" which represents a sparkling or intermittently shining state. Compare to "onomatopoeia".
+
+===== Modifier =====
+
+A word or part of phrase that modifies or narrows down the definition of another word or part of phrase.
+
+===== Mood =====
+
+For verbs, mood is that aspect of a verb that indicates how the verb's subphrase relates to the rest of the sentence. In English, common moods are "imperative", "subjective", and "indicative".
+
+===== Negation =====
+
+Indicating the absence or opposite of what something would otherwise mean.
+
+===== Negative =====
+
+A word or part of phrase that states ("asserts") that something is "not".
+
+===== Nominaliser =====
+
+A word or part of phrase that changes the grammatical role of other words or parts of phrase into the one played by nominals (nouns).
+
+===== Nominalising =====
+
+Turning a word or part of phrase into a nominal.
+
+===== Nominals =====
+
+The class of words that act as nouns.
+
+===== Noun =====
+
+A word class that is used to name a person, place, thing, quality, or action.
+
+===== Noun adjective =====
+
+A word that can be used both as a noun on its own, or as an adjective, attributing some quality to other nouns.
+
+===== Onomatopoeia =====
+
+A word that illustrates a sound made by something, such as the word "thunk" in the phrase "The rock went 'thunk' as it hit the floor". Compare to "mimesis".
+
+===== Operative =====
+
+A word that is the focus of some effect, state or action.
+
+===== Ordinal =====
+
+A number representing some place in an ordered sequence or list.
+
+===== Out-group =====
+
+Everyone who is not part of your in-group.
+
+===== Particles =====
+
+A class of words that are used to characterise words or parts of phrase as having a particular grammatical role.
+
+===== Part of phrase =====
+
+See "part of speech".
+
+===== Part of speech =====
+
+A word or collection of words that act as a single grammatical entity inside a phrase.
+
+===== Passive =====
+
+The verb form that describes some state of (part of) the world, rather than some action taking place in it. For instance, the sentence "the cake was eaten by the children" is in passive voice, as it describes the state of the cake (eaten) rather than the action taken to effect this state. Contrast to "active".
+
+===== Past tense =====
+
+The verb tense that indicates some state was the case, or some action took place, in the past.
+
+===== Perfect =====
+
+A verb tense that indicates the action described by the verb has been completed.
+
+===== Personal zone =====
+
+Refers to the conceptual locations available for referencing to. In English, there are two personal zones, namely "near me" and "not near me", leading to the pronouns "here" and "there" or "this" and "that" respectively. In Japanese, there are three personal zones, namely "near me", "near my conversational partner(s)" and "not near either of these two", leading to the kosoado words "koko", "soko" and "asoko" or "kore", "sore" and "are" respectively.
+
+===== Phonetic =====
+
+Having to do with the way in which language is pronounced.
+
+===== Pitch =====
+
+The perceived frequency (for speech usually described in terms of 'height' rather than physical waveform period length) of sounds.
+
+===== Plural =====
+
+The word form used to indicate multiple instances.
+
+===== Polarity =====
+
+It indicates what a verb asserts. In English, as in Japanese, "affirmative" and "negative".
+
+===== Postposition =====
+
+A word that is added after another word or part of phrase to indicate its relation to the rest of the phrase.
+
+===== Potential =====
+
+Indicating that some state or action is possible.
+
+===== Predicative =====
+
+Attributing a particular quality to objects or concepts.
+
+===== Prefix =====
+
+Something that is added to the front of a word to change its meaning in some way. Contrast to "suffix".
+
+===== Preposition =====
+
+A word that is added before another word or part of phrase to indicate its relation to the rest of the phrase.
+
+===== Present tense =====
+
+The verb tense that indicates some state is the case, or some action is taking place, at this moment.
+
+===== Presumptive =====
+
+Expressing a belief about some matter without evidence to support the belief.
+
+===== Progressive =====
+
+Some action that is taking place, or "progressing", in the world, leading up to some resultant state. For instance, "the window is opening" is a progressive action, which will result in the window being in an opened state.
+
+===== Prohibiting =====
+
+Forbidding something. Contrast to "imperative" and "commanding".
+
+===== Pronoun =====
+
+A word that takes the place of a noun in a sentence and refers to this replaced noun instead.
+
+===== Pronunciation =====
+
+The way language sounds when spoken.
+
+===== Pseudo-future =====
+
+A verb form that is not a true future form, but has certain aspects of it. In Japanese, the pseudo-future does not indicate a future tense, but is only used when some verb may turn out to describe a state in the world or an action taking place in it at a later time, such as a cohortative, dubitative or presumptive.
+
+===== Punctuation =====
+
+Symbols added to written text for visual separation, such as full stops, commas, quotation marks, etc.
+
+===== Quantification =====
+
+Expressing something as a quantity, either in numerical values or conceptual quantities such as "a little" or "a lot".
+
+===== Radical =====
+
+A kanji that can be used to index and look up other kanji with. There are 214 of these radicals, called the "classical radicals", but many of these have one or more variations when used as graphemes in larger kanji, leading to roughly 400 graphemes being used as radical.
+
+===== Reserved speech =====
+
+A form of speech where one exercises self-restraint, trying to keep one's thoughts and ideas to oneself, by stating matters as impersonal possibility or as fact.
+
+===== Resultant state =====
+
+A state describing (part of) the world, that comes from a certain action having been performed. For instance, the act of opening the window leads to the resultant state of an open window. See "progressive".
+
+===== SOV =====
+
+A linguistic category for languages, indicating that in the full formal language model, sentences generally follow a "subject, then verb object, then verb" order, such as Japanese. This category does not in any way indicate what valid sentences in such a language look like, just that if there is a subject, it will generally come before a verb object or verb, and similarly that if there is a verb object, it will generally follow the subject but precede the verb, and if there is a verb, it will generally come last.
+
+===== Stem =====
+
+The part of a word that does not change when that word is inflected.
+
+===== Subphrase =====
+
+A section of a phrase that can act as a phrase on its own.
+
+===== Subject =====
+
+The principal actor or performer in a verb phrase.
+
+===== Subordinate =====
+
+That which is less important. Contrast to "dominant".
+
+===== Suffix =====
+
+Something that is added to the end of a word to change its meaning in some way. Contrast to "prefix".
+
+===== Superlative =====
+
+The word that expresses the highest level of some quality. English superlatives are "best", "most", "highest", "largest", "quickest", etc.
+
+===== SVO =====
+
+A linguistic category for languages, indicating that in the full formal language model sentences follow a subject, verb, object order, such as English. This category does not in any way indicate what valid sentences in such a language look like, just that if there is a subject, it will generally come before a verb or verb object, and similarly that if there is a verb, it will generally follow the subject, and if there is a verb object, it will generally follow the verb.
+
+===== Syllabaries =====
+
+The set of written characters of a language of which each character stands for a syllable.
+
+===== Syllable =====
+
+A unit of spoken language, typically of uniform duration.
+
+===== Syntax =====
+
+The compositional rules of a language, typically consisting of the rules for how to write sounds and interpunction, and how to combine entities in the language in grammatically sound ways.
+
+===== Tangible =====
+
+Being perceivable by any of the five major physical senses (sight, hearing, smell, taste or touch), especially the sense of touch. Contrast to "intangible".
+
+===== Tense =====
+
+Indicating the time frame in which the verb action takes place. For instance, past, present or future.
+
+===== Tonal progression =====
+
+The way pitch changes during pronunciation.
+
+===== Topic =====
+
+At the sentence level, topic refers to the word(s) that describe(s) information that the rest of the sentence bears relation to. At the discourse ('full text') level, the topic describes the concepts that the whole text is about.
+
+===== Transitive =====
+
+A verb category that indicates verbs describing actions that are being performed by some actor, taking place in the world. Contrast to "intransitive".
+
+===== Transliteration =====
+
+The act of writing out a language in a script different from the one used in that language, without translating.
+
+===== Verbal =====
+
+Relating to verbs.
+
+===== Verbal adjectives =====
+
+Words that act as adjectives, attributing some quality to nouns, which can be inflected to show tense, mood, and polarity in the same way verbs can.
+
+===== Verbs =====
+
+Words that describe a particular state of (part of) the world, or actions taking place in it.
+
+===== Voicing =====
+
+Vocalising sound, while having air pass through the vocal chords. For English this means tuning 'k' into 'g', 't' into 'd', 's' into 'z', 'p' into 'b', and 'ch' into 'j'.
+
+===== Volitional =====
+
+Making a conscious choice or decision yourself, as opposed to being forced to make one, or having it made for you.
+

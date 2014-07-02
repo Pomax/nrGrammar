@@ -1,0 +1,1230 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Language patterns ======
+
+So far we've covered verbal grammar, particles, and counters, as well as a handful of related "handy words" that fill in some of the gaps. However, that still leaves quite a number of constructions that you should be familiar with if you want to use Japanese to any serious degree, and so in this last chapter we will look at the rest of the useful Japanese that we still need to cover.
+
+In this chapter, we'll look at how to draw comparisons between things, making choices, indicating possibilities, talking about trying things and having things done, how to nominalise statements so that we can talk about them objectively (not an unimportant trick!) and the exceedingly important rules for the core of true Japanese social language patterns: giving and receiving, and humble and honorific speech.
+
+===== {idx:english:Comparison}s, {idx:english:preference}s and {idx:english:choice} =====
+
+Comparing and choosing are two very related subjects. Making a choice is essentially the same as making a subjective comparison, where one thing is more favourable than the other. In Japanese we see two types of choices: the binary choice, and the open choice.
+
+==== {idx:english:Binary choice}s ====
+
+The {gls:glossary:binary} choice is simply a choice between two things. One's preference can swing one way or the other, or one can indicate that either choice is fine, or both are to be rejected. This binary choice concept in Japanese uses the word 方(ほう), literally "direction", in the following questioning pattern:
+
+  [X]と[Y]と、どちら(どっち)の方が(some judgement call)ですか。
+  "Which is more (something); X, or Y?"
+
+Note that this uses a two item, inclusive list, with either two と particles, or a comma after the second choice item (though typically commas are avoided). Because of the use of どちらの方 or どっちの方 (the first being more formal than the second) this pattern literally asks "A and B; which direction is [more] [something]?" and can be applied to virtually anything:
+
+  バーガーとチキンサンドとどちらの方が好(す)きですか。
+  "Which do (you) like best, hamburgers or chicken sandwiches?"
+
+  電車(でんしゃ)とバスとどちらの方が速(はや)いですか。
+  "Which is faster? The train or the bus?"
+
+Remember that adjectives in Japanese act both as attributives as well as comparatives, so the translation for the last line could also be "which one is fast, the train or the bus?", but it is far more likely that the speaker means "which one is faster?" because of the fact that a choice is being used in the question.
+
+There is always the possibility that the answer to this question is "both" or "neither", which use the same words in Japanese: {idx:english:どちらも}, or the more colloquial {idx:english:どっちも} followed by a positive or negative evaluation (recall this from the section on interrogatives paired with も), or alternatively the noun 両方(りょうほう) meaning "either [option]" suffixed with も:
+
+  A: 音楽(おんがく)のジャズとクラシックとどちらの方が好きですか。
+  B: どちらも好きです。
+  C: どっちも別(べつ)に好きじゃないよ。
+  D: 両方(りょうほう)も分(わ)かりません。
+
+  A: "Which music do you like best, jazz or classical?"
+  B: "I like either."
+  C: "I don't particularly like either."
+  D: "I don't (really) know either of the two."
+
+==== {idx:english:Open choice}s ====
+
+If you want to have a larger collection of items to choose from, or you want to ask a categorical choice, then 方 cannot be used. Instead, a choice pattern involving {idx:english:... の中(なか)で@...のなかで (...の中で)}, meaning "from amongst ..." must be used. This pattern can be used for anything, such as specific lists of items, or just categorical nouns asking the person who is offered the choice to pick something that falls into the category. For instance:
+
+  A: 音楽(おんがく)の中で何(なに)が好(す)きですか。
+  B: そうですね。ジャズが好きです。
+
+  A: "Music-wise, what do you like?" (literally: "from music, what do you like?")
+  B: "Hmm. I like jazz."
+
+This is an example of a {idx:english:categorical choice} where the respondent actually gives a specific answer. Questions like "What food do you like?" and "Which cars are fast?" fit this pattern.
+
+There is an exception to using this pattern which involves open choices for {idx:english:open choice!location}s, such as "Which cities in Europe have you been to?": as で is already a marker for location, the の中 part is dropped when asking location questions:
+
+  ヨーロッパでどんな都市(とし)に行(い)った事(こと)がありますか。
+  "Which cities in Europe have you been to?"
+
+Again, it might be that none of the choices are good, or that they're all equally fine. Instead of using どちらも, どっちも or 両方(りょうほう)も, {idx:english:何も@なにも (何も)} or {idx:english:何でも@なんでも (何でも)} are used for this particular pattern, to indicate "everything" or "nothing", depending on the verb form that follows being positive or negative:
+
+  A: 食(た)べ物(もの)の中で何(なに)が美味(おい)しいと思(おも)いますか。
+  B: 特(とく)に何も美味しくないと思(おも)う。
+  C: 何(なん)でも美味しいよ。
+
+  A: "Which foods are tasty?"
+  B: "I don't think there's anything particularly tasty about food."
+  C: "Everything's tasty!"
+
+==== Comparison through {idx:english:likeness}, and {idx:english:impression}s ====
+
+Closely related to choices is the concept of comparing things. After all, if you cannot make comparisons, you cannot determine preference. There are quite a number of ways in which to compare things in Japanese, with varying degree of strength in the comparison, and varying nuance in the exact way the likeness (or contrast) works. You have already seen some ways in which to do this, such as そう and 様(よう) in the verb and particles sections, but there are quite a few more, which we will now look at.
+
+=== {idx:english:そう} — {idx:english:Weak impression} (連用形, 語幹), {idx:english:second hand information} (連体形) ===
+
+The noun adjective そう (a こそあど word) paired with a verb in 連用形 or a verbal adjective's stem, is used to create the construction of "appearing to be (at the point of) ..." or "seems to be ... (to the speaker)". And example of this using a verb is:
+
+  仕事(しごと)が出来(でき)そうですね。
+  "It looks like (you)'ll be able to perform this job."
+
+And examples of using verbal adjectives are:
+
+  温(あたた)かそうです。
+  "It seems warm."
+
+  速(はや)そうな車(くるま)。
+  "A fast looking car."
+
+For いい and ない, this construction is slightly different. Rather than よそう (remember that いい is just the alternative 連体形 for よい) and なそう, these two adjectives become {idx:english:よさそう} and {idx:english:なさそう} respectively.
+
+Note that this "そう as likeness" only works with verbs in 連用形, and verbal adjective stems. そう can also be used in combination with verbal 連体形, but then it means something quite different: rather than indicating impression, this combination indicates second hand information:
+
+  仕事(しごと)が出来(でき)るそうです。
+  "I heard you'd be able to perform this job."
+
+  温(あたた)かいそうです。
+  "They say it's warm."
+
+  速(はや)いそうな車(くるま)。
+  "They say that's a fast car."
+
+This kind of second hand information is also called "{idx:english:hearsay}", although this term should not be taken too literally; it equally applies to second hand information from reading a book or watching a documentary on television, not just having been told something. As long as it's strictly speaking unverified information, it counts as hearsay.
+
+For nouns, a fully qualified statement involving the plain copula is used:
+
+  先生だそうです。
+  "I heard he's a teacher."
+
+=== {idx:english:様(よう)} — {idx:english:Strong impression}, {idx:english:manner}, {idx:english:having the appearance of} ===
+
+To explain this word, we must briefly look at classical Japanese, in which the noun 様, pronounced さま, was used to indicate a "seemingness", which we still see in expressions such as ご苦労(くろう)様(さま) or ご馳走(ちそう)様(さま). These mean, respectively, "having the appearance of being a hardship" and "having the appearance of being a feast". This meaning is preserved in modern Japanese through the use of 様 still, but read as よう.
+
+This noun adjective combines with 連体形 to create a conceptual likeness, relating two manners or behaviours to each other:
+
+  聞(き)かないようにして下(くだ)さい。
+  connotes: "Please go about your business in a manner that makes it appear as if you didn't hear that."
+  meaning: "Please act like you didn't hear that."
+
+A special use of this likeness adverb is with the こそあど series この, その, あの and どの, with which it sets up an explicit "manner" indicator:
+
+  {idx:english:このように@このように (この様に)} - {idx:english:in this manner@this...!in this manner}
+  {idx:english:そのように@そのように (その様に)} - {idx:english:in that manner@that...!in that manner}
+  {idx:english:あのように@あのように (あの様に)} - in that manner like so
+  {idx:english:どのように@どのように (どの様に)} - {idx:english:in which manner@which...!in which manner}
+
+Very similar in meaning to the こう, そう, ああ and どう series, the decision of whether to use こう or このよう (or そ-, あ- and ど- equivalents) is mostly decided by what one's intention is. When you need to be instructive, or want to highlight a specific act and the performing of it, こう is used. If one instead wants to illustrate or describe, このように (etc.) is used. As such, both of the following sentences are possible:
+
+  お箸(はし)はこう使(つか)います。
+  "This is how (you) use chopsticks."
+
+  お箸(はし)はこのように使(つか)います。
+  "This is how (you) use chopsticks."
+
+However, the first sentence is instructive (telling us what to do), whereas the second sentence is illustrative of a process, not so much telling us what to do, but telling us how things are. To highlight the difference, imagine that some instructor says お箸はこう使います, and then picks up a pair of chopsticks to demonstrate how to hold them, and how to pick things up. For the second sentence, the instructor has already demonstrated how to hold them, and is in the middle of showing how to pick things up with them when he says お箸はこのように使います. In the first setting, the sentence acts as a set-up for the actual process, whereas in the second setting, the sentence summarises what's already going on.
+
+This also means that このように (etc.) can be used in certain situations where こう (etc.) do not make sense, such as in purely illustrative settings.
+
+== 様(よう) + に + {idx:english:する@ようにする (様にする)}/{idx:english:なる@ようになる (様になる)} ==
+
+よう can also be used in the special combination 連用形 + ように + する. This construction literally translates to "Doing, in a way that is akin to ...", which is a bit cryptic, so an example to demonstrate the use:
+
+  電話(でんわ)をかけるようにする。
+  literally: "(I) will do (something), in a way that is akin to telephoning".
+  meaning: "(I) will try to call (you)"
+
+However, do not confuse this —ように+する with —ように+なる, which indicates something ending up like something else, rather than trying to do something:
+
+  電話をかけるようにした。
+  "(I) tried to (make sure to) call (you)"
+
+  電話をかけるようになった。
+  "(I) ended up calling (you)"
+
+=== {idx:english:風(ふう)} — {idx:english:Manner}, {idx:english:style} ===
+
+The noun adjective 風, like 様, likens something to a particular manner. It closely translates to 'way', or 'style', and this meaning is evident in words like 当世風(とうせいふう) meaning "modern" ('the now-a-day style') or 良風(りょうふう), "good customs" ('good style'). A special set of words with this likeness adverb is its combination with the こそあど series こんな (etc.):
+
+  {idx:english:こんな風に@こんなふうに (こんな風に)} - in this {idx:english:this...!way}/{idx:english:this...!style}
+  {idx:english:そんな風に@そんなふうに (そんな風に)} - in that {idx:english:that...!way}/{idx:english:that...!style}
+  {idx:english:あんな風に@あんなふうに (あんな風に)} - in that way/style like that
+  {idx:english:どんな風に@どんなふうに (どんな風に)} - in which {idx:english:which...!way}/{idx:english:which...!style}
+
+This combination is used when one wants to focus specifically on a way something is (or has been) done. It is, effectively, a rhetorical adverb, qualifying a verb action with itself. That may sound a bit cryptic, so an example:
+
+  そんな風に言(い)われても、出来(でき)ないものは出来ないだろう。
+  literally: "Even by talking (to me) in that fashion, things that cannot be done, cannot be done."
+  meaning: "Ask (me) any way (you) want, (I) cannot do what (I) cannot do."
+
+In this sentence, the そんな風に言われても highlights the way something was said, without saying what this way is, instead relying on the listener to know "in which way" the verb action occurred.
+
+=== {idx:english:らしい} — {idx:english:Strong impression} based on secondary information ===
+
+Similar to likening something to something else, impressions are one's own projections of likeness onto something. For instance, if we have the impression something is tall, then we can also describe it as "being like something that is tall". As such, impression words are also quite important to know.
+
+When we have an impression of something based on secondary information, or indirect observation, we can use the verbal adjective らしい to indicate this, by using it in combination with verbal 連体形, or following a noun phrase:
+
+  この本(ほん)は山田(やまだ)君(くん)のらしい(です)。
+  It seems that this book is Yamada's.
+
+In addition to this, らしい can be used to indicate that something generates a certain impression:
+
+  その言(い)い方(かた)は、木村(きむら)さんらしいですね。
+  literally: "That way of speaking (plus what was said), is just like (what) Kimura (would use)."
+  meaning: "That's so like Kimura."
+
+There are two possible situations here. If we are dealing with someone other than Kimura saying something, then the commenter's use of らしい indicates that they are reminded of how Kimura would talk or behave in that situation. Of course, if Kimura herself was the one talking, then the use of らしい indicates that this fits Kimura's expected behavioural pattern.
+
+=== {idx:english:みたい} — {idx:english:Strong impression} based on direct observation ===
+
+When commenting on an impression based on direct observation, the noun adjective みたい is used after 連体形 clauses, as well as noun phrases:
+
+  疲(つか)れてるみたいですね。
+  "(He) looks likes (he)'s tired, doesn't (he)."
+
+Because みたい is a noun adjective, it can also be used to form (complex) attributive phrases:
+
+  硬(かた)い先生です。
+  "(He is a) strict teacher."
+
+  硬いみたいな先生です。
+  "(He is a) teacher who looks like (he)'s strict."
+
+みたい is very similar to らしい and 様(よう).
+
+=== ～{idx:english:的(てき)} — {idx:english:Likeness} adverbs ===
+
+This is a noun adjective that is used primarily as a noun suffix, to create "-ly", "-al", or "-ive" nouns for comparisons, such as:
+
+adjective	meaning	from noun	meaning
+
+基本的(きほんてき)	"basically"	基本	"basis".
+実際的(じっさいてき)	"practical"	実際	"the way things are now".
+主体的(しゅたいてき)	"subjective"	主体	"subject", "constituent".
+
+These comparative nouns are used like normal noun adjectives for comparisons:
+
+  基本的につまらないでしょう。
+  "It would basically be uninteresting."
+
+=== {idx:english:っぽい} — {idx:english:Trait}s, {idx:english:general likeness} ===
+
+This noun suffix is comparable to the English suffix "-ish":
+
+  君子(きみこ)さんって、男(おとこ)っぽいですよね。
+  "Kimiko's kind of a tomboy, isn't she?"
+
+This sentence literally reads "Kimiko's mannish, don't you think?"
+
+This suffix also works to indicate traits in something:
+
+  この料理(りょうり)がフランスっぽいと思(おも)わない？
+  "Don't you think this food tastes kind of French?"
+
+This sentence literally reads "Don't you think this food is French(ish)?"
+
+=== {idx:english:同(おな)じ} — {idx:english:Identical} (in some way) ===
+
+The adjective 同じ is actually an odd word, a remnant of the classical Japanese 同じき, not quite fitting in the modern verbal adjective class, nor quite fitting in the noun adjective class. Using the construction [X]と同じです is the strongest possible comparison that can be made, as it doesn't so much liken two (or more) things to each other, but explicitly claims they are identical in some way.
+
+  この部屋(へや)は隣(となり)のと同じです。
+  "This room is the same as the neighbouring one."
+
+While this is a noun adjective, rather than using 同じ + に when we want to use it adverbially, we use the verbal adjective adverbial form: {idx:english:同じく@おなじく (同じく)}:
+
+  A: 大学(だいがく)の二年生(にねんせい)の石田(いしだ)です。
+  B: 同じく、植松(うえまつ)です。
+
+  A: "I am Ishida, 2nd year university student."
+  B: "I am Uematsu, also a 2nd year university student."
+
+Of course, B literally says "I am Uematsu, the same", but unlike in for instance English, it is not impolite in Japanese to omit this contextually already present information, since Japanese is a language in which context is presumed to remain known throughout a conversation.
+
+Basically all you have to remember is that for all intents and purposes, 同じ is the noun and 同じく the adverb. If you can remember that, you should be fine.
+
+=== {idx:english:勝(が)ち} — {idx:english:Prone} ===
+
+Closely related to likeness, the noun adjective がち is used to compare something in the "prone to" way. While a noun adjective, there are some instances where がち can be used with の, rather than with the 連体形 for だ, な, as well:
+
+  妹(いもうと)が病気(びょうき)がちの人(ひと)です。
+  "My (younger) sister is someone who's prone to illness."
+
+However, there are no clear rules on when one can use の, so typically it's best to stick with using がち as a normal noun adjective, using な.
+
+For verbs and verbal adjectives, this suffix is added to the 連用形:
+
+  この時計(とけい)は進(すす)みがちです。
+  "This clock tends to run fast."
+
+=== {idx:english:似(に)る} — {idx:english:Resemblance} ===
+
+A final way to indicate likeness is by using the verb 似る meaning "to resemble" or "to be similar". Typically used in - ている form, this verb is used in combination with the particles と or に, where the choice of particle determines the nuance of likeness. Using と makes the statement describe near-exact likeness:
+
+  その考(かんが)えは私(わたし)のと似ています。
+  "Those ideas are like the ones I had."
+
+  金(きん)は色(いろ)が真鍮(しんちゅう)と似ている。
+  "The colour of gold is (sort of) the same as brass."
+
+Using に, on the other hand, makes the statement describe general likeness, or a likeness in a particular (but unspecific) way:
+
+  母親(ははおや)に良(よ)く似ている。
+  "(She) really takes after (her) mother."
+
+  その山(やま)はアヒルに似てる、なぁ。
+  "That mountain (kind of) resembles a duck, doesn't it?"
+
+==== Discussing {idx:english:possibilities} ====
+
+Related to choices, comparisons and likeness, there is the subject of possibilities. In English, we can indicate possibility in a variety of ways; things "may" or "might" be, "can" or "could" be, they're possible, likely, unlikely, or even "stand a chance to be". In Japanese, too, there are a number of useful ways to describe possibilities, which we shall look at in this section.
+
+=== {idx:english:かも知(し)れない} — {idx:english:May or may not} ===
+
+The first, and probably most used, is the construction かも知(し)れない. This construction technically consists of the particles か and も, followed by the negative short potential of 知る, to know, or be informed; 知れない. This construction translates to "it could be that ...", implying that the speaker doesn't actually know, but is not ruling out that something could be the case.
+
+  A: 行(い)かないと言(い)っただろう。
+  B: まあ、そう言ったかもしれません。
+
+  A: "Didn't he say he wasn't coming?"
+  B: "He might have said something like that."
+
+As can be seen from the previous example, かもしれない can also be used as {idx:english:かもしれません@かもしれません (かも知れません)} — they're just different politeness levels. Further alternatives are the highly colloquial {idx:english:かも知れん@かもしれん (かも知れん)}, and just the particles, {idx:english:かも}:
+
+  A: 石田(いしだ)さん、めがねを落(お)としたか。
+  B: 捨(す)てたかも、な。
+
+  A: "Did Ishida lose his glasses?"
+  B: "Maybe he (actually) threw them away."
+
+=== {idx:english:多分(たぶん)} — {idx:english:Probably} ===
+
+When a speaker suspects something to be the case, but they're not 100% certain, they will use 多分 to indicate this. Looking at just the kanji, the word literally reads "great part", and that's pretty much what it means, too.
+
+  まだ決(き)めてないんだが、夏休(なつやす)みは多分、大阪(おおさか)になる。
+  "We've not quite decided yet, but we'll probably head off to Osaka for the summer."
+
+=== {idx:english:可能性(かのうせい)} — {idx:english:Possibility of} ===
+
+You can, of course, also be more literal when talking about the possibility of something, by using the actual noun for "possibility", 可能性(かのうせい) (often also used to refer to an available "option"). Usually this is paired with the verb ある, to indicate that the speaker believes there is the possibility of something, in a way that is more literal than using かも知れない.
+
+  自爆(じばく)する可能性があるから、気(き)をつけて。
+  "Now, this thing might self-detonate, so be careful."
+
+Of course, 可能性 can also be used with negative statements, usually involving ない:
+
+  失敗(しっぱい)する可能性でもありません。
+  "There's not even the possibility of failing."
+
+==== Discussing {idx:english:certainty} ====
+
+In addition to objective possibilities, there's also the more subjective idea of certainty. There are a number of words that express this more subjective kind of "possibility", which deserve just as much mention as the previous set of words.
+
+=== {idx:english:きっと} — {idx:english:Surely} ===
+
+When a speaker is hopeful that something is the case, きっと can be used. Associated with a positive kind of wishful thinking, it is typically translated as "surely":
+
+  きっと来(く)るんだよ。
+  "I am sure (they)'ll show up!"
+
+In this sentence, the speaker can either be confident, or can be hoping strongly for the outcome they are talking about, even if there's the possibility that this will not be the case.
+
+=== {idx:english:必(かなら)ず} — {idx:english:Certainly} ===
+
+When a speaker is positively certain of something, then 必ず can be used, which translates to "necessarily" or, more in keeping with the ず negative it really is, "without fail":
+
+  必ず来(く)るんだ。
+  "(They)'re certain to show up."
+
+In this sentence, the speaker is highly confident in the outcome, even if their certainty is based purely on subjective information.
+
+=== {idx:english:Uncertainty} — {idx:english:[X]かどうか[Y]@...かどうか} ===
+
+Finally, there will be times when you are not so much certain, but actually uncertain about {idx:english:whether or not} something is the case, or will happen. For this, we can use a construction we already saw in the particle section on か, namely [X]かどうか分(わ)かりません:
+
+  今年(ことし)は落(お)とすかどうか分(わ)かりません。
+  "I don't know whether or not I'll make this year's grade."
+
+The way this is formed is very simple. The clause about which uncertainty is to be expressed is followed by かどうか, which is basically the double question mentioned in the particle section for か, creating (essentially literally) "[clause] or what?" The final verb then comments on the fact that it's not clear which of the two choices are actually to be picked.
+
+  今年は落とす。
+  "(I) will fail this year."
+
+  今年は落とすかどうか。
+  "Will (you) fail this year or...?"
+
+  今年は落とすかどうか分かりません。
+  "(I) don't know whether (I) will fail this year or not."
+
+===== {idx:english:Nominalising} =====
+
+Nominalisers are those words that turn words that aren't nouns, or entire phrases, specifically into noun phrases, so that they can be used in larger sentences as topics, subjects, direct objects or what have you. We have already seen some nominalisers in the particle section (such as の, もの and こと), and these will be further explained in their roles as nominalisers in this section. It should be noted that most nominalisers require specific particles to follow them in order to work the way they do, so when studying nominalisers, don't just study the words, but also remember which nominalisers take which particles.
+
+==== {idx:english:nominalising!Back referral}, using {idx:english:nominalisers!の} ====
+
+The simplest nominaliser is just the nominalising の. This turns any clause that precedes it into a back referral to something either previously mentioned, or previously established as the topic somehow. Say we have the following sentence:
+
+  美術館(びじゅつかん)を見(み)に行(い)く。
+  "Going to an art gallery."
+
+We can nominalise this sentence into a back referral using の by appending it to this sentence:
+
+  美術館を見に行くの
+
+This has no direct translation on its own, but requires a bigger context to operate in; on its own it can mean anything that can be approximated with "the [going to the art gallery]". Only when used in a bigger sentence will this noun clause really make sense:
+
+  美術館を見に行くのが楽(たの)しかった。
+  "Going to (the) art gallery (today) was fun."
+
+Here, the noun phrase has been turned into a back referral to something that happened.
+
+==== {idx:english:nominalising!Abstract conceptualisation}, using {idx:english:nominalisers!事(こと)} ====
+
+The noun こと is used to turn clauses into an {gls:glossary:abstract@abstraction} thought, rather than the actual thing. For instance:
+
+  勉強(べんきょう)しにアメリカに行(い)く事(こと)がまだよく考(かんが)えていません。
+  "(I) have not yet seriously considered whether or not to go to America to study."
+
+Here, the clause 勉強しにアメリカに行く, "to go to America to study", has been turned into an abstract idea, about which the comment "I have not yet really thought about it" is made.
+
+Another example of the use of こと can be seen in the following example:
+
+  私(わたし)の言(い)った事に何(なに)か付(つ)け加(くわ)える事はありませんか。
+  "Would (you) like to add anything to what (I)'ve said?"
+
+In this sentence, there are two abstractions going on: one is the abstraction of 言った, "said", to 言った事 , "the thing that was said", and the second from 付け加える, "to add" (a compound verb coming from 付ける, "to attach", and 加える, "to add"), to 付け加える事, "(a) thing to add".
+
+It should be noted that these are genuine abstractions; 言ったこと does not only refer to the actually spoken words, but also the thoughts that they stood for, and 付け加える likewise stands not just for words, but for thoughts that can be added to the already existent thoughts on whatever was being discussed.
+
+This plain past tense + 事 is also used to ask whether or not someone has experience with something, in the pattern [plain past tense] + 事がある:
+
+  フランスに行った事がありますか。
+  "Have (you) ever been to France?"
+
+This sentence differs significantly from the direct question:
+
+  ランスに行きましたか。
+  "Did you go to France?"
+
+This direct question implies a context in which someone has gone somewhere, and you're asking them where they went. Instead, by using 事, the concept of "having been to France" is turned into a generalised abstract concept. Rather than the specific "having been to France (when you went on your trip)", the question is now about "having been to France", in general.
+
+==== {idx:english:nominalisers!Real conceptualisation}, using {idx:english:nominalisers!物(もの)} ====
+
+As mentioned in the outline, 物, often written as もの, conceptualises real, but not necessarily tangible, things. For instance, the following sentence is about a very intangible, but very real thing:
+
+  いつまでもその秘密(ひみつ)を隠(かく)しておけるものじゃないよ。
+  "(You) can't keep that secret hidden forever."
+
+Here, 秘密を隠しておける, "to be able to keep a secret a secret" is conceptualised using もの to form 秘密を隠しておけるもの, which translates to "that which is 'being able to keep a secret a secret'". This is different from an abstraction using こと (事):
+
+  秘密を隠しておけること
+  The concept 'being able to keep a secret a secret'
+
+  いつまでも秘密を隠しておけること
+  The concept 'being able to keep a secret a secret forever'
+
+This concept can be talked about as, for instance, 'being hard' or 'being impossible', or even 'is unnatural'. However, using もの such as in:
+
+  秘密を隠しておけるもの
+  That which is 'being able to keep a secret a secret'
+
+or
+
+  いつまでも秘密を隠しておけるもの
+  That which is 'being able to keep a secret a secret forever'
+
+only lets use say that it exists or not, and that's roughly all it allows us to say; the concept of being able to keep a secret hidden from the rest of the world is something abstract, while the actual act of being able to keep some secret hidden is concrete. For the abstract idea, こと is used. For the concrete event, もの is used.
+
+==== {idx:english:nominalising!Illustrating a circumstance}, {idx:english:case@nominalising!illustrating a case} or {idx:english:occasion@nominalising!illustrating an occasion}, using {idx:english:nominalisers!場合(ばあい)} ====
+
+When you want to illustrate an occasion, circumstance or situation, you use the nominaliser ばあい, which is typically followed by the particle に to indicate point in time. Used as a noun on its own, 場合 has these same meanings:
+
+  場合によって違(ちが)います。
+  literally: "It is different depending on circumstances"
+  meaning: "It depends on the circumstances."
+
+Used as a nominaliser, it turns the preceding part into a circumstance, which can be commented on, by connecting it to either a noun phrase using の, or directly to verbal 連体形:
+
+  君(きみ)の場合には例外(れいがい)とする。
+  "(We)'ll consider your case an exception."
+
+In this sentence, the clause 君, a personal pronoun meaning "you", has been paired with 場合 to create "your circumstance", about which a comment is made. 場合 can of course also be used for verb phrases, in which case it follows the 連体形:
+
+  お金(かね)が足(た)りない場合(ばあい)には友達(ともだち)から借(か)ります。
+  "In case (I) don't have enough money, (I)'ll borrow it off (my) friends."
+
+In this sentence, the clause お金が足りない, "(I) do not have enough (sufficient) money", has been turned into a circumstance, with a comment concerning that circumstance, should it arise.
+
+==== {idx:english:nominalising!Indicating a moment of opportunity}, using {idx:english:nominalisers!次第(しだい)} ====
+
+If we look at the kanji form of this nominaliser we see 次(つぎ), meaning "next", and 第(だい) meaning "number" or "instance". The combination 次第 means "when [some event], [something else]". For instance:
+
+  見(み)つけ次第()知(し)らせて下(くだ)さい。
+  "Please let (me) know the moment (you) find out"
+
+This sentence turns the clause 見つけ, the 連用形(れんようけい) for 見つける, "to discover/\linebreak[0]find out", into a moment of opportunity should it occur, where the action to then take is to let someone know of this discovery.
+
+In this use, 次第 follows verbs in 連用形. It can also come after 連体形(れんたいけい) forms, but when used this way, the meaning of 次第 is the same as that of わけ (訳), treated later on.
+
+When paired with nouns 次第, often also found written as しだい, tends to be translated as a "dependence on":
+
+  値段(ねだん)しだいで買(か)います。
+  "I'll buy it, depending on the price."
+
+However, in this use there is no の between the noun and しだい. In fact, adding one will radically change the meaning of the phrase, as the noun 次第 means "agenda" or "programme" :
+
+  値段(ねだん)のしだいで買(か)います。
+  "Due to the pricing programme (being the way it is), I'll buy it."
+
+==== {idx:english:nominalising!Describing an occurrence}, using {idx:english:nominalisers!度(たび)} ====
+
+If you want to describe something that occurs or can occur at times, then 度, also often written as たび, lets you say something general about these occurrences. This is in part obvious because of the meaning of the kanji 度, which is typically pronounced ど and meaning "... time", such as 一度, "one time" or 三度, "three times".
+
+  星空(ほしぞら)を見(み)るたびに、あの夜(よる)のことを思(おも)い出(だ)す。
+  "Whenever (I) look up at a starry sky, (I) remember that (special) night."
+
+Here, the clause 星空を見る, "looking up at a starry sky" is presented as something that occurs with some frequency, and a comment on what is associated to this occurrence is then given. 度 nominalises sentences in 連体形, and is followed by に, as it marks a time.
+
+==== {idx:english:nominalising!Indicating a specific time} or {idx:english:event@nominalising!indicating a specific event}, using {idx:english:nominalisers!時(とき)} ====
+
+{idx:japanese:時@とき (時)}, also often written as just とき, means "time" on its own, which explains why it does what it does. This nominaliser can be used either by itself or followed by に or は, and follows sentences in 連体形:
+
+  初(はじ)めて日本(にほん)に来(き)たときにまだ十八歳(じゅうはっさい)だった。
+  "When (I) first came to Japan, (I) was only 18."
+
+Here the clause 日本に来た, "came to Japan" is modified with 初めて, "for the first time", and turned into a specific time/event using とき, after which a comment about this specific time/event is made.
+
+Be careful when using 時 with present tense 連体形, because this will be interpreted as a general "{idx:english:every time ...}" statement.
+
+  日本に来(く)る時はどきどきします。
+  "Every time I come to Japan, I get excited."
+
+The reason for this is that 時 needs to refer to some event, but there cannot be a specific event when using present tense, as this describes either the present (in which case you would not refer back to it), or the immediate future (in which case, the event wouldn't have even occurred yet). The only event, then, that 時 can refer to is the general event of whatever you're describing. In the case of 日本に来る, this means the general event "coming to Japan", rather than some specific instance of having come to Japan.
+
+==== {idx:english:nominalising!Stating an expectation}, using {idx:english:nominalisers!筈(はず)} ====
+
+In English, which is the language this book is written in, there are two interpretations possible for "should": it can mean "must", such as in "you should clean up your room", and it can mean "expect", such as in "she should be showing up any minute now". In Japanese these are very different concepts, and for the second kind of "should", the nominaliser 筈 is used (often also written as just はず), marking expectation. It follows 連体形 and noun phrases:
+
+  今日(きょう)はみんなが来(く)るはずなんだ。
+  literally: "It should be that everyone will come today."
+  meaning: "Everyone should be coming today."
+
+Here, the clause みんなが来る, "everyone will come", is turned into the expectancy that everyone will come, using はず.
+
+==== {idx:english:nominalising!Stating a social expectation} or {idx:english:custom@nominalising!stating a custom}, using {idx:english:nominalisers!べき} ====
+
+Where はず is used to indicate the expecting "should", べき is used to indicate the somewhat imperative "should". Now, this is a genuinely strange word, unclassifiable using the modern Japanese word classes.
+
+It comes from べし (with a 連体形 form べき), an overloaded classical verb with "two" sets of conjugational bases; one for べし, and one for the derived "verb" べかる, which is itself a contracted version of べくあり, in which the べく part comes from べし... Basically, none of this is important to know in the slightest (unless you're also taking classical Japanese), as long as you can remember its modern bases:
+
+	classical べし	classical べかり		modern
+
+未然形	べから	べから		べから
+連用形	べく	べかり		べく
+終止形	べし	×		べし
+連体形	べき	べかる		べき
+已然形	べけれ	×		not used
+
+In modern Japanese, this word is so curious that there's no real way to describe it. べき is used as a noun, with its inflections being constructions using the copulae (だ, です, etc.), but its negative adverbial form can still be formed in the traditional 未然形+ず way, giving us {idx:english:べからず}. This word, then, is actually a remnant of classical Japanese that defies modern word classes, so we're kind of left with exploring it as the need arises. In this case, as the nominaliser べき, where it turns phrases in 連体形 into a social expectation:
+
+  君(きみ)が責任(せきにん)を取(と)るべきだったのだ。
+  "You should have taken responsibility."
+
+Here the clause 責任を取る, "to take responsibility", is illustrated as being something that is socially expected from someone in whichever context this phrase was said in. Sometimes this social expectation is a given, or common sense, but sometimes the expectation is very context dependent, such as:
+
+  真面目(まじめ)に英語(えいご)を勉強(べんきょう)すべきです。
+  "(You) should study English seriously."
+
+Here the clause 真面目に英語を勉強する, "to study English seriously", is turned into a social expectation because of the behaviour of whoever it is said to right now. Probably, they are goofing off, while a "proper" person would be studying hard in order to meet the social standards.
+
+This sentence also shows a special contraction when using べき with する, in that it turns into すべき instead of するべき as expected.
+
+Like だ, べき has both a 終止形 and a 連体形, and this should make it reasonably obvious when to use which: if you're ending your sentence on it, べし must be used. If, on the other hand, you're using it as an attributive, then べき must be used.
+
+Truly, there is nothing simple, or ordinary, about this word.
+
+==== {idx:english:nominalising!Indicating a moment in time}, using {idx:english:nominalisers!所(ところ)} ====
+
+This word takes a clause and turns it into a nominalisation representing a point in space time. For instance:
+
+  もうすぐ式(しき)が始(はじ)まるところだ。
+  "The ceremony will start soon."
+
+This sentence literally says "We will soon be at the point where the ceremony starts".
+
+  彼氏(かれし)といるところに、友達(ともだち)に来(こ)られた。
+  "Just as (I) was (together) with my boyfriend, (I) was imposed upon by a friend."
+
+This sentence literally says "at the point of being with my boyfriend, I was ...". While ところ on its own means "place", and can be followed by several particles, as a nominaliser it is typically followed by either に or で, depending on whether the focus of the sentence has to do with the place or time, or with the event that occurs. Also note the use of 来(こ)られる, which should be interpreted as a "passive form of bother" here.
+
+==== {idx:english:nominalising!Stating an intention}, using {idx:english:nominalisers!積(つ)もり} ====
+
+Derived from the verb {idx:english:積もる@つもる (積もる)}, "to intend", the nominaliser つもり turns a 連体形 clause into an intention:
+
+  今日(きょう)和歌山(わかやま)まで行(い)くつもりだ。
+  "(We) intend to go up to Wakayama today."
+
+In this sentence, the clause 和歌山まで行く, which translates to "going up to Wakayama", is turned into an intention. Notice that this nominaliser really only states intention. Planning, rather than intending, is indicated using the noun 予定(よてい), "plan", instead. To indicate a negative intention, generally the statement "(I) don't have the intention to ..." is used:
+
+  もし彼(かれ)が一生懸命(いっしょうけんめい)働(はたら)くつもりがないなら、くびだ。
+  "If he has no intention of giving it his all, he will be fired."
+
+Literally, this sentence reads "Should he have no intention to work hard, it'll be his head". Aside from this nice reference to how being fired was handled in the old days, it also shows how a negative intention is used.
+
+==== {idx:english:nominalising!Stating a situational explanation}, using {idx:english:nominalisers!訳(わけ)} ====
+
+This nominaliser is somewhat interesting in that it is next to impossible (or often even necessary) to translate, because it denotes situational commentary. In English, we leave the situation outside our conversations, but in Japanese you can use this word to indicate you are directly commenting on the situation at hand, commenting on it in an explanatory or reasoning manner.
+
+Typically a translation works just fine with 訳 (also often written as just わけ) left untranslated, but its presence in a Japanese sentence makes quite a difference in terms of nuance:
+
+  A: まだ有罪(ゆうざい)にならなかった。
+  B: まだ有罪になった訳ではない。
+
+  A: "(He) has not been proven guilty yet."
+  B: "(it's not as if he)'s been proven guilty yet."
+
+The first sentence states that some "he" hasn't been proven guilty yet, as a factoid. The second sentence, however, states the same but does so in order to counter something that was said or was concluded that might imply the opposite. A good way to further illustrate this is by looking at a proper conversation:
+
+  A: 石田(いしだ)さんが首(くび)になったそうです。
+  B: うん、首になった。
+  A: もっと一生懸命(いっしょうけんめい)に働(はたら)いたら...
+  B: いいえ、そう言(い)うわけじゃないけど。
+  A: ならどうして？
+  B: 会社(かいしゃ)が生産(せいさん)調整(ちょうえい)したから数人(すうにん)が解雇(かいこ)された。
+
+  A: "I heard Ishida got fired."
+  B: "Yeah, he did."
+  A: "If only he'd worked harder..."
+  B: "No, that's not the reason why."
+  A: "Then why?"
+  B: "The company has cut back on production so several people were laid off."
+
+In the fourth line, B literally says "no, the just-said (そう言う) is not the reason [for the situation we are talking about]". If we were to omit the construction with 訳, instead using the negative form of 言う to form そう言わないけど, B would instead be saying "However, (I) am not saying (that)", something rather different.
+
+In fact, this use of {idx:english:言う paired with 訳@nominalisers!というわけ (と言う訳)} is fairly standard, and indicates a description of the situational comment. Imagine a situation where someone is being held accountable for low grades on their language courses, and they are asked to explain why:
+
+  別(べつ)に語学(ごがく)に能力(のうりょく)がないと言う訳ではないが......まあ、基本的(きほんてき)につまらないだと思(おも)うから、勉強(べんきょう)しません。
+  "(Well,) It's not particularly because (I) don't have the brains to learn languages, but ...well, I just think it's boring, so I don't study."
+
+Here‚ the situational comment is made in regards to a misunderstanding concerning the situation. The situational aspect that is being commented on is described by と言う as being 語学に能力がない, and is commented on by what follows 訳, in this case a simple negation, followed by an explicit correction of the assumed reason for failing a language course.
+
+==== {idx:english:nominalising!Describing a way}, using {idx:english:nominalisers!様(よう)} ====
+
+We already dealt with よう in the section on comparison and likeness, in which we also touched on the subject that it can be used to indicate ways in which things need to be done. We can nominalise sentences in 連体形 for use as subphrase:
+
+  教科書(きょうかしょ)を持(も)ってくるように言(い)って下(くだ)さい。
+  "Please tell (her) to bring (her) textbook."
+
+Literally, よう in this sentence turns 教科書を持ってくる, "to bring (along) (one's) textbook", into a way some action may be performed, and then qualifies the act of "saying" as this particular way, thus creating the (now somewhat elaborately translated) statement "please tell her in such a way as to effect her bringing along her textbook".
+
+We also saw that よう can be used adverbially in combination with する to create a construction similar to "try to ...":
+
+  授業(じゅぎょう)に出(で)るようにする。
+  "To try to make it class."
+
+In this sentence, the act of する, doing, is likened to the act of 授業に出る, to attend class. This in effect creates the phrase "To do in a manner that is like going to class" which is interpreted as "trying to go to class".
+
+Aside from nominalising verb phrases, よう is also used as manner-conceptualiser when paired with の, in the pattern [...]のよう:
+
+  伝言(でんごん)は次(つぎ)のように書(か)いてある。
+  "The message reads as follows."
+
+Literally, this sentence turns the very short noun phrase 次, meaning "next" or "following", into the manner 次のよう, meaning "as follows" or "like what follows", and qualifies 書いてある, "being written (by someone)" as being done in this "following" manner.
+
+==== {idx:english:nominalising!Indicating an exact manner}, using {idx:english:nominalisers!まま} ====
+
+Unlike よう, まま actually specifies an exact manner. It takes a clause and specifies that what follows occurs in the exact same fashion. It follows nouns, linked with の, or verbal 連体形:
+
+  そのまま続(つづ)いて下(くだ)さい。
+  "Please continue like that."
+
+  行(い)くか留(とど)まるか彼(かれ)の決(き)めるままにさせよう。
+  "(We)'ll let him go or stay as he decides to."
+
+In this second sentence, 決める, "to decide", is turned into an exact way of decision, and linked to "him", (彼), to create "the way he decides (on something)", 彼の決めるまま. Note that while 決める is a verb, 決めるまま is, by the very role of まま as nominaliser, a noun phrase, and thus can be used in a genitive の linking.
+
+Another example, this time with a Japanese past tense that maps to an English present progressive, is:
+
+  帽子(ぼうし)をかぶったままで教室(きょうしつ)に入(はい)るべきじゃない。
+  "(One) shouldn't enter the classroom while wearing (their) hat/cap."
+
+The literal (though rather ungrammatical) translation of this sentence would be "in the manner of wearing one's cap, it is not the social thing to enter a classroom".
+
+==== {idx:english:nominalising!Stating purpose}, using {idx:english:nominalisers!為(ため)} ====
+
+When stating the purpose of a particular action, ため is used. This nominaliser takes a clause and links it up to a verb in the pattern [clause](の)ために[verb], where の is used if the clause is a noun phrase, and is omitted when it's a verb phrase in 連体形:
+
+  卒業(そつぎょう)するために一生懸命(いっしょうけんめい)勉強(べんきょう)します。
+  "(I) give studying (my) all so that (I) will graduate."
+
+In this sentence, the purpose of 勉強する (to study) is 卒業する (to graduate). Another translation would be "in order to graduate, I give my all at studying", but the concept of purpose is the same in both translations. In pairings between a noun and ため, the noun is typically a general concept noun, such as in:
+
+  愛(あい)のために何(なん)でもする。
+  "(I) will do anything for love."
+
+In this sentence, the purpose of する is the noun 愛, giving rise to the obvious translation.
+
+==== {idx:english:nominalising!Indicating apparent behaviour}, using {idx:english:nominalisers!真似(まね)} ====
+
+The noun まね literally means imitation, and it is typically used to indicate apparent (and insincere) behaviour. When an observer knows that certain behaviour is not typical, or is uncertain about whether it is genuine, まね can be used to show they are not sure that what they are observing is sincere. This usually comes down to まね being used in qualitatively negative (meaning it's the opposite of 'positive', rather than of 'affirmative') statements, implications or questions:
+
+  大人(おとな)の真似(まね)はやめるよ。
+  "Stop acting like an adult."
+
+  彼女(かのじょ)はいつもいつも泣(な)くまねをして、おかしいだよ。
+  "It's just weird (how) she always pretends to be upset (at the smallest things)."
+
+Of course, it can also be used for blanket questions such as 何のまねだ, which literally asks someone to explain their behaviour, with the implication that the actions are perceived as not being sincere or genuine. Translations for this can vary wildly, due to the fact that it refers to behaviour, but typical translations are "What do you think you are doing?" or "What's going on here?".
+
+==== {idx:english:nominalising!Talking about a 'something'}, using {idx:english:nominalisers!と言(い)う} ====
+
+There is one last nominalising statement we need to look at, and that's the nominaliser that lets us make comments regarding "somethings". In English, a sentence such as "The beach is a crowded place" can be interpreted in two different ways - the first as a specific statement pertaining to a particular beach, the second as a commentary on beaches in general. In Japanese, these two different interpretations use different grammatical patterns, with the first being a simple [X]は[Y]です statement, and the second using と言う:
+
+  海(うみ)は賑(にぎ)やかです。
+  "The beach is (so) busy."
+
+  海(うみ)と言う、賑(にぎ)やかなものです。
+  "The beach (in general,) is (a) busy (place)."
+
+The difference in interpretation comes from what と言う literally means: [X]と言う translates to "that which we call X". と言う can be suffixed with の, のは, もの and こと to do the expected things, and usually is:
+
+  田舎(いなか)から来(き)た彼(かれ)が、海(うみ)と言うものを見たこともない人(ひと)だった。
+  "He, having come from a rural area, had never (even) seen anything like (what we call) the beach."
+
+To demonstrate the contrast, the sentence without と言うもの means something subtly different:
+
+  田舎から来た彼が、海を見たこともない人だった。
+  "He, having come from a rural area, had never (even) seen the sea."
+
+In the sentence without と言うもの, the crucial "what we call" is missing, changing the meaning of 海 from what we generally understand as being called "the beach", to its literal meaning of "sea".
+
+This construction is also quite convenient when you want to ask questions:
+
+  A: 日本語(にほんご)で会話(かいわ)をしましょうか。
+  B: どうもすみませんが、「かいわ」と言うのは、何ですか？
+
+  A: "Shall we have a Japanese kaiwa?"
+  B: "I'm terribly sorry, but what is a 'kaiwa'?"
+
+This "using と言う in order to turn a specific thing into a general statement" is a very common practice in Japanese, and you'll be hearing it a lot, which makes this both an important construction to know, as well as not that important to learn; since you’re going to be continuously exposed to it anyway‚ you’re most likely to learn it through pure conditioning.
+
+===== {idx:english:Social language} patterns =====
+
+In addition to language constructions, it is also important to know how to talk to other people. Social status and respectfulness are important facets of the Japanese culture, and thus are reflected in the Japanese language. In fact, the Japanese language is so interwoven with social levels that the rest of this chapter is devoted to it, foucssing on such matters as giving and demanding face (a concept akin to showing and demanding social respect), addressing others, giving and receiving, and steering people's behaviour through suggestions and recommendations.
+
+==== {idx:english:Showing@showing face} and {idx:english:demanding face} ====
+
+In Japan, and thus when using Japanese, you must constantly be aware of what your relation is to speakers and listeners with respect to social position. You do not speak to your boss in the same way that you speak to your friends, but you will not speak to the visiting boss of a different company as you will speak to your own boss. While you might speak informally with your friends, if one of your friends shows up as part of an ambassadorial delegation, you will be required to speak to him as part of the ambassadorial delegation, not as your friend — the style of Japanese used heavily depends on which group you are in, and whether others are in the same group or not.
+
+=== The {idx:english:in-@in-group} and {idx:english:out-@out-group} groups ===
+
+Whether you're at home, at school, at work or at play in your own time, there is always the concept of the {gls:glossary:in-group}, or {idx:english:うち},  and the {gls:glossary:out-group}, or {idx:english:そと}. These words also literally mean "in" and "out", respectively, and are highly relevant to deciding what levels of politeness and humble or honorific speech are required in your speech.
+
+Familiar speech can only be used with people in your familiar in-group. This group may include family, or good friends. Speech patterns such as highly contracted speech, plain form and same-level giving or receiving may be used, and you may refer to people in this group by a nickname or by their name either without any title suffix or with an affectionate suffix such as ちゃん or くん. However, for older in-group members, simply by virtue of them being older and thus deserving more respect, it is customary to show face by using someone's title (such as for parents or older siblings) or their family name suffixed with さん (for friends that have earned a measure of respect). This means that a younger sibling might call her brother お兄(にい)さん, using his title, but he might in turn refer to her by her given name, or given name suffixed with ちゃん, instead.
+
+The formal in-group constitutes people who you are associated with through your daily activities, work, hobbies or through some other means of direct association. With these people, and in the setting of that association, politeness is the key. If you work with several people, two of which are good friends of yours, then you may use informal speech when talking only to them, but when the discussion involves other co-workers, the setting changes to formal in-group, and formal polite speech is required. Just as you cannot mix "proper speech" with "banter style" speech in most western countries, you should not mix speech patterns when using Japanese. Speech patterns in the formal in-group involve {idx:english:丁寧語(ていねいご)}, {idx:english:speech patterns!polite} speech, characterised by the use of です/ます form, making sure ありがとう is always followed by ございます, and by using the appropriate name and title suffixes. People are referred to, directly and indirectly, by their family name suffixed with さん, and people in special positions are referred either by their title, or by using their family name suffixed with their title.
+
+The informal {idx:english:out-group} consists of people that you have no special relationship with. People that ask you a question in the street, the bus conductor, the fast food employee - all of these belong to the informal out-group, and when talking to them you are expected to use 丁寧語, and address them if you must by using their family name suffixed with さん, or a title if it is apparent that their role deserves one.
+
+The formal out-group is a complex group, because in this setting the social differences come into play. Anyone not in your in-group in a particular setting, who is of identifiable higher social status than you, is part of the formal out-group, and deserves to be spoken to respectfully. This does not just mean using 丁寧語, but also {idx:english:尊敬語(そんけいご)} and {idx:english:謙遜語(けんそんご)}, the {idx:english:speech patterns!honorific} and {idx:english:speech patterns!humble} speech patterns. For instance, while you may work at a company, the company's vice president will typically not be part of your work in-group, and certainly doesn't fall in the informal out-group. He should be spoken to using polite honorific forms, and when speaking about your own actions, you should humble yourself by using humble speech patterns.
+
+Finally, there is one last group that needs mentioning: the "not relevant in terms of social setting (yet)" group, associated for instance with small children, or newcomers to a school, job or club. People in this group may be referred to using affectionate terms such as ちゃん or くん, but interpreting these as an indication that they are part of the speaker's familiar in-group would be a huge mistake to make. Instead, these terms indicate the they have no social value yet.
+
+=== Moving between groups ===
+
+While these group definitions sound relatively straightforward, transitions from {idx:english:out-group} to {idx:english:in-group}, or from formal to familiar in-group, are much harder to characterise, and can lead to considerable problems if one party believes a transition from out- to in-group or from formal to familiar has occurred, when the other party does not.
+
+Imagine you have just accepted a job at a Japanese company. You are assigned a mentor, and at first the division is clear. You know nothing, are nothing, and your mentor is responsible for shaping you into a proper employee. To your mentor, you will rank as 'not on the social ladder yet', and to you, your mentor will sit in the formal out-group. This means that you may be addressed using ちゃん or くん, and you will address him or her with their title, {idx:english:先輩(せんぱい)}, while you are being mentored.
+
+Now we move the clock forward by half a year. You have been accepted into the workforce formal in-group, and have even made some good friends from within that group, going drinking on the weekends with them. You are still working with your mentor, but no longer under a mentor/trainee relation, but as a co-worker relation, and you decide that it is time you start to use their name suffixed with さん, rather than keep calling them 先輩, and in doing so you have made a critical and relationship-breaking mistake.
+
+Moving people from a group to a more intimate group always requires explicit permission from the person you're moving — if your mentor never indicated that he or she believed you were now well integrated into the workforce, then you could sing high or low, work there for six months or six years, but until they give notice that they consider you worth giving more face, they will stay a 先輩, and unilaterally deciding that you no longer consider them one means that you are not showing them the right amount of face.
+
+The same goes for making friends in school. You address people as if they're part of the informal out-group until they indicate that you may refer to them in a way consistent with the formal or familiar in-group. When the relation is between someone of higher social status and someone of lower social status, the permission has to come from the person of higher social status, but in situations where the social status is on equal footing, such as with classmates or co-workers, it typically involves a period of feeling around for the boundaries of your personal relationship, and at some point at least indicating that you do not mind if they refer to you in a way that corresponds to a closer group.
+
+=== {idx:english:Demanding face} ===
+
+If things go wrong, it would be wonderful if someone would just say that it did, but typically this will not happen. Instead, rather than explaining that they are uncomfortable with you addressing them using the speech patterns belonging to a more intimate group than they expect to be in, their own speech pattern will become more distal. What was natural Japanese one day may suddenly be changed to formal and distant Japanese after your mistake, and that's usually the only clue you'll get that something went wrong. Rather than demand face, you will be confronted with the fact that you acted inappropriately by a change in speech pattern, and you would do well to notice it - making someone lose face, or not giving enough face, can only be compensated by observing the right levels of formality again until the incident has been forgotten, or at least left in the past.
+
+This also means that you are responsible for demanding face yourself. Not demanding face because you're just that nice a person doesn't fly. You are responsible for behaving properly according to Japanese custom, and that means you must take responsibility when it comes to maintaining the social balance. If someone gets too familiar with you, a change from formal polite to distal polite language is the clearest signal you can give that certain boundaries have been crossed.
+
+==== {idx:english:Addressing people} ====
+
+Certainly one of the things that is more important in Japanese than in a lot of  western cultures, in terms of social language use, is picking the right pronouns and names when addressing people. Not because the terms are particularly difficult, but just because there are actually a great number to choose from. Personal pronouns and name suffixes play an important role in being able to navigate your way through interpersonal dealings, so a brief moment to examine which words can be used, and when, will go a long way to helping you stay on top of every day Japanese.
+
+=== {idx:english:Personal pronouns} ===
+
+Some people may tell you that Japanese has no word for "you", based on the fact that the standard way to address someone in Japanese is to use their name, paired with a suffix to indicate their title, rank, or social relation to you. However, this would be drawing the wrong conclusion: one avoids using direct personal pronouns as much as possible in Japanese, but there are in fact a great number of direct personal pronouns that can be used when the need arises. The important thing to note is that because of the way in which people are normally addressed, using personal pronouns carries "extra weight" — all of them mean more than just "I" or "you". Specific pronouns connote differences in social levels, as well as different politeness levels.
+
+As mentioned all the way at the beginning of this book, Japanese is a sparse language, and personal pronouns fall in the category of words that are omitted once established in a conversation. While in English, for instance, one would constantly use the personal pronoun "you" to indicate a listener or reader, in Japanese this is considered poor language skills and would be experienced as highly annoying to have to listen to. This goes for all personal pronouns; after they have been used, and while the conversation is focused on the person(s) they indicate, they are left out of the conversation. Explicitly keeping them in is not just considered bad form, it can even be considered an insult, as it amounts to indicating that you believe your conversational partner is unable to understand what you mean if you leave them out.
+
+That said, sometimes you simply need personal pronouns, and for those occasions it serves to know which can be used in which setting.
+
+== {idx:english:personal pronouns!First person} pronoun - "{idx:english:personal pronouns!I}" ==
+
+  * {idx:english:personal pronouns!私(わたくし)} — an overly formal version of "I". This personal pronoun is typically too formal for any situation you will be in.
+  * {idx:english:personal pronouns!私(わたし)} — the gender-neutral, formality-neutral personal pronoun for "I" or "me".
+  * {idx:english:personal pronouns!私(あたし)} — a female-only version of the formality-neutral person pronoun
+  * {idx:english:personal pronouns!私(わし)} — the formality-neutral personal pronoun for "I" or "me" used predominantly by elders.
+  * {idx:english:personal pronouns!僕(ぼく)} — literally, this noun means servant. Used predominantly by men, this personal pronouns means you humble yourself in respect to the listener. While predominantly used by men, it can be used by women too, and due to its meaning as noun, may actually also be used to mean "you" when addressing servants (although this does make the speaker look down upon whomever 僕 is used for).
+  * {idx:english:personal pronouns!俺(おれ)} — a boastful first person personal pronoun, which is used when you are confident that sounding boastful is accepted. Predominantly used by men, this can also be used by go-getting women.
+  * {idx:english:personal pronouns!拙者(せっしゃ)} — a classical personal pronoun meaning "I". You are most likely to hear this pronoun used in samurai drama, rather than in every day Japanese.
+
+== {idx:english:personal pronouns!Second person} pronoun - "{idx:english:personal pronouns!you}" ==
+
+  * {idx:english:personal pronouns!君(きみ)} — a version of "you" that contains a slight element of looking down on someone. You are technically placing yourself higher on the social ladder when you use it.
+  * {idx:english:personal pronouns!お前(まえ)} — a crass and almost rude way to say "you"
+  * {idx:english:personal pronouns!貴方(あなた)} — the distal, deferred way to say "you". Because it is very formal, it can also be considered impolite outside of very formal settings. Remember from the こそあど section that あなた can also be used as an intimately familiar personal pronoun.
+  * {idx:english:personal pronouns!あんた} — the shortened version of あなた, this is roughly the same as using お前.
+  * {idx:english:personal pronouns!貴様(きさま)} — something to avoid. While 貴 means "precious" or "honor", and 様 is an honourable suffix, this word has made a half turn from being used as a classical honorific pronoun to a modern day {gls:glossary:accusative} pronoun, and is as close to a curse word as possible without actually being one.
+  * {idx:english:personal pronouns!己(おのれ)} — another pronoun to avoid. While classically this pronoun meant "you", its meaning has shifted to an accusative pronoun instead, similar to 貴様.
+  * {idx:english:personal pronouns!お主(ぬし)} — a classical personal pronoun meaning "you". You are most likely to hear this pronoun used in samurai drama, rather than in every day Japanese.
+
+== {idx:english:personal pronouns!Third person} pronoun - "{idx:english:personal pronouns!he}/{idx:english:personal pronouns!she}" ==
+
+  * {idx:english:personal pronouns!彼(かれ)} — while a neutral "he", this word should be avoided simply because it is considered bad practice to use personal pronouns. Because of this, it is slightly {gls:glossary:derogative} to the person you're referring to if you know them by name.
+  * {idx:english:personal pronouns!彼女(かのじょ)} — when used as personal pronoun, has the same connotation as 彼, except for girls. However, in addition to being a personal pronoun it can also mean "girlfriend" as a regular noun (with the noun version of 'boyfriend' being 彼氏(かれし)).
+  * {idx:english:personal pronouns!奴(やつ)} — A derogatory gender neutral third person pronoun. This pronoun is generally associated with 悪口(わるぐち), literally "speaking evil of someone", meaning talking (derisively) about someone, behind their back.
+
+Japanese has no explicit plurals, so you might think that expressing "{idx:english:we}" or "{idx:english:them}" might require separate words too, but this is not the case. There exist "group suffixes" in Japanese that can be used with personal pronouns to turn the single person "me" into the group "we", the single person "you" into the group "you [people]" and the single persons "he"/"she" into the group "them". There are two in common use in modern Japanese, the first of which is ～{idx:english:達(たち)}, which is used to turn virtually all personal pronouns into personal group pronouns. The second, which is used with a few specific pronouns, is ～{idx:english:等(ら)}. This is an older suffix, and can be used to turn お前 ('you') into {idx:english:お前等@おまえら (お前ら)} (plural 'you'), 彼 ('he') into {idx:english:彼等@かれら (彼等)} ('them') and 貴様 (accusative 'you') into {idx:english:貴様等@きさまら (貴様等)} (plural accusative 'you').
+
+When using {idx:english:personal pronouns!group suffixes} for 彼 or 彼女, it depends entirely on the gender of the first person in the group that you refer to. If there's a group of mixed gender but you were just talking about a female member of the group, then the entire group can be referred to using 彼女達. Similarly, if a male member of the group was talked about, 彼等 will refer to the exact same group. It should be noted that these markers are not true plural markers. 私達 literally means "the group I am part of", and can refer to either a physical group gathered at some point in time at a specific location, or can refer to someone's in group. Similarly, 等 is also a group marker, where for instance お前等 means "the group you are part of". It is important to remember this, as some translations for sentences that have plural personal pronouns cannot use these 達/等 markers:
+
+  "As the committee on social affairs we have decided to ...."
+
+This kind of sentence, in which someone speaks for an entire group, requires the "group representative" personal pronoun 我, pronounced either as わ, in the pattern {idx:english:personal pronouns!我(わ)}が[...] or as われ in the pattern {idx:english:personal pronouns!我(われ)}は[...]. To turn this pronoun into a group pronoun, the special word 我々(われわれ) is used, rather than adding the group suffixes 達 or 等.
+
+However, the most important thing to remember is that you should try to use personal pronouns as little as possible. Instead, if you're referring to someone of whom you know the name, use their name suffixed with さん, or a more specific name suffix instead. If you do not know their name,  find out what it is. The only polite way to refer to people is as people — avoid referring to them as mere objects by using pronouns.
+
+=== {idx:english:Name suffixes} ===
+
+There are various name suffixes that indicate different kinds of social relations, and using them out of place can have an effect anywhere from sounding like you're joking around a bit, to simply insulting someone. For this reason, it's a good idea to go over the list of common name suffixes, and see what they do. Also important is to note that people in Japan refer to each other by their family name, suffixed with the appropriate name suffix, and not by first name until there is a clearly defined friendship.
+
+== –{idx:english:name suffixes!さん} ==
+
+This is the {idx:english:name suffixes!standard name suffix} that is used across Japan to refer to, as well as to call the attention of, people to whom you have no particular relationship.
+
+== –{idx:english:name suffixes!様(さま)} ==
+
+An honorific suffix, this name suffix is used when someone is of considerably higher status, used to indicate a master in a master/servant relation, or a patron in a patron/proprietor relation. This suffix is also used when writing someone's name as recipient on a letter or card, where it can be followed by へ to indicate that this name is to be the recipient of the communiqué.
+
+== –{idx:english:name suffixes!殿(どの)} ==
+
+A classical honorific suffix, that is in use today principally for formal addressing in writing. Like  様(さま),  殿 can be used on letters and cards for indicating the recipient.
+
+== –{idx:english:name suffixes!氏(し)} ==
+
+This name suffix is used to indicate that someone is a representative of a specific house or has a particular lineage, similar  to the official English title "sir" or "distinguished gentleman". Historically this name suffix has only been used for men, as women did not act as representatives of a house, and this gender specific use has not changed to date.
+
+== –{idx:english:name suffixes!先生(せんせい)} ==
+
+Commonly associated with meaning "{idx:english:teacher}", someone who is referred to with 先生 is not necessarily a teacher by profession. For instance, a doctor is a 先生, as is a school teacher, a lawyer, or an expert on politics. When someone is called upon for their knowledge, then in this role they are addressed with 先生.
+
+== –{idx:english:name suffixes!ちゃん} ==
+
+While typically associated with little girls, —ちゃん is actually an affectionate suffix. It can be used for boys, girls, men and women alike, but only when there is a relation that is close and/or amiable. While it  can be used for anyone, it does deserve mention that it is indeed used for women more than for men.
+
+== –{idx:english:name suffixes!君(くん)} ==
+
+This suffix is an amicable suffix, similar to ちゃん, but has a slightly different connotation. While ちゃん finds it origin in young children who cannot say さん yet, and thus is readily associated with little kids and other cute things, 君 doesn't actually come "from" anything, but is a word on its own, also used to mean "junior", both in the naming sense as well as the social hierarchy system. While still being used for this, it has also picked up the added meaning of being a suffix used amongst equals who have an amicable relationship.
+
+== {idx:english:name suffixes!呼(よ)び捨(す)て} ==
+
+This is not so much a suffix as the complete opposite: the practice of 呼び捨て refers to calling someone by just their name, without any suffix, and the word refers to discarding (捨てる) formalities when calling (呼ぶ) each other.
+
+== Nicknames ==
+
+A final, drastically different, approach is to come up with a nickname for someone based on their name, a habit, some personal feature, or whatever random thing you can think of that might make good material for a nickname. This practice is fairly obviously reserved for close relationships.
+
+===== Acknowledging social status =====
+
+The most important way in which to acknowledge social status, and differences in status, is through your choice of phrasing when it comes to asking for things, or doing things for people. These are not trivial subjects, and the next two sections will explain this in (perhaps excruciating) detail.
+
+==== {idx:english:Giving} and {idx:english:receiving} ====
+
+Giving, or doing something for someone, and receiving, or taking a liberty (i.e., helping oneself to something) are concepts that seem simple if you're used to the English way of expressing yourself, but in Japanese, these seemingly trivial things require quite a bit of explanation, as they are dependent on relative social status and the direction of giving or receiving, as well as involving a careful choice in particles to use. Involving both plain verb forms and て form conjunctions, the acts of giving, or doing for someone, and receiving, or taking a liberty or having someone do something, cover some of the more complicated verb constructions in the language.
+
+What makes things so complicated is that the verb used, and its implied meaning, can make the difference between respectful behaviour and rather blatant indirect insults; confidently using the wrong verb can pretty much declare that you experience your status relative to your partner very differently from what they thought it was. In the best case, this can lead to short lived misunderstandings, but more often than not it will result in a suddenly much more distal relationship.
+
+So, let us look at the right way, as well as the wrong way, to handle this culturally grounded practice.
+
+=== {idx:english:Giving}, or {idx:english:doing for someone} ===
+
+In Japanese, "giving" and "doing ... for (someone)" are, at least grammatically, the same thing. However, while in English "giving" involves just the one verb, in Japanese things are not that simple: depending on the social status of the individual parties and who is doing the giving, different verbs are used. This comes down to two possible "directions" of giving/doing for, the first of which is giving 'away':
+
+  - first person ("I" or "we") to second person ("you"), i.e. "I give to you",
+  - second person to third person ("him", "her", "them" or "it"), i.e. "you give to her", and
+  - first person to third person, i.e. "I give to them".
+
+Giving or doing for, in this "direction", can be done using three different verbs, with the choice depending on the social difference between the giver and the receiver:
+
+  - if the giving is being done to someone or something whose status is irrelevant (very good friends, young children, pets, etc.), (連用形+て+) {idx:english:giving!やる} is used.
+  - if the giving is being done to someone of equal or higher status, (連用形+て+) {idx:english:giving!上(あ)げる} is used. In writing, both kanji and kana forms may be used.
+  - if the giving is being done to someone of greatly higher status, (連用形+て+) {idx:english:giving!差(さ)し上(あ)げる} is used. In writing, both kanji and kana forms may be used.
+
+Now, this requires a bit more explaining because when it comes to giving, virtually any situation involves giving to "equal or higher status". Unless you intend to highly offend someone, basically anyone capable of normal interaction will, for the purpose of being given to, be of equal status at the very least. If we have never met before, and I have something to give you, then I will describe this giving from me, to you, using either 連用形+て+上げる (for the giving of an action, i.e., doing for you) or just {idx:english:上げる@giving!上(あ)げる} (for the giving of an object):
+
+  ぜんぜん知(し)らない人(ひと)に何々(なになに)を上げました。
+  "I gave something-or-other to a person I don't know in the slightest."
+
+  ぜんぜん知らない人に何々をして上げました。
+  "I did something-or-other for a person I don't know in the slightest."
+
+The reason that we are of equal status (at the least) is essentially one of politeness. Unless I despise you, any event in which I give you something means there is at least a modicum of respect, and as such I will indicate this by using the verb 上げる, which literally translates to "lift (something)". By using this verb, and for the duration of the giving, I lower my own social status, and elevate yours. If you accept my gift, things go back to normal. However, in typical Japanese style, most gifts (even the gift of doing something for someone) between non-familiar people, meaning not good friends or family members, will at first be mock-refused. This is one of those interesting cultural patterns where behaving like a foreigner can cause serious problems: it is customary to kindly refuse any gifts or offers for help, so that the giver can insist. Only then will a gift or offer for help be accepted. Not because the receiver had to be persuaded, but because that's simply the only proper way to go about the issue of giving, in Japan. If you are offered tea, kindly refuse, then accept once offered again. Flat out accepting could easily be considered rude, and flat out rejecting quite possibly even more so.
+
+So with that covered, a few examples of giving:
+
+  君子(きみこ)さんにお花(はな)を買(か)ってあげました。
+  "(I) bought flowers for Kimiko."
+
+  母(かあ)さんにゴミお捨(す)ててあげました。
+  "I threw the garbage away for my mother."
+
+  友達(ともだち)に誕生日(たんじょうび)ですごく面白(おもしろ)い本(ほん)をあげました。
+  "(I) gave my friend a really interesting book for (his) birthday."
+
+You may have noticed that all the parts of these sentences that translate to "for ..." have been marked with the particle {idx:english:verb particles!に}. As mentioned in the section on verb particles in the chapter on basic grammar, this kind of prepositional phrase is simply treated as a verb detail in Japanese, and as such is marked with に. You may have also noticed that in the last sentence, 上げる was used on its own: when used alone, it strictly means "give". When used in 連用形+て+上げる for, it typically means "doing ... for (someone)".
+
+In cases of severe difference in status, such as a maid serving dinner for a household, or a clerk handing a CEO a report, 上げる is not enough. The more formal 差し上げる must be used. However, as you are unlikely to find yourself in a situation warranting this verb, 上げる (for actual gifts) and 連用形+て+上げる (for actions) should be all you need.
+
+Before we move on, the previous example sentences may have created a wrong impression concerning who can do the giving when using this verb. As mentioned, this concerns giving from first to second, second to third, and first to third person, so in fact all the following translations are correct (in the absence of some disambiguating context):
+
+  友達に誕生日ですごく面白い本をあげました。
+  "I gave my friend a really interesting book for his birthday."
+  "We gave our friends really interesting books for their birthdays."
+  "You gave my friend a really interesting book for his birthday."
+  "You gave your friend a really interesting book for his birthday."
+  "I gave your friends really interesting books for their birthdays."
+  etc.
+
+The variations are quite numerous, but usually sentences such as these will be used in a setting where it is relatively easy to determine which of the multitude of interpretations is the most likely intended one, due to contextual information.
+
+So that leaves the verb やる. We can be fairly brief about it: you do not use {idx:english:giving!やる}, except in the rare event where the giving is done to something inherently without social status:
+
+  子供(こども)たちにお菓子(かし)をやった。
+  "(I) gave the children some candy."
+
+But even this is not without danger: if the children in this example sentence were, for instance, your boss's children, then saying you got them candy using this phrase to your boss would in fact be quite rude, as you have just implied his children are without social value. So, be careful, and if at all possible avoid using やる entirely.
+
+やる technically means "do", similar to {idx:english:する}, but while it is possible to use this verb as alternative to する in a highly informal intimate setting (with close friends, for instance), it's all too easy to accidentally use it with someone who was not aware you considered them part of the group for which status was irrelevant. So again, use with care, and if possible, simply do not use it.
+
+With so much explanation, one would almost forget that this only covered the first of the two directions for giving. However, there's also the opposite direction:
+
+  - third person to second person, i.e. "he gives to you",
+  - second person to first person, i.e. "you give to me",
+  - third person to first person or, i.e. "she gives to me", and
+  - third person to (other) third person, i.e. "they give to them".
+
+Giving, or doing for, in this "direction" can be done using two very different verbs, the choice of which — again — depends on the social difference between the giver, and the receiver:
+
+  - if the giving is being done by someone of equal or higher status, (連用形+て+) {idx:english:giving!下(くだ)さる} is used. In writing, both kanji and kana forms may be used.
+  - if the giving is being done by someone you are on a familiar basis with, (連用形+て+) {idx:english:giving!呉(く)れる} is used. In writing, this typically uses the kana form.
+
+This should be relatively obvious in terms of how to use it. If a teacher, a boss, or simply someone you don't know gives you something, or does something for you, 連用形+て+{idx:english:giving!下(くだ)さる} is used:
+
+  母親(ははおや)がプレゼントをくださいました。
+  "(I) received a gift from (my) mother"
+
+  先生(せんせい)がいいものを見(み)せてくださいました。
+  "(My) teacher showed (me) something quite good."
+
+Rather than using に, these are normal verb actor phrases, so 母さん and 先生 are simply marked with {idx:english:verb particles!が}, or は if we need to disambiguate. If we wanted to use に (which is possible), then we would have to first make the sentence passive, so that the tense matches the particle:
+
+  先生にいいものを見せられてくださいました。
+  "(I) was shown something quite good by (my) teacher."
+
+Now, again, the sentences might create the wrong impression that it all centres around third to first person. To once more show the multitude of possible interpretations in the absence of disambiguating context, a list of possible translations for the last phrase:
+
+  先生がいいものを見せてくださいました。
+  "My teacher showed me something quite good."
+  "Your teachers showed them something quite good."
+  "His teacher showed you something quite good."
+  "Our teacher showed us something quite good."
+  etc.
+
+In a familiar setting, rather than 下さる, which literally translates as "issuing (something)", such as issuing orders to (lower ranked) troops, we can use the verb {idx:english:giving!呉(く)れる}. When talking to, or about, friends or even family members, this verb does exactly the same as 下さる:
+
+  春香(はるか)ちゃんが素敵(すてき)な鞄(かばん)をくれた。
+  "(I) got (this) wonderful (new) bag from Haruka."
+
+  友達(ともだち)がずっと欲(ほ)しかったDVDを買(か)ってくれた。
+  "(I) was bought the DVD (that I) wanted for a long time by (my) friend."
+
+Regardless of whether we use 下さる or くるれ, we can explicitly add in the receiver, if that information is required. In this case, we are forced to use {idx:english:verb particles!に} to mark the recipient of the action, but do not confuse this for what に does in the presence of a passive verb form:
+
+  春香さんが君子(きみこ)さんに素敵な鞄を下さった。
+  "Haruka gave Kimiko a wonderful (new) bag."
+
+In this sentence, because it's in the active voice, 春香 is the verb actor, and 君子 the receiver. If we use a passive construction instead, we get:
+
+  春香さんが君子さんに素敵な鞄を下さられた。
+  "Haruka was given a wonderful (new) bag by Kimiko."
+
+Here, because it is a passive voice, the buying was done by 君子, and 春香 is actually the subject of "having been bought for", now being the receiver! Not only the verbs count, so do the particles!
+
+=== {idx:english:Receiving}, {idx:english:having done for}, or {idx:english:taking a liberty} ===
+
+Receiving, luckily, only concerns one "direction" and uses the two verbs {idx:english:receiving!貰(もら)う} and {idx:english:receiving!頂(いただ)く} or {idx:english:receiving!戴(いただ)く} (the choice of which kanji to use is mostly arbitrary, as in this use いただく and もらう are typically written in kana, rather than using kanji forms):
+
+  a) third person to second person, i.e. "you get from her",
+  b) second person to first person, i.e. "I get from you",
+  c) third person to first person, i.e. "I get from them", and
+  d) third person to (other) third person, i.e. "they get from him"
+
+Just like the verbs for giving, もらう and いただく apply to different status levels respectively. While both apply to receiving from someone of higher or equal social status, the difference in social level determines which verb is used:
+
+  1) if the receiving is from someone of equal or higher status, (連用形+て+) {idx:english:もらう} is used. The kanji form is rarely used for this verb.
+  2) if the receiving is from someone of significantly higher status, (連用形+て+) {idx:english:いただく} is used. The kanji forms are rarely used for this verb.
+
+You may recognise いただく from its polite present tense: {idx:english:いただきます}, which is used as a set phrase, spoken before starting a meal. Literally, this phrase means "I (humbly) receive (this food)" or "I will (humbly) help myself to (this food)". Both meanings are essentially simultaneously true, which highlights an interesting aspect of "receiving" in Japanese: just as "giving" and "doing for (someone)" are considered essentially the same thing, so too "receiving", "having done for" and "helping oneself to (something)" are considered the same thing.
+
+When the verbs もらう and いただく are used on their own, then the "receiving" as well as the "{idx:english:helping oneself@helping oneself to ...}" interpretation are possible, and when used combined with a 連用形+て combination, the interpretation is typically "having (something) done for (someone)":
+
+  おばさんに貸(か)した本(ほん)を返(かえ)して貰(もら)った。
+  "(I) got back from (my) aunt the book (I) lent (to her)."
+
+  父(とう)さんに新(あたら)しい自転車(じてんしゃ)を買(か)っていただきました。
+  "(I) got bought a new bicycle by my father."
+
+When the activity in question involves direct contact, {idx:english:verb particles!に} may also be substituted by {idx:english:から}, which rather literally means "from":
+
+  おばさんから貸した本を返して貰った。
+  "(I) got back from (my) aunt the book (I) lent (to her)."
+
+The interesting fact about these statements is that they can also be interpreted as quite selfish: both 貰う and いただく have an element of prompted action to them. Rather than things being given, or acts being performed out of the kindness of people's hearts, we are in some way responsible for them being done for our benefit, which is why we can interpret these verbs as expressing taking a liberty, too:
+
+  おばさんに貸した本を返して貰った。
+  "(I) got (my) aunt to return the book that (I) lent her."
+
+  父さんに新しい自転車を買ってただきました。
+  "(I) got my father to buy (me) a new bicycle."
+
+This may sound odd, but think of it this way: if the actions were genuinely unprompted, they would have been gifts. And for gifts we use very different verb constructions:
+
+  おばさんが貸した本を返して下さった。
+  "(My) Aunt gave me back the book (I) had lent (her)."
+
+  父さんが新しい自転車を買って下さった。
+  "My father bought (me) a new bicycle."
+
+Another good example of using もらう or いただく for taking a liberty is the following short conversation:
+
+  A: 誰(だれ)のリンゴですか。
+  B: 恵子(けいこ)さんのよ。
+  A: そうですか。
+  (A takes an apple)
+  A: なら、一個(いっこ)もらうわ。
+
+Which translates to:
+
+  A: "Whose apples are these?"
+  B: "Oh, they're Keiko's."
+  A: "I see..."
+  A: "Well then, I'll just help myself to one."
+
+It should be fairly obvious what's happening in this exchange: much like how the verbs あげる, くださる and くれる can mean "give", もらう and いただく can be used to mean "take".
+
+=== In summary ===
+
+To summarise these rather complex patterns, what follows are three images representing the three different acts: giving (something), being given (something), and receiving (something). Note that the numbers 1, 2 and 3 in the images represent "first person", "second person" and "third person" respectively:
+
+== Giving ==
+
+{{:diagram-giving.jpg|A schematic representation of verbs involved in giving in Japanese}}
+
+We see three "areas" in this image:
+
+  - When giving to someone socially much higher, we must use 差(さ)し上(あ)げる,
+  - when giving to someone who is either socially higher or equal, we must use 上(あ)げる, and
+  - when giving to someone (or something) without social status, we can use やる.
+
+== Being given ==
+
+{{:diagram-begiven.jpg|A schematic representation of verbs involved in 'being given' in Japanese}}
+
+We see two "areas" in this image:
+
+  - When being given something by someone who is socially higher, we describe their giving by using 下(くだ)さる, and
+  - when being given something by someone who is socially equal or lower, we describe their giving by using 呉(く)れる.
+
+== Receiving ==
+
+{{:diagram-receiving.jpg|A schematic representation of verbs involved in receiving in Japanese}}
+
+We see two "areas" in this image:
+
+  - When receiving something from someone who is socially higher, we describe our receiving by using 頂(いただ)く or 戴(いただ)く (the choice of which to use being essentially arbitrary, as いただく is generally written in hiragana in this use), and
+  - when receiving something from someone who is socially equal or lower, we describe our receiving by using 貰(もら)う.
+
+==== {idx:english:Indirect speech} ====
+
+One of the important things in using Japanese is to be indirect whenever possible in formal situations. This entails asking indirect questions instead of direct questions, making indirect suggestions instead of telling people what they should do according to you, and stating assumptions rather than stating truths, even if they are truths. This section will explain how to turn direct speech into indirect speech, and for which constructions this is easily done.
+
+=== Expressing {idx:english:hearsay} ===
+
+One way to state something indirectly is by making explicit the fact that you only heard or read something somewhere, rather than it being something that you believe or know. As mentioned in the section on comparison and likeness, this is done using the noun adjective {idx:english:そう}, in combination with a clause in 連体形, to form a hear-say construction. Compare the following two statements:
+
+  あの人気(にんき)なグループが解散(かいさん)する。
+  "That popular group will disband."
+
+  あの人気なグループが解散するそうだ。
+  "I hear that popular group will disband."
+
+While the first sentence implies that the speaker is certain of the stated fact, the second sentence states the information more carefully, stating that it seems the case that something is a fact, based on having heard or read it somewhere. This indirect form of stating something can only be done for second hand information, and should never be used to soften a statement that isn't actually hearsay.
+
+=== {idx:english:Negative questions} ===
+
+Asking a negative question is, in many languages, a way to politely ask someone to do something. For instance, "won't you join us for dinner?" is an English phrase that has the implied meaning "please join us for dinner", rather than the literal "you will not be joining us for dinner, will you?".
+
+In Japanese the same applies:
+
+  また遊(あそ)びに来(き)ませんか。
+  "Won't (you) come over (for a social visit) again some time?"
+
+  (In this sentence 遊ぶ is not used to mean "play" but "to spend time leisurely", hence the implied clause "for a social visit")
+
+A more polite way to ask {idx:english:negative questions} is to use the て form with a negative form of 下さい:
+
+  お茶(ちゃ)を飲(の)んで下(くだ)さいませんか。
+  "Won't (you) have some tea?"
+
+These negative questions can also be formed with plain negative form, but they become more informal that way:
+
+  ケーキを食(た)べない？
+  "Won't you have some (literally: eat) cake?"
+
+Giving answers to negative questions can trip up beginning students quite easily, as the following example illustrates:
+
+  A: 一緒(いっしょ)に行(い)かない？
+  B: はい。
+
+  A: "Won't you go (with me)?"
+  B: "Yes (I won't go with you)."
+
+The problem lies with the fact that an affirmative answer to a negative question affirms the negative. Usually it is easier to answer with what you will be doing, rather than using yes or no:
+
+  A: 一緒に行かない？
+  B: 行きます。
+
+  A: "Won't you go (with me)?"
+  B: "I will."
+
+An even better solution is to express your answer in the form of a motivation plus answer, when a negative question is asked, thus making it virtually impossible for your answer to be misinterpreted:
+
+  A: 一緒に行かない？
+  B: まあ, 暇(ひま)だし、行きますよ。
+
+  A: "Won't you go (with me)?"
+  B: "Well, (I'm) free (anyway), (so) sure, I'll go (with you)."
+
+=== {idx:english:Recommending}, using past tense + {idx:english:方(ほう)がいい@方(ほう)がいい} ===
+
+If we want to make a recommendation, there are various direct and indirect ways of doing so. One of the most common approaches uses a verb in plain past tense, paired with 方がいい, which creates a construction that essentially says "It might be better if you [...]".
+
+  A: 遅(お)くれてたから 彼女(かのじょ)に嫌(きら)われてる。どうしよう。
+  B: まあ、謝(あやま)った方がいいだろう？
+
+  A: "(My) girlfriend is angry with (me) because (I) was late. What should (I) do?"
+  B: "Well, wouldn't it be sensible (literally: good) to apologise (to her)?"
+
+This kind of recommendation is fairly direct, and thus some care must be taken in making sure that your relationship to whomever you make a recommendation to allows for this level of directness.
+
+=== {idx:english:Offering your opinion@offering an opinion} using {idx:english:-ば@...えば} ===
+
+A less direct way of recommending something is by offering your own opinion. Using a hypothetical conditional paired with your own opinion on how good or bad this situation would be is a less direct way to suggest a course of action to someone. For instance:
+
+  A: しまった。間違(まちが)いばかり書(か)いてた。
+  B: 直(なお)せばいいでしょう。
+
+  A: "Oh no, I've been writing mistakes all over the place."
+  B: "Well, it won't be that big of a deal if you just fix them?"
+
+While this is of course still reasonably direct in the sense that you're imposing your own opinion on someone, it is less direct than the previous past tense + 方がいい.
+
+=== {idx:english:Asking about an option@questioning suggestion} using {idx:english:-たらどう@...たらどう} ===
+
+A truly indirect way of making a suggestion is by offering it as an option, without actually saying whether you think it's the right course of action or not, effectively leaving the process of deciding whether it's a good idea or not entirely up to the listener:
+
+  A: どれほど勉強(べんきょう)してもこれが分(わ)かりませんよ。
+  B: そうですか。じゃあ、先生(せんせい)に聞(き)いたらどうですか。
+
+  A: "No matter how much I study I don't seem to understand this."
+  B: "Hmm. Well, what about asking the teacher?"
+
+This is the most polite way of making a suggestion, because it only stays at making the suggestion, without adding a personal recommendation to it, meaning you do not decide what the other person should do.
+
+=== Pseudo-future {idx:english:suggesting} and {idx:english:presuming@presumptive} ===
+
+As you may remember from the section on the pseudo-future from chapter 3, the pseudo-future can be used for three things, namely the dubitative, {idx:english:cohortative} and {idx:english:presumptive}, and it turns out that these last two are ideal for use in indirect speech, as they guess at the world and leave the conclusions or decisions based on these guesses up to the listener, instead of imposing your own opinions on them:
+
+  今日(きょう)はお寿司(すし)を食(た)べに行(い)こうか。
+  "Shall (we) go (out) for sushi today?"
+
+This question leaves the decision up to the listener, which is typically a polite thing to do, unless of course you're dealing with someone who is bad at making decisions, in which case using indirect speech is arguably not a good idea in the first place.
+
+  このコンピュータが故障(こしょう)してるのは、古(ふる)いからでしょう。
+  "The reason this computer is broken is (probably) because it's old (right?)."
+
+In this sentence, the speaker assumes that the computer in question is old, and leaves the matter of whether this assumption is correct up to the listener to decide, thus not providing potential disinformation to the listener. Of course, this is an over-analysis, and these forms aren't actually so much used to prevent disinformation as just used because indirect speech is polite, and that's what you use. However, the analysis does hold up to scrutiny for a good reason: not presuming to know better means you're never forcing anyone into anything, which makes you quite civilised.
+
+=== {idx:english:Double negative} statements ===
+
+In addition to these reasonably obvious suggestions, recommendations and opinions, we can also let our intentions shine through by using roundabout phrasing, thus softening our own convictions, opinions and intentions. The most common way this is done is by using double negative patterns, as described in the following sections.
+
+
+== {idx:english:double negative!Regular} double negative ==
+
+The regular double negative construction is essentially the same as in English, relying on the presence of {gls:glossary:volitional} verbs (say, do, believe, promise, etc.):
+
+  しないとは言(い)えません。
+  "(I) cannot say (I) won't do it."
+
+  部長(ぶちょう)に言わないとは約束(やくそく)しませんよ。
+  "I won't promise not to tell your boss."
+
+Note that in this use, the double negative is set up using と, in its role as 'quoting' particle.
+
+However, there is a more frequently used double negative pattern in Japanese, used in a more subtle way to express an affirmative, which deserves special attention.
+
+
+== {idx:english:double negative!Complex} double negative ==
+
+Frequently used, but certainly confusing the first time one sees or hears it, is the double negative hypothetical construction 未然形 + {idx:english:なければ} + {idx:english:ならない@なければならない}/{idx:english:いけない@なければいけない}. While it uses two negatives to do its job, it's actually used to imply an affirmative action instead. In a way, this makes sense: "I will not not-drink the coffee" has two negatives, but the first negates the second, so the sentence might as well read "I will drink the coffee". We see the same happening in the Japanese complex double negative, but with an added nuance:
+
+  勉強(べんきょう)しなければなりません。
+  literally: "It should not become a fact that I am not studying"
+  meaning: "I really should go study."
+
+This construction requires some analysis: the construction is formed by inflecting a verb in plain negative form, 未然形 + ない, and turning this into a hypothetical: 未然形 + なけれ + ば. This negative hypothetical is then followed by either the negative form of なる, "become", or the negative form of いける, which is a verb that expresses the figurative "will do" such as in "Yes, that will do nicely". Because they express slightly different things, the choice of which to use depends on what a speaker wants to express.
+
+Using 未然形 + なければ + ならない (or polite, using なりません) expresses that something "should" be done, i.e. that the negative verb action "should not come to be". Using 未然形 + なければ + いけない (or polite, using いけません) expresses that something "has to" be done, i.e. that the negative verb action simply "will not do". As such, ならない typically translates to a "need" to do something, whereas いけない typically translates to a "must":
+
+  ピアノの勉強をしなければなりません。
+  "I (really) need to practise piano (now)."
+
+In this sentence, there are no additional connotations: the speaker simply notes that they should practise piano. They might need to do so in order to improve, or because a recital is coming up, but this is left in the middle.
+
+  ピアノの勉強をしなければいけません。
+  "I must practise piano."
+
+In this sentence‚ there is the additional hidden information that not merely should the speaker practise‚ but that not practising will have undesirable consequences. Rather than just needing to practise‚ this practice has to be done to avoid whatever these undesirable consequences may be.
+
+Colloquially, there are shorter versions of なければ, namely なけりゃ and なきゃ.  Because of the colloquial nature of the shorter forms, these are typically paired with the plain negatives ならない and いけない, as well as even more colloquial ならん and depending on who you talk to, いかん or あかん. The first is strictly speaking the short negative form of いく, rather than いける; the second is a word often associated with the dialects spoken in the Kansai region, although it is also used in other parts of Japan.
+
+===== More advanced grammar =====
+
+While there are a lot more topics available in the discussion of Japanese grammar, a selection had to be made for a book titled an "introduction" to Japanese. This book already covers more than what you would traditionally find in an introductory reader on the language, and sticking in even more topics would make it a far more complete work, but also tremendously more voluminous. As such, this is the end of this introduction to Japanese syntax, grammar and language. For further grammar, I can recommend picking up copies of the Dictionaries of Basic, Intermediary and Advanced Japanese Grammar by Seichi Makino and Michio Tsutsui, and referring to them whenever you run across interesting grammar use in Japanese material, or going on in search of more specialised dictionaries and reference works — there are plenty available!
+
+\vspace{2em}
+
+I hope you enjoyed this book, and I wish you all the best in your studies!

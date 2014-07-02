@@ -1,0 +1,201 @@
+h1 {
+  border-bottom: 1px solid gray;
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+h4 {
+  font-size: 115%;
+}
+
+h5 {
+  font-size: 110%;
+}
+
+h6 {
+  font-size: 105%;
+}
+
+*[data-before]:before {
+  content: attr(data-before);
+}
+
+p {
+  text-align: justify;
+}
+
+nav {
+  position: fixed;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  top: 8%;
+  left: 25px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav:hover,
+nav.active {
+  background: white;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  bottom: 8%;
+  width: 13em;
+  height: auto;
+  padding: 0 0.5em;
+  overflow-y: auto;
+}
+
+nav ol {
+  margin: 0;
+  padding: 0;
+}
+
+nav ol + ol {
+  margin-left: 0.5em;
+}
+
+header {
+  text-align: center;
+}
+
+ol {
+  padding: 0;
+}
+
+ul {
+  margin: 0.25em 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+li {
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li.chaptertitle {
+  list-style-type: decimal;
+  margin-left: 1.5em;
+}
+
+nav ul.depth1 { margin-left: 0.25em; }
+nav ul.depth2 { margin-left: 0.50em; }
+nav ul.depth3 { margin-left: 0.75em; }
+nav ul.depth4 { margin-left: 1.00em; display: none; }
+nav ul.depth5 { margin-left: 1.25em; display: none; }
+nav ul.depth6 { margin-left: 1.50em; display: none; }
+
+section {
+  width: 800px;
+  margin: auto;
+}
+
+ruby {
+}
+
+rb {
+}
+
+rt {
+  color: rgba(0,0,0,0.4);
+}
+
+
+table {
+  margin: 0.5em 1em;
+  border-spacing: 1em 0.2em;
+}
+
+tr {
+}
+
+th {
+  border-bottom: 1px solid gray;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+th.noline {
+  border-bottom: none;
+}
+
+
+td {
+}
+
+td.label {
+  font-weight: bold;
+  padding-right: 0.5em;
+}
+
+div.example {
+  margin: 0.5em 0 0.5em 1em;
+}
+
+header img {
+  width: 50%;
+}
+
+img {
+  width: 70%;
+}
+
+only screen and (min-device-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+
+figcaption {
+   font-size: 80%;
+}
+
+/*
+  CSS3 vertical writing ftw.
+*/
+div.vertical {
+  margin-left: 1em;
+
+  -webkit-text-orientation: upright;
+  -webkit-writing-mode: vertical-rl;
+
+  -moz-text-orientation: upright;
+  -moz-writing-mode: vertical-rl;
+
+  -o-text-orientation: upright;
+  -o-writing-mode: vertical-rl;
+
+  -ms-text-orientation: upright;
+  -ms-writing-mode: vertical-rl;
+
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+}
+
+a {
+  color: #008;
+  text-decoration: none;
+}
+
+section a {
+  color: inherit;
+}
+
+a:hover {
+  color: #900;
+}

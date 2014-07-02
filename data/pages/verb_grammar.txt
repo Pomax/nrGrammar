@@ -1,0 +1,935 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Verb grammar ======
+
+As mentioned in the introductory chapter on syntax, there are two classes of verbal words in Japanese: {gls:glossary:verbs}, and {gls:glossary:verbal adjectives}. Both of these can be considered to consist of two parts: a verbal {gls:glossary:stem}, called the "{idx:english:gokan}" ({idx:japanese:語幹(ごかん)}), which indicates what the core meaning of a verb or verbal adjective is, and some additional hiragana called "{idx:english:okurigana}" ({idx:japanese:送(おく)り仮名(がな)}), which is used to indicate inflection.
+
+Unlike English, where verb stems are already usable on their own — the verb stem of "walk" is "walk", for instance — verb stems in Japanese require an inflection indicator in the form of okurigana, so before we move on to the actual rules of grammar concerning Japanese verbs and verbal adjectives, we must look at how verbs and verbal adjectives are composed in Japanese. We will first be deconstructing the verbs, after which we'll deconstruct the verbal adjectives.
+
+Note that in this chapter, as well as all following chapters, Japanese will no longer be romanised. So, if you haven't learned the hiragana script yet: now would be a good time to start!
+
+===== Inflecting =====
+
+In English, we are used to thinking of verb {idx:english:inflection}s in terms of 'the verb' plus some text that indicates the inflection. We consider "walked" to consist of "walk" with "-ed" tacked on the end, and "passing" as being "pass" with "-ing" added to it. However, many verb forms in English actually use helper verbs, so things like "will help", "let's dance", "be able to dive" are considered verb chains, with the helper verb(s) indicating the tense, mood and aspect.
+
+In Japanese, all verb inflections are in fact chains of helper verbs and verbal adjectives, but rather than being a long list of separated verbs like in English, they are added to the base verb one by one until all the {idx:english:inflection!tense}s, {idx:english:inflection!mood}s and {idx:english:inflection!aspect}s have been dealt with. For instance, the verb construction 待(ま)たされていました means "(I) had been made to wait". While hard to tell without spaces or a knowledge of verbal grammar at this point, this is actually a series of six verbs chained together in a very specific way:
+
+First, we see (ま)た, the {gls:glossary:imperfect} base form for 待つ, "wait". This base form is used when forming the negative, passive, causative or 'pseudo-future' form of a verb. Then we see され, the {gls:glossary:continuative} base for the helper verb for causatives, される. This base form is a general purpose 'intermediate form' for a great number of inflections. Then て, the continuative base for the helper verb for conjunction, つ. Then い, the continuative base for the verb いる, "to be" for animate objects. Combined with て it forms the "-ている" form, which marks a verb as present progressive. Then まし, the continuative base for the helper verb for politeness, ます. Then finally た, the terminal base for the helper verb for past tense, た.
+
+We can see two things in this {gls:glossary:decomposition}. First, the 'core' verb is all the way at the beginning, and the helper verbs follow each other in inflection order: first the causative of "wait" is formed, then that is made a present progressive, this is then made polite, and then finally the whole construction is turned from present to past tense. Second, all the verbs are in some "base" form; this is the crucial difference between Japanese verbal grammar and most other languages.
+
+There are five "{idx:english:inflection!base forms}" which are used in combination with specific inflections, and knowing how to identify these base forms makes verbal grammar significantly easier, because it lets us view complex verb {gls:glossary:conjugations@conjugation} in terms of a series of simple "base form" + "helper" rules. For the past tense progressive causative for instance, we see a huge inflection that's really composed of four fairly simple rules, applied one after another:
+
+inflection	rule	example
+
+causative	imperfect base + される	待つ → 待た + される
+progressive	continuative base + ている	待たされる → 待たされ + ている
+polite	continuative form + ます	待たされている → 待たされてい + ます
+past tense	continuative form + た	待たされています → 待たされていまし + た
+
+All complex verb constructions can be described in this way, being a series of fixed-order simple rules being applied. What's more, because the two different verb classes in Japanese mostly differ in what their base forms look like, inflecting verbs in Japanese is mostly a matter of picking the right base form, and then applying the same rules for both verb classes, making most inflections the same for the two. Verbal adjectives also rely on this concept of "base form" + "helper", and as will become apparent when looking at the rules of grammar for verbal words, some inflections are formed by adding verbal adjectives to verbs, while others are formed by adding verbs to verbal adjectives.
+
+Without getting ahead of the material, let us first examine which base forms are used by verbs and verbal adjectives, and what they look like for each of the verbal word classes.
+
+==== {idx:english:Inflection bases} ====
+
+Traditionally, there are {idx:english:six@base forms} "{gls:glossary:base forms@Conjugational bases}" for Japanese verbal words, of which five are still used in modern Japanese. This traditional scheme is called {idx:japanese:文語(ぶんご)}, {idx:english:literary style}, and is associated with {idx:english:classical Japanese@Classical!Japanese}, while the modern scheme is called {idx:japanese:口語(こうご)}, {idx:english:colloquial style}, and is associated with normal {idx:english:modern Japanese}. Because it is always a good idea to look at where a language has come from, in order to understand why it does what it does in its current form, the relation between classical and modern Japanese will be mentioned wherever possible.
+
+First, let's look at which base forms are used in classical and modern Japanese:
+
+文語	口語	Base for...
+
+{idx:english:inflection bases!未然形(みぜんけい)}	未然形	{idx:english:inflection bases!Imperfect} constructions, such as negative form and
+		'pseudo-future', as well as passive, potential, honorific
+		and causative forms.
+{idx:english:inflection bases!連用形(れんようけい)}	連用形	{idx:english:inflection bases!Continuative} and {idx:english:inflection bases!conjunctive} constructions, covering the
+		majority of constructions involving helper verbs, as well
+		as joining up sentences and forming nouns.
+{idx:english:inflection bases!終止形(しゅうしけい)}	no longer used	{idx:english:inflection bases!Finalising} form. In modern Japanese, this role has been
+		assumed by the 連体形 instead.
+{idx:english:inflection bases!連体形(れんたいけい)}	連体形	{idx:english:inflection bases!Attributive} constructions (using verbs like adjectives), and
+		in modern Japanese, finalised form.
+{idx:english:inflection bases!已然形(いぜんけい)}	已然形 ({idx:english:inflection bases!仮定形(かていけい)})	{idx:english:@inflection bases!Perfect}{gls:glossary:Perfect} constructions. In modern Japanese this form is only
+		used for hypothetical constructions, which is why it's
+		colloquially known as the 仮定形, "assuming" form.
+{idx:english:inflection bases!命令形(めいれいけい)}	命令形	{idx:english:inflection bases!Imperative} constructions, such as commands and
+		prohibitive commands.
+
+The way these bases are formed for the two classes of verbs and the verbal adjectives is the major difference between these verbal classes. Verbs in Japanese are mostly regular (there are only a handful of verbs with irregularities), and fall into one of two classes: "{idx:english:verb types!godan}", {idx:japanese:五段(ごだん)}, or 'five grade' verbs, and "{idx:english:verb types!ichidan}", {idx:japanese:一段(いちだん)}, or 'single grade' verbs. Both verb classes end, in their "dictionary" form, on one of the う—row syllables (although not ず, and consequently づ, and not ふ or ぷ), so that any verb you may encounter can be found in a dictionary to end on う, く, ぐ, す, つ, ぬ, ぶ, む or る (the "dictionary" form mentioned here is a common descriptor used in literature on Japanese, and is synonymous with the 連体形(れんたいけい) form of verbs or verbal adjectives.
+
+The 五段 verbs (also referred to as "{idx:english:verb types!class I}", "{idx:english:verb types!type I}" or "{idx:english:verb types!u verb}" in literature) can end on any of the aforementioned syllables, but 一段 verbs (also referred to as "{idx:english:verb types!class II}", "{idx:english:verb types!type II}" or "{idx:english:verb types!ru verbs}" in literature) only end on る. {idx:english:Verbal adjectives} — the class of adjectives in Japanese that inflect just like regular verbs do — only come in one class and always end on the syllable い, which is why they are also referred to in literature as "{idx:english:adjective types!i-adjectives}" (a second class of adjectives, the adjectival nouns, are commonly referred to as "{idx:english:adjective types!na-adjectives}"). However, while it is useful to know on which syllables verbs and verbal adjectives can end, bear in mind that just because verbs end on う—row syllables and verbal adjectives end on い, not everything ending on an う—row syllable is a verb, and not everything ending on い is a verbal adjective — "all cats have four legs, but not everything with four legs is a cat".
+
+Let us look at how the bases for both verbs and the verbal adjectives are formed. Looking at them as a combination of verbal stem and some final syllable(s), the following table describes each of the bases for these word classes:
+
+Base	五段(ごだん) verbs	一段(いちだん) verbs	verbal adjectives
+
+stem (語幹(ごかん))	remove う—row syllable	remove る	remove い
+未然形	stem + あ—row syllable	stem	stem + かろ
+連用形	stem + い—row syllable	stem	stem + く (or かっ)
+連体形	stem + う—row syllable	stem + る	stem + い
+已然形	stem + え—row syllable	stem + れ	stem + けれ
+命令形	stem + え—row syllable	stem (+ ろ/よ *)	(stem + かれ *)
+
+In this table, the 命令形 for the 一段 verbs and verbal adjectives are starred, to indicate there's something special about them. First, the 一段 verb 命令形 is a bit of a problem: the word 命令形 can refer to either the grammatical base form, or to the actual verb inflection as it is used in sentences. In classical Japanese, both interpretations of the 命令形 were "stem + よ"; the grammatical base form was the same as the final inflected form. However, in modern Japanese the final inflected form is either "stem + ろ", if you're in an area that adheres to 標準語(ひょうじゅんご), 'standard Japanese' (the kind spoken in Tokyo), or fairly uniformly "stem + よ", if you're not. This raises the problem that either the 命令形 is listed as two separate forms — something I'm not too fond of — or listing it as just the stem, and then telling you the final inflected forms are either 命令形 + ろ or 命令形 + よ depending on where you are. In this book, I've taken the latter approach.
+
+In addition to this, the verbal adjective 命令形 is a point of contention. In {idx:english:classical Japanese@Classical!Japanese}, verbal adjectives came in two types: く adjectives and し adjectives. Both of these had a regular form, as well as a form involving a {gls:glossary:contraction} with the verb ある, meaning "to be", forming ～かり adjectives. Because of this, the し and く versions were 'pure' adjectives, in that they had no {gls:glossary:imperfective@imperfect} or {gls:glossary:commanding} form; for adjectives those would make no sense. However, because of ある, the かり variants did have these forms, instead missing a finalising and perfect form. This gave rise to the following rather elaborative set of bases in 文語:
+
+Base	～く form	～かり form	～し form	～しかり form
+
+未然形	-	stem + から	-	stem + しから
+連用形	stem + く	stem + かり	stem+しく	stem + しかり
+終止形	stem + し	-	stem+し	-
+連体形	stem + き	stem + かる	stem+しき	stem + しかる
+已然形	stem + けれ	-	stem + しけれ	-
+命令形	-	stem + かれ	-	stem + しかれ
+
+This is a lot of inflectional potential, but as classical Japanese transitioned to modern Japanese, all these forms have essentially become merged, leading to a single inflectional scheme that mixes forms from the 'pure' versions of adjectives with the ある-contracted versions of those adjectives, leading to the question of which forms are to be considered belonging to the adjective as it exists now, and which belong to the the verb ある, which happens to work together with verbal adjectives a lot. In this book, we'll consider the final inflected 命令形 for verbal adjectives to be a contraction of the verbal adjective's 連用形 and the 命令形 for the verb ある, which is あれ. This gives us "verbal adjective stem + く" + "あれ" → "verbal adjective stem + くあれ", where くあ contracts to か, giving us a final rule "stem + かれ". So, in this book, verbal adjectives are considered not to have a genuine 命令形 of their own, instead relying on the helper verb ある for one. However, other books list it as being simply "stem + かれ", and so for completeness it has been included in the earlier table of bases.
+
+Having covered the "what they look like", let's look at what this means for a number of verbs from both classes, and for verbal adjectives:
+
+五段 verbs	未然形	連用形	連体形	已然形	命令形
+
+会(あ)う	会わ	会い	会う	会え	会え
+歩(ある)く	歩か	歩き	歩く	歩け	歩け
+急(いそ)ぐ	急が	急ぎ	急ぐ	急げ	急げ
+話(はな)す	話さ	話し	話す	話せ	話せ
+待(ま)つ	待た	待ち	待つ	待て	待て
+死(し)ぬ	死な	死に	死ぬ	死ね	死ね
+学(まな)ぶ	学ば	学び	学ぶ	学べ	学べ
+読(よ)む	読ま	読み	読む	読め	読め
+
+五段 verbs	未然形	連用形	連体形	已然形	命令形
+
+分(わ)かる	分から	分かり	分かる	分かれ	分かれ
+切(き)る	切ら	切り	切る	切れ	切れ
+売(う)る	売ら	売り	売る	売れ	売れ
+帰(かえ)る	帰ら	帰り	帰る	帰れ	帰れ
+怒(おこ)る	怒ら	怒り	怒る	怒れ	怒れ
+
+There are two things worth noting in these tables. Firstly, the 未然形 for 会う is not a typographical error; it really is わ, not あ. This is a left-over from classical Japanese: 五段 verbs ending on う used to be verbs ending on ふ and う (being 'wu', rather than 'u'), which inflected respectively as -は, -ひ, -ふ, -へ, -へ and -わ, -ゐ, -う, -ゑ, -ゑ ({idx:english:ゐ@obsolete kana} and ゑ being the now obsolete Japanese syllables for 'wi' and 'we', which have not been in use since the written language was reformed in 1946 by cabinet order). However, both were pronounced as -わ, -い, -う, -え and -え. When these two verb classes were simplified to today's 五段 verbs ending on the modern う, the 未然形 pronunciation わ was kept, as well as its written form.
+
+The second thing worth noting in the table is the seemingly disproportionate number of examples for 五段 verbs ending on -る. The reason for this is that for some verbs ending on る, just looking at the verb's dictionary form is not enough to determine whether it's actually a 五段 or an 一段 verb, so a few examples are needed to show how to tell the two apart. If a verb ends on る, and the syllable preceding it in the あ—, う— or お—row (such as is the case for 分かる, 売る and 起こる) then this is always a 五段 verb. However, if the syllable before the る is in the い— or え—row, then it might be an 一段 verb instead. The annoying thing is that without actually looking up the verb in a dictionary, or seeing it used in some inflected form that lets you spot the difference between a 五段 base and an 一段 base being used, there is no way to tell what kind of verb you're dealing with. Luckily, telling the difference when we do have an inflected form is really easy, as we can tell from the following 一段 inflection examples (taking note that the 命令形 as used in this book is just the stem):
+
+一段	未然形	連用形	連体形	已然形	命令形
+
+見(み)る	見	見	見る	見れ	見 (ろ/よ)
+伸(の)びる	伸び	伸び	伸びる	伸びれ	伸び (ろ/よ)
+食(た)べる	食べ	食べ	食べる	食べれ	食べ (ろ/よ)
+
+Comparing this table with the previous one shows that for any inflection involving the 未然形, 連用形 or 命令形, which cover most verbal inflections, we can readily tell the difference between a 五段 and 一段 verb. The only cases that can leave us uncertain are the 連体形 and 已然形 forms. In these cases, we'll just have to resort to checking a dictionary to be sure of which verb class we're dealing with.
+
+Lastly, a list of examples for the verbal adjectives is quite uniform:
+
+adjective	未然形	連用形	連体形	已然形	(命令形)
+
+高(たか)い	高く	高く	高い	高けれ	(高かれ)
+楽(たの)しい	楽しく	楽しく	楽しい	楽しけれ	(楽しかれ)
+薄(うす)い	薄く	薄く	薄い	薄けれ	(薄かれ)
+大(おお)きい	大きく	大きく	大きい	大きけれ	(大きかれ)
+
+Of course, the examples of verbal adjectives wouldn't be complete without one very curious verbal adjective:
+
+adjective	未然形	連用形	連体形	已然形	(命令形)
+
+執念(しゅうね)い	執念く	執念く	執念い	執念けれ	(執念かれ)
+
+Normally, verbal adjectives end on い, preceded by either an あ—, い—, う— or お—row syllable. However, 執念い is the only verbal adjective in Japanese that ends in an え—row syllable + い. This is in fact so unusual that it is virtually never used, and you will likely not find this adjective in most dictionaries. So, because there's only the one, we can safely state that if you find something that ends in い but it has an え—row syllable preceding it, it is virtually certain not to be a verbal adjective.
+
+==== {idx:english:Basic inflection}s ====
+
+Throughout the course of this section we will look at basic inflections for verbs and verbal adjectives, as well as look at a small number of particles that are intricately interwoven with verbal grammar. We shall also look at the basic use and formation of nouns and adverbs, so that this chapter in effect covers the minimal basics of "{idx:english:basic Japanese}". We will start by looking at which particles are essential in order to understand basic verb grammar, and will move from there to simple verb forms: present and past tense, as well as {gls:glossary:affirmative} and {gls:glossary:negative} forms. In order to get an overview of the basic concepts involved without offering too much information at once, polite verbal grammar will not be introduced until the next chapter, after basic grammar has been covered.
+
+=== {idx:english:Particles} ===
+
+Verbs and verbal adjectives are used in combination with a number of particles to explicitly mark parts of a sentence as relating to them. For verbs, these are the particles を, に and が, and for verbal adjectives this is just the particle が.
+
+First off, {idx:english:verb particles!を} (pronounced as お). This particle is used to mark a transitive verb's {idx:english:direct object}. This particle is fairly straightforward and does what one expects from it given this explanation. In "I eat an apple" the noun "apple" is the {gls:glossary:direct object} for the verb "eat", and in the corresponding Japanese sentence, リンゴを食(た)べる, the word リンゴ ('apple') is the direct object to the verb 食べる ('eat'). However, not everything that is considered a direct object in Japanese is considered a direct object when translated to English. For instance, in Japanese an aeroplane can "fly the air", whereas in English aeroplanes just fly.
+
+Second is {idx:english:verb particles!に}, which broadly speaking marks {idx:english:verb details}. Translating a sentence using に to English yields the parts marked with に as becoming {idx:english:indirect object}s, {idx:english:prepositional phrase}s or even {idx:english:adverb}s. Anything that is "not the {idx:english:verb actor}, or the direct object", but adds more details to the verb action, will be marked with に. For instance, the Japanese sentence メーリに花(はな)を買(か)ってあげた translates to the English sentence "I bought flowers for Mary", with に mapping to the word 'for', which in English indicates an indirect object. This is hardly its only 'meaning'; the Japanese sentence ９時(じ)に来(く)る translates to "I'll be there at nine", with に mapping to the {gls:glossary:preposition} 'at'. Moreover, in the Japanese きれいに分(わ)ける, translating to the English "to divide cleanly", the に marks the noun きれい, "clean/neat/tidy", as being used adverbially, "neatly, cleanly".
+
+Finally, the particle {idx:english:verb particles!が} is an interesting particle. When used with verbal adjectives, it marks the thing the adjective applies to. For instance, in the English sentence "that car is fast", the adjective "fast" pertains to "that car". Similarly, in the corresponding Japanese sentence その車(くるま)が速(はや)いです, the verbal adjective 速い ('fast') pertains to その車 ('that car'). This concept is carried over to verbs, too. Some verbs have what would in English be considered a direct object, but in Japanese are not considered direct object because the verb does not 'impart' its action on it. For instance, in "I throw the ball", the throwing action is imparted on the ball. However, in "I know the textbook's material", knowing is not an action imparted 'on' the material — in these cases, rather than を, が is used in Japanese, so that for instance "I understand Japanese" is not expressed as 日本語(にほんご)を分(わ)かる but as 日本語が分かる. This is particularly obvious when using verbs in passive mode, changing for instance "I eat the cake" to "the cake is being eaten by me". In the corresponding Japanese sentences, the particle changes from を to が: ケーキを食べる becomes ケーキが食べられる. In addition to this, が may mark a verb's actor: 車が走(はし)ってる translates to "(The) car is running". In this role it is effectively doing the same thing as what it does when it is used to link nouns to adjectives.
+
+In addition to these three particles, you will also often see the particle {idx:english:verb particles!は} (pronounced as わ) being used in example sentences. This particle acts as a {idx:english:disambiguator} when a sentence would otherwise be confusing in terms of who or what it was about, or what it was in relation to. For instance, 歩(ある)かない and 今日(きょう)は歩かない translate to "I do not walk" and "I won't be walking today" by virtue of the second sentence disambiguating the context from as broad as possible (i.e., 'in general'), to 'just today' (今日). This can have some perhaps unexpected side effects, too: when saying 私(わたし)は泳(およ)ぎません, "I do not swim", the explicit presence of 私は means that you apparently felt that you needed to {idx:english:disambiguate} the statement, which means any listener will suddenly wonder who then 'does swim', as opposed to you. On the other hand, 私が泳ぎません merely means "I do not swim", using が to mark yourself as verb actor for 泳(およ)ぐ.
+
+=== Verbal grammar - {idx:english:inflections!present tense} ===
+
+Before we look at how to form the {gls:glossary:present tense}, a note. There is no distinction between present tense such as "I walk" and indicative {idx:english:inflections!future tense} such as "I will walk". Both roles are performed by the same verb form in Japanese: the {idx:japanese:連体形(れんたいけい)}. Any verb or verbal adjective in 連体形 is automatically in present/indicative {gls:glossary:future tense}. Listing this form for example words from all three verbal classes, we see the following:
+
+	連体形	meaning	plain present affirmative
+
+五段 verb	歩(ある)く	walk	連体形: 歩く
+一段 verb	見(み)る	see	連体形: 見る
+verbal adjective	高(たか)い	high, expensive	連体形: 高い
+
+Some examples of the present tense used in simple sentences:
+
+  今日(きょう)は歩く。
+  Today (I'll) walk.
+
+  テレビを見る。
+  (I) watch TV.
+
+  これが高い。
+  This is expensive.
+
+=== {idx:english:inflections!Negative} ===
+
+Having covered the present affirmative tense, the next important basic inflection is the negative form. In Japanese, negative verb and verbal adjective forms are created with the {idx:english:helper adjective of negation}, {idx:japanese:ない} (無い), or using the rather classical verb ぬ which will be discussed after polite forms have been introduced later in this chapter.
+
+ない is actually a verbal adjective, and so inflects like any other verbal adjective:
+
+bases	form
+
+未然形	なく
+連用形	なく
+連体形	ない
+已然形	なけれ
+
+This helper is combined with both verbs and verbal adjectives by joining up with the 未然形, or imperfect base:
+
+	連体形	meaning	plain present negative
+
+五段 verb	歩(ある)く	walk	未然形+ない: 歩かない
+一段 verb	見(み)る	see	未然形+ない: 見ない
+verbal adjective	高(たか)い	high, expensive	未然形+ない: 高くない
+
+Recycling our example sentences from the present tense section, we get the following sentences:
+
+  今日(きょう)は歩かない。
+  Today (I) don't/won't walk.
+
+  テレビを見ない。
+  (I) don't/won't watch TV.
+
+  これが高くない。
+  This isn't expensive.
+
+However, please note that this rule does not apply to the special verb ある, which we shall treat in the next section. Rather than becoming あらない, it is simply replaced with ない.
+
+(On a final note, it is imperative this ない should never be confused with another adjective pronounced ない, 亡い, as that means "deceased")
+
+==== Basic inflections for {idx:english:irregular verbs} and verbal adjectives ====
+
+There are three irregular verbs in Japanese that we need to look at before moving on to further inflections, being {idx:japanese:する}, "do"/"decide on", {idx:japanese:来(く)る}, "come" and {idx:japanese:ある}, "exist" (for {gls:glossary:inanimate} things).
+
+=== The irregular verb する ===
+
+Looking at {idx:japanese:する}, 'do', first, we see the following bases and inflection table:
+
+base	form
+
+未然形	さ, せ, し
+連用形	し
+連体形	する
+已然形	すれ
+命令形	せ(よ), し(ろ), せい
+
+	affirmative	negative
+
+plain	連体形	"し"—未然形+ない: しない
+
+We see that する actually has three different 未然形 forms, as well as three different 命令形 forms — which of these gets used is fully determined by which inflection you're going for, making this verb a bit trickier than any of the other verbs in the language. Luckily, it's such a common verb that even though it's highly irregular you will most likely become familiar with all its inflections fairly quickly by virtue of them popping up almost as often as all other verbs put together.
+
+Technically, する is considered a サ—変(へん) verb, or "irregular verb, operating on the サ column". For the most part, it inflects as an 一段 verb, but there are rules for what pronunciation to use when using which base, which makes it a truly irregular verb.
+
+する has two common "variations": {idx:japanese:ずる} and {idx:japanese:じる}. Both of these are typically found used as a verb in a noun/verb compound (meaning they are paired with a noun without using any particles), and only constitute a small number of all verbs in Japanese. However, while only used in a small number of verbs, some of those verbs are quite common and frequently used, so knowing how to inflect these two verbs is not unimportant.
+
+base	する	ずる	じる
+
+未然形	さ, せ, し	ざ, ぜ, じ	じ
+連用形	し	じ	じ
+連体形	する	ずる	じる
+已然形	すれ	ずれ	じれ
+命令形	せ(よ), し(ろ), せい	ぜ(よ), じ(ろ), ぜい	じ(よ, ろ)
+
+	affirmative	negative
+
+する	連体形	"し"—未然形+ない: しない
+ずる	連体形	"じ"—未然形+ない: じない
+じる	連体形	"じ"—未然形+ない: じない
+
+For ずる, the "ざ" and "ぜ" 未然形 are actually not used a lot in modern Japanese anymore. Instead, you will find じ used for virtually all 未然形 constructions, with ざ and ぜ indicating respectively classical and non-classical older style Japanese, instead.
+
+=== The irregular verb 来(く)る ===
+
+{idx:japanese:来(く)る} ('come') on the other hand, inflects like any normal 一段 verb (except for a slightly different 命令形), but shares する's irregularity: the pronunciation for its stem changes for each base. However, unlike for する there is only one pronunciation for each base, so inflection doesn't involve "picking the right pronunciation", but merely remembering it:
+
+base	kanji form	pronunciation
+
+未然形	来	こ
+連用形	来	き
+連体形	来る	くる
+已然形	来れ	くれ
+命令形	来い	こい
+
+	affirmative	negative
+
+plain	連体形	未然形+ない: こない
+
+As is evident from the table of bases, and the table of inflections, this verb is virtually indistinguishable from any other 一段 verb. However, in spoken language its irregularity is plainly obvious.
+
+=== The irregular verb ある ===
+
+Finally, the verb {idx:japanese:ある}, "exist" (for inanimate things) has seemingly normal bases, but its inflection is quite special:
+
+base	form
+
+未然形	あら
+連用形	あり
+連体形	ある
+已然形	あれ
+命令形	あれ
+
+	affirmative	negative
+
+plain	連体形	{idx:japanese:ない}
+
+This verb is irregular in all its negative forms: rather than using the 未然形+ない rule, just ない itself is used. Thus, we see the following:
+
+  本(ほん)がある。
+  "There is a book."
+
+  本がない。
+  "There is no book."
+
+=== The irregular adjective いい ===
+
+In addition to these verbs, there is the irregular verbal adjective {idx:japanese:いい}, "good", which is actually the irregular verbal adjective {idx:japanese:よい}:
+
+base	form
+
+未然形	{idx:japanese:よく}
+連用形	よく
+連体形	よい, いい
+已然形	よけれ
+
+	affirmative	negative
+
+plain	いい	未然形+ない: よくない
+
+The only irregularity for this verbal adjective is its 連体形, which is technically よい, but is almost always used as いい instead. Of the two, いい is actually considered the plain pronunciation, and よい a formal variant. Not knowing that these two are actually the same adjective can lead to confusion in more complex inflections, such as when the adjective いい turns into the past tense {idx:japanese:よかった}.
+
+=== {idx:english:inflections!Past tense} ===
+
+The last basic inflection we will look at on its own in this chapter is the {gls:glossary:past tense}, which relies on the classical helper verb for past tense, {idx:japanese:た}. This helper verb has the following bases:
+
+base	form
+
+未然形	たろ
+連体形	た
+已然形	{idx:japanese:たら}
+
+This verb has no 連用形 (it doesn't make sense to mark something as a past tense and then continue inflecting it to something else), nor does it have a 命令形 (because one cannot command someone to do something in the past). It is combined with verbal 連用形 forms, being wholly unremarkable for the 一段 verbs, simply pairing up with the 連用形, but being not quite so unremarkable for 五段 verbs. While in classical Japanese, the same rule applies as for 一段 verbs, in modern Japanese most past tenses for 五段 verbs have become contracted, as we can see in the following table:
+
+五段	連用形	{idx:english:inflections!classical past tense}	{idx:english:inflections!modern past tense}	change 'rule'
+
+話(はな)す	話し	連用形+た: 話した	話した	す verbs: no change
+歩(ある)く	歩き	連用形+た: 歩きた	歩いた	く verbs: きた → いた
+急(いそ)ぐ	急ぎ	連用形+た: 急ぎた	急いだ	ぐ verbs: ぎた → いだ
+死(し)ぬ	死に	連用形+た: 死にた	死んだ	ぬ verbs: にた → んだ
+学(まな)ぶ	学び	連用形+た: 学びた	学んだ	ぶ verbs: びた → んだ
+読(よ)む	読み	連用形+た: 読みた	読んだ	む verbs: みた → んだ
+会(あ)う	会い	連用形+た: 会いた	会った	う verbs: いた → った
+待(ま)つ	待ち	連用形+た: 待ちた	待った	つ verbs: ちた → った
+分(わ)かる	分かり	連用形+た: 分かりた	分かった	る verbs: りた → った
+ある	あり	連用形+た: ありた	あった	る verbs: りた → った
+
+These rules for contraction in 五段 verbs (luckily) do not just apply to the past tense, but to several other inflections (namely the continuative {idx:english:て form}, which is tremendously important to know, the representative {idx:japanese:たり} form, and the {gls:glossary:conditional} {idx:japanese:たら} form), so that this is not a set of rules you will need to remember for a single inflection, but applies to a number of often used inflections, making the exception itself somewhat 'regular'.
+
+Of course, there are a few exceptions to these rules. First up, 行く, which follows the "wrong" rule:
+
+verb	連用形	classical past tense	modern past tense
+
+{idx:japanese:行(い)く}	行き	連用形+た	{idx:japanese:いった}
+
+The verb 行く, pronounced いく or {idx:japanese:ゆく@ゆく (行く)} (the first being used in every day life, the latter being used in poetry and song lyrics), does not follow the contraction rule for 五段 verbs ending on く. There is no real reason for this, other than "that's just how people use it". In all other respects, 行く is just another 五段 verb. Luckily, this is not some obscure verb you will run into only occasionally and will have forgotten this exception for: 行く means "go", and is used so frequently you will not get a chance to forget it has an irregular past tense.
+
+Secondly, there is a (very small) set of verbs that have a rather abnormal past tense, based on adding た to the 連体形 instead of the 連用形. These verbs are mostly used in writing, and in formal speech, but since there are only two (with two kanji forms each) it cannot hurt to look at them:
+
+verb	meaning	past tense
+
+問(と)う	ask, question, accuse	問うた
+訪(と)う	〃	訪うた
+乞(こ)う	ask	乞うた
+請(こ)う	〃	請うた
+
+These verbs can, technically, also be inflected like regular 五段 verbs, but since they are mostly reserved for formal spoken and literary written Japanese, if you encounter them you will most likely encounter them as 連体形 + た.
+
+For 一段 verbs things are a lot simpler, and we see a regular table of inflection:
+
+一段	連用形	past tense
+
+見(み)る	見	連用形+た: 見た
+伸(の)びる	伸び	連用形+た: 伸びた
+食(た)べる	食べ	連用形+た: 食べた
+
+And for the irregular verbs we see the same, bearing in mind that the stems have a different pronunciation:
+
+Irregular	連用形	past tense
+
+する	し	連用形+た: した
+来(く)る	き	連用形+た: きた
+
+To form the plain past negative, rather than just the plain past, we have to take the plain present negative based on {idx:japanese:ない}, and turn this into a past tense, which means we need to look at how to form the past tense for verbal adjectives in general first.
+
+For verbal adjectives, rather than a plain inflection, the adjectives work together with the verb {idx:japanese:ある} ("to be", for inanimate objects and concepts). However, because ある is a 五段 verb, it contracts: the classical past tense ありた has become あった, and it is this that the verbal adjective itself contracts with. Again for reasons mostly due to "that's just what people ended up using", the verbal adjective 連用形 paired with あった, [...]くあった, has become contracted over the course of linguistic history to become [...]かった in modern Japanese:
+
+adjective	meaning	連用形	+ past tense of ある	resulting past tense
+
+高(たか)い	high, expensive	高く	高く + あった	高かった
+楽(たの)しい	fun, enjoyable	楽しく	楽しく + あった	楽しかった
+薄(うす)い	thin, light	薄く	薄く + あった	薄かった
+大(おお)きい	big	大きく	大きく + あった	大きかった
+
+irregular	meaning	連用形	+ past tense of ある	resulting past tense
+
+いい	good	よく	よく + あった	{idx:japanese:よかった}
+
+negation	meaning	連用形	+ past tense of ある	resulting past tense
+
+ない	-	なく	なく + あった	{idx:japanese:なかった}
+
+=== {idx:english:inflections!Past negative} ===
+
+So now we can also form the plain past negative for verbs, using 未然形 + "past tense of ない", なかった, noting that for the verb ある things are (of course) different:
+
+五段	未然形	negative	past negative tense
+
+話(はな)す	話さ	話さない	話さなかった
+歩(ある)く	歩か	歩かない	歩かなかった
+急(いそ)ぐ	急が	急がない	急がなかった
+死(し)ぬ	死な	死なない	死ななかった
+学(まな)ぶ	学ば	学ばない	学ばなかった
+読(よ)む	読ま	読まない	読まなかった
+会(あ)う	会わ	会わない	会わなかった
+待(ま)つ	待た	待たない	待たなかった
+分(わ)かる	分から	分からない	分からなかった
+
+一段	未然形	negative	past negative tense
+
+見(み)る	見	見ない	見なかった
+伸(の)びる	伸び	伸びない	伸びなかった
+食(た)べる	食べ	食べない	食べなかった
+
+Irregular	未然形	negative	past negative tense
+
+する	し	しない	しなかった
+来る	こ	こない	こなかった
+ある	あら	ない	なかった
+
+Again, of the irregular verbs ある is the most irregular, its past negative form simply being the past form of ない, rather than the typical 五段 inflection あらない. In several major dialects this isn't actually the case, and for instance in the {idx:english:Kansaiben} dialect (where the word {idx:english:kansaiben!へん} is used instead of ない) ある inflects like any other 五段 verb, with a negative form {idx:english:kansaiben!あらへん}. Why standard Japanese has this 'dual nature' for ある is mainly because of historic use (languages serve the people using them, and if that use changes, the language changes). However, we can at least look at why this duality can even exist in the first place: ある means "to be", for inanimate objects and concepts, and ない is an adjective for non-existence, which is in concept the complete opposite. So, while they belong to different word classes, ある and ない can be considered two sides of the same coin. This is also the reason why ある only half counts as an irregular verb; all affirmative inflections work in exactly the same way as normal 五段 verbs. It also counts as a half irregular verbal adjectives, because all the negatives for ある are just affirmative inflections of ない. It's little things like this that make languages interesting.
+
+==== In summary ====
+
+In summary, we can draw up tables for verbal inflection, plus the irregularities:
+
+=== inflecting 五段 verbs ===
+
+	affirmative	negative
+
+present	連体形	未然形 + ない
+past	連用形 + た (c)	未然形 + なかった
+
+In this scheme, (c) indicates that a contraction occurs, with what the contraction looks like being dependent on which of the す, く, ぐ, つ, ぬ, ぶ, む or る 五段 verbs is being inflected.
+
+=== inflecting 行(い)く ===
+
+	affirmative	negative
+
+present	連体形	未然形 + ない
+past	いった	未然形 + なかった
+
+=== inflecting ある ===
+
+	affirmative	negative
+
+present	連体形	ない
+past	連用形 + た (c)	なかった
+
+=== inflecting 一段 verbs, including 来(く)る ===
+
+	affirmative	negative
+
+present	連体形	未然形 + ない
+past	連用形 + た	未然形 + なかった
+
+Observing that the stem for 来る changes: its 連体形 is く, its 連用形 is き, and its 未然形 is こ.
+
+=== inflecting する ===
+
+	affirmative	negative
+
+present	連体形	し—未然形 + ない
+past	連用形 + た	し—未然形 + なかった
+
+=== inflecting ずる and じる ===
+
+present	連体形	じ—未然形 + ない
+past	連用形 + た	じ—未然形 + なかった
+
+=== inflecting verbal adjectives ===
+
+	affirmative	negative
+
+present	連体形	未然形 + ない
+past	連用形 + あった (c)	未然形 + なかった
+
+=== inflecting いい (よい) ===
+
+	affirmative	negative
+
+present	よい, いい	未然形 + ない
+past	連用形 + あった (c)	未然形 + なかった
+
+Of the two possible 連体形, いい is considered normal, while よい is considered formal, but for both, the 未然形 and 連用形 are よく.
+
+=== inflecting ない (無い) ===
+
+	affirmative	negative
+
+present	ない	theoretically, 未然形 + ない
+past	連用形 + あった (c)	theoretically, 未然形 + なかった
+
+'Theoretically' is used here, because often it doesn't make a lot of sense to negate the adjective for negation itself. We'd end up with ある again.
+
+===== {idx:english:Adjectives} =====
+
+We need to spend some extra time looking at verbal adjectives, and adjectives in general, because they can do something verbs cannot do, and that's to indicate properties. With that, we get the added bonus that they let us compare properties, allowing us to say something is red, redder than something else, or the reddest thing we've ever seen. While in English these are three distinct concepts, Japanese shows itself to be a sparse language yet again, using the 連体形(れんたいけい) for both the {idx:english:attributive} as well as {idx:english:@comparative}{gls:glossary:comparative} forms:
+
+  A: 魚(さかな)と言って、鮭(さけ)や鮪(まぐろ)が最近(さいきん)高(たか)くなった、なぁ。
+  B: じゃあ、安(やす)い魚を買(か)え。
+
+  A: "Fish like salmon and tuna's gotten expensive recently."
+  B: "So buy a cheap(er) fish."
+
+Even though 安い means "cheap" when used as normal attributive, it can also mean "cheaper" when there is some context in which the property "cheap" contrasts to some other property "expensive". This goes for all adjectives: there is no distinction between the attributive (normal adjective) and comparative (the English "-er" form of adjectives) forms of verbal adjectives in Japanese, similar to how there is no distinction between present and immediate future tense for verbs in Japanese.
+
+When we want to compare the same property, however, such as comparing a cheap fish to an even cheaper fish, we can use もっと to indicate explicit comparative:
+
+  A: あのう、安い傘(かさ)を探(さが)しているんですけど......
+  B: 安い傘ですね。これがいかがでしょうか。
+  A: ああ、いい傘ですね。けれど、もっと安いのありましょうか。
+  B: どうもすみませんが、これより安いのはありません。
+
+  A: "I am looking for a cheap umbrella."
+  B: "A cheap umbrella you said? What about this one?"
+  A: "Ah, that's a nice umbrella. But I was wondering whether you had an even cheaper one."
+  B: "Ah, I'm sorry but we do not have any umbrellas cheaper than this."
+
+In this conversation, {idx:japanese:もっと} is used to ask for an "even more" cheap item, but only after it has been established that the item in question is (already) cheap. An example of incorrect use of もっと would be:
+
+  A: この傘はちょっと高(たか)いですね。もっと安いのがありますか。
+
+If we were to translate this sentence, it would say "This umbrella is a bit expensive. Do you have an even cheaper one?" This is clearly incorrect use of language, as we can only ask for an even cheaper item if the present one is already cheap.
+
+The {gls:glossary:superlative}, in English the "most ..." version of an adjective, is formed in Japanese by prefixing the word {idx:japanese:一番(いちばん)} to the adjective (which literally means "first", in the context of a ranking):
+
+  一番速(いちばんはや)い車(くるま)はあのフェラーリです。
+  "The fastest car (here) is that Ferrari."
+
+Remember that this is an adjective construction and that 一番 requires an adjective to turn into a superlative. Many students new to the language will use 一番 without an adjective, and end up saying things like 一番先生(いちばんせんせい) or 一番車(いちばんくるま), which would literally mean "most teacher" and "most car". These sentences are not grammatical in either Japanese or English, since they lack a {gls:glossary:modifier} to explain exactly what these nouns are the most of. Usually when this mistake is made, all that is missing is the adjective いい, meaning good: {idx:japanese:一番(いちばん)いい} creates the superlative "best".
+
+===== {idx:english:inflections!Noun inflection} =====
+
+Nouns do not inflect in Japanese. More interestingly, they don't even decline like they do in English; turning "book" into "books" for instance, or "us" into "our", are declensions that indicate something in addition to the root noun, like {gls:glossary:plurality@plural} or possession. Instead, everything is either done by marking nouns (or indeed entire noun phrases) with particles, or by using copula verbs in Japanese.
+
+==== {idx:english:Particles} ====
+
+There are three important particles that we can use when dealing with noun inflection/declension, being の, と, and や.
+
+The particle {idx:english:noun particles!の} is generally explained as being used to {idx:english:genitivally@genitive} link nouns, but that doesn't tell us what it really does. In Japanese, genitive is expressed as either marking {idx:english:possession} ({idx:english:origin} or {idx:english:root concept}), {idx:english:description}, or a {idx:english:contextualising} construction. In English, examples of these would be 'my car' in "this is my car", 'love song' in "this is a love song", and 'old story' in "that's just an old story", but while in English these are seemingly different constructions, in Japanese they all use の:
+
+  これは僕(ぼく)の車(くるま)です。
+  "This is my car."
+
+In this sentence, which illustrates の being used for possession, the function is fairly obvious: "{idx:english:[X]の[Y]}" means "[X]'s [Y]" or "[Y] of [X]". This is the simplest use of の. However, things get more complicated when we look at the other three functions.
+
+  これは愛(あい)の歌(うた)です。
+  "This is a love song."
+
+In this sentence, the idea behind the pattern is slightly more complicated, because it's related to a pattern of thought that we're generally not used to in English. In the sentence, the "song", 歌, is considered a specific kind of song, which we can explain by saying "it genitivally stems from 愛", meaning that as a whole, the word derives its core meaning from 歌, but its nuance from 愛. This is a complicated way to look at what's going on in a seemingly simple particle, so it is usually easier to note the specific interpretation instead: we can say that 愛 describes 歌, or that 愛 acts as context for 歌, and that this construction is closely related to the idea of a compound noun.
+
+In this interpretation, "[X]の[Y]" typically translates to "[X] [Y]" in English, so that 愛の歌 becomes "love song", and for instance 昔(むかし)の話(はなし) becomes "old story" (with 昔 being a noun meaning 'long ago',  and 話 meaning 'story'). If we use this in a slightly bigger, more interesting sentence, we see the following:
+
+  ただの昔(むかし)の話(はなし)です。
+  "(That)'s just an old story."
+
+This sentence is particularly interesting because it uses の twice. ただの[X] means "just X", with ただ meaning 'just' or 'merely', and [X] being any noun phrase, in this case "昔の話". This kind of chaining can be taken to extremes, such as in the following example:
+
+  うちの姉(ねえ)さんの友達(ともだち)の「佐崎(ささき)」が遊(あそ)びに来(き)た。
+  "My sister's friend, Sasaki, came over (today)."
+
+Let us analyse what happens in this chain. It usually makes most sense to analyse long chains like these by looking at the [X]の[Y] patterns in a last-to-first order, because (as always) the most important words come last:
+
+[X]の[Y]	translation
+
+友達の「佐崎」	(my/your/his/her/our/their) friend, Sasaki
+姉さんの友達	(my/your/his/her/our/their) sister's friend
+うちの姉さん	(my/our) sister
+
+While this sounds like an artificial example, it is actually quite common to find three or even four nouns linked through の to create a single, more and more specific noun phrase. The main issue with learning to use these patterns, and more importantly, understanding them while listening to native speakers, is that the most important information comes last, so you have to keep track of all the context nouns before the final {gls:glossary:operative} noun gets used.
+
+The other two particles, {idx:english:noun particles!と} and {idx:english:noun particles!や}, are much simpler to understand than の: と links nouns to form an {idx:english:exhaustive list}, while や forms a {idx:english:representative list}. For instance, if someone went to the supermarket and bought orange juice, milk and tea, and that's all they bought, then we can list all these things with と:
+
+  ジュースと牛乳(ぎゅうにゅう)とお茶(ちゃ)を買(か)った。
+  "(I) bought juice, milk and tea."
+
+However, if they instead bought a lot of refreshments (say they were planning a party), then the following sentence would be easier than listing every individual item on the shopping list:
+	
+  ジュースや牛乳やお茶を買った。
+  "(I) bought juice, milk, tea (and the like)."
+
+That's the only difference between と and や (for the purpose of noun listing). Both form a list of items, and by using と you imply that what you describe is the whole list, while if you use や you imply that even though it's a list, it's not the whole list, just a representative snippet. Of course, it (almost) goes without saying that you cannot mix と and や.
+
+==== Inflection ====
+
+Actual inflection of nouns relies on copula verbs, as it does in English. While in English only the verb "to be" fulfils the role of copula, in Japanese there are a number of copulae to pick from. So, for the moment, we will look at the two most common {idx:english:copula}e: the plain form {idx:japanese:だ} and its polite counterpart, {idx:japanese:です}. Technically, these are both verbs, although だ is somewhat more complex than です. If we look at their verb bases, we see the following:
+
+	です	だ	copula
+
+未然形	でしよ	だろ	だろ
+連用形	でし	だっ (で)	で
+終止形	です	だ	です/だ
+連体形	です	な	です/な
+已然形		なら	なら
+
+First, there is no 命令形, which kind of makes sense — one cannot order something to all of a sudden have some property; chairs don't become red because you order them to, people don't become angry just because you tell them to, and it doesn't suddenly become night because you ordain it so. At least not without superpowers of some sort, which are beyond the scope of this book.
+
+Secondly, the "copula" column is a bit special: it tells you which form is typically used when a certain base form is relied on. When we need a 連体形 copula, we can use either だ or です depending on whether we want plain form or polite form, but when we need a continuative (which will be explained in the next chapter), modern Japanese uses {idx:japanese:で}.
+
+Third, there is a 終止形 entry, which most modern verbs do not use. The reason it exists for (this) copula is that だ is relatively special: when used to end noun phrases, its 終止形 is used, and so it uses the form だ. However, when used attributively (effectively turning nouns into adjectives), which uses the 連体形, the classical 連体形 is used and we end up with {idx:japanese:な}. Although the language reforms of the 20th century have for the most part merged the functions of 終止形 and 連体形, this particular instance of separate form has been preserved, rather than gotten rid of. Luckily you will rarely, if ever, need to recite the bases for です or だ, but だ is used attributively so frequently that you should have little problem remembering when to use だ and when to use な.
+
+=== {idx:english:inflections!Present tense} ===
+
+The present tense for だ and です are just as simple as for any other verb:
+
+  これは本(ほん)だ。
+  これは本です。
+  "This is a book."
+
+There is no difference in meaning between those two sentences, the only difference is the perceived politeness, with です being neutral polite, while だ is plain form.
+
+=== {idx:english:inflections!Past tense} ===
+
+The past tenses for both だ and です are also reasonably straightforward, although we do need to know a little bit more about where だ came from. The common explanation for だ is that it came from で, the continuative of です, and the verb ある, to form the copula {idx:japanese:である}. This copula is actually still used in modern Japanese in formal settings. However, the で+あ in this である has contracted over time, to form だる, which explains the 未然形 for だ, which is だろ. It also explains its past tense: だった, since ある is a normal 五段 verb and thus contracts in its past tense.
+
+For です the story is a bit simpler: its 連用形 is でし, and so its past tense is でした.
+
+  それは本(ほん)だった。
+  "That was a book."
+
+  それは本でした。
+  "That was a book."
+
+Again, there is no difference in meaning, only in perceived politeness.
+=== {idx:english:inflections!Negative} ===
+
+The negative forms for だ and です are more interesting. For だ, the plain negative is {idx:japanese:じゃない}, which is {idx:japanese:じゃ} plus the adjective for negation that we already saw for verbs, ない. Again we see evidence of the presence of ある. However, what is this じゃ?
+
+Interestingly, じゃ is (and not just for this particular inflection, but in general) the "particle" で, which is the 連用形 for です, and the disambiguating particle は (pronounced わ). This {idx:japanese:では} can either be used by itself (and frequently is), or its contraction じゃ can be used, with the only difference between the two being that では is more formal than じゃ. To illustrate:
+
+  これは本(ほん)だ。
+  "This is a book."
+
+  これは本じゃない。
+  "This isn't a book."
+
+  これは本ではない。
+  "This is not a book."
+
+There is no difference in meaning between the latter two sentences, just in formality.
+
+For です the story gets more complicated, because instead of using the negative form of です itself, the polite form {idx:japanese:ではない} is used in polite form, using the polite negative of ある instead of ない, which means we need to introduce the classical helper verb of politeness: {idx:japanese:ます}.
+
+bases	form
+
+未然形	ませ (ましよ)
+連用形	まし
+連体形	ます
+已然形	ませ (ますれ)
+命令形	ませ
+
+This helper verb is used in combination with verbs in their 連用形, so that the polite form of ある becomes あり+ます, and the polite negative is formed by taking this {idx:japanese:あります} and making ます negative using the super classical negative "ん": ありませ+ん. While the explanation might be more complicated than you might have expected, the final result should sound familiar, since the polite negation —ません, and the general statement {idx:japanese:ありません}, are used constantly in modern Japanese.
+
+With this, we can form the polite negative of the copulae: {idx:japanese:じゃありません}, or more formally, {idx:japanese:ではありません}
+
+  これは本です。
+  "This is a book."
+
+  これは本じゃありません。
+  "This is not a book."
+
+  これは本ではありません。
+  "This is not a book."
+
+=== {idx:english:inflections!Past negative} ===
+
+For だ, the present negative じゃない (ではない) is placed in past tense, turning ない into なかった: {idx:japanese:じゃなかった} ({idx:japanese:ではなかった}).
+
+  これは本(ほん)だった。
+  "This was a book."
+
+  これは本じゃなかった。
+  "This was not a book."
+
+  これは本ではなかった。
+  "This was not a book."
+
+For です, things get really weird: the polite negative ありません in {idx:japanese:じゃありません} ({idx:japanese:ではありません}) is placed in past tense by adding the past tense for です, でした, at the end: {idx:japanese:じゃありませんでした} ({idx:japanese:ではありませんでした}).
+
+  これは本でした。
+  "This was a book."
+
+  これは本じゃありませんでした。
+  "This was not a book."
+
+  これは本ではありませんでした。
+  "This was not a book."
+
+While, again, this derivation is rather complicated, the important bit is that you remember the copula inflection table.
+
+=== In summary ===
+
+The best way to reiterate the different inflections for the copulae is in the form of a table:
+
+	affirmative	negative
+
+plain present	noun + だ	noun + じゃない
+		(noun + ではない)
+polite present	noun + です	noun + じゃありません
+		(noun + ではありません)
+plain past	noun + だった	noun + じゃなかった
+		(noun + ではなかった)
+polite past	noun + でした	noun + じゃありませんでした
+		(noun + ではありませんでした)
+
+===== {idx:english:Pronouns}: {idx:japanese:こそあど} =====
+
+In addition to regular nouns, Japanese has a set of words which are often (but mistakenly) labelled pronouns. These are colloquially known as the こそあど, and they're called this because they come as series of four, starting with こ-, そ-, あ- and ど-, to refer to (conceptually or physically) close to the speaker, close to the listener, close to neither, and as a question word.
+
+To properly understand this, the concept of a {gls:glossary:personal zone} is important: the Japanese do not separate locations in just "here" and "there", but in "here", "there" and a conceptual location akin to "yonder". Words starting with こ refer to things in the speaker's personal zone, words starting with そ refer to things in the listener's personal zone, and words starting with あ refer to things that are neither in the speaker's nor the listener's personal zone. Finally, words starting with ど are the question words for the series, known as {idx:english:@interrogatives}{gls:glossary:interrogatives@interrogative}.
+
+I mentioned that the こそあど are often mistakenly called pronouns, because many series in the こそあど actually work together with nouns rather than replacing them, as they would if they were genuine pronouns.
+
+The most frequently used こそあど series are the following:
+
+こそあど	meaning
+
+{idx:japanese:この}[noun]	{idx:english:this@this!(noun)} [noun]
+{idx:japanese:その}[noun]	{idx:english:that@that!(noun)} [noun]
+{idx:japanese:あの}[noun]	that [noun] over there
+{idx:japanese:どの}[noun]	{idx:english:which@which!(noun)} [noun]
+
+with examples:
+
+  この車(くるま)が速(はや)いです。
+  "This car is fast."
+
+  その車が黒(くろ)いです。
+  "That car is black."
+
+  あの車が壊(こわ)れた。
+  "That car (over there) is broken."
+
+  どの車がいい？
+  "Which car do you like?"
+
+It should be obvious that this series is not actually a pronoun series, since it doesn't replace the noun in question. However, that said, there are a few こそあど series that act as a genuine series of pronouns, such as:
+
+こそあど	meaning
+
+{idx:japanese:これ}	{idx:english:this}.
+{idx:japanese:それ}	{idx:english:that}.
+{idx:japanese:あれ}	that over there.
+{idx:japanese:どれ}	{idx:english:which}.
+
+with examples:
+
+  これが速いです。
+  "This is fast."
+
+  それが黒いです。
+  "That's black."
+
+  あれが壊れた。
+  "That (over there)'s broken."
+
+  どれがいい？
+  "Which do you like?"
+
+Notice the periods after the English translations for the individual こそあど; these have been added to make sure you understand that these words are "done." They are replacement nouns, and cannot be used in conjunction with a noun.
+
+
+The rest of the common こそあど series are:
+
+こそあど	meaning
+
+{idx:japanese:こんな}[noun]	{idx:english:this kind of@this!kind of} [noun]
+{idx:japanese:そんな}[noun]	{idx:english:that kind of@that!kind of} [noun]
+{idx:japanese:あんな}[noun]	that kind of [noun] over there
+{idx:japanese:どんな}[noun]	{idx:english:which kind of@which!kind of} [noun]
+
+Beginning students often confuse どんな with the word {idx:japanese:何(なに)} which means "{idx:english:what}", when thinking of dialogues such as: "I bought a velour pillow" - "wow, what does that feel like?". While the English dialogue uses the word "what", the Japanese question would actually be "which/what kind of feeling does that have?"
+
+こそあど	meaning
+
+{idx:japanese:こちら}	{idx:english:this direction@this!direction}/{idx:english:this honourable person@this!honourable person}.
+{idx:japanese:そちら}	{idx:english:that direction@that!direction}/{idx:english:that honourable person@that!honourable person}.
+{idx:japanese:あちら}	that direction/that honourable person over there.
+{idx:japanese:どちら}	{idx:english:which direction@which!direction}/{idx:english:which honourable person@which!honourable person}.
+
+This series can mean two things, depending on context. Since personal pronouns are avoided as much as possible in Japanese, it is considered polite to refer to someone by referring to the direction in which they are located, relative to the speaker, similar to using the English indirect way of referring to someone: "Over here we have Mr. Carver", rather than just saying "This is Mr. Carver".
+
+こそあど	meaning
+
+{idx:japanese:こっち}	{idx:english:this direction@this!direction}/{idx:english:this person@this!person}.
+{idx:japanese:そっち}	{idx:english:that direction@that!direction}/{idx:english:that person@that!person}.
+{idx:japanese:あっち}	that direction over there/that person over there.
+{idx:japanese:どっち}	{idx:english:which direction@which!direction}/{idx:english:which person@which!person}.
+
+Since this is a contracted version of the previous set, it cannot be used to refer to people respectfully - you don't use colloquially contracted words when you're being respectful. You can, technically, use this word to refer to people, but then only in a familiar conversation.
+
+こそあど	meaning
+
+{idx:japanese:ここ}	{idx:english:here}
+{idx:japanese:そこ}	{idx:english:there}
+{idx:japanese:あそこ}, {idx:english:あすこ}	{idx:english:over there}
+{idx:japanese:どこ}	{idx:english:where}
+
+The location こそあど, like the これ/それ/あれ/どれ series, acts as a pronoun. There is an irregularity with the "not near me, not near you" version, which has two possible pronunciations, neither of which use just an あ rather than a こ, そ, or ど; instead, they have an additional syllable, being either そ or す. Both these versions are accepted Japanese, although あそこ is slightly more 'proper' than あすこ.
+
+こそあど	meaning
+
+{idx:japanese:こう}	{idx:english:this way@this!way}/{idx:english:this manner@this!manner}.
+{idx:japanese:そう}	{idx:english:that way@that!way}/{idx:english:that manner@that!manner}.
+{idx:japanese:ああ}	that way/manner (referring to something distal).
+{idx:japanese:どう}	{idx:english:how}/{idx:english:in which way@which!way}/{idx:english:in which manner@which!manner}.
+
+Notice the seeming irregularity for ああ here. I say seeming, because this こそあど series is actually each of the four "prefixes" with a long vowel sound — for こ, そ and ど this is a う, for あ, this is (clearly) not a う at all, but another あ.
+
+Finally, there is also a somewhat more classical series, of which the あ- variant should sound familiar:
+
+こそあど	meaning
+
+{idx:japanese:こなた}	{idx:english:this person@this!person} (I/me/you/him/he/her/she).
+{idx:japanese:そなた}	{idx:english:that person@that!person} (him/he, her/she).
+{idx:japanese:あなた}	that person over there (you).
+{idx:japanese:どなた}	{idx:english:which person@which!person} ({idx:english:who}).
+
+Since this set is a tad classical, there are a few things to notice. First of all, そなた refers to a third person (he/she), while あなた refers to second person (you). Also, while somewhat classical, this set is still used in formal settings. However, because it is used exclusively in formal settings it is considered {idx:english:distal} and very impersonal, and should thus only be used in formal settings where it would be improper to address someone the normal way. As an added bonus, あなた is also commonly understood to be two seemingly completely opposite things. On the one hand, it is the {gls:glossary:deferred}, {gls:glossary:distal}, formal word for "you", and on the other hand it also means "you" in a highly {gls:glossary:intimate} relationship, akin to the English terms "dear", "darling" or "honey" being used by couples to call each other.
+
+Lastly, while どなた means "who", it is considered a distal and reserved interrogative. The plain version of "who" is the pronoun {idx:japanese:誰(だれ)}, which is not associated with any こそあど series.
+
+こそあど	meaning
+
+{idx:japanese:こいつ}	{idx:english:this person@this!person} (I/me/you/him/he/her/she).
+{idx:japanese:そいつ}	{idx:english:that person@that!person} (him/he, her/she).
+{idx:japanese:あいつ}	that person over there (you).
+{idx:japanese:どいつ}	{idx:english:which person@which!person} ({idx:english:who}).
+
+In addition to the こちら (etc.), こっち (etc.)and こなた (etc.) series, we also have this series available for referring to people. Where the former are all reasonably polite in some way, this series actually borders on derogatory, so you should probably try to avoid using it. However, it's also frequently used in the expression どいつもこいつも, meaning "each and every one" in the sense of people:
+
+  もういい。どいつもこいつも邪魔(じゃま)をして仕事(しごと)を出来(でき)るわけないじゃないか。
+  "Oh, for crying out loud. How can I be expected to do my job with everyone and their dog getting in the way?"
+
+Technically this ど...もこ...も pattern can be used for any こそあど series, although the more polite or formal the series, the less this pattern can be applied.
+
+Finally, some こそあど are used in more complicated patterns, such as the こんな... series + 風(ふう), or the この... series + 様(よう), which we shall look at in the chapter on language patterns.
+
+===== Special verbs =====
+
+There are a number of special verbs that deserve a bit of extra attention as they are used so frequently in the language that it would be a miss to not highlight their roles.
+
+==== {idx:english:Becoming}: {idx:japanese:なる} ====
+
+Before you can say something "is" something else, it first has to "{idx:english:become@becomes}" this something else. In Japanese, the process of {idx:english:becoming} is expressed with the verb なる, which can be used to describe {idx:english:becoming a particular state@becoming!particular state} (such as "becoming cold") through the use of state nouns or adjective-derived adverbs, as well as being usable to describe {idx:english:becoming a particular thing@becoming!particular thing} (such as "becoming an adult") by using it with nouns. Finally it can of course also be used to describe the process of "becoming" itself, (such as "to quickly become [...]") by using proper adverbs.
+
+The verb なる is a 五段 verb, without any irregularities, meaning its bases are なら, なり, なる, なれ and なれ.
+
+While typically used in combination with the verb particle {idx:english:verb particles!に}, it can also be used in combination with the particle {idx:english:verb particles!と} (not in its role as noun lister), in which case its meaning changes from "become" to "be" (often interpreted as the immediate future "will be"). This can be illustrated with some に/と comparison sentences:
+
+  力(ちから)になります。
+  "(This) will become (our) strength".
+
+  力となります。
+  "(This) will be (our) strength".
+
+  バンドの出演(しゅつえん)は五月(ごがつ)二十四日(にじゅうよっか)になります。
+  "The band's performance will be set to (literally: become) May the 24th."
+
+  バンドの出演は五月二十四日となります。
+  "The band's performance will be on May the 24th."
+
+==== {idx:english:Being}: {idx:japanese:です}, {idx:japanese:だ}, {idx:japanese:ある}, {idx:japanese:いる} ====
+
+We already looked at です and だ, but we haven't really looked at how they fit together with other {gls:glossary:existential} verbs, and how each differs from the other.
+
+Where in English the verb "{idx:english:to be}" is used as both a {idx:english:copula} (the verb that sets up definitions such as "A is B") and as a {idx:english:existential verb} (the verb that indicates existence somewhere, such as "A is [here]"), in Japanese these are two (or more accurately, three) distinct roles. To indicate that "A is B", distinct copulae are used in Japanese. These include だ, です, but also several less frequently used copulae such as {idx:japanese:である}, {idx:japanese:でござる} and {idx:japanese:でいらっしゃる}.
+
+The existential verb role, on the other hand, is actually performed by two distinct verbs in Japanese: one describing existence for {gls:glossary:animate} objects (such as humans, animals, and things that can be considered animate, like "AIBO" robot puppies and the like) and one describing existence for inanimate objects and abstract things. These are いる (居る) and ある (有る), respectively. To illustrate the difference between animate and inanimate, let's look at two sentences:
+
+  犬(いぬ)がいる。
+  "(There) is a dog."
+
+  本(ほん)がある。
+  "(There) is a book."
+
+In both sentences, が marks the preceding part as subject of the sentence. Both sentences translate to "there is X", but in the first sentence X is a dog, which is an animate 'object', and because of this, we need to use いる. In the second sentence X is a book, which is rather inanimate, and thus ある is used. Also, in both sentences, the word "there" is entirely implied. Because we are using verbs to mark existence and we are talking about actual instances of dogs and books, saying they exist means we also say they exist at some location.
+
+If we only want to define something, i.e. say something "is" a thing, such as "it is a dog" or "it is a book", we use a copula instead. For most people used to western language, these verbs may at first glance seem to do the same as what いる and ある do; after all, the sentence "it is a dog" is essentially the same as the sentence "there is a dog" with the word "there" replaced with "it". However, there is a very important difference: in "there is a dog", we are saying that a dog exists somewhere, whereas in "it is a dog", we are defining some "it" to be of the category "dog".
+
+Put concisely, definitions in Japanese can only be done using copulae, and marking existence can only be done using いる or ある:
+
+  犬です。
+  "It is a dog."
+
+  本だ。
+  "It is a book."
+
+  本が四角(しかく)です。
+  "Books are rectangular."
+
+  犬が動物(どうぶつ)だ。
+  "Dogs are animals."
+
+==== {idx:english:Doing}: {idx:japanese:する} ====
+
+We've already seen する as irregular verb, and it has been used in enough example sentences to let it be no surprise that it means "do". However, this isn't the only meaning for this verb. When used in combination with a direct object — as transitive verb — する does mean "do", but when used as intransitive verb, its meaning should be considered to be "decide on" or "choose".  To show this difference in meaning between the transitive (strictly speaking, {idx:japanese:他動詞(たどうし)}) and intransitive (strictly speaking, {idx:japanese:自動詞(じどうし)}) versions of する, two short sentences:
+
+  何(なに)をするか。
+  "What are (you) doing?"
+
+  何にするか。
+  "What will (you) pick?"
+
+In the first sentence, {idx:english:verb particles!を} marks the preceding as direct object to the verb, while in the second sentence, {idx:english:verb particles!に} marks the preceding part as indirect object to the verb. The difference in meaning is striking.
+
+There is a third meaning to する, when paired with the particle {idx:english:verb particles!と}, which is "to consider something ...":
+
+  これが私(わたし)が必要(ひつよう)とするものです。
+  "These are the things (that) I consider important."
+
+==== {idx:english:Possessive}: {idx:japanese:ある} ====
+
+We're not quite done treating ある; while it means "exist" for inanimate things, this meaning also leads it to be usable for what in English is represented by "to have" in sentences like "I have a radio". In Japanese, you don't say you "have" something, but that "something is with you". For instance, if I want to say that aside from my portable radio I also have a radio at home, instead of saying "I have a radio at home too" I would say "there is a radio at my house too":
+
+  うちもラジオがある。
+  "(I) have a radio at home, too."
+
+Because of this double role, it's quite an important verb.
+
+==== {idx:english:Negative presence}: {idx:japanese:ない} ====
+
+I know that ない is not a verb, but the reason it's in this list is because of ある, which is very much a verb. Since ある means "exist" for inanimate things, and since the adjective ない means "not (exist)", there are actually (almost) always two interpretations possible when ない is used in a sentence, by virtue of ある having two possible interpretations:
+
+  ラジオがない。
+  1) "(There) is no radio."
+  2) "(I) do not have a radio."
+
+So for this reason it has been included in the list of important verbs; if we look at it as the negative form for ある, which we should, then it's a verb form, and a very important one at that.
+
+===== More Verb Grammar =====
+
+This covers the basics of verbal grammar. You should now be able to use most verbs in plain present affirmative and negative forms, as well as past tense, and hopefully be interested enough to move on to the next chapter, which will briefly recap the inflections covered in this chapter before moving on to the (rather extensive!) list of verbal inflections that are found in Japanese.

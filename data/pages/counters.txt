@@ -1,0 +1,1443 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Counters and counting ======
+
+Counting in Japanese is everything but apparent or easy if you're used to western counting. To count in Japanese, two things are required: a number, and a categorical marker that indicates what is actually being counted. This makes counting in Japanese not just a matter of knowing which words stand for which numbers, but also which counters stand for which countable categories.
+
+The categorical marker for items is usually not the item noun itself, but a different word acting as categorical counter particle instead. For instance, bottles, pencils and legs are all counted using the categorical counter for "long round object", and birds are counted using the categorical counter for "things with wings". However, clock hours are counted using the specific counter for hours, and the number of times something happens is counted using the specific counter for occurrences.
+
+The challenge is then to learn three things in order to successfully count in Japanese:
+
+  - which numbers exist and how to construct numbers yourself,
+  - which specific and categorical counters exist, and
+  - which to use when you don't actually know which you should use.
+
+Just like for regular particles, there exist dictionaries that contain lists and lists of which word can be used as a counter for which category of items, and if you wish to become a counting machine, it is recommended that you buy one and go over the lists in it as you will not find a truly exhaustive list here. Instead, the following list will only contain those counters that are considered reasonably essential to know in order to do basic counting (and that's already quite a few).
+
+===== {idx:english:Counting} =====
+
+Before we look at the counter particles, let's briefly look at counting itself. In the outline on Japanese, I mentioned three different ways to count from one to ten, and this comes from the fact that Japan, while it borrowed the Chinese kanji and readings, also had its own language prior to knowing anything about China. Not surprisingly then, counting was done with completely different words in pre-China Japan. However, unlike this pre-China native Japanese counting system, the Chinese derived series for one through ten is reasonably simple:
+
+number	written and pronounced
+
+1	{idx:english:一(いち)@いち (一, 壱)}, 壱 in formal writing.
+2	{idx:english:二(に)@に (二, 弐)}, 弐 in formal writing.
+3	{idx:english:三(さん)@さん (三, 参)}, 参 in formal writing.
+4	{idx:english:四(し)@し, よん (四)} — More commonly pronounced よん, a native Japanese reading.
+5	{idx:english:五(ご)}
+6	{idx:english:六(ろく)}
+7	{idx:english:七(しち)@しち, なな (七)} — More commonly pronounced なな, also a native Japanese reading.
+8	{idx:english:八(はち)}
+9	{idx:english:九(きゅう)}
+10	{idx:english:十(じゅう)@じゅう (十, 拾)}, 拾 in formal writing.
+
+The reason why 1, 2, 3 and 10 have special formal kanji stems from the use in legal documents, where changing an 一 into a 十 or 二 into 三 was rather easy, while turning an 壱 into a 拾 or a 弐 into a 参 was a lot harder. There are similar counterparts for 4 through 9, but these are rarely used: 肆, 伍, 陸, 漆, 捌 and 玖 respectively. Larger numbers in the Chinese system are written either using Arabic numerals (like 1,890,298,345), or — when they're decently clean or small enough to write out in full — written in kanji.
+
+Using kanji forms to {idx:english:create large numbers@forming numbers} relies on a fairly simple rule of composition, as you should be able to tell from the following examples:
+
+  20 = 2 × 10 = 二十
+  90 = 9 × 10 = 九十
+
+  100 = {idx:english:numbers!百(ひゃく)}, formally written as 佰
+  120 = 100 + 2 × 10 = 百二十
+  780 = 7 × 100 + 8 × 10 = 七百八十
+
+  1000 = {idx:english:numbers!千(せん)}, formally written as 阡
+  1300 = 1000 + 3 × 100 = 千三百
+  4826 = 4 × 1000 + 8 × 100 + 2 × 10 + 6 = 四千八百二十六
+
+  10000 = {idx:english:numbers!万(まん)}, formally written as 萬.
+
+The rules for composition are actually reasonably close to the western system of writing large numbers, except that instead of replacing the {idx:english:order} (the "1" in 1, 10, 100, 1000, etc.) with the factor ("2" in 20, "8" in 800, etc.), the {idx:english:factor} is simply added in front of the order, effectively indicating a multiplier.
+
+However, one significant difference is found in {idx:english:orders of magnitude@order of magnitude}: in western systems we raise by a power of 1000 for large numbers (i.e. a million is 1000 × 1000, a billion is 1000 × 1000 × 1000, etc.), but in the Chinese counting system large numbers are powers of 万, {idx:english:10,000}:
+
+  9,999 is 九千九百九十九, 10,000 is 万. The biggest number that still uses 万 as highest order is 99,999,999: 九千九百九十九万九千九百九十九. The number that follows this is a number equal to 万 × 万, called {idx:english:Numbers!億(おく)}, with a value of {idx:english:100,000,000}. The next order number is 万 × 億, which is {idx:english:兆(ちょう)}. The next order number is 万 × 兆, which is {idx:english:京(けい)}.
+
+There are in fact quite a few of these higher order counters, although of course the higher you go, the less likely people are to know the counter used, and the less meaningful the number becomes (because we cannot visualise such large numbers).
+
+Aside from the numbers one through ten, there is also the 'number' zero, which is typically written in katakana as {idx:english:numbers!ゼロ} when used on its own, or using the noun {idx:english:零(れい)} when meaning "nought" or "null". An example of using 零 is in things such as "0.0001", which can also be written as 零(れい)点(てん)零零零一(れいれいれいいち), with 点 meaning "dot".
+
+The {idx:english:native@numbers!native numbers} Japanese way of counting is a bit more complex:
+
+number	pronunciation
+
+1	{idx:english:ひ@ひ, ひと (一)}
+2	{idx:english:ふ@ふ, ふた, ふつ (二)}
+3	{idx:english:み@み, みっ (三)}
+4	{idx:english:よ@よ, よっ (四)}
+5	{idx:english:い　(いっ)@い(っ), いつ (五)}
+6	{idx:english:む@む, むつ, むい (六)}
+7	{idx:english:な@な, なな, なの (七)}
+8	{idx:english:や@や, よう (八)}
+9	{idx:english:こ@こ, ここの (九)}
+10	{idx:english:と@と, とお (十)}
+
+While this doesn't look very complex, this series is also one you will likely never use as they aren't used for actual counting. It may be used when someone's trying to enumerate something from memory using their fingers, muttering "ひ, ふ, み, よ, い..." while touching fingers in succession, but that's about it. Instead, slightly different pronunciations are used when paired with counters for actual counting statements. The native Japanese readings are used with only a handful of counters, but these are quite important counters: those used for general counting of items, and for counting days.
+
+number	counting things: {idx:english:counters!つ}	counting days: {idx:english:日@counters!か (日)} (pronounced か)
+
+1	一(ひと)つ	一日 — special readings: ついたち and いちにち
+2	二(ふた)つ	二日(ふつか)
+3	三(みっ)つ	三日(みっか)
+4	四(よっ)つ	四日(よっか)
+5	五(いつ)つ	五日(いつか)
+6	六(むっ)つ	六日(むいか)
+7	七(なな)つ	七日(なのか)
+8	八(やっ)つ	八日(ようか)
+9	九(ここの)つ	九日(ここのか)
+10	十(とお)	十日(とおか)
+
+If we ignore the reading for 一日 (for which ついたち means "the first day of the month" and いちにち means "one day (in duration/length)") we see that these two series don't use the same readings for the numbers, and that neither are quite the same as the previous table for native readings. The readings that you see for the counter つ can be considered the 'dominant' readings, used with a few other native Japanese (訓読(くんよ)み) counters, with the readings for 日 being fairly unique and not used by other counters.
+
+Before we move on to the counters list, we need to finish looking at what numbers do when paired with counters, and this involves looking at how their readings may change when they are paired with certain counters: they may contract, and the counter may become voiced. There are a few general rules that apply, although of course — as always — there are a few exceptions to these general rules (when a counter has such an exception, this will be highlighted in its section).
+
+==== {idx:english:Rules for 一(いち)@counting pronunciation rules!一(いち)} ====
+
+When followed by a counter starting with a syllable from the か—, さ— or た—column, いち becomes いっ:
+
+  いち + こ becomes いっこ
+  いち + さい becomes いっさい
+  いち + とう becomes いっとう
+
+When followed by a counter starting with a は—column syllable, いち becomes いっ and the counter voices to a 'p' sound:
+
+  いち + はい becomes いっぱい
+
+==== {idx:english:Rules for 三(さん)@counting pronunciation rules!三(さん)} ====
+
+When followed by a counter starting with a は—column syllable, that syllable voices to a 'b' sound:
+
+  さん + ほん becomes さんぼん
+
+==== {idx:english:Rules for 六(ろく)@counting pronunciation rules!六(ろく)} ====
+
+When followed by a counter starting with a か—column syllable, ろく becomes ろっ:
+
+  ろく + かい becomes ろっかい
+
+When followed by a counter starting with a は—column syllable, ろく becomes ろっ and the counter voices to a 'p' sound:
+
+  ろく + ひゃく becomes ろっぴゃく
+
+==== {idx:english:Rules for 八(はち)@counting pronunciation rules!八(はち)} ====
+
+When followed by a counter starting with a か—, さ— or た—column syllable, はち becomes はっ:
+
+  はち + こう becomes はっこう
+  はち + せん becomes はっせん
+  はち + たい becomes はったい
+
+When followed by a counter starting with a は—column syllable, はち becomes はっ and the counter voices to a 'p' sound:
+
+  はち + ひき becomes はっぴき
+
+==== {idx:english:Rules for 十(じゅう)@counting pronunciation rules!十(じゅう)} ====
+
+When followed by a counter starting with a か—, さ— or た—column syllable, じゅう may become じっ or じゅっ:
+
+  じゅう + こ can become either じっこ or じゅっこ
+  じゅう + さい can become either じっさい or じゅっさい
+  じゅう + たい can become either じったい or じゅったい
+
+When followed by a counter starting with a は—column syllable, じゅう can become either じっ or じゅっ and the counter voices to a 'p' sound:
+
+  じゅう + ほん can become either じっぽん or じゅっぽん
+
+The choice between which of the two possible pronunciations to use is mostly one of style. The "proper" pronunciation is じっ[...], but is also becoming more and more dated Japanese, with many people using the pronunciation じゅっ these days. Depending on whose company you are in, you'll have to pick the pronunciation that will raise fewest eyebrows.
+
+==== How many? ====
+
+In addition to counting statements such as "three oranges" or "seven samurai", it also helps if we know how to ask "how many oranges?" or "how many samurai?". This is done using two question words: {idx:english:何—@なん (何)}, pronounced なん—, and {idx:english:幾—@いく (幾)}, pronounced いく—. These are used in the same way that numerals are used, being paired with a counter to turn it into a questioning statement. Different counters use different question words, with the rule generally being that if native Japanese readings are used with the counter, the question word will be 幾—, whereas if Chinese readings are used with the counter, the question word will be 何. Thus, we can ask for "how many oranges?" by using 幾つ:
+
+  オレンジは幾つありますか。
+  "How many oranges are (there)?"
+
+And we can ask how many samurai there are by using:
+
+  侍(さむらい)は何人(なんにん)いますか。
+  "How many samurai are (there)?"
+
+(note the difference in verb; ある for oranges, いる for samurai)
+
+=== {idx:english:Rules for 何(なん)@counting pronunciation rules!何(なん)} ===
+
+When followed by a counter starting with a は—column syllable, the counter voices to a 'b' sound:
+
+  なん + はい becomes なんばい
+==== The rules in summary ====
+
+In summary, there are four different numeral readings:
+
+numeral	General reading	native reading	with つ	with か
+
+一	いち	ひ	ひとつ	×
+二	に	ふ	ふたつ	ふつか
+三	さん	み	みっつ	みっか
+四	し or よん	よ	よっつ	よっか
+五	ご	い(っ)	いつつ	いつか
+六	ろく	む	むっつ	むいか
+七	しち or なな	な	ななつ	なのか
+八	はち	や	やっつ	ようか
+九	きゅう	こ	ここのつ	ここのか
+十	じゅう	と	とお	とおか
+
+And the {idx:english:table of pronunciation changes@change rules!summary} when numerals are paired with counters:
+
+numeral	reading	+は	+た	+さ	+か
+
+一	いち	いっぱ	いった	いっさ	いっか
+二	に				
+三	さん	さんば			
+四	し, よん				
+五	ご				
+六	ろく	ろっぱ			ろっか
+七	しち, なな				
+八	はち	はっぱ	はった	はっさ	はっか
+九	きゅう				
+十	じゅう	じっぱ	じった	じっさ	じっか
+		じゅっぱ	じゅった	じゅっさ	じゅっか
+何	なん	なんば			
+幾	いく				
+
+===== {idx:english:Ranges and estimations} =====
+
+Number ranges are really easy in Japanese, involving nothing more than using ～ between two numbers, so that １～７ indicates the range 1 through 7. Typically ranges like these will use actual numbers, rather than kanji forms, purely for aesthetics. While ranges in English have their own pronunciation ("X through Y" or "X to Y"), in Japanese there is no special word between the start and the end of a range:
+
+  今度(こんど)の授業(じゅぎょう)に第(だい)十一(じゅういち)～二十(じゅうに)課(か)を読(よ)んでください。
+  Please read chapters 11 through 20 for next class.
+
+The construction 第十一～二十課 is simply pronounced だいじゅういちにじゅうか, and when the resulting written form is unambiguous, the ～ symbol may even be left off, in this case forming 第十一二十課 (of course, still pronounced だいじゅういちにじゅうか).
+
+The start and end of ranges can, if needed, be explicitly marked as such by using から and まで, but doing so carries the same difference in nuance as explicitly marking a start and end in English carries:
+
+  第十一課から第二十課まで読んでください。
+  Please read from chapter 11 up to chapter 20.
+
+Rough ranges, or estimations, are even easier. These simply consist of all the numbers in the estimation, in succession (similar to rough ranges in English):
+
+  一二分(いちにふん)歩(ある)いた。
+  "I walked 1 (or) 2 minutes."
+
+This can be a bit confusing when someone says something like 十一二分歩いた, which could either mean "I walked 11 (or) 2 minutes" or "I walked 11 (or) 12 minutes". Disambiguation is typically left to context, so that in this case it would be odd that someone walked either 11 or 2 minutes, when the alternative is 11 or 12. However, there may be instances where more than one interpretation seems reasonable, and you'll have to apply some analytical thinking to determine which is the correct interpretation.
+
+===== {idx:english:Counters} =====
+
+When actually counting, or just enumerating things, we need to combine numbers with counters. This can be done in two different ways, depending on whether the focus is on the thing that's being counted, or on the count itself:
+
+  Focus on item: [X] の [Y] を/が + verb
+  Focus on count: [Y] を/が [X] + verb
+
+For instance, in the statement ふたつのオレンジをください, translating to "please give me two oranges", the focus is on oranges (because it comes later in the sentence). If we rearrange this to form the sentence オレンジをふたつください the focus is on the count: "oranges, give me two, please".
+
+As mentioned, counters can be split into specific and general counter categories. Specific counters cover things like units of time or distance, and general counters cover categories like 'bound objects' or 'pieces of [something]'. Rather than just using these two categories, a list of common numerical orders, which act as counters too, is presented first. This list is followed by the other counters, split up into four categories: general article counters, counters for living things, counters for occurrences, and time related unit counters.
+
+In addition to counters, a list of adverbs used for {gls:glossary:quantification} is included in this chapter. While strictly speaking these are not counters, they are used when you need to quantify actions without being able to rely on a counter, such as when you "read books often".
+
+==== Numerical counters ====
+
+=== {idx:english:counters!百(ひゃく)} — {idx:english:numerical counters!100} (A hundred) ===
+
+As mentioned in the section on counting, the numerical orders in Japanese are technically counters too, with their own set of pronunciations:
+
+百	(一百)	二百	三百	四百	五百
+
+ひゃく	(いっぴゃく)	にひゃく	さんびゃく	よんひゃく	ごひゃく
+
+六百	七百	八百	九百	千	何百
+
+ろっぴゃく	ななひゃく	はっぴゃく	きゅうひゃく	せん	なんびゃく
+
+Note that 一百 isn't used unless it needs to be stressed that it's one hundred, rather than some other factor of a hundred. Also note that quite obviously "ten hundred" doesn't exist. Instead this is 千, 1000.
+
+=== {idx:english:counters!千(せん)} — {idx:english:numerical counters!1000} (A thousand) ===
+
+The counter for a thousand has an irregular pronunciation for 3, and the question counter:
+
+千	(一千)	二千	三千	四千	五千
+
+せん	(いっせん)	にせん	さんぜん	よんせん	ごせん
+
+六千	七千	八千	九千	万	何千
+
+ろくせん	ななせん	はっせん	きゅうせん	まん	なんぜん
+
+Again, unless the factor 1 needs to be stressed, 千 rather than 一千 is used. And again, there is no "ten thousand", there is the counter 万 instead.
+
+=== {idx:english:counters!万(まん)} — {idx:english:numerical counters!10000} (Ten thousand) ===
+
+The highest "low order" order counter, 万 stands for ten thousand. Because it is the highest "low order" order counter, it is used in combination with 10, 100 and 1000 to indicate a hundred thousand, a million and ten million respectively. 100 million is a new counter, 億(おく).
+
+万	(一万)	二万	三万	四万	五万	六万	七万
+
+まん	(いちまん)	にまん	さんまん	よんまん	ごまん	ろくまん	ななまん
+
+八万	九万	十万	百万	千万	何万
+
+はちまん	きゅうまん	じゅうまん	ひゃくまん	せんまん	なんまん
+
+=== {idx:english:counters!億(おく)} — {idx:english:numerical counters!100000000} (A hundred million) ===
+
+The biggest "useful" number, 億 is still a realistically large number in, for instance, prices for houses, luxury yachts or fancy sports cars. The pronunciation is wholly unremarkable:
+
+億	(一億)	二億	三億	四億	五億	六億	七億
+
+おく	(いちおく)	におく	さんおく	よんおく	ごおく	ろくおく	ななおく
+
+八億	九億	十億	百億	千億	兆	何億
+
+はちおく	きゅうおく	じゅうおく	ひゃくおき	せんおく	ちょう	なんおく
+
+=== {idx:english:Other order counters@numerical counters!assorted} ===
+
+While slightly ridiculous, there are counters for 10 to the power minus 21, which is the truly insignificant number 0.0000000000000000000001, up to the incredibly huge number 10 to the power 68, or 100,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000,\linebreak[0]000. Now, while for normal purposes these are of course ridiculous numbers, they're quite useful for science. The list of all available counters, plus their western abbreviated counterparts, is as follows:
+
+counter	value	equivalent term
+
+清浄(せいじょう)	10 to the power -21	zepto, z
+虚空(こくう)	10 to the power -20	
+六徳(りっとく)	10 to the power -19	
+刹那(せつな)	10 to the power -18	ato, a
+弾指(だんし)	10 to the power -17	
+瞬息(しゅんそく)	10 to the power -16	
+須臾(しゅゆ)	10 to the power -15	femto, f
+逡巡(しゅんじゅん)	10 to the power -14	
+糢糊(もこ)	10 to the power -13	
+漠(ばく)	10 to the power -12	pico, p
+渺(びょう)	10 to the power -11	
+埃(あい)	10 to the power -10	
+塵(じん)	10 to the power -9	nano, n, 1/1,000,000,000
+沙(しゃ)	10 to the power -8	
+繊(せん)	10 to the power -7	
+微(び)	10 to the power -6	micro, μ, 1/1,000,000
+忽(こつ)	10 to the power -5	
+糸(し)	10 to the power -4	
+毛(もう)	10 to the power -3	milli, m, 1/1,000, 0.001
+厘(りん)	10 to the power -2	centi, c, 1/100, 0.01
+分(ぶ)	10 to the power -1	deci, d, 1/10, 0.1
+
+counter	value	equivalent term
+
+十(じゅう)	10 to the power 1	deca, da, 10
+百(ひゃく)	10 to the power 2	hecto, h, 100
+千(せん)	10 to the power 3	kilo, k, 1000
+万(まん)	10 to the power 4	
+億(おく)	10 to the power 8	
+兆(ちょう)	10 to the power 12	tera, T
+京(けい)	10 to the power 16	
+垓(がい)	10 to the power 20	
+抒(じょ・し)	10 to the power 24	yotta, Y
+穣(じょう)	10 to the power 28	
+溝(こう)	10 to the power 32	
+澗(かん)	10 to the power 36	
+正(せい)	10 to the power 40	
+載(さい)	10 to the power 44	
+極(ごく)	10 to the power 48	
+
+The measures for mega (M), giga (G), peta (P) and exa (E) are missing from this set because these correspond to 10 to the powers 6, 9, 15 and 18 respectively, none of which are divisible by 4.
+
+For orders higher than 48, there is a curious problem where in the rigid counting system the order keeps going up by 4, so that the five terms refer to 10 to the power 52, 56, 60, 64 and 68 respectively, but can also stand for older Japanese numbers, in which case they refer to 10 to the power 56, 64, 72, 80 and 88 respectively. While it is unlikely you will ever hear about these numbers ever again, these numbers have a very high trivia factor:
+
+counter	value
+
+{idx:english:恒河沙(ごうがしゃ)} 	10 to the power 52, as well as 56
+{idx:english:阿僧祇(あそうぎ)}	10 to the power 56, as well as 64
+{idx:english:那由他(なゆた)}	10 to the power 60, as well as 72
+{idx:english:不可思議(ふかしぎ)}	10 to the power 64, as well as 80
+{idx:english:無量大数(むりょうだいすう)}	10 to the power 68, as well as 88
+
+
+==== General counters for articles ====
+
+=== {idx:english:counters!第(だい)} — {idx:english:counters for articles!Ordinal prefix} ===
+
+The first counter in this list isn't actually a counter, but an ordinal prefix. It's quite frequently used, so it's important you've learned it, and it's relatively easy to wrap your head around: if some counter statement says "... somethings", then prefixing 第 to it will create the statement "the ...th something" or "something (number) ...":
+
+  この本(ほん)が１７課(か)があります。
+  "This book has 17 chapters."
+  
+  第１～１０課は易(やす)くて, 第１１～１７課は難(むず)しいです。
+  "Chapters 1 through 10 are easy, chapters 11 through 17 are hard."
+
+=== {idx:english:counters!本(ほん)} — {idx:english:counters for articles!Long cylindrical items} ===
+
+When you want to count cylindrical objects like pencils, bottles, or arms, 本 is used. As a noun this word means "book" or "origin", but as a counter it obviously means something completely different. The pronunciations for this counter are:
+
+一本	二本	三本	四本	五本	六本
+
+いっぽん	にほん	さんぼん	よんほん	ごほん	ろっぽん
+
+七本	八本	九本	十本	何本
+
+ななほん	はっぽん	きゅうほん	じっぽん	なんぼん
+			じゅっぽん	
+
+An example of its use is counting bottles of cola on the table:
+
+  何本ありますか。
+  "How many bottles are there?"
+
+  テーブルの上(うえ)にコーラが三本あります。
+  "There are 3 bottles of cola on the table."
+
+Interestingly, phone calls can also be counted using this counter, the "logic" behind this being that telephone horns used to also be cylindrical (think of the classical phone with a rotary number dial).
+
+=== {idx:english:counters!冊(さつ)} — {idx:english:counters for articles!Bound volumes} ===
+
+This counter is used for counting bound objects like books, magazines, notebooks and the like. The pronunciations are:
+
+一冊	二冊	三冊	四冊	五冊	六冊
+
+いっさつ	にさつ	さんさつ	よんさつ	ごさつ	ろくさつ
+
+七冊	八冊	九冊	十冊	何冊
+
+ななさつ	はっさつ	きゅうさつ	じっさつ	なんさつ
+			じゅっさつ	
+
+And an example of use would be:
+
+  本棚(ほんだな)に五冊の本(ほん)があります。
+  "There are 5 books on the bookshelf."
+
+(In this sentence, 本 is used as a normal noun, not a counter.)
+
+=== {idx:english:counters!巻(かん)} — {idx:english:counters for articles!Volumes} ===
+
+This counter is used to count volumes in a series of bound volumes. For instance, a twenty volume encyclopedia comprises ２０巻 worth of books. The difference between 巻 and 冊 is that 冊 only means bound volume. A stack of reading material consisting of a magazine, a newspaper, a novel and a text book on Japanese consists of 四冊, but since these are each completely different works, the stack does not consist of 四巻.
+
+=== {idx:english:counters!課(か)} — {idx:english:counters for articles!Sections} ===
+
+This counter is used to count sections in a (text) book, or lessons in a lesson programme. On its own, 課 technically means "division", but is understood within the context of something educational, so mostly translates to chapter, lesson, section, or even (educational) department.
+
+=== {idx:english:counters!枚(まい)} — {idx:english:counters for articles!Sheets} ===
+
+This counter is used to count sheet-like things, such as sheets of paper, plates, planks, or even things like folded up T-shirts. The pronunciations are:
+
+一枚	二枚	三枚	四枚	五枚	六枚
+
+いちまい	にまい	さんまい	よんまい	ごまい	ろくまい
+
+七枚	八枚	九枚	十枚	何枚
+
+しちまい	はちまい	きゅうまい	じゅうまい	なんまい
+(ななまい)				
+
+And an example of use would be:
+
+  この大(おお)きな本(ほん)は何枚ですか。
+  "How many pages (literally: sheets) is this big book?"
+
+=== {idx:english:counters!杯(はい)} — {idx:english:counters for articles!Cups} ===
+
+This counter is used to count cups of drink, such as glasses of wine, cups of tea, glasses of beer and the like. The pronunciations are:
+
+一杯	二杯	三杯	四杯	五杯	六杯
+
+いっぱい	にはい	さんばい	よんはい	ごはい	ろっぱい
+
+七杯	八杯	九杯	十杯	何杯
+
+ななはい	はっぱい	きゅうはい	じっぱい	なんばい
+(しちはい)			じゅっぱい	
+
+An example of use would be:
+
+  赤(あか)ワインを二杯とビールを一杯()下(くだ)さい。
+  "2 glasses of red wine and 1 glass of beer please."
+
+Note that {idx:english:一杯@いっぱい (一杯)} can mean two things: as a counter statement it means "one cup [of something]". However, it can also be used as a quantifier, in which case it means "plenty" or "full", depending on the context. When used to mean "one cup", the pronunciation drops in pitch on "っぱい", whereas when it is used to mean "full", the pronunciation has a rising pitch on "っぱい".
+
+=== {idx:english:counters!台(だい)} — {idx:english:counters for articles!Machinery} ===
+
+This counter is used to count mechanical or electrical machinery of all sizes. This would include things like cars, televisions, pianos, cameras, sewing machines, and the like.
+
+一台	二台	三台	四台	五台	六台
+
+いちだい	にだい	さんだい	よんだい	ごだい	ろくだい
+
+七台	八台	九台	十台	何台
+
+ななだい	はちだい	きゅうだい	じゅうだい	なんだい
+(しちだい)				
+
+An example of use would be:
+
+  友達(ともだち)のヒロシは三台のコンピューターがあるんだって。
+  "(My) friend Hiroshi said he had three computers."
+
+=== {idx:english:counters!階(かい)} — {idx:english:counters for articles!Floors in a building} ===
+
+This counter is used to count floors or levels of a building, and has a special pronunciation for 3:
+
+一階	二階	三階	四階	五階	六階
+
+いっかい	にかい	さんかい	よんかい	ごかい	ろっかい
+		さんがい			
+
+七階	八階	九階	十階	何階
+
+ななかい	はっかい	きゅうかい	じっかい	なんかい
+			じゅっかい	
+
+An example of use would be:
+
+  寝室(しんしつ)は二階にあります。
+  "The bedrooms are on the second floor."
+
+For floors underground, the prefix {idx:english:地下(ちか)} (literally meaning "underground") is added to this counter:
+
+地下一階	地下二階	地下三階	...
+
+ちかいっかい	ちかにかい	ちかさんがい	...
+
+In addition, there are also two useful words to know when it comes to floors, being {idx:english:最上階(さいじょうかい)}, meaning "{idx:english:top floor}" and {idx:english:中二階(ちゅうにかい)} meaning "{idx:english:mezzanine}" (a 'floor' between first and second floor).
+
+=== {idx:english:counters!個(こ)} — {idx:english:counters for articles!Instances}, {idx:english:counters for articles!number of} ===
+
+This is a general purpose counter used to count "numbers of [something]", such as the number of eggs needed for a specific recipe, or the number of bricks in a wall. The pronunciations are:
+
+一個	二個	三個	四個	五個	六個
+
+いっこ	にこ	さんこ	よんこ	ごこ	ろっこ
+
+七個	八個	九個	十個	何個
+
+ななこ	はっこ	きゅうこ	じっこ	なんこ
+			じゅっこ	
+
+And example of use would be:
+
+  卵(たまご)を何個()入(い)れていいですか。
+  "How many eggs should (I) add?"
+
+This counter is a typical fall-back counter when you do not know the proper counter for something, although with the note that it only makes sense for things that can be measured in units, or instances. So eggs and bricks are fine, people or thoughts are not.
+
+=== {idx:english:counters!つ} — {idx:english:counters for articles!Items} ===
+
+This is a special {idx:english:general counter} for counting items. Because this counter creates statements such as "I will have four [items]", it's typically omitted in translation because it doesn't indicate what kind of items are counted at all, merely that they are being counted. The pronunciations for this counter, as mentioned in the counting section, are what make this particle special, since it uses the native Japanese pronunciations for 1-9, and has a special question word:
+
+一つ	二つ	三つ	四つ	五つ	六つ
+
+ひとつ	ふたつ	みっつ	よっつ	いつつ	むっつ
+
+七つ	八つ	九つ	(十)	{idx:english:幾つ@いくつ (幾つ)}
+
+ななつ	やっつ	ここのつ	(とお)	いくつ
+
+Important to note is that 十 doesn't actually have つ as counter at all. Also, the question word for this counter can be used not just to ask "how many items", but also "how many years [of age]" someone is, although this only applies to the age of young children, as the counter only really goes up to 10. For children that are older, as well as adolescents and adults, the regular question word なんさい ({idx:english:何才@なんさい (何才)} / {idx:english:何歳@なんさい (何歳)}), which is the question word for the counter for years of age, is used instead.
+
+An example of use would be:
+
+  二つのオレンジが残(のこ)りました。
+  "There were 2 oranges left."
+
+=== {idx:english:counters!円(えん)} — The {idx:english:counters for articles!Japanese currency} ===
+
+This counter is used for {idx:english:¥@Yen (¥)}, the Japanese currency. This counter has special pronunciations for 4 and 9, and also has a special question word:
+
+一円	二円	三円	四円	五円	六円
+
+いちえん	にえん	さんえん	よえん	ごえん	ろくえん
+
+七円	八円	九円	十円	幾ら
+
+しちえん	はちえん	くえん	じゅうえん	いくら
+(ななえん)		(きゅうえん)		
+
+An example sentence would be:
+
+  このペンは五十円でした。
+  "This pen was 50 yen."
+
+Note the different readings よえん instead of "よんえん" and くえん instead of "きゅうえん". Also note that the question word for "how many yen" is actually the question word meaning "how much", and is remarkably similar to くらい in that it can be used to refer to  either quantity, duration or frequency. Thus, the question いくら読(よ)みますか, "how much do you read?", can mean three different things, reflected in the possible answers to it:
+
+  二週間(にしゅうかん)に一冊(いっさつ)読みます。
+  "(I) read 1 book every 2 weeks."
+
+  一日(いちにち)に二時間(にじかん)読みます。
+  "(I) read 2 hours a day."
+
+  あんまり読ませんよ。
+  "Oh, (I) don't really read that much."
+
+Of course, in the context of currency いくら is always understood as meaning "how much (money)".
+
+Other major currency counters are {idx:english:ドル}, {idx:english:the (US) dollar@dollar ($)}, {idx:english:ユーロ}, the {idx:english:euro (€)}, and {idx:english:ポンド}, {idx:english:the (British) pound@pound (£)}.
+
+=== {idx:english:counters!畳(じょう)} — {idx:english:counters for articles!Floor surface} ===
+
+Traditional Japanese houses, or traditional rooms in apartment buildings or flats in Japan (called 和風室(わふうしつ), literally 'Japanese style room'), are never counted in terms of square feet or meters, but in terms of how many tatami mats, {idx:english:畳(たたみ)}, it will fit. This unit of measure is one of the 'common knowledge' units of surface measure, so it's generally a good idea to know it. The size of tatami mats depends on the region, ranging from 0.955 meter by 1.91 meter in the Kyoto area to only 0.88 meter by 1.76 meter in the Tokyo area. Thus, a 六畳 room may be bigger or smaller, depending on where in Japan you find it.
+
+The counting table is fairly simple, with a different reading for 9:
+
+一畳	二畳	三畳	四畳	五畳	六畳
+
+いちじょう	にじょう	さんじょう	よんじょう	ごじょう	ろくじょう
+
+七畳	八畳	九畳	十畳	何畳
+
+しちじょう	はちじょう	くじょう	じゅうじょう	なんじょう
+(ななじょう)		(きゅうじょう)		
+
+Typically, however, there are only three counts for 畳, namely the common room dimensions for Japanese style rooms: {idx:english:四畳()半(はん)@よんじょうはん (四畳半)} (four and a half), {idx:english:六畳@ろくじょう (六畳)} and {idx:english:八畳@はちじょう (八畳)}. When indicating actual counts of individual tatami mats, such as when purchasing replacement mats or for outfitting several rooms, the counter {idx:english:枚@まい (枚)} is used instead. The reason for this is that rather than indicating surface measure, you are now counting flat, sheet-like objects, which must of course be counted using the counter for flat, sheet-like objects.
+
+==== Counters for living things ====
+
+=== {idx:english:counters!匹(ひき)} — {idx:english:counters for living things!Small animals and fish} ===
+
+This counter is used to count small animals. "Small" should not be taken too literally, as this counter applies to cats, squirrels, mice, or fish just as it does to great Danes (a particularly huge kind of dog) or even moderately sized alligators.
+
+The pronunciations are:
+
+一匹	二匹	三匹	四匹	五匹	六匹
+
+いっぴき	にひき	さんびき	よんひき	ごひき	ろっぴき
+
+七匹	八匹	九匹	十匹	何匹
+
+しちひき	はっぴき	きゅうひき	じっぴき	なんびき
+(ななひき)			じゅうっぴき	
+
+An example sentence would be:
+
+  ねずみ一匹でも入(はい)れないはずです。
+  "Not even a single mouse should be able to get in (here)."
+
+=== {idx:english:counters!羽(わ)} — {idx:english:counters for living things!Birds and rabbits} ===
+
+This kanji means "wings" when pronounced {idx:english:はね@はね (羽)}, and as a counter is used to count birds. As a peculiarity, this counter can also be used to count rabbits (although 匹 is more common these days), because of an interesting bit of Japanese history: from the 6th century until the mid-19th century, Japanese people were — by decree — forbidden to eat several kinds of meat between April and October. However, birds and adult fish could still be eaten, so in order to be able to eat meat anyway, people started calling certain animals by different names, referring to them as birds of fish. Boars, for instance, became "land whales" (whales still being considered fish at the time, rather than the mammals we now know them to be), and rabbits became "birds" on account of their floppy ears, so these animals were counted using the counters that applied to these animals instead. This practice lasted until 1872, when the {idx:english:Meiji restoration} embraced a number of Western views and customs, and eating meat was allowed all year round again after a more than 1300 year period of decreed abstinence. That said, rabbits can of course also be counted using 匹.
+
+The pronunciations for this counter are wholly unremarkable:
+
+一羽	二羽	三羽	四羽	五羽	六羽
+
+いちわ	にわ	さんわ	よんわ	ごわ	ろくわ
+
+七羽	八羽	九羽	十羽	何羽
+
+しちわ	はちわ	きゅうわ	じゅうわ	なんわ
+(ななわ)				
+
+A fun example sentence for this counter is a classic:
+
+  庭には二羽の鶏がいる。
+  "There are 2 chickens in the garden."
+
+The pronunciation for this sentence is "にわにわにわのにわとりがいる", which is always a good reason to use this sentence whenever appropriately possible.
+
+=== {idx:english:counters!頭(とう)} — {idx:english:counters for living things!Large animals} ===
+
+This kanji on its own means "head", and for reasons about as inexplicable as why 本 is used for cylindrical objects, 頭 is used to count large animals such as sheep, cows, horses, elephants, giraffes, salt water crocodiles (which are astoundingly huge), etc. The pronunciations are:
+
+一頭	二頭	三頭	四頭	五頭	六頭
+
+いっとう	にとう	さんとう	よんとう	ごとう	ろくとう
+
+七頭	八頭	九頭	十頭	何頭
+
+ななとう	はっとう	きゅうとう	じっとう	なんとう
+			じゅっとう	
+
+An example sentence would be:
+
+  一頭の馬(うま)が見(み)えます。
+  "(I) can see 1 horse."
+
+=== {idx:english:counters!人(にん・り)} — {idx:english:counters for living things!People} ===
+
+It should be noted that there are special pronunciations for 1 person and 2 people, using the reading り, but that 3 and up are all counted using the pronunciation にん:
+
+一人	二人	三人	四人	五人	六人	七人
+
+ひとり	ふたり	さんにん	よにん	ごにん	ろくにん	しちにん
+		みったり	よったり			
+
+八人	九人	十人	十一人	十二人	何人
+
+はちにん	きゅうにん	じゅうにん	じゅういちにん	じゅうににん	なんにん
+
+An example sentence would be:
+
+  あの二人は夫婦(ふうふ)ですか。
+  "Are those two (people) over there a (married) couple?"
+
+The polite counter for people, as used by, for instance, waiters or receptionists, is 名(めい), which has a very polite counterpart: 名様(めいさま). However, don't use these counters unless you find yourself serving patrons in a restaurant or something similar. For normal counting of people, stick with 人.
+
+==== Occurrences and ranking ====
+
+=== {idx:english:counters!度(ど)} — {idx:english:counters for occurrence!Number of times}, {idx:english:counters for occurrence!degrees} ===
+
+As a counter for occurrences, this counter is principally used only for counting once, twice and thrice. For something that occurs more than three times, 回(かい) is used instead.
+
+Aside from being used for occurrence, 度 is also used to count {idx:english:degrees Celsius}, and {idx:english:geometric degrees} (such as a 90 degree angle, or GPS degrees). The pronunciations are:
+
+一度	二度	三度	四度	五度	六度
+
+いちど	にど	さんど	よんど	ごど	ろくど
+
+七度	八度	九度	十度	何度
+
+しちど	はちど	きゅうど	じゅうど	なんど
+
+Example sentences would be:
+
+  もう一度()言(い)って下(くだ)さいませんか。
+  "Could you please say that one more time?"
+
+  今日(きょう)は暑(あつ)いねえ。何度でしょう。
+  "It's hot today, don't you think? I wonder what temperature (literally: how many degrees) it is."
+
+This particle is also a noun on itself, pronounced {idx:english:たび@たび (度)}, which is used as a nominaliser for turning clauses into occurrences, which will be explained in the next chapter, in the nominalisers section.
+
+While strictly speaking not genuinely related to counters, a special note for this counter involving the indicator 今, meaning "now" and read as こん, should be added: 今度(こんど) can either mean "now", or "next time":
+
+  今度は何(なん)だ。
+  "Oh, now what?"
+
+  また今度！
+  "(See you) next time!"
+
+=== {idx:english:counters!回(かい)} — {idx:english:counters for occurrence!Number of times} ===
+
+Where 度 is used for once, twice and thrice, 回 can be used for any number of occurrences. The pronunciations are:
+
+一回	二回	三回	四回	五回	六回
+
+いっかい	にかい	さんかい	よんかい	ごかい	ろっかい
+
+七回	八回	九回	十回	何回
+
+しちかい	はっかい	きゅうかい	じっかい	なんかい
+(ななかい)			じゅっかい	
+
+An example sentence would be:
+
+  もう三回してみちゃったよ。
+  "(I) already tried (and failed) three times..."
+
+The same oddity for 度 exists, when pairing 回 with 今(こん):
+
+  今回(こんかい)は何(なん)だ。
+  "Oh, now what?"
+
+  今回にしましょう。
+  "Let's do (that) next time."
+
+=== {idx:english:counters!番(ばん)} — {idx:english:counters for occurrence!Rank} ===
+
+This counter is used to indicate a number in a ranking. This counter has a different pronunciation for 9, so the pronunciations are:
+
+一番	二番	三番	四番	五番	六番
+
+いちばん	にばん	さんばん	よんばん	ごばん	ろくばん
+
+七番	八番	九番	十番	何番
+
+ななばん	はちばん	くばん	じゅうばん	なんばん
+
+
+An example sentence would be:
+
+  私(わたし)は三番です。
+  "I'm (up) third."
+
+The first count in this series, {idx:english:一番@いちばん (一番)}, is the same 一番 that is used in the adjectival superlative in Japanese, since it literally means "first" and thus also means "most".
+
+=== {idx:english:counters!号(ごう)} — {idx:english:counters for occurrence!Issue number} ===
+
+This counter is used to count issues, such as magazine or newspaper issues, or number in a series, such as room numbers on a floor, or the number of a limited series prototype car. Like 番, it has a different pronunciation for 9, so the pronunciations are:
+
+一号	二号	三号	四号	五号	六号
+
+いちごう	にごう	さんごう	よんごう	ごごう	ろくごう
+
+七号	八号	九号	十号	何号
+
+しちごう	はちごう	くごう	じゅうごう	なんごう
+
+An example sentence would be:
+
+  両親(りょうしん)は１７号に住(す)んでいます。
+  "My parents live at number seventeen."
+
+The combination of 番 and 号, {idx:english:counters!番号(ばんごう)}, is used to indicate a ranked "number", such as a phone number, registration number or product serial number, where the number doesn't particularly indicate a rank on its own, but does sit at a particular position in the greater list of all numbers of its category.
+
+It can also be used to change the number from an absolute value, such as "17 Thornhill Street" to a position in an ordered list, such as "the 17th house after you turn left":
+
+  両親は１７号に住んでいます。
+  "My parents live at number seventeen."
+
+  両親は１７番号に住んでいます。
+  "My parents are the seventeenth door."
+  
+In the second sentence, "seventeenth" is understood to be from some kind of (contextually obvious) reference point, like the start of the block, or from the floor's staircase.
+
+=== {idx:english:counters!～目(め)} — {idx:english:Ordinality} ===
+
+This is technically not a counter, but can be added to rank counters to indicate {idx:english:ordinality@ordinal numbers} — that is, it indicates an item's position in some ordered set. Being very specific: adding 目 to a counter changes the count from a {gls:glossary:cardinal} number to {gls:glossary:ordinal} number.
+
+For instance, it can be used in combination with 日 to create the counter 日目, changing the meaning from "... days" or "day ... of the month" to "the ...th day (relative to some arbitrary time)":
+
+  三日(みっか)にホテルで泊(と)まった。
+  "We stayed at the hotel for three days."
+
+  三日目(みっかめ)にホテルで泊まった。
+  "We stayed at a hotel on the third day."
+
+It's also frequently combined with 番 to create the counter {idx:english:counters!番目(ばんめ)}, which changes the meaning from a number in a ranking, to number of appearance. For instance, a runner with the back number "214" could be the first person to start in a relay, in which case the runner himself would be indicated using 214番のランナー (or 214号のランナー) but would also be the 一番目のランナー, because he's the first runner. 
+
+Another example of this difference can be shown in the context of waiting for a bus:
+
+  この停留所(ていりゅうじょ)から５番のバスに乗(の)って下(くだ)さい。
+  "Please take the no. 5 bus at this bus stop."
+
+  この停留所から５番目のバスに乗って下さい。
+  "Please take the fifth bus at this bus stop."
+
+==== Counting time related units ====
+
+=== {idx:english:counters!秒(びょう)} — {idx:english:time counters!Seconds} ===
+
+Counting seconds in Japanese uses 秒, for which the pronunciations are:
+
+一秒	二秒	三秒	四秒	五秒	六秒
+
+いちびょう	にびょう	さんびょう	よんびょう	ごびょう	ろくびょう
+
+七秒	八秒	九秒	十秒	何秒
+
+ななびょう	はちびょう	くびょう	じゅうびょう	なんびょう
+		(きゅうびょう)		
+
+An example sentence would be:
+
+  何秒かかりますか。二十秒か、半分(はんぷん)か。
+  "How long will it take? 20 seconds, half a minute?"
+
+=== {idx:english:counters!分(ふん)} - {idx:english:time counters!Minutes} ===
+
+Moving from seconds to minutes, the counter for minutes has different pronunciations for 3, 4, and the question word:
+
+一分	二分	三分	四分	五分	六分
+
+いっぷん	にふん	さんぷん	よんぶん	ごふん	ろっぷん
+
+七分	八分	九分	十分	何分
+
+ななふん	はっぷん	きゅうふん	じっぷん	なんぷん
+			じゅっぷん	
+
+An example sentence would be:
+
+  今(いま)三時(さんじ)五分()前(まえ)です。
+  "It's now 5 minutes to 3."
+
+Also, the measure "half minute" (as used in the example sentence for seconds) is {idx:english:半分(はんぷん)}, using the same pronunciation as for 三 and 何.
+
+=== {idx:english:counters!時(じ)} — {idx:english:time counters!Clock hours} ===
+
+Don't confuse clock hours with durational hours. Clock hours are things like "three o' clock" and "seven in the evening". Durational hours are "it took 3 hours" or "I went home after waiting an hour". This counter is for the first category and indicates the hours of the day:
+
+一時	二時	三時	四時	五時	六時	七時
+
+いちじ	にじ	さんじ	よじ	ごじ	ろくじ	しちじ
+
+八時	九時	十時	十一時	十二時	何時
+
+はちじ	くじ	じゅうじ	じゅういちじ	じゅうにじ	なんじ
+
+Note the pronunciations for 4 and 9, both being the short pronunciations. An example sentence would be:
+
+  何時ですか。
+  "What time is it?"
+
+The indicators for a.m. and p.m. are {idx:english:午前(ごぜん)} and {idx:english:午後(ごご)} in Japanese, indicating whether a time is before or after the "hour of the horse", which corresponds to the period from 11 a.m. to 1 p.m. according to the classical Chinese system. These are prefixed to the time:
+
+  今(いま)午後三時です。
+  "It is 3 p.m."
+
+  午前九時に会(あ)おう。
+  "Let us convene at 9 a.m."
+
+To make the "useful words" list complete, {idx:english:midday} is {idx:english:正午(しょうご)}, and {idx:english:midnight} is {idx:english:零時(れいじ)}.
+
+=== {idx:english:counters!時間(じかん)} — {idx:english:time counters!Durational hours} ===
+
+By adding the durational particle 間(かん) — literally "interval" — to the counter 時, we get the durational counter for hours. The difference between clock time and duration is striking:
+
+  何時ですか。
+  "What time is it?"
+
+  何時間ですか。
+  "How long is it?"
+
+This difference is also very important for actual counting statements. Quite often, people starting with Japanese will mix up 時 and 時間, creating sentences such as the following:
+
+  三時間です。
+  "It's three hours long."
+
+When they really mean to say 三時です, "it's 3 o' clock". Similarly, they might say:
+
+  二時()に勉強(べんきょう)しました。
+  "(I) studied at 2 o' clock."
+
+while meaning to say 二時間に勉強しました, "I studied for two hours".
+
+=== {idx:english:counters!日(か)}/{idx:english:counters!日(にち)} — {idx:english:time counters!Days} ===
+
+Moving up from hours to days, we reach a rather interesting counter. As explained before, this counter is special in several ways. Firstly, counting 1 to 10 days uses the counter 日 in its pronunciation か, paired with native Japanese readings for the numbers. 14 and 24, too, use 日 pronounced as か, but use a mixed Chinese/Japanese reading for the number, and "20 days" has its own special word. The rest of the days are counted using 日 in its pronunciation にち, with Chinese read numbers:
+
+一日	二日	三日	四日	五日	六日	七日
+
+ついたち	ふつか	みっか	よっか	いつか	むいか	なのか
+
+八日	九日	十日	十一日	十二日	十三日
+
+ようか	ここのか	とおか	じゅういちにち	...にち	...にち
+
+十四日	十五日	十六日	十七日	十八日	十九日
+
+じゅうよっか	...にち	...にち	...にち	...にち	....にち
+
+二十日	二十一日	二十二日	二十三日	二十四日	二十五日
+
+{idx:english:はつか@はつか (二十日)}	...にち	...にち	...にち	にじゅうよっか	...にち
+
+二十六日	二十七日	二十八日	二十九日	三十日	三十一日
+
+...にち	...にち	...にち	...にち	...にち	...にち
+
+The reading for 一日 differs depending on what it's used to mean: {idx:english:ついたち@ついたち (一日)} refers to the first day of the month, but the reading {idx:english:いちにち} is also possible, in which case it refers to a single day in duration (including 'my day' in, for instance, "my day consists of doing ..."). Also, for every other number under 32, 日 refers to both day of the month and length of duration in days. Any number above 31 automatically only means "days of duration", since months only go up to the 31st at best. Because of this, 34, 44, etc. have the pronunciation ～よ(ん)にち instead of ～よっか.
+
+An example sentence would be:
+
+  二日(ふつか)一泊(いっぱく)泊(と)まった。
+  "(We) stayed 2 days and one night."
+
+In this sentence a counter that won't be treated separately, {idx:english:counters!泊(はく)}, is used which means "nights of stay".
+
+There are two question words regarding dates; we can be either use {idx:english:いつ}, which means "when", or we can use the counter question word {idx:english:何日(なんにち)}. We can also ask about the length of duration in days, for which we can use two question words too: {idx:english:どのぐらい}, for approximate duration, and 何日, for exact duration.
+
+Aside from being able to count days, it's also good to be able to name the immediate past and future days:
+
+{idx:english:一昨昨日(さきおととい)}	{idx:english:three days ago} (2 days before yesterday)
+{idx:english:一昨日(おととい)}	{idx:english:day before yesterday}
+{idx:english:昨日(きのう)}	{idx:english:yesterday}
+{idx:english:今日(きょう)}	{idx:english:today}
+{idx:english:明日(あした・あす)}	{idx:english:tomorrow}
+{idx:english:明後日(あさって)}	{idx:english:day after tomorrow}
+{idx:english:明々後日(しあさって)}	{idx:english:in three days} (2 days after tomorrow)
+
+You may sometimes head the word {idx:english:本日(ほんじつ)} being used to mean "today" (or, less frequently, "yesterday" or "tomorrow"). However, this word is only used when there is some contextual day that is tied to a specific date. The word 本日 literally means "{idx:english:the day in question}", and can be taken to mean "today" (or "yesterday" or "tomorrow") only when the event's "day in question" coincides with "today" (or "yesterday" or "tomorrow").
+
+=== {idx:english:counters!週(しゅう)} — {idx:english:time counters!Weeks} ===
+
+Increasing the scale further, we reach weeks, indicated with 週. Like 時, 週 on its own just refers to the yearly week, with 週間 referring to length of duration as measured in weeks. The pronunciations are:
+
+一週	二週	三週	四週	五週	六週
+
+いっしゅう	にしゅう	さんしゅう	よんしゅう	ごしゅう	ろくしゅう
+
+七週	八週	九週	十週	何週
+
+ななしゅう	はつしゅう	きゅうしゅう	じっしゅう	なんしゅう
+			じゅっしゅう	
+
+An example sentence would be:
+
+  今年(ことし)の祭(まつ)りは十八週です。
+  "This year's festival is in week 18."
+
+The words for the immediate past and future weeks are:
+
+{idx:english:先先週(せんせんしゅう)}	the {idx:english:week before last}
+{idx:english:先週(せんしゅう)}	{idx:english:last week}
+{idx:english:今週(こんしゅう)}	{idx:english:this week}
+{idx:english:来週(らいしゅう)}	{idx:english:next week}
+{idx:english:再来週(さらいしゅう)}	the {idx:english:week after next}
+
+=== {idx:english:counters!週間(しゅうかん)} — {idx:english:time counters!Weeks of duration} ===
+
+Like 時, 週 has to be followed by 間 to turn it into a durational counter:
+
+  試験(しけん)はおよそ二週間です。
+  "The exams are in about two weeks."
+
+=== {idx:english:counters!がつ (月)} — {idx:english:time counters!Calendar months} ===
+
+Like 時 and 週, 月 alone refers to {idx:english:month@Japanese months} of the year. While western languages typically have named months, the Japanese — not too long ago in fact — gave up on named months in favour of the Chinese system of numbered months, resulting in:
+
+一月	二月	三月	四月	五月	六月
+
+{idx:english:一月(いちがつ)}	{idx:english:二月(にがつ)}	{idx:english:三月(さんがつ)}	{idx:english:四月(しがつ)}	{idx:english:五月(ごがつ)}	{idx:english:六月(ろくがつ)}
+January	February	March	April	May	June
+
+七月	八月	九月	十月	十一月	十二月
+
+{idx:english:七月(しちがつ)}	{idx:english:八月(はちがつ)}	{idx:english:九月(くがつ)}	{idx:english:十月(じゅうがつ)}	{idx:english:十一月(じゅういちがつ)}	{idx:english:十二月(じゅうにがつ)}
+July	August	September	October	November	December
+
+The names of the months have been added here to stress that these are not so much numbered months, but calendar months. Remember them as such! Also note that there are specific readings for April, July and September. You can't use another reading for the number for these words — these "counts" are very much fixed in the Japanese language as nouns. The question word for month of the year is {idx:english:何月(なんがつ)}.
+
+The words for the immediate past and future months are:
+
+{idx:english:先先月(せんせんげつ)}	the {idx:english:month before last}
+{idx:english:先月(せんげつ)}	{idx:english:last month}
+{idx:english:今月(こんげつ)}	{idx:english:this month}
+{idx:english:来月(らいげつ)}	{idx:english:next month}
+{idx:english:再来月(さらいげつ)}	the {idx:english:month after next}
+
+And finally, in the interest of satisfying human curiosity, the old names for the months are:
+
+一月	二月	三月	四月	五月	六月
+
+{idx:english:睦月(むつき)}	{idx:english:如月(きさらぎ)}	{idx:english:弥生(やよい)}	{idx:english:卯月(うづき)}	{idx:english:皐月(さつき)}	{idx:english:水無月(みなづき)}
+
+七月	八月	九月	十月	十一月	十二月
+
+{idx:english:文月(ふみづき)}	{idx:english:葉月(はづき)}	{idx:english:長月(ながつき)}	{idx:english:神無月(かんなづき)}	{idx:english:霜月(しもつき)}	{idx:english:師走(しわす)}
+
+=== {idx:english:counters!月(つき)} — {idx:english:time counters!Months of duration} ===
+
+When read as つき, and paired with the native Japanese readings for numbers, this counter expresses duration in terms of lunar months, and is typically only used for indicating 1 to 3 months of duration. This is a slightly poetic counter, but is also used in formal writing to indicate the 1-3 month durational range:
+
+一月	二月	三月
+
+ひとつき	ふたつき	みつき
+
+=== {idx:english:counters!ヶ月(かげつ)} — {idx:english:time counters!Months of duration} ===
+
+While — like 時 and 週 — 月 on its own means "month of the year", the suffix 間 cannot be used to turn 月 into a durational counter. Instead, the prefix ヶ is used, but be careful: this is not the katakana ケ, but actually a simplified kanji form of 箇. You can tell this difference by looking at the size of the kanji: ヶ月 (かげつ) vs. ケ月 — the katakana ケ is much bigger than the simplified version of 箇. Why exactly this kanji got simplified to this deceptive form is not entirely clear, but it has, which means you'll need to be able to recognise it as a counter. The standard contractions occur in the pronunciations:
+
+一ヶ月	二ヶ月	三ヶ月	四ヶ月	五ヶ月	六ヶ月
+
+いっかげつ	にかげつ	さんかげつ	よんかげつ	ごかげつ	ろっかげつ
+
+七ヶ月	八ヶ月	九ヶ月	十ヶ月	何ヶ月
+
+しちかげつ	はっかげつ	きゅうかげつ	じっかげつ	なんかげつ
+			じゅっかげつ	
+
+An example sentence would be:
+
+  三ヶ月に外国(がいこく)にいます。
+  "I will be abroad for three months."
+
+=== {idx:english:counters!年(ねん)} — {idx:english:time counters!Years} ===
+
+Once more, there is the distinction between years in an era, 年, and years of duration, 年間. The pronunciations for 年 are:
+
+一年	二年	三年	四年	五年	六年
+
+いちねん	にねん	さんねん	よねん	ごねん	ろくねん
+
+七年	八年	九年	十年	何年
+
+しちねん	はちねん	くねん	じゅうねん	なんねん
+		きゅうねん		
+
+An example sentence would be:
+
+  この本(ほん)は明治(めいじ)十年の本です。
+  "This book is from 1877."
+
+  (The 明治 era ran from 1868 to 1912, so with 1868 being the first year, the 10th year of the Meiji era is 1877 — more on this later, in the section on time and dates)
+
+The words for the immediate past and future years are:
+
+{idx:english:一昨昨年(さきおととし)}	{idx:english:three years ago} (2 years before last)
+{idx:english:一昨年(おととし)}	the {idx:english:year before last}
+{idx:english:去年(きょねん)}	{idx:english:last year}
+{idx:english:今年(ことし)}	{idx:english:this year}
+{idx:english:来年(らいねん)}	{idx:english:next year}
+{idx:english:再来年(さらいねん)}	the {idx:english:year after next}
+
+== {idx:english:counters!年生(ねんせい)} — {idx:english:time counters!Scholar year} ==
+
+Listed as a separate counter only because this counter will be relevant to you as a student of Japanese, 年生 indicates "year of study", so that an 一年生 is a first year student, and a 四年生 is a fourth year student:
+
+  東大(とうだい)の二年生(にねんせい)の日村(ひむら)です。
+  "(I) am Himura, 2nd year student at Tokyo University."
+
+{idx:english:Undergraduate} students are referred to as {idx:english:学部生(がくぶせい)}, and {idx:english:graduate student}s as {idx:english:院生(いんせい)}.
+
+=== {idx:english:counters!年間(ねんかん)} — {idx:english:time counters!Years of duration} ===
+
+Once more, adding 間 turns the counter into a durational counter:
+
+  三年間チャンピオンの座(ざ)を守(まも)った。
+  "(He) kept with his title (literally: 'seat') as champion for three years."
+
+=== {idx:english:counters!歳(さい)}/{idx:english:counters!才(さい)} — {idx:english:time counters!Years of age} ===
+
+The one thing 年 cannot be used for is to indicate years of age. For this, two special counters are used: 歳 and its simpler counterpart 才. While simpler, it's generally not a good idea to use it in every instance where writing age is required; because it is simpler, using it is a sign that you're not quite good enough at kanji yet to write the "real" kanji form. The pronunciations are the same as for any other さ-counter:
+
+一歳	二歳	三歳	四歳	五歳	六歳
+
+いっさい	にさい	さんさい	よんさい	ごさい	ろくさい
+
+七歳	八歳	九歳	十歳	二十歳	何歳
+
+ななさい	はっさい	きゅうさい	じっさい	はたち	なんさい
+			じゅっさい		
+
+The reading くさい for 九歳, while technically possible, should be avoided, since it sounds identical to 臭(くさ)い, meaning "smelly/stinky". Also note that there is a special word for twenty years of age, {idx:english:はたち@はたち (二十歳)}, just like there is a special word for twenty days, {idx:english:はつか@はつか (二十日)}.
+
+An example sentence would be:
+
+  父(とう)さんは明日(あした)六十一歳になります。
+  "My father will turn 61 tomorrow."
+  
+There is a special counter that is used for the ages 20 through 90, being 路(じ), and using native Japanese numbers (with 十 pronounced そ), although typically only 30 through 60 are actively used:
+
+age	count	reading
+
+20	二十路	ふたそじ
+30	三十路	みそじ
+40	四十路	よそじ
+50	五十路	いそじ
+60	六十路	むそじ
+70	七十路	ななそじ
+80	八十路	やそじ
+90	九十路	ここのそじ
+
+In addition to these counts, there are numerous terms and titles associated with virtually each age, but listing all of these goes well beyond the scope of this book.
+
+==== Additional words for {idx:english:quantification} ====
+
+There are also several adverbs that are used to {idx:english:quantify@quantifying} without relying on numbers. Some of these {idx:english:quantifiers} can only be used with verbs or verbal adjectives in positive or negative form, and whenever this is the case, this will be explicitly mentioned.
+
+=== {idx:english:quantifiers!いつも} — {idx:english:quantifiers!Always}/{idx:english:quantifiers!never} ===
+
+As mentioned in the particle section on も, this word doesn't mean two different things in Japanese, but merely gets translated with two different words depending on whether it's followed by a positive or negative verb.
+
+  いつもそんな事(こと)ばかり言(い)っている。
+  literally: "(You)'re always saying only those kind of things."
+  meaning: "(You)'re always saying the same thing."
+
+  いつもしないのに、どうして分(わ)かるんですか。
+  "Why is it (you) know (how to do it) when (you) never do it (in the first place)?"
+
+=== {idx:english:quantifiers!大抵(たいてい)} — {idx:english:quantifiers!Usually}, {idx:english:quantifiers!mostly} ===
+
+When indicating something happens 'most of the time', or 'usually', たいてい is used. There's not much else to say about it other than that it's usually used in combination with a positive verb form:
+
+  たいてい七時(しちじ)に起(お)きます。
+  "(I) usually get up at 7."
+
+=== {idx:english:quantifiers!よく} — {idx:english:quantifiers!Often} ===
+
+We've already covered this adverb by virtue of it being the adverbial form of よい. In a quantifying role, it signifies a frequent occurrence of whatever verb it's being used with:
+
+  よく泳(およ)ぎます。
+  "(I) often swim."
+
+=== {idx:english:quantifiers!余(あま)り}, {idx:english:quantifiers!あんまり} — {idx:english:quantifiers!Not often} / {idx:english:quantifiers!not much} ===
+
+This adverb actually comes from the the 五段 verb {idx:english:余る@あまる (余る)}, meaning "to be left over", and is the counterpart to よく. It is typically only be used when followed by a negative verb or verbal adjective:
+
+  紅茶(こうちゃ)はあんまり好(す)きじゃありません。
+  "(I) don't like (red) tea very much."
+
+There is no real difference between {idx:english:あまり} and {idx:english:あんまり}, but the latter sounds slightly more emphatic.
+
+=== {idx:english:quantifiers!とても} — {idx:english:quantifiers!Very} ===
+
+This quantifier only works when followed by a positive verbal adjective:
+
+  これはとても安(やす)いですね。
+  "This is very cheap isn't it?"
+
+This quantifier can be emphatically intensified by sticking a っ in, to form とっても:
+
+  とっても楽(たの)しかったよ。
+  "That was really, really fun."
+
+=== {idx:english:quantifiers!時々(ときどき)} — {idx:english:quantifiers!Sometimes} ===
+
+The kanji form should already give it away, but when activities are performed from time to time, 時々 is used:
+
+  時々みんなで映画(えいが)を見(み)に行(い)きます。
+  "We all go to the cinema together from time to time."
+
+The construction 時々 may frequently be found written as ときどき instead. The choice on whether to use a kanji or kana form depends mostly on intended style. In literary material the kanji form is preferred, while in informal writing the kana form is used more.
+
+=== {idx:english:quantifiers!全然(ぜんぜん)} — {idx:english:quantifiers!Not at all} ===
+
+Like あまり, this quantifier is usually followed by a negative verb or verbal adjective:
+
+  全然()構(かま)いませんよ。
+  "(I) don't mind at all."
+
+However, it derives its negative meaning only from these verbals — there is no rule that says this word cannot be used with affirmative verbals instead, in which case it translates to "completely". Like the こそあど+(で)も words, the meaning of 全然 itself is merely this "complete"-ness, connoting "not at all" only because it is paired with a verbal negative.
+
+=== {idx:english:quantifiers!可(か)なり} — {idx:english:quantifiers!Considerably}, {idx:english:quantifiers!rather} ===
+
+Like とても, this quantifier only works when followed by positive verbals:
+
+  これはかなり高(たか)いんですね。
+  "This is rather expensive, isn't it?"
+
+=== {idx:english:quantifiers!さっぱり} — {idx:english:quantifiers!Not at all} ===
+
+Like あまり and ぜんぜん, this quantifier is typically followed by a negative verb:
+
+  これはさっぱり分(わ)かりません。
+  "(I) don't understand this at all."
+
+However, on its own {idx:english:さっぱり} just means "clean" or "neatly", again highlighting the fact that most quantifiers associated with a negative quantity only do so thanks to the negative verb form.
+
+=== {idx:english:quantifiers!少(すこ)し} — {idx:english:quantifiers!A little bit} ===
+
+Literally, this quantifier means "in small part", and is usually followed by a positive verb:
+
+  少し待(ま)てばいいかな。
+  literally: "Waiting for a little while is okay, isn't it?"
+  meaning: "Could (we) wait for just a bit?"
+
+  日本語(にほんご)は少し分(わ)かります。
+  "I understand Japanese a little (bit)."
+
+=== {idx:english:quantifiers!ちょっと} — {idx:english:quantifiers!A little} ===
+
+This quantifier can be followed by either a positive verb or verbal adjective in normal statements, or by negative verbs and verbal adjectives when used in the form of a question. When used in a negative question, the full sentence actually connotes a positive, as can be seen in the following examples:
+
+  ちょっと寒(さむ)くないですか。
+  "Isn't it a little cold?"
+
+  ちょっと歩(ある)きませんか。
+  "Shall (we) take a little walk?"
+
+Used with a positive, there is nothing remarkable to note:
+
+  これはちょっと高(たか)いですね。
+  "This is a bit expensive, don't you agree?"
+
+=== {idx:english:quantifiers!一杯(いっぱい)} — {idx:english:quantifiers!A lot}, "{idx:english:quantifiers!to the brim}" ===
+
+Mentioned in the counter section for 杯, this quantifier can only be used with positive verbs:
+
+  あいにく、本日(ほんじつ)は予約(よやく)で一杯です。
+  "(I)'m sorry, but today is fully booked."
+
+Remember that this is only a quantifier if pronounced with the っぱい part in raised pitch. If pronounced with the っぱい part in a lower pitch, it means "one cup (of something)".
+
+=== {idx:english:quantifiers!もっと} — {idx:english:quantifiers!Even more} ===
+
+Used as the comparative for adjectives, as well as comparative for verb actions, this quantifier can only be used with positive verbs and verbal adjectives:
+
+  まだ足(た)りないみたいね。材料(ざいりょう)をもっと入(い)れて。
+  "It looks like it's still not enough. (Please) add in (even) more (of the) ingredients."
+
+=== {idx:english:quantifiers!ずっと} — {idx:english:quantifiers!Very much} ===
+
+This quantifier is only used with positive verbal adjectives:
+
+  彼女(かのじょ)はどんなモデルよりでもずっときれいだ。
+  "She's much prettier than any model."
+
+This word actually translates to a wide spectrum of words, because of what it's composed of: the mimesis ず paired with と. This mimesis represents a straight, through and through somethingness, so that it can be translated as "very much", "completely", and even "forever", depending on the context.
+
+=== {idx:english:quantifiers!全部(ぜんぶ)} — {idx:english:quantifiers!All}, {idx:english:quantifiers!wholly} ===
+
+This quantifier means "all" or "wholly" by virtue of its literal meaning "all parts":
+
+  お金(かね)をほとんど全部(ぜんぶ)使(つか)ってしまった。
+  "(I)'ve spent almost all my money."
+
+Beginning students will often mistakenly use this quantifier when meaning 全(すべ)て, which means "every(thing)" rather than "all", or vice versa, so make sure you picked the right one.
+
+=== {idx:english:quantifiers!全(すべ)て} — {idx:english:quantifiers!Every}, {idx:english:quantifiers!everything} ===
+
+This quantifier is usually paired with positive verbs (and should not be confused with 全部(ぜんぶ)):
+
+  本棚(ほんだな)にある本(ほん)を全て読(よ)んでしまった。
+  "(I)'ve (sadly) read every book on (my) shelves."
+
+===== {idx:english:Using numbers} =====
+
+In addition to knowing what to call numbers and which particles to use for counting statements, there are two important "number" subjects that deserve special mention: telling time, and arithmetic. In this section we shall look at these two subjects in depth.
+
+==== {idx:english:Telling time} and {idx:english:date@telling dates} ====
+
+Times and dates are closely related subjects, so we'll treat them in one go. We've already looked at time for a bit in the counter section, where we discovered that time counters and duration counters are two different things, leading us to guess at how to properly tell time, but let's review these particles in a more specific setting of actually telling time. The Japanese time format can be represented either in a 'before noon'/'after noon' system or using the 24 hour clock (but unlike the regular concept of '24 hours', the Japanese clock can go beyond the number 24. For instance, a TV show that's on at 1:20 in the early morning, may air at 25:20 in Japan).
+The Japanese way of formatting times is similar to the western system, namely: first the hour, then minutes, then seconds. As an example:
+
+  五時(ごじ)二十分(にじっぷん)五十秒(ごじゅうびょう)
+   5:20′50″
+
+As mentioned in the counters section, the {idx:english:a.m.} and {idx:english:p.m.} indications in Japanese are {idx:english:午前(ごぜん)} and {idx:english:午後(ごご)}, which precede the actual time:
+
+  午後(ごご)(の)二時半(にじはん)に来(き)ます。
+  "(I) will come at 2:30 p.m."
+
+There are two things to note here. One is that の is optional. It can be left out, in which case the statement is slightly less formal. In fact, the whole 午前/午後 indication is optional, since typically it will be obvious whether you mean in the morning or in the afternoon. The other thing to note is the use of the suffix {idx:english:半(はん)} which indicates "half". In Japanese, adding this indicates an additional half hour (unlike in some western languages, where the indicator 'half' means removing half an hour from the time):
+
+  七時半(ななじはん)
+   7:30
+
+This is of course the same as saying 七時三十分, but using 半 is shorter.
+
+Unlike some western languages, Japanese doesn't have indicators for the quarters before and past the hour. Instead, it has a "before" and "after" marker if the time is anywhere from 10-ish minutes before the hour to 10-ish minutes past the hour, 前(まえ) and 過(す)ぎ respectively. Literally, 前 means "before" or "in front of", and 過ぎ is the noun derived from the verb 過ぎる, "to be past (some conceptual point)". Two examples of their use are:
+
+  もう四時(よじ)十分(じっぷん)過(す)ぎだよ。まだ待(ま)つのか。
+  "It's already 10 past 4, are we still going to wait?"
+
+  その番組(ばんぐみ)は一時(いちじ)五分(ごふん)前(まえ)に始(はじ)まります。
+  "That programme will start 5 (minutes) to 1."
+
+But telling time alone isn't everything. If you don't want to use 午前 or 午後, you can also say whether you mean in the {idx:english:morning}, {idx:english:afternoon}, {idx:english:evening} or {idx:english:night}, by using the nouns {idx:english:朝(あさ)}, {idx:english:昼(ひる)}, {idx:english:晩(ばん)} and {idx:english:夜(よる)} respectively:
+
+  毎朝(まいあさ)七時(ななじ)に家(いえ)を出(で)ます。
+  "(I) leave the house every morning at 7."
+
+The prefix {idx:english:毎@まい (毎)}, as you may remember from the outline, is a prefix used to indicate "every [...]" and is used here to indicate frequent behaviour rather than just a single event. When you want to specifically refer to "this" morning, afternoon, evening or night instead, the words to use are {idx:english:今朝(けさ)}, [nothing], {idx:english:今晩(こんばん)} and {idx:english:今夜(こんや)} respectively. There's no real reason why there is no word for "this afternoon", but there just isn't any. Instead, {idx:english:今日(きょう)} meaning "today" is typically used. Also notice the readings for 'this morning' and 'this night', which might be different from what you would expect. 
+
+If we want to be more specific, we might add a date to the time we're stating. The Japanese format for this is "biggest counter first", so the format is:
+
+  era → year → month → day → (day by name) \\* → hour → minutes → seconds
+  
+The era bit is important here, as the Japanese calendar doesn't actually correspond to the western calendar. While the Japanese will use the Gregorian calendar when necessary, the "proper" Japanese way to count years is to name the era to which you are referring, and then count the number of years since its epoch. Since these are reasonably important to know, the list of most recent eras — ordered most recent to oldest — is as follows:
+
+  * The {idx:english:平成(へいせい)} {idx:english:era@Japanese eras!Heisei (平成)} is the current era, which started in 1989 and will last as long as emperor Akihito remains emperor.
+  * The {idx:english:昭和(しょうわ)} {idx:english:era@japanese eras!Shouwa (昭和)} was the era before the current era, running from 1926 till 1989.
+  * The {idx:english:大正(たいしょう)} {idx:english:era@japanese eras!Taishou (大正)} is the last most recent era still covering the 1900's, running from 1912 till 1926.
+  * The {idx:english:明治(めいじ)} {idx:english:era@japanese eras!Meiji (明治)} is the first of the "recent" eras, starting at the Meiji restoration in 1868 running till 1912.
+
+The numbering for eras is reasonably intuitive: the first year of an era is the year the era started. Thus, " 大正 1" corresponds to 1912, and " 昭和 30" corresponds to 1955. If we write out the full date for when this section was first written, we get:
+
+  平成十七年五月二十四日(の火曜日)二時十九分五十五秒
+  Heisei 17 (= 2005), May 24th (Tuesday), 2:19′55″
+
+While using kanji for the numerals is a perfectly valid way to write full dates, it's easier to read if numerals are used instead:
+
+  平成17年5月24日(の火曜日)2時19分55秒
+
+It might also be a good idea to list the days while we're at it. The Japanese {idx:english:week@days of the week} is as follows:
+
+{idx:english:日曜日(にちようび)}	"sun day of the week"	Sunday
+{idx:english:月曜日(げつようび)}	"moon day of the week"	Monday
+{idx:english:火曜日(かようび)}	"fire day of the week"	Tuesday
+{idx:english:水曜日(すいようび)}	"water day of the week"	Wednesday
+{idx:english:木曜日(もくようび)}	"wood day of the week"	Thursday
+{idx:english:金曜日(きんようび)}	"metal day of the week"	Friday
+{idx:english:土曜日(どようび)}	"earth day of the week"	Saturday
+
+While many of the western days of the week derive their name from Norse mythology (more specifically, the names of the Norse gods), the Japanese — as well as several other Asian countries — use the elements for their day naming, with the sun and the moon to complete the set of seven. These two "come first", so the Japanese week conceptually starts on a Sunday, even if the first day of the work week is Monday.
+
+When indicating day-series such as "mon-wed-fri" in English, the Japanese use two syllable pronunciations for the days in question. However, days with only a single syllable before the 曜日(ようび) part will have their vowel doubled:
+
+月水金(げっすいきん)	mon-wed-fri
+火木土(かーもくどう)	tue-thu-sat
+
+Note that contractions occur when pairing 月 with 水, because of the つ in the pronunciation for 月.
+
+
+==== Basic {idx:english:arithmetic} ====
+
+One of the most useful things you can do with numbers is turn them into other numbers, by applying such wonderful operations as addition, subtraction, division and multiplication. These four operations sum up the basic mathematical operations one can perform on numbers, and covers what most people consider enough when it comes to doing maths. While, of course, explaining all mathematical operations is well beyond the scope of this book, we will also look at powers and roots, in addition to the four basic arithmetic operations.
+
+=== {idx:english:arithmetics!Addition} ===
+
+Addition is the root of all things maths related. The idea of addition is a childishly simple one: you have something, you get more, you have more. The mathematical part of this concept is to determine how much more you have, and for this we need three things: numbers, something that states addition, and something that marks an outcome. Luckily (though not unexpectedly) Japanese has all three of these. Numbers we have already seen plenty of, the outcome marker is simply です, and the verb that we use for addition is {idx:english:足(た)す}.
+
+  一(いち)足す四(よん)は五(ご)です。
+  "One plus four is five."
+
+In this use, 足す acts remarkably western in that even though 足す is used in 連体形, and should thus be attributive, 一足す四 does not say "a one-added four", but merely says "one plus four" (this is also the case for the verb used for subtraction).
+
+We can also use 足す on its own, for such obvious things as:
+
+  二十円(にじゅうえん)を足(た)せば、ちょうどにする。
+  "If (you) add 20 yen, that'll make it (a) round (number)."
+
+Where ちょうど is a nice little word meaning 'exact' or 'precise'. In this sentence, it is interpreted as "round number", because in the context of numbers, a precise number corresponds to a 'clean' number, which can either be a round number, or a number without a decimal fraction.
+
+=== {idx:english:arithmetics!Subtraction} ===
+
+For subtraction, {idx:english:引(ひ)く} instead of 足す is used:
+
+  三百(さんびゃく)引く五十三(ごじゅうさん)は二百四十七(にひゃくよんじゅうなな)です。
+  "300 minus 53 is 247."
+
+=== {idx:english:arithmetics!Division} ===
+
+Division in Japanese is done in the same way as in western maths, but the phrasing is somewhat confusing if you don't pay attention: in western maths, the number that results from 3 × ⅕ is pronounced "three fifths". In Japanese, this 'factor, then denominator' order is the reverse, so instead of saying "three fifths", in Japanese you say "five's three":
+
+  五分(ごぶん)の三(さん)。
+  literally: "three five-parts"
+  "⅗"
+
+This uses the genitive の to link 三, 3, as genitivally belonging to 五分, ⅕.
+
+One thing to note here is that in this use, {idx:english:分@ぶん (分)} is pronounced ぶん, and this is the reason why the counter series for minutes has an oddity for three, where ふん becomes ぷん instead of ぶん:
+
+kanji	pronunciation	meaning
+
+三分	さんぷん	Three minutes
+三分	さんぶん	A third
+
+=== {idx:english:arithmetics!Multiplication} ===
+
+A final simple operation is multiplication, which uses the noun 倍(ばい). This is actually a rather interesting word, because on its own it means "two fold", such as in for instance:
+
+  問題(もんだい)が倍になった。
+  "(Our) problems doubled."
+
+Interestingly, this noun can also be used in combination with other numbers (except of course the number 1) to indicate any random multiplication:
+
+  五倍(ごばい)の七(しち)は三十五(さんじゅうご)です。
+  "7 times 5 is 35."
+
+Here, the literal statement is "the five-fold of seven is 35".
+
+This is basic multiplication, but there's also another word that's used for the x-fold for one through ten involving the counter {idx:english:重@じゅう, ちょう, え (重)}, which is pronounced in various different ways this role:
+
+一重	二重	三重	四重	五重	六重
+
+ひとえ	ふたえ	みえ	x	いつえ	x
+いちじゅう	にじゅう	さんじゅう	しじゅう	ごじゅう	ろくじゅう
+
+七重	八重	九重	十重	幾重
+
+ななえ	やえ	ここのえ	とえ	いくえ
+しちじゅう		くじゅう		
+		きゅうちょう		
+
+You may have noticed that this is perhaps the most bizarre counter series the language has; the counter has three different possible readings, has a mix of possible native Japanese and Chinese readings for the numbers, and the native reading used for 10 is very rare one, not to mention the question word uses 幾 instead of 何. 
+
+Needless to say, this counter series is "special". In fact, it's so special that it's a mainly literary counter for "-{idx:english:fold@...fold}", where it depends on the context which reading is used. In eloquent language, え is more likely, and in technical literature, じゅう will be used more.
+
+==== More {idx:english:advanced mathematics} ====
+
+While there are many topics that we could treat here, this isn't a book on mathematics in Japanese. Treating all mathematical topics would take up too many pages, and would for the most part be rather boring. Instead, we'll look at two more "simple", but less basic, mathematical constructions before moving on to "real" language patterns.
+
+
+=== {idx:english:advanced maths!Squaring} and {idx:english:advanced maths!cubing} ===
+
+There are two special words for squaring (x²) and cubing (x³), {idx:english:平方(へいほう)} and {idx:english:立方(りっぽう)}, used to indicate squared and cubed units respectively. For instance, when indicating something is 500 square kilometres, one would say:
+
+  500平方キロ(メートル)です。
+  "(It) is 500 square kilometres."
+
+Or, if one wanted to say a particular vehicle has a 12 cubic meter interior, one could say:
+
+  中身(なかみ)は12立方メートルです。
+  "The interior fits 12 cubic meters."
+
+=== {idx:english:advanced maths!Raising to a power} and {idx:english:advanced maths!taking roots} ===
+
+Going beyond squares or cubes, and raising numbers to an arbitrary power in Japanese uses the counter {idx:english:乗(じょう)}, and is used in the following way:
+
+  七(しち)の三乗(さんじょう)は三百四十三(さんびゃくよんじゅうさん)です。
+  "7 to the power 3 is 343."
+
+The inverse of this operation is taking the root of some power, which is done with the "counter" {idx:english:乗根(じょうこん)}, which is just the counter for raising power paired with the noun for 'root':
+
+  四十九(よんじゅうきゅう)の二乗根(にじょうこん)は七(しち)です。
+  "The square root of 49 is seven."
+
+And that's it, that's all the mathematics you will probably care to know how to work with, so let's leave the numbers as what they are and move on to the next chapter, which deals with more general language patterns.

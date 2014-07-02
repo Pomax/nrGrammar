@@ -1,0 +1,25 @@
+/**
+ * Amazingly, in 2013 a lot of browsers still don't support <ruby> markup natively.
+ * So, let's have some CSS rules to make it all look the same. FFS.
+ */
+ruby {
+  display: inline-table;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+rb {
+  display: table-row-group;
+}
+
+rt {
+  display: table-header-group;
+  text-align: center;
+  font-size: 58%;
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+rp {
+  display: none;
+}

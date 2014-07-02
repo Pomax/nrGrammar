@@ -1,0 +1,530 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Conjugation Schemes ======
+
+This appendix focuses entirely on the conjugation schemes that have been treated in this book, organised in two sections. The first lists all the base forms for the various verbals treated in this book, the second lists the actual conjugation tables for all these verbals. 
+
+===== Bases =====
+
+There are two sets of bases, one associated with {idx:english:文語(ぶんご)}, classical (or literary) Japanese, and one associated with {idx:english:口語(こうご)}, modern (or colloquial) Japanese. These are:
+
+base	文語	口語
+
+imperfect	未然形(みぜんけい)	未然形
+continuative	連用形(れんようけい)	連用形
+sentence ending	終止形(しゅうしけい)	連体形
+attributive	連体形(れんたいけい)	連体形
+perfect	已然形(いぜんけい)	已然形
+commanding	命令形(めいれいけい)	命令形
+
+In addition to these bases, all verbal words have a stem, called the {idx:english:語幹(ごかん)}, which is that part of the verbal that does not change during inflection.
+
+On a functional note, the term "dictionary form" used in this chapter (and preceding chapters) refers the modern 連体形, which is the form used for listing verbal words in dictionaries. While synonymous, the term "dictionary form" will only be used to explain how to form bases. For everything else, the proper term 連体形 is used.
+
+
+==== Regular verbs: 五段(ごだん) verbs ====
+
+base	how to form
+
+語幹	remove final う—row syllable from dictionary form
+未然形	final う—row syllable is replaced with the corresponding あ—row syllable
+連用形	final う—row syllable is replaced with the corresponding い—row syllable
+連体形	dictionary form ending on the う-row syllable
+已然形	final う—row syllable is replaced with the corresponding え—row syllable
+命令形	final う—row syllable is replaced with the corresponding え—row syllable
+
+==== Regular verbs: 一段(いちだん) verbs ====
+
+base	how to form
+
+語幹	remove final る
+未然形	remove final る
+連用形	remove final る
+連体形	dictionary form ending on る
+已然形	replace final る with れ
+命令形	remove final る
+
+==== Irregular verbs: する (ずる/じる) ====
+
+base	する	ずる	じる
+
+未然形	さ, せ, し	ざ, ぜ, じ	じ
+連用形	し	じ	じ
+連体形	する	ずる	じる
+已然形	すれ	ずれ	じれ
+命令形	せ(よ), し(ろ), せい	ぜ(よ), じ(ろ), ぜい	じ(よ, ろ)
+
+The 未然形 for these verbs follows special rules, because not all 未然形 forms are used for all inflections that require this base.
+
+For the classical negation:
+
+  * する uses the せ—未然形
+  * ずる uses the ぜ—未然形
+
+For the (modern) passive and causative:
+
+  * する acts as either an 一段 or a 五段 verb for these forms; せ—未然形 + られる or さ—未然形 + れる to form the passive, さ—未然形 + せる to form the causative.
+  * ずる acts as a normal 一段 verb, using just the じ—未然形, forming じられる for the passive and じさせる for the causative.
+  * じる also acts as a normal 一段 verb, forming じられる for the passive and じさせる for the causative.
+  
+For the potential form, all three use 出来(でき)る instead.
+
+==== Irregular verbs: 来(く)る ====
+
+base	kanji form	pronunciation
+
+未然形	来	こ
+連用形	来	き
+連体形	来る	くる
+已然形	来れ	くれ
+命令形	来い	こい
+
+==== Special verbs: ある ====
+
+base	form
+
+未然形	あら
+連用形	あり
+連体形	ある
+已然形	あれ
+命令形	あれ
+
+==== Special verbs: だ ====
+
+base	form
+
+未然形	だろ
+連用形	で (だつ)
+終止形	だ
+連体形	な
+已然形	なら
+
+==== Special verbs: です ====
+
+base	form
+
+未然形	でしよ
+連用形	でし
+連体形	です
+
+==== Special verbs: ます ====
+
+base	 form
+
+未然形	ませ (ましよ)
+連用形	まし
+連体形	ます
+已然形	ますれ
+命令形	ませ (まし)
+
+==== Verbal adjectives ====
+
+base	how to form
+
+語幹	Remove the い from the dictionary form.
+未然形	語幹 + く
+連用形	語幹 + く
+連体形	語幹 + い
+已然形	語幹 + けれ
+(命令形	語幹 + かれ)
+
+==== Special bases for 御座(ござ)る ====
+
+base	form
+
+未然形	ござら
+連用形	ござい
+連体形	ござる
+已然形	ござれ
+命令形	ござい
+
+==== Special bases for いらっしゃる ====
+
+base	form
+
+未然形	いらっしゃら
+連用形	いらっしゃい
+連体形	いらっしゃる
+已然形	いらっしゃれ
+命令形	いらっしゃい
+
+==== Special bases for おっしゃる ====
+
+base	form
+
+未然形	おっしゃら
+連用形	おっしゃい
+連体形	おっしゃる
+已然形	おっしゃれ
+命令形	おっしゃい
+
+==== Special bases for 下(くだ)さる ====
+
+base	form
+
+未然形	下さら
+連用形	下さい
+連体形	下さる
+已然形	下され
+命令形	下さい
+
+==== Special bases for なさる ====
+
+base	form
+
+未然形	なさら
+連用形	なさい
+連体形	なさる
+已然形	なされ
+命令形	なさい
+
+
+===== Conjugation schemes =====
+
+==== Regular verbs: 五段(ごだん) verbs ====
+
+Contractions in the inflections are indicated with (c)
+
+inflection	formality	affirmative	negative
+
+present	informal	連体形	未然形 + ん
+			未然形 + ない
+	formal	連用形 + ます	連用形 + ません
+past	informal	連用形 + た (c)	未然形 + なかった
+	formal	連用形 + ました	連用形 + ませんでした
+て form	informal	連用形 + て (c)	未然形 + ないで
+			未然形 + なくて
+	formal	連用形 + まして	連用形 + ませんで
+past conditional	informal	連用形 + たら (c)	未然形 + なかったら
+	formal	連用形 + ましたら	連用形 + ませんでしたら
+representative	informal	連用形 + たり (c)	未然形 + なかったり
+	formal	連用形 + ましたり	連用形 + ませんでしたり
+pseudo-future	informal	未然形 + う (c)	連体形 + まい
+	formal	連用形 + ましょう	連用形 + ますまい
+past pseudo-future	informal	連用形 + たろう (c)	未然形 + なかったろう
+	formal	連用形 + ましたろう	連用形 + ませんでしたろう
+presumptive	plain	連体形 + だろう	未然形 + ないだろう
+	polite	連体形 + でしょう	未然形 + ないでしょう
+past presumptive	plain	連用形 + ただろう (c)	未然形 + なかっただろう
+	polite	連用形 + たでしょう (c)	未然形 + なかったでしょう
+hypothetical	neutral	已然形 + ば	未然形 + なければ
+	emphatic	連体形 + なら	未然形 + ないなら
+	formal(1)	連用形 + ませば	連用形 + ませんなら
+	formal(2)	連用形 + ますれば	
+commanding	informal	命令形	連体形 + な
+		連用形 + な	未然形 + ないで
+		連用形 + なさい	(連用形 + なさるな)
+		お + 連用形 + なさい	お + 連用形 +
+			　　なさらないで
+	very formal	お + 連用形 +	お + 連用形 +
+		　　なさいませ	　　なさいますな
+requesting	neutral	連用形 +	未然形 + ないで下(くだ)さい
+		　　て下(くだ)さい (c)	
+	formal	お + 連用形 +	お + 連用形 +
+		　　なさって下(くだ)さい	　　なさらないで下(くだ)さい
+passive, honorific,	informal	未然形 + れる	未然形 + れない
+potential	formal	未然形 + れます	未然形 + れません
+short potential	informal	連用形 + 得(え)る (c)	連用形 + えない (c)
+	formal	連用形 + えます (c)	連用形 + えません (c)
+causative	informal	未然形 + せる	未然形 + せない
+	formal	未然形 + せます	未然形 + せません
+causative passive	informal	未然形 + せられる	未然形 + せられない
+	formal	未然形 + せられます	未然形 + せられません
+humble	I	お + 連用形 + する	お + 連用形 + しない
+		お + 連用形 + します	お + 連用形 + しません
+	II	お + 連用形 + 致(いた)す	お + 連用形 + 致(いた)さない
+		お + 連用形 + 致(いた)します	お + 連用形 + 致(いた)しません
+honorific	I	お + 連用形 + に + なる	お + 連用形 + に +
+			　　ならない
+		お + 連用形 + に +	お + 連用形 + に +
+		　　なります	　　なりません
+	II	お + 連用形 + なさる	お + 連用形 + なさらない
+		お + 連用形 +	お + 連用形 + なさいません
+		　　なさいます	お + 連用形 + なさいません
+
+==== Regular verbs: 一段(いちだん) verbs ====
+
+inflection	formality	affirmative	negative
+
+present	informal		(未然形 + ぬ)
+		連体形	未然形 + ない
+	formal	連用形 + ます	連用形 + ません
+past	informal	連用形 + た	未然形 + なかった
+	formal	連用形 + ました	連用形 + ませんでした
+て form	informal	連用形 + て	未然形 + ないで
+			未然形 + なくて
+	formal	連用形 + まして	連用形 + ませんで
+past conditional	informal	連用形 + たら	未然形 + なかったら
+	formal	連用形 + ましたら	連用形 + ませんでしたら
+representative	informal	連用形 + たり	未然形 + なかったり
+	formal	連用形 + ましたり	連用形 + ませんでしたり
+pseudo-future	informal	未然形 + よう	未然形 + まい
+	formal	連用形 + ましょう	連用形 + ますまい
+past pseudo-future	informal	連用形 + たろう	未然形 + なかったろう
+	formal	連用形 + ましたろう	連用形 + ませんでしたろう
+presumptive	plain	連体形 + だろう	未然形 + ないだろう
+	polite	連体形 + でしょう	未然形 + ないでしょう
+past presumptive	plain	連用形 + ただろう	未然形 + なかっただろう
+	polite	連用形 + たでしょう	未然形 + なかったでしょう
+hypothetical	neutral	已然形 + ば	未然形 + なければ
+	emphatic	連体形 + なら	未然形 + ないなら
+	very formal	連用形 + ませば	連用形 + ませんなら
+		連用形 + ますれば	
+commanding	informal	命令形 + よ	
+		命令形 + ろ	連体形 + な
+		連用形 + な	未然形 + ないで
+		連用形 + なさい	(連用形 + なさるな)
+	formal	お + 連用形 + なさい	お + 連用形 +
+			　　なさらないで
+	very formal	お + 連用形 +	お + 連用形 +
+		　　なさいませ	　　なさいますな
+requesting	neutral	連用形 + て下(くだ)さい	未然形 + ないで下(くだ)さい
+	formal	お + 連用形 +	お + 連用形 +
+		　　なさって下(くだ)さい	　　なさらないで下(くだ)さい
+passive, honorific,	informal	未然形 + られる	未然形 + られない
+potential	formal	未然形 + られます	未然形 + られません
+causative	informal	未然形 + させる	未然形 + させない
+	formal	未然形 + させます	未然形 + させません
+causative passive	informal	未然形 + させられる	未然形 + させられない
+	formal	未然形 + させられます	未然形 + させられません
+humble	I	お + 連用形 + する	お + 連用形 + しない
+		お + 連用形 + します	お + 連用形 + しません
+	II	お + 連用形 + 致(いた)す	お + 連用形 + 致(いた)さない
+		お + 連用形 + 致(いた)します	お + 連用形 + 致(いた)しません
+honorific	I	お + 連用形 + に + なる	お + 連用形 + に +
+			　　ならない
+		お + 連用形 + に +	お + 連用形 + に +
+		　　なります	　　なりません
+	II	お + 連用形 + なさる	お + 連用形 + なさらない
+		お + 連用形 +	お + 連用形 +
+		　　なさいます	　　なさいません
+
+==== Irregular verbs: する (ずる/じる) ====
+
+inflection	formality	affirmative	negative
+
+present	informal		せ—未然形 + ん
+		連体形	未然形 + ない
+	formal	連用形 + ます	連用形 + ません
+past	informal	連用形 + た	未然形 + なかった
+	formal	連用形 + ました	連用形 + ませんでした
+て form	informal	連用形 + て	未然形 + ないで
+			未然形 + なくて
+	formal	連用形 + まして	連用形 + ませんで
+past conditional	informal	連用形 + たら	未然形 + なかったら
+	formal	連用形 + ましたら	連用形 + ませんでしたら
+representative	informal	連用形 + たり	未然形 + なかったり
+	formal	連用形 + ましたり	連用形 + ませんでしたり
+pseudo-future	informal	未然形 + よう	連体形 + まい
+	formal	連用形 + ましょう	連用形 + ますまい
+past pseudo-future	informal	連用形 + たろう	未然形 + なかったろう
+	formal	連用形 + ましたろう	連用形 + ませんでしたろう
+presumptive	plain	連体形 + だろう	未然形 + ないだろう
+	polite	連体形 + でしょう	未然形 + ないでしょう
+past presumptive	plain	連用形 + ただろう	未然形 + なかっただろう
+	polite	連用形 + たでしょう	未然形 + なかったでしょう
+hypothetical	neutral	已然形 + ば	未然形 + なければ
+	emphatic	連体形 + なら	未然形 + ないなら
+	formal (1)	連用形 + ませば	連用形 + ませんなら
+	formal (2)	連用形 + ますれば	
+commanding	informal	せ-命令形 + よ	
+		し-命令形 + ろ	連体形 + な
+		連用形 + な	未然形 + ないで
+	formal	なさい	なさらないで
+			(なさるな)
+	formal (2)	なさいませ	なさいますな
+requesting	neutral	連用形 + て下(くだ)さい	未然形 + ないで下さい
+	formal	なさって下さい	なさらないで下さい
+passive, honorific	informal	see note	～れない
+	formal	～れます	～れません
+causative	informal	see note	～せない
+	formal	～せます	～せません
+causative passive	informal	see note	～せられない
+	formal	～せられます	～せられません
+
+inflection	replacement verb
+
+humble	致(いた)す
+honorific	なさる
+potential	出来(でき)る
+
+==== Irregular verbs: くる (来る) ====
+
+inflection	formality	affirmative	negative
+
+present	informal		未然形 + ん (ぬ)
+		連体形	未然形 + ない
+	formal	連用形 + ます	連用形 + ません
+past	informal	連用形 + た	未然形 + なかった
+	formal	連用形 + ました	連用形 + ませんでした
+て form	informal	連用形 + て	未然形 + ないで
+			未然形 + なくて
+	formal	連用形 + まして	連用形 + ませんで
+past conditional	informal	連用形 + たら	未然形 + なかったら
+	formal	連用形 + ましたら	連用形 + ませんでしたら
+representative	informal	連用形 + たり	未然形 + なかったり
+	formal	連用形 + ましたり	連用形 + ませんでしたり
+pseudo-future	informal	未然形 + よう	未然形 + まい
+	formal	連用形 + ましょう	連用形 + ますまい
+past pseudo-future	informal	連用形 + たろう	未然形 + なかったろう
+	formal	連用形 + ましたろう	連用形 + ませんでしたろう
+presumptive	plain	連体形 + だろう	未然形 + ないだろう
+	polite	連体形 + でしょう	未然形 + ないでしょう
+past presumptive	plain	連用形 + ただろう	未然形 + なかっただろう
+	polite	連用形 + たでしょう	未然形 + なかったでしょう
+hypothetical	neutral	已然形 + ば	未然形 + なければ
+	emphatic	連体形 + なら	未然形 + ないなら
+	formal (1)	連用形 + ませば	連用形 + ませんなら
+	formal (2)	連用形 + ますれば	
+commanding	informal	命令形	連体形 + な
+		連用形 + な	未然形 + ないで
+		連用形 + なさい	(連用形 + なさるな)
+	formal	お + 出(い)で + なさい	
+	very formal	お + 出(い)で + なさいませ	お + 出(い)で + なさいますな
+requesting		連用形 + て下(くだ)さい	未然形 + ないで下(くだ)さい
+passive, honorific	informal	未然形 + られる	未然形 + られない
+potential	formal	未然形 + られます	未然形 + られません
+causative	informal	未然形 + させる	未然形 + させない
+	formal	未然形 + させます	未然形 + させません
+causative passive	informal	未然形 + させられる	未然形 + させられない
+	formal	未然形 + させられます	未然形 + させられません
+
+inflection	replacement verb
+
+humble	参(まい)る
+honorific	いらっしゃる
+
+==== Special verbs: ある ====
+
+Contractions in the inflections are indicated with (c)
+
+inflection	formality	affirmative	negative
+
+present	informal		未然形 + ない
+	formal	連用形 + ます	連用形 + ません
+past	informal	連用形 + た (c)	なかった
+	formal	連用形 + ました	連用形 + ませんでした
+て form	informal	連用形 + て (c)	なくて
+	formal	連用形 + まして	連用形 + ませんで
+past conditional	informal	連用形 + たら (c)	なかったら
+	formal	連用形 + ましたら	連用形 + ませんでしたら
+representative	informal	連用形 + たり (c)	なかったり
+	formal	連用形 + ましたり	連用形 + ませんでしたり
+pseudo-future	informal	未然形 + う (c)	連体形 + まい
+	formal	連用形 + ましょう	連用形 + ますまい
+past pseudo-future	informal	連用形 + たろう (c)	なかったろう
+	formal	連用形 + ましたろう	連用形 + ませんでしたろう
+presumptive	plain	連体形 + だろう	なかろうないだろう
+	polite	連体形 + でしょう	ないでしょう
+past presumptive	plain	連用形 + ただろう (c)	なかっただろう
+	polite	連用形 + たでしょう (c)	なかったでしょう
+hypothetical	neutral	已然形 + ば	なければ
+	emphatic	連体形 + なら	ないなら
+	formal (1)	連用形 + ませば	連用形 + ませんなら
+	formal (2)	連用形 + ますれば	
+commanding	informal	命令形 	
+passive, honorific	informal	未然形 + れる	未然形 + れない
+potential	formal	未然形 + れます	未然形 + れません
+short potential	informal	連用形 + 得(え)る	連用形 + えない
+	formal	連用形 + えます	連用形 + えません
+causative	informal	未然形 + せる	未然形 + せない
+	formal	未然形 + せます	未然形 + せません
+causative passive	informal	未然形 + せられる	未然形 + せられない
+	formal	未然形 + せられます	未然形 + せられません
+
+inflection	replacement verb
+
+polite	ござる
+
+==== Special verbs: だ/です ====
+
+inflection	politeness	affirmative	negative
+
+present	plain	だ	じゃない
+			ではない
+	polite	です	じゃありません
+			ではありません
+past	plain	だった	じゃなかった
+			ではなかった
+	polite	でした	じゃありませんでした
+			ではありませんでした
+て form	plain	だって	じゃなくて
+			ではなくて
+	polite	でして	じゃありませんでして
+			ではありませんでして
+past conditional	plain	だったら	じゃなかったら
+			ではなかったら
+	polite	でしたら	じゃありませんなら
+			ではありませんなら
+representative	plain	だったり	じゃなかったり
+			ではなかったり
+	polite	でしたり	じゃありませんでしたり
+			ではありませんでしたり
+pseudo-future	plain	だろう	じゃなかろう
+			ではなかろう
+			じゃないだろう
+			ではないだろう
+	polite	でしょう	じゃありませんでしょう
+			ではありませんでしょう
+past pseudo-future	plain	だったろう	じゃなかったろう
+			ではなかったろう
+	polite	でしょう	じゃありませんでしょい
+			ではありませんでしょう
+hypothetical	I	なら	じゃなければ
+	II	ならば	ではなければ
+
+Note that these verbs have special humble and honorific counterparts. For the humble copula, で+ござる is used, and for the honorific copula, で+いらっしゃる is used. The verbs for these forms have special bases, which are listed in their own section.
+
+==== Special verbs: ます ====
+
+inflection	affirmative	negative
+
+present	連体形	未然形 + ん
+past	連用形 + た	未然形 + んでした
+て form	連用形 + て	未然形 + んで
+past conditional	連用形 + たら	未然形 + んでしたら
+representative	連用形 + たり	未然形 + んでしたり
+pseudo-future	ましょう	未然形 + んでしょう
+past pseudo-future	連用形 + たろう	未然形 + んでしたろう
+hypothetical	未然形 + ば	未然形 + んなら
+	已然形 + ば	
+commanding	命令形	
+
+==== Verbal adjectives ====
+
+Contractions in the inflections are indicated with (c)
+
+inflection	formality	affirmative	negative
+
+present	informal	連体形	未然形 + ない
+	formal	連体形 + です	連用形 + ありません
+past	informal	連用形 + あった (c)	未然形 + なかった
+	formal		連用形 + ありませんでした
+て form	informal	連用形 + て	未然形 + ないで
+	formal		未然形 + なくて
+past conditional	informal	連用形 + あったら (c)	未然形 + なかったら
+	formal		連用形 + ありませんでしたら
+pseudo-future	informal	連用形 + あろう (c)	未然形 + なかろう
+			未然形 + ないだろう
+	formal	連体形 + でしょう	未然形 + ないでしょう
+			連用形 + ありませんでしょう
+past pseudo-	informal	連用形 + あったろう(c)	未然形 + なかったろう
+future			未然形 + なかっただろう
+	formal	連用形 +	未然形 + なかったでしょう
+		　　あったでしょう (c)	連用形 + ありませんでしたろう
+hypothetical	neutral	已然形 + ば	未然形 + なければ
+	emphatic	連体形 + なら	未然形 + ないなら
+commanding	informal	連用形 + あれ (c)	
+
+=== Classical adverb form ===
+
+The following table shows the rules for using verbal adjectives as adverbs to classical verbs such as ござる and 出(い)でる.
+
+adjective written as ...	becomes ...
+
+語幹 ending in an あ-row syllable + い	語幹 ending in an お-row syllable + う
+語幹 ending in an い-row syllable + い	語幹 ending in an い-row 'ゆ' glide
+語幹 ending in an う-row syllable + い	the same 語幹 + う
+語幹 ending in an お-row syllable + い	the same 語幹 + う

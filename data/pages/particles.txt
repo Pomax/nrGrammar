@@ -1,0 +1,1943 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Particles ======
+
+{idx:english:Particles}, called {idx:english:助詞(じょし)}, or more affectionately referred to as {idx:english:てにをは} (after the verb て form and the three quintessential particles に, を and は), are the fundamental glue that holds Japanese sentences together, indicating how words (or blocks of words) relate to each other. There is no overstating how important particles are in using Japanese: without them, there is no Japanese language.
+
+Most particles are suffixes, meaning that they follow whatever it is they are marking, but there are a small number of prefixes. In this chapter, we will first look at some common prefixes, then look at what is generally considered the bulk of Japanese particles, followed by an entire chapter dedicated to a rather special set of particles: counters.
+
+===== Prefixes =====
+
+==== The {idx:english:honorific prefix@prefixes!honorific} ====
+
+One of the most used prefixes is probably {idx:english:御@お, ご, み, おん, ぎょ (御)}, pronounced either as お, ご, み, おん, or ぎょ, depending on what it is being used with, and for:
+
+  * The reading お is used to make words with a {idx:english:Japanese reading} ({idx:english:訓読(くんよ)み}) honorific.
+  * The reading ご is used to make words with a {idx:english:Chinese reading} ({idx:english:音読(おんよ)み}) honorific.
+  * The reading み is used for imperial and {idx:english:Shinto terminology}. In addition, it can be used as a stylistic reading to make words sound more poetic.
+  * The reading おん is a rare reading used mainly as a {idx:english:classical honorific prefix@prefixes!classical honorific}. It can be considered a very formal version of the お reading.
+  * The reading ぎょ is also rarely used, and is used exclusively for {idx:english:imperial terms}.
+
+This prefix is essential in various honorific and humble constructions, as we saw in the sections on humble and honorific verb constructions. It should be noted that some words, when used in daily speech, always get this prefix. A by no means exhaustive list of such words includes:
+
+お茶(ちゃ)	(green) tea
+お金(かね)	money
+お湯(ゆ)	warm/hot water (but not boiling water, which is called 熱湯(ねっとう))
+お冷(ひや)	cold water
+お腹(なか)	belly, stomach
+お箸(はし)	chopsticks
+ご馳走(ちそう)	feast (used in ご馳走様(ちそうさま)でした, said when one is done eating)
+ご飯(はん)	food, dinner
+
+==== {idx:english:Negating prefixes@prefixes!negative} ====
+
+There are also various common prefixes that negate, void or otherwise create a counter-concept word when used: 未(み), 不(ふ), 無(む) and 非(ひ).
+
+We know {idx:english:prefixes!未(み)} from the verbal imperfect base, the 未然形. This prefix indicates a "not yet" or "has yet to be realised" aspect, which explains what it's doing in a word like 未然形, but there are many other words in which we find this prefix:
+
+word	meaning	composition
+
+未来(みらい)	future	"not yet arrived"
+未完(みかん)	incomplete	"not yet finished"
+未婚(みこん)	unmarried	"not yet married"
+未整理(みせいり)	pending	"not yet arranged"
+未発(みはつ)	prior	"not yet begun"
+
+When {idx:english:prefixes!不(ふ)} is used, it expresses a noun negative, similar to the English prefixes "un-", "im-", "a-" or "de-". Examples of this prefix are:
+
+word	meaning	composition
+
+不可能(ふかのう)	impossible	"no possibility"
+不景気(ふけいき)	(economic) depression	"no business"
+不従順(ふじゅうじゅん)	disobedience	"no obedience"
+不知(ふち)	ignorance	"no knowledge"
+
+When {idx:english:prefixes!無(む)} is used, it expresses a non-existential, similar to "non-", "not ..." or the terms "without" or "devoid of" in English. Examples of this prefix are:
+
+word	meaning	composition
+
+無記名(むきめい)	unsigned	"without signature"
+無効(むこう)	invalid	"without validity"
+無神論(むしんろん)	atheism	"without deity"
+無断(むだん)	unauthorized	"without permission"
+
+Finally, {idx:english:prefixes!非(ひ)} is used to indicate the equivalent of the English "non-". Examples of this prefix are:
+
+word	meaning	composition
+
+非営利的(ひえいりてき)	non-profit	"not commercial"
+非現実的(ひげんじつてき)	unrealistic	"not realistic"
+非常(ひじょう)	emergency	"not usual"
+非対応(ひたいおう)	incompatible	"not compatible"
+
+==== Assorted prefixes ====
+
+Aside from these four negating prefixes, there are also a few other common prefixes that you will encounter frequently enough to deserve at least mention here, even if we don't look at example words for each of them:
+
+prefix	meaning
+
+{idx:english:prefixes!全(ぜん)}～	"all ...", "every ..."
+{idx:english:prefixes!毎(まい)}～	"every ..."
+{idx:english:prefixes!新(しん)}～	"new ..."
+{idx:english:prefixes!大(だい・おお)}～	"big" (two possible common pronunciations)
+{idx:english:prefixes!小(こ・しょう)}～	"small" (two possible common pronunciations)
+{idx:english:prefixes!再(さい)}～	"re-"
+{idx:english:prefixes!最(さい)}～	"most ..."
+{idx:english:prefixes!超(ちょう)}～	"super-"
+{idx:english:prefixes!対(たい)}～	"anti-", "counter-"
+{idx:english:prefixes!半(はん)}～	"semi-", "demi-", "incomplete"
+{idx:english:prefixes!以(い)}～	indicates a boundary or limit
+{idx:english:prefixes!真(ま)っ}～	an intensifying prefix
+
+(Note that the consonant double っ in 真っ becomes an ん when this prefix is paired with words starting with a な—column or ま—column syllable, such as 真(ま)ん中(なか))
+
+There are more, mainly due to the fact that many nouns in Japanese are compound nouns. Thus, any part of a compound noun that gets used by several words in roughly the same meaning can be considered a prefix of sorts.
+
+===== {idx:english:Particles} =====
+
+What most people consider proper particles actually cover a number of subcategories of particles. There are the grammatical particles, which map to grammatical interpretations such as direct objects, verb phrase subjects, disambiguation, etc. They lack any form of translation to languages that leave grammar implied, and as such can be a bit tricky to learn initially, as they require actively learning grammar in order to properly understand what they do (something which most people have not really been exposed to in their general education). Aside from these grammatical particles, there is the set of particles which perform roles similar to what prepositions do in, for instance, English. However, because of the way the Japanese language describes things happening or being in the world, a single Japanese particle in this category might map to a number of prepositions when translated, depending on the context in which it is used. Then there are the various particles for emphasis in all its forms, so it should be clear that we have quite a bit of ground to cover.
+
+The list of particles covered in this chapter is not an exhaustive list of all particles used in the Japanese language, but does represent the bulk of particles that you might encounter. They have been ordered in three sections, the first covering the absolutely essential particles, the second and third covering less frequently used and even several 'rare' particles and particle combinations.
+
+==== Essential particles ====
+
+The essential particles list consists of the particles か, が, と, で, に, の, は, も and を (as well as へ, which is not essential but belongs in this list because of the way it contrasts with a particular use of に). Traditionally, て would be considered part of this list, but we already extensively covered て in the verb section on the て form. 
+
+The particles in this section are considered "essential", because they cover the absolute minimum of grammatical roles that you need to understand before you understand Japanese at a basic conversational level. While the list seems short, a mere 10 particles, most of these particles — in terms of what you might be used to from English — do many different things. While there is typically some unifying idea for that describes what the particle does "in concept", in practice this means having to remember several roles per particle, and being able to identify which one is used when.
+
+=== {idx:english:particles!か} — {idx:english:essential particles!Questioning particle} ===
+
+This particle is sometimes called the Japanese equivalent of the question mark, but this is not entirely true. While it acts as the question mark when used at the end of sentences, it actually acts as a general questioning particle. It usually ends a sentence, because most of the time the entire sentence is the question, but you can find it used inside sentences as well, where it turns only part of the sentence into a questioning phrase. The 'question mark' role is fairly easily demonstrated:
+
+  行(い)きます。
+  "(I, you, he, she, it, we, they)'ll go."
+
+  行きますか。
+  "Will/shall (I, you, he, she, it, we, they) go?"
+
+The more interesting functions of か are found when it is used in subphrases instead, such as in the following example:
+
+  しようかと思(おも)った。
+  "(I) thought (about) whether I should do (it)."
+
+Let's take this sentence apart and look at why it means what the translation says it means. First, this sentence consists of two parts: しようか and [...]と思った. The first is the dubitative form of する, with the questioning particle か, so that "let's do" becomes "will/shall (I, you, he, she, it, we, they) do?". This is then combined with the past tense for [...]と思う, "think [...]" or "think about [...]" to form "think about [will shall ... do?]". This isn't natural English, so we need to rewrite it using appropriate words: a dubitative question in English uses the word "whether", so going from Japanese to literal English to natural English, we arrive at "think about whether (or not) to do (something)". And since this is a past tense we arrive at the translation that was initially given.
+
+The more complete version of "whether (to) [...]" is the pattern "whether or not (to) [...]", and Japanese has an equivalent to this: [...]{idx:english:かどうか@...かどうか}:
+
+  彼(かれ)が来(く)るかどうか、分(わ)かりません。
+  "(I) have no idea whether he'll come over or not."
+
+We can even form more elaborate yes-or-no, be-or-not, do-or-not, etc. questions, by using two separate questions. This might be a bit confusing at first, as in English we always put our choices in a single sentence, but in Japanese a double question pattern is in fact quite common:
+
+  コーヒーにしますか、お茶(ちゃ)にしますか。
+  "Will (you) have coffee, or tea?"
+
+While the English translation shows that this is just a normal "or" question, the Japanese sentence joins up the otherwise separate questions コーヒーにしますか, "will you have coffee?" and お茶にしますか, "will you have tea?", into a single choice question. Answers can range from コーヒーをください ('coffee, please') to どれでもいい ('either is fine') to things like いいえ、結構(けっこう)です ('no, that's okay (I shall have nothing)').
+
+However, か can also be used as a direct translation for "or", but a very specific one: the {idx:english:logical connective "or"@logical or}. There is a rather big difference between the {idx:english:natural language "or"@natural or} and the logical "or", in that the latter doesn't ask about which choice to go with, but whether at least one of the choices listed is correct:
+
+  A: "Would you like coffee, or tea?"
+  B, interpreting 'or' naturally: "Coffee, please."
+
+  A: "Would you like coffee or tea?"
+  B, interpreting 'or' logically: "Yes, please."
+
+What happened in this second conversation? Rather than interpreting 'or' as the natural version, B decided to interpret it as the logical connective, meaning he answered the question "would you like [coffee or tea]" — the logical 'or' doesn't give you a choice, it connects the choices into a single option, which is picked if any one of the otherwise individual choices is picked, or isn't picked if none of them work. In Japanese, using か to list choices in this way means offering people this kind of logical 'or'  choice:
+
+  A: コーヒーにしますか、お茶にしますか。
+  B: コーヒーをください。
+
+  A: "Will (you) have coffee, or tea?"
+  B: "Coffee, please."
+
+  A: コーヒーかお茶にしますか。
+  B: いいえ、今は冷たいお飲み物がいいと思います、ね。
+
+  A: "Will (you) have coffee or tea?"
+  B: "No, (I) think right now something cold (literally, 'a cold drink') would be nicer."
+
+This can potentially lead to confusion, or seemingly incomplete answers:
+
+  A: 電車(でんしゃ)で行きますか、バスで行(い)きますか。
+  B: 電車で。
+
+  A: "Will you go by train, or by bus?"
+  B: "By train."
+
+  A: 電車かバスで行きますか。
+  B: はい。
+
+  A: "Will you go by train or bus?"
+  B: "Yes."
+
+The key here is that the answer is actually not incomplete given the question asked. An "[X]か[Y]" question is a yes or no question, and so there is no obligation to give any more information than what is being asked for. Beginning students of Japanese often forget that using か in this fashion only applies to the logical connective 'or', and start mistakenly using it wherever in English the word 'or' is used. It deserves extra warning: avoid using か to mean 'or' until you've developed a good grasp of the Japanese language.
+
+In addition to all this, か can be used to indicate a kind of rhetorical question usually associated with mild scorn:
+
+  そんな事(こと)知(し)るか。
+  "How would (I) know?"
+	
+This kind of expression is often {idx:english:derisive}, made even stronger by adding {idx:english:よ} at the end:
+
+  分(わ)かるかよ。
+  "How the hell would you know [this]?"
+
+This use of か is actually one of the few times when it is possible to stick an exclamation mark in the translation, as it is virtually always accompanied by a raised voice. However, since —かよ invariably concerns a question, and the combination of a question mark followed by an exclamation mark is considered bad form by most style guides, special consideration should go into deciding on whether or not to add an exclamation mark in the translation.
+
+== Using か with {idx:english:interrogatives@interrogatives!か} ==
+
+There is one more thing we need to look at when looking at か, and that concerns its combination with interrogatives. When paired with an interrogative (words such as 'how', 'why', 'when', 'where', etc.) the particle か creates a vaguely specific answer to that interrogative. The easiest way to understand what that means is to just look at what happens:
+
+interrogative	meaning		with か	meaning
+
+なに	what		なにか	something
+だれ	who		だれか	someone
+どこ	where		どこか	somewhere
+いつ	when		いつか	sometime, eventually
+なぜ	why		なぜか	for some reason
+どう	how		どうか	in some way or another
+
+These words act as nouns, and can be used like any other noun in sentences:
+
+  いつか上手(じょうず)になります。
+  "(I)'ll become good (at it) eventually."
+
+=== {idx:english:particles!が} — {idx:english:essential particles!Subject}, {idx:english:essential particles!actor}, {idx:english:essential particles!weak emphasis}, {idx:english:essential particles!contrast} ===
+
+We already saw が in chapter 2, in the section on verb particles, where it was explained that it could mark verb actors and subjects. In addition to this, が can be used for weak emphasis, usually translating to the English weakly emphatic "but", such as in the question "Excuse me, but do you know the time?", where its role is mostly to "ease in" the main statement. Similarly, が eases in the main statement, although rather than getting a comma in front of it like 'but' does, it gets a comma after:
+
+  すみませんが、今(いま)何時(なんじ)ですか。
+  "Excuse me (but), what time is it?"
+
+Again like the English 'but', が can be used as a more proper contrastive:
+
+  それもそうだが、問題(もんだい)はそれだけじゃない。
+  "That is true, but (the) problem consists of more than just that (issue)."
+
+This sentence consists of the sections それもそうだ, 'that is (also) true' and 問題はそれだけじゃない, 'the problem is not just that (issue)', joined with が for contrast. These sentences use the particles も and だけ, since it's hard to illustrate a proper contrastive without using a moderately complex sentence: も marks similarity, and だけ (roughly) translates to "just/only". We will look at も in more detail later in this particle section, and we'll examine だけ in the next particle section.
+
+On a final note, in classical Japanese, が has the same role as の does today. As such, you may encounter 'set' phrases that use が in a genitive meaning.
+=== {idx:english:particles!と} — {idx:english:essential particles!Unifier} ===
+
+This particle is a nicely complex one. The grand unifying role that it plays is, actually, unification, but the way in which it does it is usually experienced as doing completely different things. We already saw と being used to create an {idx:english:essential particles!exhaustive noun list} in chapter 2 in the section on noun particles, but this role extends not just to things, but to people as well. In the same way that [X]と[Y]と[Z] is an exhaustive noun list (i.e., the unity of all these things), if we use people instead of Xs and Ys, we end up with a unified group:
+
+  本田(ほんだ)さんと榊(ささき)さんが映画(えいが)を見(み)に行(い)く。
+  "Honda and Sakaki are going to go see a film."
+
+In this sentence, the "noun list" 本田さんと榊さん exhaustively lists all the members of the group of people that will go see a film.
+
+An interesting feature is that と can unify a {idx:english:group of people@essential particles!grouping}, or a group of things in general, leaving the central, contextually obvious noun implied. For instance, examine the following sentence:
+
+  木村(きむら)さんと東京(とうきょう)に行(い)きました。
+
+In this sentence, 東京に行きました means "(I, you, he, she, it, we, they) went to Tokyo", and 木村さんと looks like an incomplete noun list. However, this is one of those aspects of Japanese where context is important: we can leave off a contextually obvious "thing" in a noun list, and expect people who understand Japanese to fill this in themselves: in this case, the most obvious interpretation is that 'I' or 'we' went to Tokyo with Kimura. However, just because it is the most obvious, that does not mean it's the only interpretation possible. If, say, we're discussing what a mutual friend of ours has been doing over the holiday, without that friend present, and one of us utters the phrase 木村さんと東京に行きました then the contextually omitted person would be our mutual friend, rather than either of us.
+
+There are several ways to make the omitted 'thing' explicit. One of these is to use the disambiguation particle, {idx:english:は}:
+
+  石田(いしだ)さんは木村さんと東京に行きました。
+  "Ishida (rather than someone else) went to Tokyo with Kimura."
+
+However, this only makes sense if the sentence would otherwise be ambiguous. If instead we only want to reiterate the person's identity, we would use {idx:english:が}:
+
+  石田さんが木村さんと東京に行きました。
+  "Ishida went to Tokyo with Kimura."
+
+In this sentence, 石田 has been explicitly mentioned as primary verb actor, and because he's already been mentioned, can be left implied in the と listing that follows.
+
+Finally, we can do the most unnatural thing possible, and form a 'proper' exhaustive list without any implied nouns or people:
+
+  石田さんと木村さんが東京に行きました。
+  "Ishida and Kimura went to Tokyo."
+
+I say unnatural, because if someone has already been established as contextual subject or actor, you either leave them implied, or you mention them as actual subject or actor. If this was an opening sentence in a conversation, however, this sentence would be fine, as no context will have been established yet.
+
+Being able to tell whether a noun listing has any implied items is rather simple: if it ends on と, instead of on a noun, it has an implied item. It doesn't matter how long the noun list is for this; if it ends on と, something has been left off:
+
+  石田さんと木村さんが東京に行きました。
+  "Ishida and Kimura went to Tokyo."
+
+  石田さんと木村さんと東京に行きました。
+  "Ishida, Kimura and (I, you, he, she, it, us, they) went to Tokyo."
+
+Of course this explanation so far has focussed on people, but the same goes for plain old object nouns:
+
+  カードと買(か)った。
+  "(I, you, he, she, it, we, they) bought (it) with (a) credit card."
+
+So it doesn't really matter what category the nouns are; as long as you're using と for exhaustive listing, a full list is always of the form:
+
+  [X]と[Y](と[Z]と[...])
+
+And a list with an implied item is always of the form:
+
+  [X]と([Y]と[...]と)
+
+With this list explicitly ending on と. However, make sure to add direct object particles when using 他動詞(たどうし) verbs (or rather, when using verbs in a 他動詞 role, taking direct objects):
+
+  オレンジと買った。
+  "(I, you, he, she, it, we, they) bought (it) with oranges."
+
+This sentence is not incorrect, but it says that we bough something in a place where oranges are considered a currency. This is probably not what we meant to say, and instead we wanted to say this:
+
+  オレンジとを買った。
+  "(I, you, he, she, it, we, they) bought (it) along with (the) oranges."
+
+Note the を in this sentence, which leads to a normal phrase "(something)を買った", where the "(something)" is our list with implicit items.
+
+There are more things that と can do, and some of these involve a [noun]と construction, so try to remember that just because an exhaustive listing with an implied item has the form [X]と, not everything that fits the pattern [X]と has to be such an exhaustive listing with implied item. In fact, looking at further roles of と this becomes immediately obvious.
+
+In addition to noun listing, と can be used in combination with sound or state words, properly called {idx:english:擬音語(ぎおんご)}, {idx:english:onomatopoeia}, and {idx:english:擬態語(ぎたいご)}, {idx:english:mimeses} respectively, to form {idx:english:adverbial constructions}. For instance, if it was a starlit night and we wanted to say that all the lights were causing the lake to sparkle, we would say something like the following:
+
+  池(いけ)がきらきらとした。
+  "The lake sparkled."
+
+In this sentence, the word きらきら is a state description word (called 'mimesis' in English), which paired with と becomes an adverb to the verb する. Literally, then, this construction would say that the lake is 'doing' きらきら. Sound description words (called 'onomatopoeia' in English) are treated in the same way:
+
+  雨(あめ)がザーと降(ふ)ってきた。
+  "The rain came pouring down."
+
+Here, the onomatopoeic word ザー is not found in the translation, because in English — as in most Western languages — we do not use such words to any serious degree. In Japanese, however, these words are an essential part of natural sounding language: the translation states that rain came "pouring down", because ザー is the sound that rain pouring down makes. Before you now go thinking up all kinds of onomatopoeia yourself, Japanese has been in use for centuries, and virtually any onomatopoeia you might come up with already exists, in a very specific form. There are in fact 擬音語・擬態語 dictionaries which will list all of them by category and meaning (you may find one online on www.nihongoresources.com, for instance), so you're not free to come up with your own; there are several hundred well established onomatopoeia and mimeses, each typically with at least a handful of interpretations depending on what they relate to, leading to well over a thousand different uses. It is not surprise, then, that a mastery of onomatopoeia and mimeses is typically seen as having mastered conversational Japanese.
+
+In fact, this adverbial marking of things using と extends beyond just the 擬音語 and 擬態語, and through this extending becomes a bit more complex too: a popular way to explain this is to call と the {idx:english:essential particles!quoting} particle, and give an example such as the following to illustrate this:
+
+  「今(いま)行(い)く」と言(い)いました。
+  "(I, you, he, she, it, we, they) said (I, you, he, she, it, we, they)'ll be coming over right now."
+
+This clearly demonstrates a quote being recited, but things are not quite that simple; と will work with a much wider variety of things than just quotes, as the following examples should illustrate:
+
+  車(くるま)を買(か)おうと思(おも)います。
+  "(I, you, he, she, it, we, they)'re thinking about buying a car."
+
+  弱点(じゃくてん)を力(ちから)と考(かんが)えましょう。
+  "Let's think of (my, your, his, her, its, our, their) weakness(es) as (one of my, your, his, her, its, our, their) strength(s) (instead)."
+
+  趣味(しゅみ)は仕事(しごと)としています。
+  "(I, you, he, she, it, we, they) consider (my, your, his, her, its, our, their) hobby (my, your, his, her, its, our, their) work."
+
+What と is actually doing is marking all these things — the quote 「今行く」, the {gls:glossary:volitional} act 車を買おう, the concept 力, and the activity 仕事 — as somehow being adverbial to the verbs in question; 言う, 思う, 考える, and する. The actual interpretation of what と is doing depends entirely on the interpretation of what's being marked as adverbial, and the interpretation of the verbs used. For instance, 言う means 'to say', but it can also mean 'to call'. As such, we can actually translate our first sentence in two radically different ways:
+
+  「今行く」と言いました。
+  "He said he'd be right over."
+  "He was called Imaiku."
+
+The second translation sounds quite unlikely, but if we replace 今行く with 谷村さん, we get exactly the same possible translations:
+
+  「谷村(たにむら)さん」と言いました。
+  "He said 'Tanimurasan'."
+  "He was called Tanimura."
+
+Suddenly the first translation sounds quite unlikely, although nothing really changed.
+
+So how does と differ from {idx:english:を}, the direct object marker? Actually, sometimes we can use either, but for some verbs the meaning changes radically when we use と, as opposed to when we use を. A good example of this is the verb なる, which we looked at in chapter 2, in the section on important verbs. This verb changes its meaning from "to become" to "to be" when we use と rather than を, so there is an important choice to be made about which particle suits our need best. Another example is the verb 考える, which means "to think" when used with を, but "to think about" when used with と.
+
+Hopefully you spotted what happens here: rather than the verb and the direct object being distinct things, using と unifies the verb and thing it works with into something that means something different from the sum of the parts. For instance, you cannot split up "to be [X]" into "to be" and "X" without changing the meaning of the verb. The same goes for "to think about [X]", or "to consider [X] something", or "to dream about [X]". While it is easier to explain と as a series of separate things for all these different verbs, it's really doing the exact same thing for all of them, even though there is no simple rule in Western grammar that we can map it to so that it makes sense given what we know from our own every day language use.
+
+To make matters even worse, we're not there yet. One more thing that と does is act as a {idx:english:essential particles!logical consequence}. We already saw {idx:english:か} acting as logical 'or', and と is basically the {idx:english:logical 'and'@logical and} equivalent. If we want to express that two things are simultaneously the case, we would use と:
+
+  飛行機(ひこうき)は遅(おく)れると乗(の)れません。
+  "With aeroplanes, the idea is that if you're late, you can't board."
+  literally: "for aeroplanes (rather than something else): if you're late, you can't board."
+
+It is easy to mistake what happens in this sentence for just an {idx:english:"if A, then B"@if ..., then ...}, so let's look at what this sentence is doing before illustrating this use of と with a more drastic example. Aeroplanes, with their strict schedules, have a very simple rule, being that if you are late for the flight, then too bad for you. The plane doesn't wait for people. As such, "being late" and "not being allowed on the plane" are simultaneously true. The moment you are late, immediately and irrevocably you are also unable to board. We can make this more obvious with the promised more drastic example:
+
+  友達(ともだち)が首(くび)になると辞職(じしょく)します。
+  "If my friend gets fired, I quit."
+
+Here, it is crucially important to notice the と, and realise that we're talking about {idx:english:simultaneous action}s. This sentence does not say "if my friend gets fired, I shall put in my resignation", it says that right there and then, the moment he gets fired, you're quitting. It also doesn't leave any ambiguity, because you're asserting a fact. Since と is acting as a logical 'and', statements involving と don't concern opinion, hearsay, or guesswork, they state plain and simple true {idx:english:fact}, so the following is correct use of と:
+
+  雨(あめ)が降(ふ)る。今(いま)行(い)けば傘(かさ)がないと濡(ぬ)れる。
+  "It's raining at the moment. If you go out now, you'll get wet without an umbrella."
+
+But this next sentence is simply wrong:
+
+  雨が降(ふ)るとぬれる。
+  "If it rains, we'll get wet."
+
+The reason this second sentence is wrong is because と expresses a universally true fact. However, if you have an umbrella, or you're indoors, or you might be in any one of a number of situations in which it is raining but you don't get wet, this sentence is simply false, and as such stating it as a universal fact is plain wrong. Usually students will mistakenly use と in this way when what they really want to say is something pertaining to a particular, specific situation. For instance, if you're looking out the window, and you know you have no umbrella with you, you might want to say "if it starts raining now, I'll get wet", with the implication that this will happen if you go outside, not that you'll magically get wet inside if it starts to rain outside. Instead of using と, these kind of musings require the use of ば or たら conditionals:
+
+  たら: 雨が降ったらきっとぬれます、ねえ。
+  ば: 雨が降れば、ぬれる、なあ。
+  "I guess if it starts raining I'll get wet"
+
+with the なあ/ねえ endings signalling that you're saying something rhetorical, but you'd like whoever is listening to acknowledge you anyway.
+
+This factual consequence is also found in unfinished sentences such as the following:
+
+  今(いま)行(い)かないと。
+  literally: "Not leaving now (means...)"
+  meaning: "(I, you, he, she, it, we, they) have to go."
+
+  そうしないと。
+  literally: "Not doing so (means ...)"
+  meaning: "(I, you, he, she, it, we, they) have to do so."
+
+These sentences are unfinished in the sense that they omit the — contextually obvious — generally negative consequences of the "not doing" of something.
+
+=== {idx:english:particles!で} — {idx:english:essential particles!Instrumental}, {idx:english:essential particles!event location} ===
+
+The role of で is technically two-fold, although some people consider the て form of {idx:english:です}, which is also written {idx:english:で}, a particle, in which case there would be three roles.
+
+The first role is that of {gls:glossary:instrumentalis}. In English, this is things like "by", "with" or "using" in relation to some instrument, in sentences like "This was written with a red pen" or "We came to the U.S. by aeroplane". In Japanese, the role these words play is performed by で:
+
+  赤(あか)ペンで書(か)いてある。
+  "(It)'s written with a red pen."
+
+  飛行機(ひこうき)でアメリカに来(き)ました。
+  "(We) came to America by aeroplane."
+
+A second important role that で plays is that it signifies the location of a verb action, or event. For instance, in English the sentences "We played in the park" and "The knives are in the cupboard" use the same preposition "in". In Japanese, these are two very different things: the first sentence focuses on an event, while the second focuses on a location. Consequentially, the first sentence requires で, while the second sentence uses another particle, に.
+
+  公園(こうえん)で遊(あそ)びました。
+  "(We) played in the park."
+
+This use of で is quite nice when one says something that in English would be ambiguous such as "We stayed at a hotel." In English, it is not possible to tell whether this would be an answer to "what did you do?" or "where did you stay?", without more information available to us. In Japanese, this distinction is immediately obvious:
+
+  ホテルで泊(と)まった。
+  Decomposes as: "At the hotel, we did: staying."
+
+  ホテルに泊まった。
+  Decomposes as: "we did: staying a a hotel."
+
+As mentioned, で can also be said to have a third role, namely as the continuative form of the copula です, which is で, although this is somewhat mixing different things because they sound the same. In the following example sentence, for instance, で is not a particle, but the continuative form of です:
+
+  彼女(かのじょ)はきれいでスタイルもいい人(ひと)ですね。
+  "She's pretty, and has good style too, don't you agree?"
+
+It should most definitely not be read as if で was an instrumentalis, whereby the sentence would read something akin to "She's got good style thanks to being pretty".
+
+=== {idx:english:particles!に} — {idx:english:essential particles!Point or interval in time or space}, {idx:english:essential particles!destination}, {idx:english:essential particles!purpose}, {idx:english:essential particles!relation} ===
+
+This particle is a very versatile particle because of the way the Japanese interpret processes and states in and of the universe. The principal function of this particle is to describe points or frames in time space. This sounds complicated, so running through examples for all the combinations might help clarify things:
+
+  三時(さんじ)に出(で)ます。
+  "(I) will head out at 3."
+
+This example indicates a {idx:english:point in time}, namely the specific moment 3 o' clock. In contrast to this, a time frame rather than a point in time can also be indicated with に:
+
+  一週(いっしゅう)に運動(うんどう)を二回(にかい)します。
+  "(I) exercise twice a week."
+
+Here, instead of an exact moment, a {idx:english:time frame} is specified in which something happens. However, に is not restricted to just time:
+
+  猫(ねこ)がソファに寝(ね)ている。
+  "The cat's napping on the couch."
+
+Here に is used to indicate a {idx:english:point in space}, namely a spot on the couch (remember from the section on で that if we wanted to focus on the act of napping itself, で would have had to be used instead). Just as for time, に can also indicate an {idx:english:indeterminate location}:
+
+  海(うみ)の向(む)こうに別(べつ)の世界(せかい)がある。
+  "There's a different world on the other side of the ocean."
+
+The "other side" of the ocean isn't really one location, it's very much indeterminate. However, it is a location, and that's why we can use に for it.
+
+A second role that に plays is to indicate a {idx:english:purpose} of some action. When used in this fashion it typically follows a verb in 連用形:
+
+  米(こめ)を買(か)いに行(い)ってきます。
+  "(I)'m going out to buy rice."
+
+Here the "going" is done for the purpose of 買う, "buying".
+
+  映画(えいが)を見(み)に行かない？
+  "Won't (you) go watch a film (with me)?"
+
+Here the "going" is done for the purpose of 見る, "seeing".
+
+A  more general pattern for this "doing something for a purpose" is the pattern {idx:english:[...](の)為(ため) + に@...のために (...の為に)}, which explicitly states purpose through the noun 為, and can be used with a wider variety of verbs and statements. This construction will be explained in the nominalisers section in the chapter on language patterns.
+
+The last role that に plays we have already seen extensively used in chapters 2 and 3, when dealing with {idx:english:verb details} that translate to adverbial and prepositional phrases, so we shall consider this aspect thoroughly explained by now.
+
+=== {idx:english:particles!へ} — {idx:english:essential particles!Direction} ===
+
+Before we look at the role this particle plays, it should be emphasised that the particle へ is always pronounced え.
+
+Sometimes confusion arises about when to use {idx:english:に} and when to use へ when it comes to directions and destinations. The answer is surprisingly simple: when you want to indicate a direction, use へ. When you want to indicate a destination, use に. The real problem isn't which to use, but when it doesn't matter which you use. For instance, take the following two sentences:
+
+  東京(とうきょう)に行(い)きます。
+  "(I) will go to Tokyo."
+
+  東京へ行きます。
+  "(I) will go to Tokyo."
+
+While in English the sentence "I will go to Tokyo" can both mean that Tokyo is the destination, or that Tokyo is just the most identifiable point in indicating a direction of travel, in Japanese there is a subtle difference:
+
+  東京に行きます。
+  "(I) will go to Tokyo. This is my destination (for it is marked as a location)."
+
+  東京へ行きます。
+  "(I) will go in the direction of Tokyo (this is not necessarily my destination, for it is not marked as a location)."
+
+Sometimes it doesn't matter in a conversation whether you say something is a destination or just a general direction of travel, and even Japanese will use them interchangeably under those circumstances, but there are also examples in which it's impossible to use one instead of the other. For instance, if you want to say where you've been during your vacation, you can only use に, because you're talking about locations you've visited, not directions you travelled in. Similarly, when you're navigating your way through a forest and want to go west, there's no specific or even general location you want to go to, you only want to head in a particular direction, so you can only use へ to describe this.
+
+In questions, it's typically customary to answer with the particle that was used in the question. Thus, if someone asks you a question with に, you answer with に, and if you get a question with へ, you answer with へ, of course observing that you're using the right words to match the particle.
+
+=== {idx:english:particles!の} — {idx:english:essential particles!Genitive} ===
+
+We already covered の in chapter 2 when we talked about noun particles, but there is one more thing that it does that requires a bit more explanation, and that's nominalisation. This is a very powerful 'feature', because it lets us talk about phrases as if they were nouns. It lets us say things like "I didn't like walking around town today", where "walking around town today" is technically treated as a nominalised {gls:glossary:clause}, and thus acts as a noun.
+
+  今日(きょう)の町(まち)を歩(ある)くのがそんなに楽(たの)しくありませんでした。
+  "(I) didn't particularly enjoy today's walk about the city."
+
+In this sentence, the clause 町を歩く, "to walk the city", has been turned into a {gls:glossary:gerund} (a gerund is the noun form of a verb: "to walk" → "(the) walking") by の: 町を歩くの meaning "the specific 'walking of the city' that was done", as a noun. With this noun form we can then make all sorts of comments in relation to it.
+
+However, this nominalisation is restricted to events that are in-topic. If some activity or event is a context to a conversation, then の can be used to nominalise it, but if we want to talk about events or activities in general, we have to use {idx:english:事(こと)}. We can actually use either {idx:english:の事@のこと (の事)}, or 事 without the の, to say two different things. Comparing all three with a series of examples, we see the following:
+
+  手紙(てがみ)を出(だ)すのを忘(わす)れました。
+  meaning: "I forgot to post the letter."
+  because: 手紙を出すの, "posting a letter" as a specific activity, was forgotten.
+
+  手紙を出す事を忘れました。
+  meaning: "I forgot how to post a letter."
+  because: 手紙を出す事, "posting a letter" as the concept in general, was forgotten.
+
+  手紙の事を忘れました。
+  meaning: "I forgot about the letter."
+  because: 手紙の事, everything contextually relating to "our letter", in this case posting it, was forgotten.
+
+
+As is evident from the example sentences, using の (as a back referral) lets us talk about a specific instance of an activity, の事 lets us talk about the same specific instance, but as an abstract concept rather than the activity, and just 事 talks about the general activity, rather than some specific instance. Also, note that we can only use の事 after nouns, despite being able to use both の and 事 separately after verbs (in 連体形(れんたいけい)).
+
+In addition to its roles as a noun lister and referral particle, の can be used as a question softener. Used on its own this is considered reserved speech, bordering on effeminate, and men tend to use のか instead.
+
+  どうしたの？
+  どうしたのか？
+  "What happened?"
+
+For answers to questions that ask for a reason to some situation, の softens this reason:
+
+  A: どうしてまだ会社(かいしゃ)にいますか？
+  B: まだ仕事(しごと)が終(お)わってないの。
+
+  A: "Why are (you) still at work?"
+  B: "(it is because) (I)'m not done with (my) work yet."
+
+Again, this use is considered borderline effeminate, so men tend to use this construction in conjunction with the plain copula だ, with or without contracting the の to an ん to form のだ or んだ. The polite version, のです, will be treated in the section on more particles later in this chapter.
+
+== Pairing の with the copula だ ==
+
+When pairing の with phrases, we are basically using those phrases attributively to the noun that の refers back to. While a simple description, this has some repercussions when those phrases end on だ, because of its base forms. 
+
+As already highlighted in the section on attributives in the previous chapter, だ still has a 終止形 form, signifying a finalised sentence, as well as a 連体形 form, signifying it is being used attributively. So, if we pair の with a phrase ending on だ, it must be changed from finalised form to attributive form, and so is used as な instead. This is why, when a plain copula statement is paired with の as a back referral, you will never hear だ followed by の, but always な followed by の.
+
+=== {idx:english:particles!は} — {idx:english:essential particles!Disambiguation} ===
+
+As already explained in chapter 2, in the verb particle section, は (pronounced わ) is used to disambiguate statements. Let's look at what this means in terms of what は does, compared to {idx:english:を} or {idx:english:が}. Imagine that we're having a conversation and we're talking about watching films in the cinema, DVD rentals, and TV shows, and the following sentence is used:
+
+  テレビ(...)よく見(み)ます。
+
+Where for (...) we either find が, を or は. While all three would translate to "(I) watch TV a lot", their connotations are very different.
+
+  1) テレビをよく見ます
+
+When we use を, the sentence is fairly plain information. Whoever of us says it wants to convey that they watch TV a lot, and nothing more.
+
+  2) テレビがよく見ます
+
+When we use が, the sentence is still plain information, although using が rather than を emphasises that whoever is talking about TV, is talking about TV. This using が as an emphasis marker is a fairly common practice, although you need to know why you're emphasising, of course.
+
+  3) テレビはよく見ます
+
+By using は, everything has changed. The speaker has indicated that the information in the sentence requires disambiguation in terms of what it applies to. In this case, the "watching a lot" only applies to TV. While を and が told us only one thing, namely the plain information that TV was being watched a lot, は tells us two things. First, the basic information, that someone watched TV a lot. However, because the speaker felt they needed to make sure that we know it only applies to TV, it also tells us that it explicitly does not apply to films or DVD rentals.
+
+This makes は very powerful, and also makes it very easy to misuse: If you only want to state some information, you should not be using は. However, if you want to make sure that the context for some information is unmistakable, は is exactly the particle you want to use.
+
+One very common use of this is in the form of social commentary, by pairing it with verbal て forms, followed by something that represents a negative commentary such as the word {idx:english:いけません}, indicating that something "won't do", or the word {idx:english:駄目(だめ)}, indicating something is bad:
+
+  今日(きょう)は、来(こ)なくてはいけません。
+  literally: "(you) not coming over today will not do".
+  "(You) have to drop by today."
+
+  食(た)べては駄目(だめ)です。
+  literally: "Eating it is no good."
+  "(You) may not eat this."
+
+In these sentences, the negative repercussion is explicitly said to apply only in the situations marked by は. Also, because は is used, we know that they don't apply if whatever は is suffixed to doesn't apply.
+
+Of course, sometimes it will feel like は isn't doing this strict disambiguation, such as in simple sentences like the following:
+
+  今日(きょう)はいい天気(てんき)ですね。
+  "Nice weather today, isn't it?"
+
+  実(じつ)は、日本語(にほんご)に下手(へた)です。
+  "Actually, I'm horrible at Japanese."
+
+In both sentences, the は looks perfectly innocent, but it's actually still doing the exact same thing. In the first sentence, the fact that 今日 has to be mentioned means that the situation of good weather is implicitly being contrasted to some previous, poor weather. Similarly, in the second sentence it seems like 実, 'truthfully' or 'actually', is fairly innocent, but the fact that it has been explicitly mentioned and marked with は means that the information that follows only applies in the context of 'true information'. Even when は sounds like it's just sitting in a sentence as a common courtesy, it never loses its additional connotation.
+
+So in summary, we can characterise は as: [X]は[Y] → in the context of [X], [Y] applies, and outside the context of [X], [Y] does not apply. Put concisely, は not only tells us the applicable context, but also the inapplicable context.
+
+Because of this, you will typically find は referred to as the 'context' particle (or 'topic' particle) in literature, but this is dangerous terminology, as it makes it really easy to forget that in addition to indicate context/topic, it also indicates the inverse at the same time. は never just marks applicable context, it always — always — also gives the inapplicable context simply by virtue of being used. If you don't want to also imply inapplicable context, use が — or を — instead.
+
+(Almost) needless to say, this also means you never use は for things you're asking questions about. For instance, in the following example sentences, the first sentence is fine, and the second is very, very wrong:
+
+  誰(だれ)が来(き)ましたか。
+  "Who came (over)?"
+
+  誰は来ましたか。
+  "Who, as opposed to someone else, came (over)?"
+
+This second sentence makes absolutely no sense, and you should never ever mark subjects of questions with は. Ever.
+
+That said, you can use は in a question to disambiguate just fine, as long as it does not get used for the actual question subject:
+
+  最近(さいきん)は誰がよく来ましたか。
+  "Who's recently been coming (over)?"
+  literally: "Lately [rather than during some other time frame], who has come (over)?"
+
+=== {idx:english:particles!も} — {idx:english:essential particles!Similarity} ===
+
+This particle plays two important roles in Japanese. The first is that it acts as a similarity marker, and in this use it replaces the subject が or disambiguation marker は:
+
+  A: 私(わたし)が本(ほん)が好(す)きです。
+  B: 私も本が好きです。
+
+  A: "I like books."
+  B: "I also like books."
+
+Like {idx:english:と} or {idx:english:か}, it can also be used to form lists:
+
+  A: 本が好きですか、音楽(おんがく)が好きですか。
+  B: 本も音楽も好きです。
+
+  A: "Do (you) like books, or do (you) like music?"
+  B: "(I) like both books and music."
+
+However, も marks a similarity to something previously mentioned, so you cannot use the particle も out of the blue. It requires a prompt either by someone else, or by something you yourself just said. Interestingly, this can even be something in the same sentence:
+
+  若(わか)い者(もの)も、年上(としうえ)者(もの)も、ようこそ。
+  "Young and old, welcome."
+
+Here the fact that も is used twice (and it can be used more times) means that the similarity is between all the marked parts of phrase.
+
+Because normally も is reserved for responding to some kind of prompt, it's usually a good idea to consider も the Japanese counterpart to the English "too", in the sense of "also", without considering it a valid counterpart to the word "also", since that can be used without any real prompting.
+
+A second use of も is as an emphatic {gls:glossary:contrasting} particle, meaning something like the English "even [if/by] ...". In this use, it typically follows て forms:
+
+  今(いま)行(い)っても間(ま)に合(あ)わないでしょう。
+  "Even (by) leaving now, (you) probably won't make it."
+
+A special {idx:english:て form + も@て form!も} is the {idx:english:て+も+いい@て form!もいい} (よい) construction, which asks and grants permission:
+
+  コンピュータを使(つか)ってもいいですよ。
+  "Feel free to use (the) computer."
+
+Or as part of a (short) conversation:
+
+  A: 座ってもいいですか。
+  B: はい、いいですよ。
+
+  A: "May I sit down?"
+  B: "You may."
+
+Using も with the て form also means we can use it with て form for the copula, which is で, forming でも:
+
+  先生(せんせい)でもそう言(い)ってます。
+  "Even the teacher says so."
+
+In addition to these things, も can — like {idx:english:か} — be combined with {idx:english:interrogatives@interrogatives!も} to form a specific kind of answer to these interrogatives. While か creates a vaguely specific answer, も creates an all-encompassing answer:
+
+interrogative	meaning		with も	meaning
+
+なに	what		なにも	anything
+だれ	who		だれも	anyone
+どこ	where		どこも	anywhere
+いつ	when		いつも	anytime
+どう	how		どうも	in any possible way
+
+Unlike for か, however, when these interrogatives are followed by も they can lead to some confusion when translated: they may be translated differently depending on whether they are followed up by an affirmative, or negative verb form. In Japanese, words like いつも or どこも don't carry any affirmative or negative aspect, relying on the verb they're being used with to impart this meaning instead. So, while the same word is used in the following Japanese sentences, the English translation uses two seemingly different words:
+
+  何(なに)もします。
+  "(I) will do anything."
+
+  何もしません。
+  literally, "(I) won't do anything"
+  "(I) will do nothing."
+
+Likewise:
+
+  どこもある。
+  "(It) exists anywhere."
+
+  どこもない。
+  literally, "(It) doesn't exist anywhere."
+  "(It) exists nowhere."
+
+This is a good example of how translations may create wrong impressions: even though in English these words are answers to the interrogative, coming in different versions while the verb stays the same form, in Japanese it is the exact opposite, with the answer words to the interrogative staying the same, and the verb coming in different versions depending on which polarity (affirmative or negative) is needed.
+
+On an equally important note, when used with interrogatives this way, many additional particles come between the interrogative and も:
+
+interrogative	+ particle	combination
+
+どこも	に	どこにも
+何(なに)も	で	何(なん)でも
+誰(だれ)も	を	誰をも
+=== {idx:english:particles!を} — {idx:english:essential particles!Direct verb object} ===
+
+The last particle in the list, but also the simplest to explain. In modern Japanese, this particle marks a direct verb object, and acts as indicator for "what is being traversed" in traversal verbs. We have already looked at both of these roles in chapter 1, in the section on verbs, as well as in chapter 2, in the section on verb particles; the particle is always pronounced as お, and there isn't really anything else to say about this particle that hasn't been said already.
+
+==== {idx:english:Emphatic particles} ====
+
+There are a number of particles which should be known in order to be able to communicate more than rudimentary ideas, in addition to the previous essential particles — that is not to say we cannot create complex constructions with the previous 10 particles, but to properly express ourselves we need a few more. The following list is divided into two sections; the first focussing mostly on sentence ending emphatic particles, and the second focussing on more general grammatical particles.
+
+=== {idx:english:particles!よ} — {idx:english:emphatic particles!Informative}, {idx:english:emphatic particles!emphatic} ===
+
+This particle is most often found at the end of statements, where it marks information as being either {idx:english:new information}, or contrary to the listener's belief. While tempting, this particle should not be translated with an {idx:english:exclamation mark}, as よ isn't actually an exclamation, but only emphasises the "new information"/"contrary information" aspect. For instance:
+
+  凄(すご)く面白(おもしろ)かった。
+  "(It) was very fun."
+
+  凄く面白かったよ。
+  "(It) was very fun (you didn't know or expect this, so I'm telling you it was)."
+
+When よ is used to emphasise contrasting information, the situation is usually some kind of misunderstanding:
+
+  違(ちが)うよ。新(あたら)しいのはここ、古(ふる)いのはあそこだよ。
+  "No (emphatic). The new ones (go) here, the old ones (go) over there (emphatic)."
+
+While it would be temping in this use to translate よ with an exclamation mark anyway, care should be taken not to overdo things. A stern lecture from a boss, for instance, might never involve any yelling or even exclamations, but might be interspersed lavishly with よ.
+
+=== {idx:english:particles!ね} — {idx:english:emphatic particles!Rhetoric} ===
+
+This particle is placed at the end of a sentence, when the speaker wants to provoke the listener into agreeing with them. This is a {idx:english:rhetorical agreement} though, and using ね means you already expect the response to be something that sounds like an affirmative muttering:
+
+  榊(さかき)さんは本当(ほんとう)に美人(びじん)ですね。
+  "Sakaki is really beautiful, isn't she?"
+
+The unlikely event of hearing "no" as a response to this type of rhetorical confirmation seeking is typically met with much surprise and disbelief, sparking new depths of conversation since you responded differently than what was expected of you.
+
+This particle can be drawn out to form {idx:english:ねえ} (also found written {idx:english:ねー} or {idx:english:ねぇ}), in which case it does the same thing, but expecting less of a response:
+
+  休(やす)みっていいねえ。
+  "Holiday's nice isn't it..."
+
+A response to this is typically just something simple like "{idx:english:うん}" (a colloquial "yes"), or "{idx:english:そうねえ}" (in meaning similar to "indeed") without the response having been given much thought.
+
+A secondary use is mid-sentence, to draw the attention of the listener(s). This use is, sadly, completely and utterly untranslatable, so the translation in the following sentence has ね mapped to a commentary instead:
+
+  榊さんはね、本当に大阪人(おおさかじん)ですよ。
+  "Sakaki (are you still listening to me?) is actually from Oosaka."
+
+This use can be overdone, too, similar to how the ungrammatical use of "like" is common in spoken English, but sticking it in every other word makes you positively obnoxious:
+
+  でね、それがね、来(き)たらね、松田(まつだ)さんがね、もう半時間(はんじかん)待(ま)ったそうだよ。
+  "So like, then, like, once I got there like, Matsuda had been like, waiting for over half an hour, apparently."
+
+=== {idx:english:particles!な} — {idx:english:emphatic particles!Strong rhetoric} ===
+
+Using な instead of ね is a more assertive way to do the exact same thing, somewhat rhetorically {idx:english:asking for confirmation}. Because this is a more assertive particle, it expects more of a response more than ね does. However, this particle has a problem as sentence ender, because (as was explained in chapter 3 in the section on imperatives) な after a 連体形 can also mean a {gls:glossary:prohibiting} command, such as in:
+
+  開(あ)けるな。
+  "Don't open (that)."
+
+The way to tell whether な is a prohibiting command or a confirmation-\linebreak[0]seeking particle is by intonation. If な is accented, it's the confirmation seeking version. If it's unaccented, it's a prohibiting command. We can also find な at the end of a sentence when it's following a 連用形, in which case it can be considered a short version of the 連用形 + {idx:english:なさい} commanding form:
+
+  さっさと起(お)きな。
+  "Will you get up already?"
+
+Luckily, this type of command is typically issued in a very stern voice, so it's very hard to mistake it for the other two roles that the sentence ending な can have.
+
+Like ね, な can have its vowel sound drawn out, to form {idx:english:なあ} (also written {idx:english:なー} or {idx:english:なぁ}), and just like ね it can be used mid-sentence as an attention grabber.
+
+=== {idx:english:particles!さ} — {idx:english:emphatic particles!Informative}, {idx:english:emphatic particles!emphatic} ===
+
+As a sentence ender, さ is a more emphatic version of よ, purely being informative. Where よ is used either to present new information or contrary information, さ is only used for new information:
+
+  今日(きょう)も授業(じゅぎょう)に出(で)なかったさ。もしかして、病気(びょうき)？
+  "(He) didn't come to class today either. (Do you think) maybe (he's) sick?"
+
+Like ね and な, さ can be used mid-sentence as an attention grabber. However, it is considered a more explicit attention grabber than ね or な.
+
+=== {idx:english:particles!ぜ}, {idx:english:particles!ぞ} — {idx:english:emphatic particles!Emphatic} ===
+
+These particles are highly informal — to the point of familiar — versions of よ. You might use them around the house, or with your good friends, or when trying to sound cool when picking up girls, when angry at someone for doing something completely stupid, or in any other situation in which informal {gls:glossary:familiar speech} is used.
+
+The difference between the two is the perceived objectivity. ぜ comes off as more subjective than ぞ:
+
+  つまらない趣味(しゅみ)だぜ。
+  "Well, that's a boring hobby."
+
+  つまらない趣味(しゅみ)だぞ。
+  "[In case you didn't know,] it's [just] a boring hobby."
+
+=== {idx:english:particles!し} — {idx:english:emphatic particles!Stative} ===
+
+This particle is used when {idx:english:listing one or more arguments@listing arguments} that back up some (possibly merely implied) statement:
+
+  面白(おもしろ)くなかったよ。行(い)きたくないと言(い)っただろう。寒(さむ)かったし、よく聞(き)こえなかって...
+  "(Well) it wasn't fun. (I) told (you) (I) didn't want to go, didn't (I)? It was cold, (I) couldn't really hear it all that well..."
+
+An example of where the conclusion is already implied requires more of a conversation:
+
+  A: じゃあ、買(か)わなかった？
+  B: まあ、高(たか)かったし、別(べつ)に重要(じゅうよう)なものもないし...
+  A: あ、そっか。
+
+  A: "So, (you) didn't buy it?" (the speaker here is only guessing)
+  B: "Well, it was expensive, (and) not something that (I) particularly needed..."
+  A: "Ah...(is that how things are)"
+
+We see here that, while left implied, speaker B clearly did not buy whatever the conversation was about.
+
+While it will often suit the translation to combine multiple -し reasons with "{idx:english:and}", as this is the word used for compounding in English, a better translation would be "{idx:english:not just ... but also ...}" or "{idx:english:what's more, ...}". Be careful not to take this word "more" too literally, as し can occur without the actual statement such as in the previous example.
+
+=== {idx:english:particles!って} — {idx:english:emphatic particles!Reiterating} ===
+
+This particle is an excessively contracted form of the constructions {idx:english:と言(い)って(も)@といっても (と言っても)} and {idx:english:として(も)}, and it can be used in a fashion similar to the quoting particle {idx:english:と}:
+
+  何(なん)ですって？
+  "What did (you) say?"
+
+Somewhat confusingly, it's sometimes also used as a replacement for {idx:english:と} in its quoting role:
+
+  来(く)るって言(い)ったのに、どうして来(こ)なかったの。
+  "Even though (you) said (you) would come over, why didn't (you)?"
+
+Finally, it can also act as a stand-in for the rather cumbersome と言(い)うのは, which roughly translates to "that which is known by the term ..." or "everything that is generally covered by the term ...":
+
+  人間(にんげん)って、面白(おもしろ)いです。
+  "(Everything that is encompassed by the term) humans are interesting."
+
+=== {idx:english:particles!っけ} — {idx:english:emphatic particles!Dubitative} ===
+
+This is a particle that is used when {idx:english:asking oneself a question@asking yourself a question} such as when trying to recall something, as well as when asking someone to give an answer that you know they already have:
+
+  電話番号(でんわばんごう)は何(なん)だっけ。
+  "Now what was the phone number again..."
+  "What was the phone number again?"
+
+=== {idx:english:particles!かな} — {idx:english:emphatic particles!Dubitative} ===
+
+This is a combination of the questioning particle {idx:english:か} and the strong confirmation seeking {idx:english:な}. Combined they mean something like "{idx:english:I wonder}"/"{idx:english:I guess}":
+
+  植松(うえまつ)さんも来(こ)ないかな(あ)。
+  "(I) guess Uematsu won't be coming either, huh?"
+
+  木曜日(もくようび)に暇(ひま)かな(あ)。
+  "(I) wonder if (I)'m free Thursday..."
+
+=== {idx:english:particles!かしら} — {idx:english:emphatic particles!Dubitative} ===
+
+{idx:english:かしら} is the effeminate version of かな, reserved for women (as well as effeminate homosexuals and transvestites, in all fairness). While most particles can be used by either gender but may make someone sound effeminate, using this particle as a man makes you sound gay. Quite literally, in fact, as it means you are letting people know that you consider yourself effeminate and wish others to know this. Of course, using this particle as a woman is perfectly fine.
+
+=== {idx:english:particles!がな} — {idx:english:emphatic particles!Hopefulness} ===
+
+This combination of the particles {idx:english:が} and {idx:english:な} is used to indicate a {idx:english:hope}, or {idx:english:wishful thinking}, such as in for instance:
+
+  今日(きょう)もいい天気(てんき)だといいがな(あ)。
+  "It'd be nice if today had good weather too."
+
+  今日は電話(でんわ)をかけてくると思(おも)うがなあ。
+  "(She)'ll call today, (I) think (I hope)..."
+
+=== {idx:english:particles!や} — {idx:english:emphatic particles!Open noun list}, {idx:english:emphatic particles!resignation} ===
+
+There are two roles that や plays. The first is as open, or non-exhaustive, noun lister, used similarly to {idx:english:と}:
+
+  お酒(さけ)は、ウイスキーやラムを買(か)った。
+  "As for drinks, I got (us) (amongst other things,) whiskey and rum."
+
+Unlike と, which presents an inclusive list, や leaves this list open, typically in a way that allows us to interpret it as meaning "these things, and other things like them".
+
+In addition to being the non-exhaustive noun lister, we can also use や as a sentence ending particle, where it signifies a {idx:english:resignation} to one's fate in the face of hardship:
+
+  仕方(しかた)がないや。
+  "(I) guess there's nothing (I) can do about it.."
+
+Finally, や at the end of a sentence is in many regions in Japan considered a copula, replacing {idx:english:だ}. In these regions, you may also find it inflected as negative, as {idx:english:やない}. However, in this use (both affirmative and negative inflections) it is simply a copula, not indicating resignation of any kind.
+
+=== {idx:english:particles!わ} — {idx:english:emphatic particles!Informative} ===
+
+As sentence ender, this particle leads two lives. In standard Japanese, わ is used as an emphatic sentence ender, similar to {idx:english:よ}, but is considered an effeminate particle and as such is used a lot by women, but avoided by men. In the more rural parts of Japan, and most readily recognisably in the Kansai area, わ is also used as よ, but is not considered effeminate in any way and is prolifically used by everyone.
+
+In addition to acting as a sentence ending particle, わ can also be used in a role similar to the noun particle {idx:english:や}, in which case it is an emphatic open listing particle.
+
+==== Further particles ====
+
+=== {idx:english:particles!のです}, {idx:english:particles!んです}, {idx:english:particles!のだ}, {idx:english:particles!んだ} — {idx:english:further particles!Reasoning} ===
+
+A combination of the genitive {idx:english:の} (permissibly contracted to ん) and the copula, this "particle" — or rather, set of particles — can be used as a way to give a reason for something without explicitly stating so. This means you present a normal statement and finish it with a form of のです, turning it into something close to a factoid, which can be interpreted by the listener(s) as a reason for a situation, or an explanation of a prior statement. That's perhaps a little abstract, so an example:
+
+  A: 眠(ねむ)そうね。
+  B: ああ。電車(でんしゃ)で眠ってしまったんだ。
+  A: そうですか。
+
+  A: "You look sleepy."
+  B: "Yeah, (it is due to the fact that) I fell asleep on the train."
+  A: "Ah, I see."
+
+The "it is due to the fact that" part in the translation for line B is the conceptual translation for のです, and is usually best simply left out, or if really needed translated with "as" (meaning something similar to "because", but subtly different by leaving out the explicit causal link described by "because"). While it's tempting to translate のです or its other forms んです, のだ and んだ as "because", this is not what it means. There is nothing in のです that actually translates to an explicit "because", so whenever possible do not use this word when translating.
+
+のです can also be used to ask for a reason, paired with a question that would otherwise warrant a yes/no answer. First, without のです:
+
+  A: これでいいですか。
+  B: はい。
+
+  A: "Is it okay this way?"
+  B: "Yes."
+
+And then with のです:
+
+  A: これでいいんですか。
+  B: 残(のこ)りは明日(あした)するんだから、今日(きょう)はもういいと思(おも)うよ。
+
+  A: "Is it okay this way?"
+  B: "(We)'ll do the rest tomorrow, so (yes,) I think we can call it a day."
+
+We see here that a normal —ですか question is a simple "is it?" {idx:english:yes/no question}, but that using {idx:english:のですか@...のですか} not only asks for a yes/no answer but also the motivation for the yes/no answer (the mixed politeness form between the two lines here may indicate a {gls:glossary:subordinate} talking to their boss).
+
+Be careful not to start over-using のです, ending up using it in situations in which it doesn't actually make any sense such as in the following example:
+
+  A: 何(なに)がいいですか。
+  B: アイスがいいんです。
+
+  A: "What will you have?"
+  B: "As I want ice cream."
+
+In this case, using んです is plain and simply wrong. Rather than stating that you want ice cream, アイスがいい, the addition of んです suddenly forces the listener to interpret this phrase as a reason for something, leading to what is basically a nonsense phrase, so be careful: only use のです or a variant when there is something to reason about, or you need more information than a simple yes/no answer to a question.
+
+=== {idx:english:particles!ので} — {idx:english:further particles!Cause} ===
+
+This is essentially the continuative form for のです, and means "it is that ..." in an unfinished sentence, which is in English typically translated as "{idx:english:due to@due to ...}". There is an important distinction between "due to" and "because" that deserves some special attention: "due to" typically cannot be used to indicate things such as explaining {gls:glossary:volitional} action (I am doing this because...), reasons for requests (I would like ... because), personal opinions (I think ... because), commands (do ... because), and invitations/suggestion (should ... because). The same holds for ので: it cannot be used for any of these.
+
+You'd almost forget there are other things beside these categories, but the most fundamental one, {idx:english:stating fact}, is still there and is exactly what this particle is used for:
+
+  今日(きょう)は休(やす)みなので、お店(みせ)が閉(し)めてあります。
+  "Due to it being a holiday today, the shop is closed."
+
+  故障(こしょう)しているので、他(ほか)のを使(つか)うんです。
+  "Due to it being broken, (you) will (have to) use another one."
+
+Because of the fact that this particle can only be used for factoids, and cannot be used to express one's own opinion, volition or suggestions, it is considered more polite than the next particle, {idx:english:から}, which acts as a general "because". ので is used frequently in official documents and formal settings, where stating something as something other than a factoid might lay responsibility for the statement with someone.
+
+=== {idx:english:particles!から} — {idx:english:Temporal@further particles!temporal origin}, {idx:english:spacial@further particles!spacial origin} or {idx:english:reasoning@further particles!reasoning origin} origin ===
+
+The broadest definition that can be given for から is that it signifies the {idx:english:origin} of anything, be it space related (starting from some point), time (starting at some time), events (starting from the moment after you undertake a particular action), or even reasoning (making an argument that is grounded in a particular perspective). Because of this, it's a very versatile particle. To see this versatility, let's look at several examples to illustrate the different uses of this particle, in translation:
+
+  京都(きょうと)から奈良(なら)へ行(い)く。
+  "(We)'re heading from Kyoto in the direction of Nara."
+
+  六時(ろくじ)から仕事(しごと)してるんだ。
+  "(I) work, starting at 6 o' clock."
+
+  来月(らいげつ)から大学生(だいがくせい)です。
+  "(I)'ll be a university student as of next month."
+
+  洗濯(せんたく)をしてからゴミを捨(す)てて来(き)ます。
+  "After (I) have done the laundry (I)'ll go throw out the garbage."
+
+  遅(おく)れたから試験(しけん)を受(う)け取(と)られなかった。
+  "Because (I) was late, (I) couldn't take the exam."
+
+  黒金(くろがね)さんは先生(せんせい)だから上手(じょうず)に説明(せつめい)することも出来(でき)ます。
+  "Because Mr. Kurogane is a teacher, he can also explain (things) well."
+
+You may have noticed the difference between the {idx:english:から!て-form + から} in example sentence four, and the past tense {idx:english:から!た + から} in example sentence five. The first construction uses an open statement (an unfinished event if we remember what て stands for) that acts as point of origin for a new event, while the second uses a closed statement as a point of origin for a reasoning. The easy way to remember this is that a て form isn't a finished verb action, so no conclusions can be drawn from it, while a 連体形 is for all intents and purposes done, and can be used for drawing conclusions and commenting on.
+
+=== {idx:english:particles!まで} — {idx:english:Temporal@further particles!temporal extent (inclusive)}, {idx:english:spacial@further particles!spacial extent} or {idx:english:reasoning@further particles!reasoning extent} extent (inclusive) ===
+
+The counterpart to から is the particle まで, which signifies the {idx:english:extent} and thus end of something, rather than the origin. To be more specific, まで signifies an "up to and including" extent:
+
+  奈良(なら)まで行(い)く。
+  "(We)'re going up to Nara."
+
+  六時(ろくじ)まで仕事(しごと)しています。
+  "(I) work till 6 o' clock."
+
+  来月(らいげつ)まで大学生(だいがくせい)です。
+  "(I)'ll be a university student until next month."
+
+  洗濯(せんたく)をするまでゴミを捨(す)てます。
+  "(I)'ll be throwing out garbage until (I) start doing the laundry."
+
+  そこまで言(い)うんですか。
+  "(You)'ve gone too far..."
+  literally: "(How can you) say (something) (to that extent)?"
+
+This last sentence is incredibly sparse in terms of actual translation, having much more implied translation than literal, but illustrates the conceptual 'extent', where you cannot physically measure saying something, but can only conceptually say someone is saying something that is either insignificant or grave in consequence.
+
+Of course, {idx:english:から} and まで can be used together in the typical "{idx:english:from ... to ...}" pattern:
+
+  京都(きょうと)から奈良(なら)まで行(い)く。
+  "(We)'re going from Kyoto up to Nara."
+
+  六時(ろくじ)から七時(しちじ)まで運動(うんどう)します。
+  "(I) will exercise from 6 to 7 o' clock."
+
+  1999年(ねん)から2004 年まで大学生でした。
+  "(I) was a student from 1999 to 2004."
+
+But don't let the following sentence trip you up:
+
+  友達(ともだち)が寄(よ)ってきたから、彼(かれ)が帰(かえ)るまで宿題(しゅくだい)をしません。
+
+This sentence does not mean "I will not do homework from the moment my friend arrives until he leaves", but actually means:
+
+  "Because my friend has dropped by, I will not do homework until he leaves."
+
+This sentence is not a "from ... up till ..." sentence, but a reason marked with から, where the conclusion happens to contain まで. Be careful, and pay attention to whether something is -てから or -たから!
+
+=== {idx:english:particles!までに} — {idx:english:Temporal@further particles!temporal extent (exclusive)}, {idx:english:spacial@further particles!spacial extent} or {idx:english:reasoning@further particles!reasoning extent} extent (exclusive) ===
+
+The combination of まで + に is a subtle restriction of the normal particle {idx:english:まで}:
+
+  九時(くじ)まで集(あつ)まるんです。
+  "(We)'ll assemble until 9 o' clock."
+
+  九時までに集まるんです。
+  literally: "(We)'ll assemble up until 9 o' clock."
+  meaning: "(We)'ll assemble before 9 o' clock."
+
+While まで indicates "{idx:english:up to and including}", までに indicates only "{idx:english:up to@up to ...}", or "{idx:english:up until@up until ...}". This difference between including the last moment and excluding the last moment can be critical, as for instance in the previous example phrases. If we imagine a situation where a group of people are assembling in order to set off on a journey by bus at 9, forgetting the innocent looking に will make the difference between people enjoying a nice holiday, or standing stranded at the bus stop because they missed the deadline and the bus already left.
+
+=== {idx:english:particles!より} — {idx:english:further particles!Comparative} ({idx:english:further particles!classical origin}) ===
+
+Before explaining the modern use, it might be useful to explain that より used to play the role that {idx:english:から} plays today. In fact, in legal documents より is still used instead of から. Now, this may not have been a very lengthy explanation, but it does make understanding why より does what it does in modern Japanese easier: in modern Japanese, より is used to label something as a reference point for a comparison:
+
+  アンパンは食(しょく)パンより甘(あま)いです。
+
+Literally this line reads "Anpan (アンパン), with respect to dinner bread (食パンより), is sweeter (甘い)." which makes the somewhat abstract explanation earlier clearer. 
+
+Typically, より gets translated with "rather than", but this can be confusing because より usually does not link the two things being compared, as in English, but links the reference point and the quality. In the previous sentence, for instance, 食パンより is the reference point, and the quality is 甘い, sweet. We could even leave the compared item out entirely, relying on context to make it clear what it was supposed to be:
+
+  食パンより甘いです。
+  "(it) is sweeter than dinner bread."
+
+The reason we can do this is because qualities, as you hopefully remember from the section on attributive and comparative use of adjectives, can be either attributive (attributing their quality) or comparative (being used to indicate they apply more to one thing than another). As such, 甘いです doesn't just mean "it is sweet", but can mean "it is sweeter" just as easily. When paired with より, considering the adjective a comparative is the better interpretation.
+
+=== {idx:english:particles!ながら} — {idx:english:further particles!Performing two acts at the same time@simultaneous action} ===
+
+This particle, which follows a verbs in 連用形, or verbal adjectives and nouns directly, signifies that two actions are taking place at the same time, for the same duration of time. This particle is sometimes translated with "while", but this is typically more confusing than helpful because of the way Japanese clauses are ordered (the most important clause coming last):
+
+  テレビを見(み)ながらご飯(はん)を食(た)べました。
+  "(I) ate dinner while watching the TV."
+
+The second part, ご飯を食べました, is the {gls:glossary:dominant} action here, which is why it comes last. In English, however, we tend to list the dominant action first, mentioning the other thing we're doing almost as an afterthought.
+
+On a timing note, ながら implies that the two actions are roughly of {idx:english:simultaneous action!equal duration}, and we cannot use it for something like "I did some shopping while visiting Tokyo today". Instead, the particle がてら is used for this kind of momentary simultaneous action, if a particle is used at all. Rather, usually a continuative is used instead, such as:
+
+  東京(とうきょう)に行(い)って買(か)い物(もの)をしました。
+  "I went to Tokyo (and) did (some) shopping (while there)."
+
+In addition to the obvious interpretation, ながら can also be used to mean 'but' or 'even though', especially when paired with the noun {idx:english:残念(ざんねん)}, "unfortunate":
+
+  {idx:english:残念ながら@ざんねんながら (残念ながら)}、そう簡単(かんたん)な事(こと)じゃありません。
+  "I'm sorry, but matters are not that simple."
+
+=== {idx:english:particles!がてら} — {idx:english:further particles!Performing one act during another@simultaneous action} ===
+
+Like ながら, がてら comes after verbs in 連用形 or directly after verbal adjectives and nouns, but unlike ながら, it does not claim two actions to be perfectly synchronous. {idx:english:Instead@simultaneous action!dominant/subordinate}, the verb in 連用形 + がてら indicates the longer verb action, with the sentence finalising verb indicating the shorter one. This might seem odd, since it might seem to contradict the practice of putting the most important part last, but actually the short action is dominant: since the long verb action is going on anyway, the shorter action represents more specific, and thus more important, information:
+
+  友達(ともだち)を駅(えき)まで送(おく)りがてら買(か)い物(もの)した。
+  "While bringing (my) friend to the station, (we also) did (some) shopping."
+
+がてら can also be written {idx:english:がてらに}, explicitly using the particle に to mark the act as a time frame in which the more specific act takes place.
+
+As mentioned in the section on ながら, often a continuative verb form is used rather than がてら, but this does come at a price: using the て form means we also indicate a sequence of events, so that we cannot rephrase the previous sentence as follows, without changing its meaning:
+
+  友達を駅まで送って買い物した。
+  "I escorted my friend to the station, (and then) did (some) shopping."
+
+=== {idx:english:particles!つつ} — {idx:english:Performing an act while some situation is the case@further particles!simultaneous action} ===
+
+As the last particle for indicating "doing something while something else is the case", we find the particle つつ. This particle is more general than ながら or がてら in that there are no time constraints of any sort (this particle follows verbs in 連用形):
+
+  自分(じぶん)の所為(せい)で知(し)りつつ、否定(ひてい)するつもりですか。
+  "Do you intend to deny (it), while knowing full well it was (your) own fault?"
+
+Note that because this particle has no time aspect to it, we can also use it for things such as:
+
+  お店(みせ)は駅(えき)を左(ひだり)に見(み)つつ、真(ま)っ直(す)ぐです。
+  "The shop is straight on, with the station to your left."
+
+=== {idx:english:particles!けれども} — {idx:english:further particles!Contrastive}: "{idx:english:however}" ===
+
+While the English "however" comes at the start of a sentence and is followed by a comma, the Japanese {idx:english:けど} comes mid-sentence (and may also be followed by a comma). Strangely enough, they both mean the same thing, but the way they do it is just syntactically different.
+
+  English: "This is true. However, there are more things at play."
+  Japanese: そうだけど、他(ほか)の要素(ようそ)もある。
+
+In this sentence, the pause is after けど, which is simply a contracted form of けれども. In fact, けれども has four variants: {idx:english:けれども}, {idx:english:けれど}, {idx:english:けども} and {idx:english:けど}. In classical Japanese these all had subtly different meanings, けれども being a combination of the verb form けれ (the 已然形 for ける) and the classical compound particle ども, but in modern Japanese they can be used essentially interchangeably, as long as the "the longer, the more polite" rule is observed. That said, both けれども and けども contain the emphatic も, while けれど and けど do not, which makes けれども and けども more contrastive than けれど and けど.
+
+All of these, however, follow 連体形 phrases.
+
+=== {idx:english:particles!程(ほど)} — {idx:english:further particles!Extent} ===
+
+This particle is not so hard to use, but it has a particular pattern of use that sometimes confuses people when they first learn it. For this reason, it's probably easiest to say that 程 stands for 'extent' of actions, consequences, or even of properties. For instance, {idx:english:するほど} would translate to "the extent of doing". Similarly, 高(たか)いほど would be 'the extent of the height', etc.
+
+This marking of extent is quite useful when comparing items: where the construction {idx:english:[X]も[Y]も} gives a similarity, and the construction {idx:english:[X]より[Y]} makes Y more "something" than {idx:english:[X], the construction [X]ほど[Y]} marks the extent of Y the being same as for X. For instance:
+
+  高(たか)いほど美味(おい)しい。
+  literally: "To the extent that it is pricey, it is tasty."
+  meaning: "As tasty as it is pricey."
+
+In effect, this {idx:english:[X]ほど[Y]} sets up a proportional relation between the concepts X and Y. Another example to illustrate this:
+
+  するほど上手(じょうず)になる。
+  literally: "To the extent of doing it, one gets better (at it)."
+  meaning: "Getting better the more (you) do it."
+
+Hopefully this makes the following sentence understandable:
+
+  美術(びじゅつ)は見(み)れば、見るほど美(うつく)しい。
+
+Before offering the translation, I'll give you the translation for the individual words, in the hope that what I end up offering is a translation that seems obvious: 美術 means art, 見る means 'to watch/to look at' and 美しい means beautiful. Literally this sentence would come down to "Art, should one look at it, to the extent of looking at it, it's beautiful". The trick is now of course to turn this literal translation into something that actually makes sense in English:
+
+  "As far as Art is concerned, the more (often) (you) look at it, the more beautiful it is."
+
+Hopefully at this point you'll go "yes, that's obvious". If so, then good. If not, then that's in line with what many people experience when they first come across ほど used in this particular sense. The pattern used here is quite particular: with [X] a verb and [Y] some statement, "([X] in 已然形+ば) [X] ほど [Y]" translates to "The more one [X], the more [Y]".
+
+Another example using this pattern is:
+
+  聞(き)けば聞くほど分(わ)かってくるよ。
+  "The more (you) hear it, the better (you)'ll understand it."
+
+The reason it means this is that the extents of the initial verb action 聞く and the conclusion 分かってくる are linked by ほど.
+
+== Negative extent ==
+
+Just as ほど can be used for a "the more [X], the more [Y]", it can be used to construct a negative "The more X, the less Y" sentence:
+
+  車(くるま)は安(やす)いほど走(はし)られないものだ。
+  "The cheaper cars are, the less (well) they run."
+
+One of the things that tends to trip up people a lot with ほど is the fact that even though the Japanese pattern has three verbs, the English translation has only two. The thing to remember is that [已然形＋ば + 連体形 + ほど] is a single semantic block meaning "to the extend of doing X", so the Japanese may have the verb twice, but the translation only needs it once.
+
+=== {idx:english:particles!しか} — {idx:english:further particles!Save}, {idx:english:further particles!except} ===
+
+This particle is sometimes translated with "only", but when it is, it typically needs a very strange and contrived explanation. Instead, remember that しか does not mean 'only', but means '{idx:english:save}' or '{idx:english:except}', as used in for instance "I didn't do a dang thing today, save/except eat":
+
+  今日(きょう)は食(た)べることしか何(なに)もしなかった。
+  "Today (I) did nothing except eat."
+
+That's really all there is to it. The only additional rule is that しか follows verbs in 連体形, or nouns directly:
+
+  先生(せんせい)しかいない。
+  "(There) is no one but (the) teacher."
+
+=== {idx:english:particles!だけ} — {idx:english:further particles!Only} ===
+
+Unlike しか, だけ does mean '{idx:english:only}', and is typically followed by the instrumental particle {idx:english:で} to indicate something is done in some restricted way:
+
+  一人(ひとり){idx:english:だけ}でしました。
+  "(I) did it just by myself."
+
+The same idea can be expressed with しか, but then the phrasing needs to be drastically altered:
+
+  私(わたし)しかしなかった。
+  "No one did it except for me."
+
+Notice that these two phrases connote very different things, even though they share the same basic idea. Both claim that one person performed a task, but the sentence with だけ sounds far more positive than the one with しか. The second sentence sounds almost {gls:glossary:accusative}, which is a direct consequence of the fact that しか means save, and thus needs to be used with a negative verb, as well as with an unnamed party in this case.
+
+だけ can also be used with verbs in 連体形 form:
+
+  一言(ひとこと)言(い)うだけで分(わ)かりました。
+  "(He) understood (it) with just one word."
+
+However, while だけ is used to indicate a particular instance, for the habitual or repetitive version of just/only, such as in for instance "why do you always only eat caramel flavoured ice cream?", the particle ばかり (or its variants ばっかり, ばかし, ばっかし or ばっか) is used.
+
+== Special use ==
+
+The verb 出来(でき)る, "to be able to do" in combination with だけ creates a special word: {idx:english:出来るだけ@できるだけ (出来るだけ)}. This word is special because it's part of a pair that expresses almost the same thing, but not quite: 出来るだけ and {idx:english:なるべく}. Both express "{idx:english:as ... as possible}" but there's a subtle difference:
+
+  出来るだけ早(はや)く来(き)て下(くだ)さい。
+  "Please come as quickly as possible."
+
+  なるべく早く来て下さい。
+  "Please come as quickly as possible."
+
+The difference between the two is that 出来るだけ expresses "{idx:english:do whatever you can to ...}", whereas なるべく expresses "{idx:english:at your earliest convenience}" or even just "{idx:english:if possible}". The first essentially works as a command, saying to drop everything and do whatever the sentence says to do, provided this is at all possible (hence the 出来る), while the second doesn't demand quite this much, due to the words that it's made up of: a combination of なる, to become, and the 連用形 of the classical, very odd, verb べし (which defies modern word classes), used to indicate a social expectation.
+
+== Inverting using {idx:english:でなく@だけでなく} ==
+
+The meaning for だけ can also be inverted by adding {idx:english:でなく}, the continuative of です followed by the 連用形 of ない, to form a construction meaning "{idx:english:not just@not just ....}" or "{idx:english:as well as@as well as ...}":
+
+  運転(うんてん)だけでなく、メカニックスにも上手(じょうず)な運転手(うんてんしゅ)です。
+  literally: "Not just (at) driving, but also at (the) mechanics, he's a really competent driver."
+  meaning: "(He)'s a driver who's not just good at the wheel, but also knows his way around the mechanics of a car."
+
+=== {idx:english:particles!ばかり} — {idx:english:further particles!Just}, {idx:english:further particles!only} ===
+
+As mentioned in the explanation of だけ, ばかり is used for things that are repetitive or drown out everything else, such as in the following sentence for instance:
+
+  うそばかり付(つ)ける人(ひと)が嫌(きら)いです。
+  "(I) hate people who only tell lies."
+
+In this sentence, ばかり has to be used if we want to indicate not just telling a lie once or twice, but always telling lies, i.e. only telling lies rather than truths.
+
+Another use is with verbs in plain past tense, to indicate that the verb action has been completed only, or just, moments ago:
+
+  作(つく)ったばかりのクッキー
+  "cookies that have just been made"
+
+ばかり can also be written {idx:english:particles!ばっかり}, in which case it carries just a bit more emphasis. It may also be used as {idx:english:particles!ばかし} or {idx:english:particles!ばっかし} without any serious difference, other than that ばかし sounds a bit more effeminate than ばかり. Finally, ばっかり, or ばっかし can be further contracted to the highly informal {idx:english:particles!ばっか}, not to be confused with the popular term {idx:english:バカ}, used when someone messes something up.
+
+Like だけ, {idx:english:ばかり@ばかりでなく}'s meaning can be inverted by using {idx:english:でなく}.
+
+=== {idx:english:particles!でも} — {idx:english:further particles!Strong emphatic} ===
+
+This particle is actually a combination of the continuative form of the copula です, で, and も as contrastive emphatic marker. Together, they form a strong emphatic marker that can be translated with "even", "regardless of" or "but even then":
+
+  先生(せんせい)でも分(わ)かりませんよ。
+  "Even the teacher doesn't know."
+
+  新(あたら)しいのを買(か)った。でも、これもまた問題(もんだい)があります。
+  "[I] bought a new one. But this one has a problem too."
+
+Like か and も, this combination can be used in combination with {idx:english:interrogatives@interrogatives!でも}, in which case it forms {idx:english:extremes}:
+
+interrogative	meaning		with でも	meaning
+
+なに	what		なんでも	anything at all
+だれ	who		だれでも	anyone and everyone
+どこ	where		どこでも	wherever
+いつ	when		いつでも	whenever
+どう	how		どうでも	however ("in whichever way")
+
+It should be noted that while technically, as with も, particles come between the question word and でも, it is not uncommon to place them after the combination of interrogative + でも:
+
+  だれでも + の can become either だれのでも or だれでもの
+  いつでも + を can become either いつをでも or いつでもを
+  どこでも + で can become either どこででも or どこでもで
+  どうでも + に can become either どうにでも or どうでもに
+
+However, for most of these combinations there tends to be a preference for one or the other, so {idx:english:どうにでも} tends to be preferred over どうでもに, while だれでもの tends to be preferred over だれのでも.
+
+=== {idx:english:particles!のに} — {idx:english:further particles!Despite} ===
+
+This particle should not be confused with a loose combination of の and に, such as in the following sentences:
+
+  石川(いしかわ)さんのに何(なに)かが書(か)いてありそうです。
+  "It seems like there's something written on Ishikawa's (something)."
+
+  その美味(おい)しそうなのにしましょう。
+  "Let's have that tasty looking one."
+
+However, as a 'fixed' combination particle のに, the interpretation is rather different:
+
+  まだ十歳(じっさい)なのに、ピアノが凄(すご)く上手(じょうず)です。
+  "Despite being only 10 years old, (she)'s incredibly proficient at playing the piano."
+
+  (note that, in this sentence, the な preceding のに is the 連体形 form of the copula だ)
+
+What happens here is that の sets up a fact, about which a commentary is made, with the fact marked as details to the commentary by using に. In this use, the commentary is always something constrasting or unexpected/unlikely.
+
+=== {idx:english:particles!とか} — {idx:english:further particles!Representative} ===
+
+This particle is used in the same way as {idx:english:と} or {idx:english:や}, acting as a noun lister. When used, it sets up a {idx:english:representative list}, and because it's representative only, it can be used for either a single term, or for multiple terms:
+
+  刺身(さしみ)とか嫌(きら)いだ。
+  "(I) hate things like sashimi."
+
+  飲(の)み物(もの)とか食(た)べ物(もの)とか買(か)ってきた。
+  "(I) went to buy stuff like food and drinks."
+
+=== {idx:english:particles!など} — {idx:english:(Vaguely) representative@vaguely representative} ===
+
+This is a rough listing particle, similar to とか in use. This particle has come from 何(なに)と through 何(なん)ど to the current {idx:english:など}. Like とか, it can be used either for listing, or for single representative statements.
+
+The colloquial version of this particle is, somewhat surprisingly, {idx:english:particles!なんか}. This colloquial version is not used for the listing version of など, but only for its single use:
+
+  安物(やすもの)なんかに興味(きょうみ)がないよ。
+  "(I) don't care for (things like) cheap stuff."
+
+=== {idx:english:particles!やら} — {idx:english:further particles!Uncertainty} ===
+
+This particle indicates an element of {idx:english:uncertainty} in the speaker, such as for instance:
+
+  どうやら間(ま)に合(あ)ったようですね。
+  "It looks like (we) somehow made it in time, doesn't it?"
+
+It acts similar to か, used after {idx:english:interrogatives@interrogatives!やら} to create a vaguely specific answer to the interrogative:
+
+  何(なに)やら白(しろ)い物(もの)が浮(う)いている。
+  "There seems to be something white floating (there)."
+
+This has the same meaning as 何か白い物が浮いている, but is considered more formal literary. Other than どう, forming どうやら, there are essentially no interrogatives that are used with やら in spoken Japanese.
+
+=== {idx:english:particles!くらい}, {idx:english:particles!ぐらい} — {idx:english:further particles!Estimated extent} ===
+
+This particle is used to estimate an extent of quantity, duration, frequency or even reasoning:
+
+  A: とりあえず、５０ページくらい読(よ)まなければなりません。
+  A: "(I) need to read about 50 pages for now."
+
+  B: 三十分(さんじっぷん)くらい読みましょうか。
+  B: "Let (me) read for about 30 minutes."
+
+  C: 一日(いちにち)に３時間(じかん)ぐらい読みます。
+  C: "(I) read about 3 hours a day."
+
+  D: それぐらい分(わ)かってるよ。
+  D: "(I) understand that much (now explain the parts I don't understand yet)."
+
+The difference between the normal unvoiced version, くらい, and the voiced version, ぐらい, is that the second is a more colloquial, relaxed version of the first. This means that the context in which they're used is subtly different. The best way to get a feel for which to use when is to hear them used often enough.
+
+=== {idx:english:particles!ころ}, {idx:english:particles!ごろ} — {idx:english:further particles!Loose time frame} ===
+
+While くらい is used for estimation of extent, ころ is used for estimation of a moment in time. For instance "I need to be at work around 9" would be an instance where ころ rather than ぐらい would be used, since this does not concern some measurable extent, but a clock time.
+
+  母(かあ)さんが三時(さんじ)ごろ迎(むか)えに来(く)るって。
+  "Mom said she'd come to pick (us) up around 3."
+
+Similar to くらい, the use of ころ vs. ごろ is mostly dictated by whether or not it's okay to use a colloquially relaxed version. Again, the best way to learn when this is is to hear it used often enough to get a feel for it.
+
+=== {idx:english:particles!きり}, {idx:english:particles!ぎり}, {idx:english:particles!っきり} — {idx:english:further particles!Only}, {idx:english:further particles!merely} ===
+
+きり, and its voiced and stopped versions ぎり and っきり are used to "single things out". They've come from {idx:english:切(き)る}, to cut, and this is an indication of how they're used. Added to a clause, it indicates that a "this and only this" clause is in effect. To make this a bit more clear, a few examples:
+
+  日本(にほん)にはただ一度(いちど)行(い)ったきりです。
+  "(I) have been to Japan (only) once."
+
+Here the act of "going to Japan" has been performed once, and きり is used to indicate that this once is understood as "once and only once", rather than the "once" as used in for instance "I've been there once when it was hot, and ..." which actually doesn't preclude having gone to a place multiple times.
+
+  その仕事(しごと)を一人(ひとり)きりでしたんだ。
+  "(I) did that job all (alone) by (myself)."
+
+Here, きり is used to make it explicit that there was no one else to even do the job other than "myself". If we compare this sentence to a similar sentence that uses だけ instead we see:
+
+  その仕事を一人だけでしたんだ。
+  "(I) did that job alone."
+
+We see that this sentence doesn't actually rule out the possibility that others may have been available to help out, and that in this case we did it ourselves for whatever reason. In contrast, the line with きり says that at the time of doing this job, there was just me, and no one else.
+
+  あの人(ひと)には一度()会(あ)ったきりで、その後(ご)は付(つ)き合(あ)ってませんでした。
+  "(I)'ve only met that person once, (I) haven't been with them since."
+
+Here きり is used to indicate that the event of meeting this person was a singular event.
+
+The difference between using きり, ぎり and っきり is mainly a colloquial one, related to 'what sounds good'. In colloquially relaxed speech, ぎり will work better than きり, and if one wants to put extra emphasis on the "singling out", っきり works better than きり. It is mostly a question of hearing it often enough to develop a feel for which is best in which setting.
+
+=== {idx:english:particles!ずつ} — {idx:english:further particles!Equal distribution} ===
+
+This particle is used to indicate some equal distribution of something, over something else. For instance "These oranges are 80 yen a piece" or "Every pair will share 1 book". In the first line, there's an equal distribution of price over every orange:
+
+  オレンジが一(ひと)つずつで八十円(はちじゅうえん)だ。
+  "Oranges are 80 yen a piece."
+  literally: "Oranges are per one (being the same for each), 80 yen."
+
+In the second line, there is an equal distribution of how many items are distributed over a certain number of people, using ...に...ずつ:
+
+  本(ほん)は二人(ふたり)に一冊(いっさつ)ずつ分(わ)け合(あ)うんだ。
+  "Each pair will (have to) share one book."
+  literally: "As for the books, to two people, one book (to each group of two) will be shared"
+
+=== {idx:english:particles!こそ} — {idx:english:further particles!Emphatic}, {idx:english:further particles!appropriating} ===
+
+This particle can be considered similar in function to {idx:english:も}, except instead of just likening two things to each other, こそ can also "shift" the properties of the original to the instance it is suffixed to instead. This may sound a bit strange, so an example will hopefully make it clearer:
+
+  A: ああ、どうもすみません。ボーとしてて思(おも)わずぶつかって...
+  B: いいえ、いいえ。こちらこそすみません。私(わたし)がもっとしっかりしてたら...
+
+  A: "Ah, I'm sorry, Not looking at where I was going and just walking into you like that..."
+  B: "No, no, it should be me who should be apologising. If I had paid more attention to what was going on..."
+
+Aside from an embarrassing moment, speaker B uses こそ with こちら (which is used to refer to himself in this case) to make the act of apologising apply to him more than to speaker A, thus "shifting" the need to apologise from A to B instead. こそ can also be used on its own, in which case it is perceived as contrasting the stated to everything else, typically being translatable with "exactly" or "precisely":
+
+  だからこそ来(き)たんだよ。
+  "But that's precisely why (I) came over."
+
+=== {idx:english:particles!もの} — {idx:english:further particles!Experience}, {idx:english:further particles!social custom}, {idx:english:further particles!because} ===
+
+もの is used to conceptualise something as real, be it {idx:english:@tangible}{gls:glossary:tangible} or {idx:english:@intangible}{gls:glossary:intangible}. Because of this, it can fulfil a few roles, such as listing an experience:
+
+  私(わたし)たちは子供(こども)の時(とき)に正(ただ)しく育(そだ)ったもの。
+  "We were raised properly when we were children."
+
+Here もの indicates that 正しく育った is a real, albeit intangible, thing. Because it is past tense, the only real thing it can be is the speaker's own experience. When used with present tense, the only way intangible things can be real is if they are somehow common place, or social customs:
+
+  人(ひと)に迷惑(めいわく)をかけないものです。
+  literally: "It is a thing to 'not be a bother to people'."
+  "One should not cause problems for others."
+
+Colloquially, もの can be shortened to もん, but this typically makes the speaker sound "childish":
+
+  A: なんでお前(まえ)アンパンばかり食(く)うのかよ。
+  B: だって、好(す)きだもん～。
+
+  A: "Why the heck do you always eat anpan?"
+  B: "Because I like it."
+
+=== {idx:english:particles!かも} — {idx:english:further particles!Possibility} ===
+
+The particle かも is actually the expression {idx:english:かも知(し)れません} with the verb left off. This construction is used to indicate something 'might be' the case, and is used quite frequently in every day language:
+
+  A: えっ？買(か)うのか？高(たか)いでしょう？
+  B: そうかも、ね。だが、ぴったりじゃないですか？
+
+  A: "Eh? You're going to buy it? Don't you think it's (a little) expensive?"
+  B: "Maybe... But then again, isn't it exactly (what we want)?"
+
+There is no functional difference between using かも and using かも知れません, although again the "the longer it is, the more formal polite your speech" rule applies, so かも is less formal than かも知れん which is less formal than かも知れない, which in turn is less formal than かも知れません. Typically, you'll either use かも知れません or かも.
+
+==== Enrichment ====
+
+The following set of particles conists mostly of "interesting" particles, and rare or literary particles that you may encounter every now and then. However, they go well beyond basic Japanese and you can safely ignore them if you wish. They have been included mostly for completeness, given that you will invariably run across them every now and then while reading Japanese books or manga, or watching Japanese films or TV.
+
+=== {idx:english:particles!さえ} — {idx:english:enrichment particles!Even}, {idx:english:enrichment particles!merely} ===
+
+Typically used preceded by {idx:english:で@でさえ}, さえ is yet another "even", being similar to でも, or だけ. However, where だけ means "only" in the "just" way, さえ means "only" in the "at least"/"as long as only" way:
+
+  子供(こども)でさえ知(し)ってるよ。
+  "Even children know this."
+
+  孔子(こうし)でさえ欠点(けってん)あるが免(まぬか)れなかった。
+  "Even Confucius was not free of flaws."
+
+  お金(かね)さえあれば、のんびりしててもいい。
+  "As long as (you) (just) have money, (you) can take it easy."
+
+=== {idx:english:particles!すら} — {idx:english:enrichment particles!Not even} ===
+
+This particle is related to さえ in a way similar to how しか and だけ are related, and is followed by a negative to express a "not even" construction:
+
+  手紙(てがみ)すら満足(まんぞく)に書(か)けない。
+  "(I) cannot even write a letter to (my) satisfaction."
+
+This particle is considered rather literary.
+
+=== {idx:english:particles!とも} — {idx:english:enrichment particles!Emphasis} ===
+
+This particle, while a combination of と + も, doesn't actually act as a similarity marker as you might expect, but instead is actually used to stress the preceding noun or noun phrase in a sentence:
+
+  君(きみ)の言(い)う通(とお)りだとも。
+  "It's (exactly) as you say."
+
+This particle comes after 連体形 constructions.
+
+=== {idx:english:particles!なり} — {idx:english:enrichment particles!Either}/{idx:english:enrichment particles!or}, {idx:english:as soon as@enrichment particles!as soon as ...} ===
+
+This particle can mean two things, depending on whether it's used on its own or as a two-item "list":
+
+  困(こま)ったときには、父(ちち)なり母(はは)なりに相談(そうだん)することです。
+  "When (you)'re troubled, (you) should talk to either (your) mother or father."
+  literally: "When troubled, the concept is to consult (your) father or mother."
+
+This list use is very different from the singular use:
+
+  疲(つか)れていたから、帰(かえ)るなり晩(ばん)ご飯(はん)を食(た)べずに寝(ね)てしまった。
+  "Because (she) was tired, (she) went to bed the moment (she) got home, without having dinner."
+
+Here the literal translation would be "Because (she) was tired, the moment (she) got home, (she) went to bed without eating dinner."
+
+=== {idx:english:particles!ものの} — {idx:english:enrichment particles!Even though} ===
+
+This combination particle is quite interesting; the combination of もの with の is functionally equivalent to the particles {idx:english:け(れ)ど(も)} and のに:
+
+  「MacBook」を買(か)ったものの、使(つか)い方(かた)が全然(ぜんぜん)分(わ)からない。
+  "Even though (I) bought a MacBook, (I) actually don't know how to use it at all."
+
+This sentence isn't significantly different from the same sentence using のに or けど:
+
+  「MacBook」を買ったのに、使い方が全然分からない。
+  "Even though (I) bought a MacBook, (I) actually don't know how to use it at all."
+
+  「MacBook」を買ったけど、使い方が全然分からない。
+  "(I) bought a MacBook. However, (I) actually don't know how to use it at all."
+
+The similarity will typically be closer to け(れ)ど(も) than to のに, as the use of もの creates a factoid, and the の is used to relate the concluding remark to this factoid, in a manner that could be described as genitive:
+
+  (「MacBook」を買ったもの) の (使い方が全然分からない。)
+  ("I bought a MacBook")'s ("I do not know how to use it at all")
+
+=== {idx:english:particles!ものか} — {idx:english:enrichment particles!Emphatic negative} ===
+
+This is simply the sentence ending もの, used to indicate a custom or social expectation of sorts, followed by the question particle {idx:english:か} in its "Like I ..." meaning:
+
+  そんなこと知(し)るものか。
+  "Like (I) would (be expected to) know something like that!"
+
+As mentioned in the explanation of か, this is one of the rare instances where you will nearly always be able to translate the construction with an exclamation mark, due to the use of this particularly expressive か. Notice that this sentence is almost the same as:
+
+  そんなこと知るか。
+  "Like (I) would know something like that!"
+
+The only difference is that the use of もの makes the statement question the expectation, rather than the act:
+
+  そんなこと知るか。
+  "Like (I) know something like that!"
+
+  そんなこと知るものか。
+  "Like (I) (should) know something like that!"
+
+=== {idx:english:particles!もので} — {idx:english:enrichment particles!Reasoning} ===
+
+This is just the particle もの, used to indicate a custom or social expectation, paired with the continuative form of the copula, {idx:english:で}, to create an implicit reason:
+
+  客(きゃく)として迷惑(めいわく)をかけないようにするもので、大人(おとな)しく静(しず)かに座(すわ)っててなさい。
+  "Because being guests means not causing (unnecessary) problems (for the host), (just) sit (here) quietly 'in a grown up way'."
+
+=== {idx:english:のみ} — {idx:english:enrichment particles!Nothing but} ===
+
+The particle のみ is a literary particle comparable in meaning to {idx:english:だけ} or {idx:english:ばかり}, and is used in essentially the same way, marking something as an "only thing" or "only option":
+
+  卒業(そつぎょう)のみで考(かんが)えて試験(しかん)がまだあるのを忘(わす)れないもの。
+  "If (you)'re only thinking about graduating, don't forget that there are still exams to be taken."
+
+  今(いま)のはただ待(ま)つのみです。
+  "(And) now all we (can) do (is) wait."
+
+Unlike だけ or ばかり, which are followed by でなく, the particle {idx:english:のみ@のみならず} is followed by {idx:english:ならず} when the opposite of its meaning is required:
+
+  研究者(けんきゅうしゃ)のみならず、中学生(ちゅうがくせい)が分(わ)かるように説明(せつめい)してください。
+  "Please explain things in such a way that middle schoolers, not just researchers, can understand it."
+
+This particle is considered literary.
+
+=== {idx:english:particles!どころ + Negative} — {idx:english:enrichment particles!Extent}, {idx:english:enrichment particles!impossibility} ===
+
+This particle is typically used in the pattern [...]どころではない, to indicate an {idx:english:impossibility}:
+
+  こう忙(いそが)しくては旅行(りょこう)するどころではない。
+  "Being this busy, it's impossible (for me) to go on a trip."
+
+It can also be used in a way similar to {idx:english:ほど} to indicate an extent:
+
+  困(こま)るどころの騒(さわ)ぎじゃない。
+  "No need to cause a fuss over this problem."
+
+This sentence is somewhat hard to properly translate due to どころ, and a more literal translation would be "this isn't [something that should be] caused a fuss [over] to the extent that [you are] troubled".
+
+This is technically a voiced version of {idx:english:所(ところ)}, which will be treated in the section on nominalisers in the chapter on language patterns.
+
+=== {idx:english:particles!どころか} — {idx:english:enrichment particles!Emphatic} ===
+
+This particle is somewhat akin to {idx:english:より}, except it only applies to events or circumstances, and is much stronger than より. It creates a construction that can be translated with "Instead of ..., [something which implies the total opposite]" by following the 連体形:
+
+  友達(ともだち)と遊(あそ)ぶどころか、一晩(ひとばん)に宿題(しゅくだい)をしたんだ。
+  "Instead of going out with (my) friends, (I) spent the entire night working on (my) homework."
+
+=== {idx:english:particles!だの} — {idx:english:enrichment particles!Representative} ===
+
+This particle hangs somewhere between {idx:english:と} and {idx:english:や} when making a list. It creates a list of items, but also implies that this list is {idx:english:representative@representative listing} of something. For instance:
+
+  犬(いぬ)だの猫(ねこ)だの、色(いろ)んなものを飼(か)っている。
+  "Dogs, cats, we keep all sorts of pets."
+
+While the list doesn't actually imply that there may be more than just dogs and cats, unlike や, the list alone is already considered something representative of, in this case, "all sorts of". And unlike と, this list doesn't have to be inclusive. It could be that whoever says this may also have birds and rabbits, but then again, they may just as well not.
+
+=== {idx:english:particles!にて} — {idx:english:Formal で@enrichment particles!formal で} ===
+
+This is the literary equivalent to the instrumental and location of an event marking particle で (but not the 連用形 for です).
+
+=== {idx:english:particles!には} — {idx:english:enrichment particles!Contrastive} ===
+
+This is a reasonably simple combination of the particle {idx:english:に} and the disambiguating particle {idx:english:は}, but it deserves special mention because a lot of people new to Japanese abuse it a lot, using には instead of just に. A good example of this would be for instance:
+
+  テーブルに本(ほん)がある。
+  "There is a book on the table."
+
+There will be people who after a while start to ignore that this is a proper sentence, and instead say things like:
+
+  テーブルには本がある。
+  "There is a book on the table (as opposed to the floor, or the couch, or the shelf, or whatever context it might be contrasted to)."
+
+It should always be remembered that には disambiguates. It doesn't just specify a location or point/frame in time, but also adds a contrast between this location or time and every other. This is a very important distinction that you should try not to forget. If you're tempted to use には, first ask yourself if you actually need to disambiguate anything. If not, just use に. Don't use the additional は because you think it "sounds good", because it adds a lot of extra meaning that you probably don't intend to add. That said, a proper use would for instance be:
+
+  ここにはそんな物(もの)はないよ。
+  "(We) don't have those kind of things here."
+
+In this sentence, the は makes sense, because no doubt there will be other places where "those kind of things" can in fact be found. Just not "here".
+
+=== {idx:english:particles!や否(いな)や} — {idx:english:enrichment particles!Simultaneous action} ===
+
+This particle is similar to {idx:english:なり} in that it is used to talk about two actions taking place in succession. It can be translated as '{idx:english:the minute [X], [Y]}' or '{idx:english:no sooner than [X], [Y]}'. It's a relatively rare particle, but then that's what enrichment is all about. It follows 連体形 constructions:
+
+  大学(だいがく)を出(で)るや否や結婚(けっこん)しました。
+  "No sooner than they had graduated, they got married."
+
+This is considered a fairly literary particle, and is found more in writing than in speech.
+
+=== {idx:english:particles!だって} — {idx:english:enrichment particles!Generalisation} ===
+
+While considered a colloquial emphatic version of {idx:english:でも}, this particle is actually a contraction of the copula {idx:english:だ} and the classical particle {idx:english:とて}, which has functionally been replaced in modern Japanese by {idx:english:たって}/{idx:english:って}.
+
+  じいちゃんだって、それぐらい分(わ)かるよ。
+  "Even grandpa knows that."
+
+In this role, it's not really different from でも.
+
+だって can also be used in a listing fashion, in which case it stands for a pattern similar to "{idx:english:whether ..., or ...} [or ...], it's all the same":
+
+  君(きみ)だって、僕(ぼく)だって、みんな仲間(なかま)だ。
+  "You, me, we're all friends."
+
+  (the translation of 仲間 is actually more nuanced than 'friend', referring to being part of the in-group)
+
+As can be seen from this sentence, the final clause applies to all the "items" listed using だって in this fashion.
+
+A final role played by だって is as sentence ending particle, in which case it acts as a {idx:english:quotation} that the speaker is surprised about:
+
+  土曜日(どようび)も彼(かれ)とデートだからだって。あの二人(ふたり)、別(わ)かれなかったか？
+  "(She) said it was because (she) had a date with him on Saturday. Hadn't those two broken up?"
+
+In this sentence the speaker expresses a surprise over hearing what is being quoted, and explains this surprise with the following sentence. Notice that these are two separate sentences; the full stop is very much required after だって in this use.
+
+=== {idx:english:particles!たって} — {idx:english:enrichment particles!Generalisation} ===
+
+Similar to how だって is considered a variant of でも, たって is considered a variant of the verbal —{idx:english:ても@て form + も}. Just like the て form, this "particle" contracts with verbs whose —た/—て forms have contractions, so for instance 遊(あそ)ぶ, "play", becomes 遊んだって.
+
+  今更(いまさら)言(い)ったって、もう遅(おく)れたわ。
+  "Even if (you) say so now, it's too late (now)."
+
+Also, when written as {idx:english:particles!ったって} this particle stands for the contraction of と言(い)っても. Used in this way, its meaning is similar to と言っても or としても:
+
+  今(いま)それを直(なお)そうったって無駄(むだ)だ。
+  "It's pointless to try to fix it now."
+
+=== {idx:english:particles!だけに} — {idx:english:enrichment particles!Reasoning} ===
+
+A combination of だけ + に, this compound particle expresses "{idx:english:since} ...", "{idx:english:because} ..." similar to {idx:english:ので}.
+
+  期待(きたい)していなかっただけに、喜(よろこ)びは大(おお)きい。
+  "Because (I) I hadn't been expecting it, (I) was most delighted."
+
+Literally, this sentence uses the noun form for 'being delighted'.
+
+=== {idx:english:particles!ったら} — {idx:english:enrichment particles!Calling attention} ===
+
+This particle is a contraction of {idx:english:と言(い)ったら}, and like the next particle, is used to catch someone's attention if you've been talking to them and they're being unresponsive. This is a very informal way to grab someone's attention as well as to point out that they should listen to you:
+
+  {idx:english:ね}。ね！ねったら！
+  "Hey. Hey! I said hey!"
+
+=== {idx:english:particles!ってば} — {idx:english:enrichment particles!Calling attention} ===
+
+This particle is a contraction of {idx:english:と言(い)えば} ("when talking about ...") and is often used to grab someone's attention, similar to ったら:
+
+  おい、聞(き)いてるかよ。お～い。おいってば！
+  "Hey, are (you) listening or what? Helloooo? I said, hello!?"
+
+=== {idx:english:particles!なんと} — {idx:english:enrichment particles!Extreme emphatic} ===
+
+This particle is essentially the question word {idx:english:何(なに)} paired with the quoting particle {idx:english:と}, to create an emphatic "what" such as in "what a pretty bird" or "you did what??":
+
+  なんときれいな星空(ほしぞら)だなぁ。
+  "What a pretty starry sky."
+
+A special word involves this particle paired with -なく, the 連用形 for ない, forming the word {idx:english:なんとなく}, meaning "{idx:english:for no reason}":
+
+  A: どうして殴(なぐ)ったの。
+  B: いや、なんとなく。
+
+  A: "Why did (you) hit (him)?"
+  B: "Eh, (I) just felt like it."
+
+  (This is a semantic translation, literally B says "For no (good) reason", as an open sentence)
+
+The colloquial version, {idx:english:particles!なんて}, can also be used to mean {idx:english:何と言(い)う@なんという (何と言う)}, and is typically used in an exclamatory fashion:
+
+  なんて事(こと)をしたんだ？
+  "What (on earth) did (you) do?"
+
+=== {idx:english:particles!までも} — {idx:english:enrichment particles!Impossibility} ===
+
+This is just まで combined with the emphatic も, to create a construction signifying extreme extent, similar to {idx:english:にしても}:
+
+  そこまでもするんですか。
+  literally: "Up to the extent of (some specific thing), (you) would do so?"
+  meaning: "(You) would go that far?"
+
+までも can be used with the question words いつ (when) and どこ (where) to create the words {idx:english:いつまでも}, meaning "up to any moment in time" ("until when") and {idx:english:どこまでも}, meaning "up to any place" ("up till any place"):
+
+  いつまでもテレビを見(み)るつもり？
+  literally: "Up to which moment in time do you intend to watch TV?"
+  meaning: "Just how long do (you) plan on watching TV?"
+
+Note that when までも is paired up with a verb in て form, までも is split up:
+
+  どこまで見(み)ても、青空(あおぞら)です。
+  literally: "Up till any point you can hypothetically look at, it's blue sky."
+  meaning: "No matter where (you) look, it's blue skies."
+
+=== {idx:english:particles!ほか + Negative} — {idx:english:enrichment particles!Only option} ===
+
+Similar to しか, ほか indicates only one course of action or only one option:
+
+  ここまできてて、進(すす)むほかしょうがない。
+  literally: "Having come this far, there is nothing to be done other than continue."
+  meaning: "Having come this far, we can only press on."
+
+For this role, ほか is often found in the pattern {idx:english:ほかならない}, meaning "nothing other than ...", used adjectivally (remember that the 連体形 is attributive as well as sentence ending in modern Japanese):
+
+  ほかならない彼(かれ)の出来(でき)ものだ。
+  "This is something only he can do."
+
+===== Translating {idx:english:prepositions} =====
+
+Japanese doesn't really have prepositions like a lot of western languages do. You've already seen that quite a few particles fulfil the role that prepositions play in other languages, but this still leaves the question of how to say something in Japanese that in western languages uses prepositions that are not covered just by particles. For this reason, this final "particles" section will cover translating {idx:english:prepositions@prepositions!translation of}.
+
+There are two categories that preposition translations fall under. The first is the list of prepositions that have particle or verb construction counterparts, though since you have already encountered these in the previous sections, these will not be treated in detail. The other category is those prepositions that have temporal or location nouns as their Japanese counterparts. I say conceptual because some concepts that are multiple words in western languages are the same conceptual temporal/location noun in Japanese. These nouns will be treated in more detail and will, where needed, be accompanied by examples.
+
+==== {idx:english:Prepositions already covered@prepositions} ====
+
+English preposition	Translated into Japanese using...
+
+{idx:english:prepositions!as}	に in its role as indirect object
+{idx:english:prepositions!at}	に or で, depending on whether it concerns a thing or
+	an event.
+{idx:english:prepositions!by}	に or で, depending on whether it concerns location or
+	instrumentalis
+{idx:english:prepositions!despite}	のに
+{idx:english:prepositions!during}	連用形 particles ながら or がてら for strict or loose simultaneous
+	action, つつ for atemporal, or verb continuative (て form)
+{idx:english:prepositions!except}/{idx:english:prepositions!save}	しか, ほか or すら
+{idx:english:prepositions!for}	Either the indirect object に or the nominalising のために
+{idx:english:prepositions!from}	Either the indirect object に or から
+{idx:english:prepositions!of}	の
+{idx:english:prepositions!off}	A resultant state form of verbs that denote "to go off of"
+{idx:english:prepositions!since}	から, より
+{idx:english:prepositions!through}	で
+{idx:english:prepositions!to}	に as indirect object, に as destination, or へ as direction
+{idx:english:prepositions!with}	と
+{idx:english:prepositions!without}	This is done with either a verb in 未然形+ず, or using
+	(未然形) なくて/ないで
+
+==== {idx:english:Prepositions translating to conceptual temporal or location nouns@prepositions!conceptual nouns} ====
+
+The conceptual nouns used to stand for what in western languages is done using prepositions, are all used in the following pattern:
+
+  {idx:english:[X](の)[Y]に/で[Z]}
+
+where [X] can be any noun or verb clause, [Y] is a conceptual noun, and [Z] a verb activity or a state. The の in this pattern is enclosed in parentheses, because it can be omitted in some cases, but has to be used in others. Typically, when [X] is a noun phrase, の is used, and when it is a verb phrase, の is omitted, but there are exceptions to this; each conceptual noun entry in the list below will show the pattern(s) it can be used in.
+
+To illustrate this pattern before we move on to the list itself, let us replace [X] with 駅(えき), station, [Y] with 前(まえ), before, and [Z] with 店(みせ) がある, "there is a store". Doing so, we get the following sentence:
+
+  駅の前に店がある。
+  "station" [genitive] "before" [location] "there is a store"
+
+The natural translation, "There is a store in front of the station", follows readily from this pattern.
+
+As a note, the choice of whether to use に or で is dependent on whether a location or an event is focused on. In the previous example a location was focused on, but if we were to use the same sentence with [Z] being replaced with 友達(ともだち)と出会(であ)った, "(I) met (my) friend", then we get a sentence that can focus on the event "meeting", and this focus can be made explicit by using で instead of に:
+
+  駅の前で友達と出会った。
+  "(I) met (my) friend in front of the station."
+
+==== The conceptual nouns list ====
+
+=== {idx:english:prepositional nouns!上(うえ)} — {idx:english:prepositions!Above}, {idx:english:prepositions!up}, {idx:english:prepositions!upon}, {idx:english:prepositions!on} ===
+
+The kanji for this word already hints at the fact that this noun signifies a conceptual location 'above' something. It does not literally mean any of the words "above", "on", "up", "{idx:english:prepositions!over}" or the likes, but simply implies them all, given a specific context. For instance:
+
+  テーブルの上に美(うつく)しい生(い)け花(ばな)があります。
+  "There is a beautiful flower arrangement on the table."
+
+Since flower arrangements typically rest on a surface, 上 in this case means "on". However, if we look at the following sentence, we see a different context, and a different meaning:
+
+  テーブルの上に窓(まど)があります。
+  "There's a window above the table."
+
+Since windows don't typically rest on surfaces but are part of walls, 上 can only be interpreted as meaning "above" in this context.
+
+=== {idx:english:prepositional nouns!下(した)} — {idx:english:prepositions!Below}, {idx:english:prepositions!beneath}, {idx:english:prepositions!under}, {idx:english:prepositions!underneath} ===
+
+In the same way that 上 means the conceptual location above something, 下 means a conceptual location below something. Again, context dictates what preposition is best used in the translation:
+
+  テーブルの下に猫(ねこ)がいます。
+  "There's a cat underneath the table."
+
+  テーブルの下に引(ひ)き出(だ)しがあります。
+  "There are drawers under the table."
+
+In the first sentence, 下 refers to well under the table, on the floor, while in the second sentence 下 means on the underside of the table itself.
+
+=== {idx:english:prepositional nouns!右(みぎ)} — {idx:english:prepositions!Right} ===
+
+Having covered above and below, the two orientation directions left and right. First up, right:
+
+  郵便局(ゆうびんきょく)は駅(えき)の右にあります。
+  "The post office is to the right of the station."
+
+=== {idx:english:prepositional nouns!左(ひだり)} — {idx:english:prepositions!Left} ===
+
+And then, of course, left:
+
+  郵便局(ゆうびんきょく)は駅(えき)の左にあります。
+  "The post office is to the left of the station."
+
+=== {idx:english:prepositional nouns!前(まえ)} — {idx:english:prepositions!Before}, {idx:english:prepositions!in front of}, {idx:english:prepositions!prior} ===
+
+When referring to something before, or preceding, something else, the conceptual noun 前 is used. This can be used for both time and space:
+
+  駅(えき)の前で待(ま)ってました。
+  "(I) waited in front of the station."
+
+This example, similar to the one given in this section's pattern explanation, states something being in front of some location. If instead we want to indicate something as happening or being the case before some verb activity, then 前 follows the 連体形:
+
+  出(で)かける前に掃除(そうじ)をした。
+  "(I) cleaned up before going out (on errands)."
+
+In this sentence, the event "going out [on errands]", 出かける, indicates a particular time, even if it's not sharply defined like clock times.
+
+=== {idx:english:prepositional nouns!表(おもて)} — {idx:english:prepositions!Front}, {idx:english:prepositions!facing} ===
+
+There's one more "front" that has a special word for it in Japanese: the facing side of something. For instance, the title side of a book's cover is the 表, the 'store front' side of a store is the 表, and the front side of a T-shirt is the 表.
+
+=== {idx:english:prepositional nouns!中(ちゅう)} — {idx:english:prepositions!During} ===
+
+The conceptual noun 中 means several different things depending on its use, and has different pronunciations for each different use. When used directly after nouns that denote some activity, it is pronounced ちゅう, and is used to indicate that the verb action or verb state that follows it applies during the period that the activity noun describes. This may sound a bit abstract, so an example:
+
+  配達中(はいたつちゅう)です。
+  "(I) am in the middle of a delivery."
+
+Clearly a delivery takes time to perform, and the 中 indicates that something is the case, or takes place, during this time.
+
+=== {idx:english:prepositional nouns!中(じゅう)} — {idx:english:prepositions!Cross-...}, {idx:english:prepositions!throughout} ===
+
+When used with location nouns, the meaning for 中 changes to "cross-..." such as "cross-country" or "nation-wide", and the reading changes to じゅう, such as in for instance:
+
+  世界中(せかいじゅう)で人(ひと)が生(う)まれて死(し)ぬ。
+  "The world over, people are born and people die."
+
+=== {idx:english:prepositional nouns!中(なか)} — {idx:english:prepositions!Amid}, {idx:english:prepositions!among}, {idx:english:prepositions!amongst}, {idx:english:prepositions!in}, {idx:english:prepositions!inside}, {idx:english:prepositions!within} ===
+
+And finally, when used in the pattern that does not have の omitted, 中 is pronounced なか, and can mean a wide variety of things that are associated with being located inside something. When focusing on locations, に is used as the follow up particle, but when 中 refers to abstract concepts such as "amidst [a collection]" or "among [things]", it is followed by {idx:english:で@なかで (中で)} instead, such as in for instance:
+
+  食(た)べ物(もの)の中で、和食(わしょく)が一番(いちばん)好(す)きです。
+  "From (amongst) food, (I) like Japanese food best."
+
+Here 中 refers to something being located inside a category. Since this is an abstract location, the particle で is used. However, when there is no abstract location but a real location, like the hollow of a tree, or the inside of a box, に is used:
+
+  箱(はこ)の中に腕時計(うでどけい)があった。
+  literally: "There was a watch in the box"
+  meaning: "The box contained a watch."
+
+The pattern {idx:english:[X]の中で[Y]} will be explained further in the constructions section, when dealing with open choices - something that quite obviously requires being able to indicate something as existing within a greater (abstract) collection.
+
+=== {idx:english:prepositional nouns!後(うし)ろ} — {idx:english:prepositions!Behind} ===
+
+The noun 後ろ is used to indicate that something is located behind something else. Be careful though: unlike 前, which corresponded to "before" both in the location and time sense, 後ろ only means "behind", and stands for a location; it cannot be used to mean "after" in the context of time. To indicate the concept of "after", a different noun (後) is used, which can be pronounced in three different ways, meaning three slightly different things.
+
+An example of the use of 後ろ would be:
+
+  ねずみが冷蔵(れいぞう)の後ろに隠(かく)れてしまった。
+  "The mice hid behind the refrigerator."
+
+=== {idx:english:prepositional nouns!裏(うら)} — {idx:english:prepositions!Back}, {idx:english:prepositions!opposite} side ===
+
+Much like how 表 is a special kind of 前, 裏 is a special kind of 後ろ, meaning "the non-facing side" of something. For instance, the side of a book's cover that doesn't carry the title is the 裏, the back of a store is the 裏, and the back side of a T-shirt is the 裏.
+
+=== {idx:english:prepositional nouns!後(あと)}, {idx:english:prepositional nouns!後(ご)}, {idx:english:prepositional nouns!後(のち)} — {idx:english:prepositions!After} ===
+
+When indicating something happens after a certain time or event, 後 is used. However, depending on whether this "after" refers to "occurring at some time after", or "occurring from then on" a different pronunciation is used; when one only wishes to indicate something will happen after some specific time or event, the reading for this noun is あと:
+
+  宿題(しゅくだい)は後(あと)でします。
+  "(I)'ll do (my) homework afterwards."
+
+In this sentence the act of "doing homework" will be done at some point after some contextually implied event, typically whatever the speaker is doing at the moment of saying a sentence like this. On the other hand, when indicating that something will stay in effect after some specific time or event, the reading for this kanji is ご:
+
+  仕事(しごと)は8時(じ)に終(お)わりその後(ご)は暇(ひま)だ。
+  "(My) job ends at 8, after that (I)'ll be available."
+  literally: "..., after that is leisure."
+
+Because the reading for the noun 後 is ご in this sentence, it clearly states that this person won't be free for just a while after 8 o' clock, but will be free from 8 o' clock onwards until some indeterminate time (being probably when they go to bed).
+
+There is a third reading for 後, being のち, but this is a literary reading used as a replacement for あと, with as extra feature that it can be used to stand for "the afterlife"; the ultimate concept of "afterwards". However, this reading is also used in the common formal time indicator {idx:english:prepositional nouns!のちほど (後程)} meaning "{idx:english:later}", "{idx:english:at some later time}", "{idx:english:prepositions!afterwards}" or even "{idx:english:eventually}".
+
+=== {idx:english:prepositional nouns!外(そと)} — {idx:english:prepositions!Out}, {idx:english:prepositions!outside} ===
+
+The opposite of 中, 外 stands for the broad and undefined location that is the world outside:
+
+  うちの猫(ねこ)が家(いえ)の外に遊(あそ)んでる。
+  "Our cat's playing outside."
+   literally: "... outside the house."
+
+=== {idx:english:prepositional nouns!間(あいだ)} — {idx:english:prepositions!Between} ===
+
+Literally, this noun stands for the concept of "in an interval", where this interval can be either temporal or spatial:
+
+  銀行(ぎんこう)と郵便局(ゆうびんきょく)の間に公衆電話(こうしゅうでんわ)があります。
+  "There are public phones located between the bank and the post office."
+  literally: "... in the interval (bank - post office)."
+
+As can be seen from the example, the list of locations between which some verb action occurs, or some verb state is the case, is created using the standard inclusive noun listing particle と.
+
+For time, on the other hand, the {idx:english:[X]から[X]まで} pattern is used, because this lets us specify an interval with an explicit beginning and end:
+
+  犯人(はんにん)は二時(にじ)から三時(さんじ)までの間に逃(に)げられた。
+  "The culprit (managed to) escape between the hours of 2 and 3."
+
+=== {idx:english:prepositional nouns!近(ちか)く} — {idx:english:prepositions!Near} ===
+
+This is actually the noun form of the verbal adjective {idx:english:近(ちか)い}, 'near', and is used for locations only. This noun is (fairly intuitively) used to indicate something is close to some location or object:
+
+  映画館(えいがかん)の近くにあります。
+  "It's close to the cinema."
+
+=== {idx:english:prepositional nouns!向(む)こう} — {idx:english:prepositions!Facing}, {idx:english:prepositions!across}, {idx:english:prepositions!opposite}, {idx:english:prepositions!beyond} ===
+
+In Japanese the idea of "across", "opposite from" and "beyond" are all variations on the same theme of something facing something else: something opposite to us clearly faces us, something that is for instance across the street faces us from across the street and something that lies beyond the darkest night is something that faces us from this theoretical location:
+
+  道(みち)の向こうに友達(ともだち)が待(ま)ってるはずです。
+  literally: "I expect my friends to be waiting ..."
+  "(My) friends should be waiting for [me] across the street."
+
+  海(うみ)の向こうに別(べつ)の世界(せかい)があると聞(き)いた。
+  "(I) heard that across the ocean lies a different world."
+
+=== {idx:english:prepositional nouns!辺(へん)} — {idx:english:prepositions!Nearby}, {idx:english:prepositions!around} ===
+
+The noun 辺 literally means "{idx:english:vicinity}", and when used as a conceptual location noun, means "near", "{idx:english:prepositions!close to}", and the like:
+
+  お魚屋(さかなや)の辺に財布(さいふ)を無(な)くしてしまった。
+  "(I) lost (my) wallet somewhere near the fish shop."
+
+=== {idx:english:prepositional nouns!横(よこ)} and {idx:english:prepositional nouns!隣(となり)} — {idx:english:prepositions!Besides}, {idx:english:prepositions!next to} ===
+
+While in most western languages when two objects are placed side by side, they are said to be "beside" or "next to" each other, Japanese requires you to pick the right word for this spatial relation depending on whether or not these two objects are of a similar category. For instance, placing two apples or two bikes next to each other means you can use the noun 隣(となり) to indicate that one is next to the other:
+
+  俺(おれ)の自転車(じてんしゃ)は弟(おとうと)のの隣に立(た)っておきました。
+  "I left my bike standing next to my (younger) brother's."
+
+This is perfectly valid use of 隣 (not to mention valid use of の for back referral, immediately followed by の[location noun]), as the two objects in question are clearly of the same category.
+
+However, for the following example we need to use 横(よこ) instead of 隣:
+
+  みんなが池(いけ)の横に遊(あそ)んだりした。
+  "Everyone was playing games and stuff next to the pond."
+
+  (note that using に stresses the location rather than the act in this sentence)
+
+Here, since みんな are of a category "people", and 池 is of category "pond", there is no way 隣 can be used, since these two things aren't even remotely alike. In effect, 隣 can be thought of as not just meaning "next to" but having the added meaning "next to the other [object category]", while 横 only means "beside" or "next to".
+
+=== Compass directions ===
+
+In addition to the obvious locations, there are four more that are usually overlooked: the compass directions.
+
+direction	noun
+
+{idx:english:East}	{idx:english:東(ひがし)}
+{idx:english:South}	{idx:english:南(みなみ)}
+{idx:english:West}	{idx:english:西(にし)}
+{idx:english:North}	{idx:english:北(きた)}
+
+And of course their permutations:
+
+北東(ほくとう)	NE
+北西(ほくせい)	NW
+南東(なんとう)	SE
+南西(なんせい)	SW
+
+=== {idx:english:～側(がわ)@prepositional nouns!側(がわ)} — {idx:english:...side} ===
+
+This is not so much a conceptual noun as a suffix for several of the nouns listed so far. Suffixed to various of these words, 側 signifies "side", so that 上 means "above", but 上側 means "the top side" (although it is then pronounced うわがわ); 右 means "right", but 右側 means "the right (hand) side". The list of nouns modified in this way is:
+
+noun	side	meaning
+
+上(うえ)	{idx:english:上側(うわがわ)}	the {idx:english:prepositional location!top}
+下(した)	{idx:english:下側(したがわ)}	the {idx:english:prepositional location!underside}
+表(おもて)	{idx:english:表側(おもてがわ)}	the {idx:english:prepositional location!front}, the {idx:english:prepositional location!facing side}
+裏(うら)	{idx:english:裏側(うらがわ)}	the {idx:english:prepositional location!reverse}, the {idx:english:prepositional location!other side}
+内(うち)	{idx:english:内側(うちがわ)}	the {idx:english:prepositional location!interior}
+外(そと)	{idx:english:外側(そとがわ)}	the {idx:english:prepositional location!exterior}
+左(ひだり)	{idx:english:左側(ひだりがわ)}	the {idx:english:prepositional location!left side}
+右(みぎ)	{idx:english:右側(みぎがわ)}	the {idx:english:prepositional location!right side}
+向(む)こう	{idx:english:向(む)こう側(がわ)}	the {idx:english:prepositional location!other side}, the {idx:english:prepositional location!opposing side}
+北(きた)	{idx:english:北側(きたがわ)}	the {idx:english:prepositional location!northern side}
+南(みなみ)	{idx:english:南側(みなみがわ)}	the {idx:english:prepositional location!southern side}
+東(ひがし)	{idx:english:東側(ひがしがわ)}	the {idx:english:prepositional location!eastern side}
+西(みし)	{idx:english:西側(にしがわ)}	the {idx:english:prepositional location!western side}
+
+===== In Summary =====
+
+And so we've reached the end of the particles chapter. This chapter covered quite a number of particles, some of which are essential, some of which good to know, and some of which are downright rare, as well as showing you which constructions to use when particles aren't used.
+
+What does this leave? While we've certainly covered enough particles to last you quite a while in your study of Japanese, there's one particular kind of particle that wasn't covered in this chapter, the counter particle. This isn't really just one particle, but a category of particles, with a basic set that is large enough to warrant an entire chapter being dedicated to them. In order to do any kind of counting in Japanese, a knowledge not just of numbers, but also of counter particles is essential, and we shall be looking at this in the next chapter.

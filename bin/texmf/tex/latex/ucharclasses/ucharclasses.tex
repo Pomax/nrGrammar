@@ -1,0 +1,465 @@
+\documentclass{article}
+\usepackage{tocloft}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+\setlength{\paperwidth}{7in} 
+\setlength{\paperheight}{11in}
+\setlength{\topmargin}{0in}
+\setlength{\hoffset}{0.5in}
+\setlength{\voffset}{-0.5in}
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{5.5in}
+\setlength{\oddsidemargin}{0.0in}
+
+
+\renewcommand{\labelitemi}{・}
+
+% some custom environments, to force on-same-page-ness
+
+\newenvironment{itemlist}{%
+  \begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parsep}{0pt}
+	\setlength{\topsep}{0pt}
+	\setlength{\partopsep}{0pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\labelsep}{5pt}}%
+{
+  \end{itemize}}
+
+\newenvironment{numberlist}{%
+  \begin{enumerate}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parsep}{0pt}
+	\setlength{\topsep}{0pt}
+	\setlength{\partopsep}{0pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\labelsep}{5pt}}%
+{
+  \end{enumerate}}
+
+% and the font switching magic
+\usepackage{ucharclasses}
+\usepackage{fontspec}
+\usepackage{bidi}
+
+% default transition uses the widest coverage font I know of
+\setDefaultTransitions{\fontspec{Code2000}}{}
+
+% overrides on the default rules for specific informal groups
+\setTransitionsForLatin{\fontspec{Palatino Linotype}}{}
+\setTransitionsForCJK{\fontspec{SimSun}}{}
+\setTransitionsForJapanese{\fontspec{Ume Mincho}}{}
+\setTransitionsForArabic{\fontspec{Tahoma}\setRTL}{\setLTR}
+
+% overrides on the default rules for specific unicode blocks
+\setTransitionTo{CJKUnifiedIdeographsExtensionB}{\fontspec{SimSun-ExtB}}
+\setTransitionTo{Hebrew}{\fontspec{Times New Roman}}
+\setTransitionTo{Thai}{\fontspec{IrisUPC}}
+\setTransitionTo{Sinhala}{\fontspec{Iskoola Pota}}
+\setTransitionTo{Malayalam}{\fontspec{Arial Unicode MS}}
+\setTransitionTo{DominoTiles}{\fontspec{FreeSerif}}
+\setTransitionTo{MahjongTiles}{\fontspec{FreeSerif}}
+
+\begin{document}
+
+	\title{ucharclasses}
+	\author{Mike "Pomax" Kamermans}
+	\date{\today}
+	\maketitle
+
+	\tableofcontents
+
+	\pagebreak
+
+	\section{introduction}
+	
+		Sometimes you don't want to have to bother with font switching just because you're languages that are distinct enough to use different unicode blocks, but aren't covered by the polyglossia package. Where normal word processing packages such as MS, Star- or OpenOffice pretty much handle this for you, \LaTeX\ (because it needs you to tell it what to do) has no default behaviour for this, and so we arrive at a need for a package that does this for us. You already discovered that regular \LaTeX\ has no understanding of unicode (in fact, it has no understanding of 8-bit characters at all, it likes them in seven bits instead), and ended up going for Xe(La)TeX as your TeX compiler of choice, which means you now have two excellent resources available: fontspec, and ucharclasses.
+		
+		The first of these lets you pick fonts based on what your system calls them, without needing to rewrite them as metafont files. This is convenient. This is good. The second lets you define what should happen when we change from a character in one unicode block, to a character in another. This is also convenient, and paired with fontspec it offers automatic fontswitching in the same way that normal Office applications take care of this with you. With one big difference: you stay in control. If at some point you need the switch rule to use a completely different rule, in an Office application that's just too bad for you. In Xe(La)TeX, you stay on top of things and still get to say exactly what happens, and when.
+		
+		For instance, this document has no explicit font codes in the text itself, anywhere. Instead there are a few unicode block transition rules defined, which all say "when entering block ..., use fontspec to change the font to ...". As such, the following gibberish texts all just work:
+		
+		\begin{itemlist}
+			\item English: hfowehfoierfhioe (using Palatino Linotype)
+			\item Arabic: كطبعزذحقظر١٢٣٤٥ (using Tahoma and RTL/LTR rules)
+			\item Japanese: 飽コネ路は向声ふ語言 (using Ume Mincho)
+			\item Chinese: 么䛨䀃埳㡱𠁽𠔾𠣓 (Ume Mincho when overlapping Japanese, SimSun for the rest)
+			\item Hebrew: ץךהפסבכ֨֓ף֘ל֥דע֤֕ (using Times New Roman)
+			\item Thai: ฦษฤยคซหถฆบซตท (using IrisUPC)
+			\item Canadian first nations: ᔵᓇᒍᖚᗵᘼᙔᕒᓪ (using Code2000)
+			\item Sinhala: බඥඊගණජඑඎඞශ෴ (using Iskoola Pota)
+			\item Malayalam: ഢഘഴഒംഋഈമധറ (using Arial Unicode MS)
+			\item and even domino tiles, 🁇🀼🁐🁋🁚🁝, and mahjong tiles: 🀈🀈🀈🀉🀉🀉🀌🀌🀌🀎🀎🀎🀅🀅 (using FreeFont)
+		\end{itemlist}
+
+		However, be aware that this only "just works" for unicode blocks. If you are working with typographically overlapping languages, such as combining English and Vietnamese in one document, things get a lot more complex if you want one font for English and another for Vietnamese. Both of these languagese use Latin blocks, so it is inherently impossible to tell which language is intended based on which unicode block a character in a word belongs to.
+		
+	\section{use}
+
+		In order to get this all to work, the only thing that had to be incidated was a set of transition rules in the preamble:
+		
+		\disableTransitionRules
+		\begin{verbatim}
+　　　　　　\usepackage{ucharclasses}
+　　　　　　\usepackage{fontspec}
+　　　　　　\usepackage{bidi}
+
+　　　　　　\setDefaultTransitions{\fontspec{Code2000}}{}
+　　　　　　\setTransitionsForLatin{\fontspec{Palatino Linotype}}{}
+　　　　　　\setTransitionsForArabic{\fontspec{Tahoma}\setRTL}{\setLTR}
+　　　　　　\setTransitionsForCJK{\fontspec{SimSun}{}
+　　　　　　\setTransitionsForJapanese{\fontspec{Ume Mincho}}{}
+
+　　　　　　\setTransitionTo{CJKUnifiedIdeographsExtensionB}{\fontspec{SimSun-ExtB}}
+　　　　　　\setTransitionTo{Hebrew}{\fontspec{Times New Roman}}
+　　　　　　\setTransitionTo{Thai}{\fontspec{IrisUPC}}
+　　　　　　\setTransitionTo{Sinhala}{\fontspec{Iskoola Pota}}
+　　　　　　\setTransitionTo{Malayalam}{\fontspec{Arial Unicode MS}}
+　　　　　　\setTransitionTo{DominoTiles}{\fontspec{FreeSerif}}
+　　　　　　\setTransitionTo{MahjongTiles}{\fontspec{FreeSerif}}
+		\end{verbatim}
+		\enableTransitionRules
+
+		By default, ucharclasses is agnostic with regards to what you want to at the start or end of unicode blocks, so while using it for fontswitching is the most obvious application, you could also use it for far more creative purposes. An example of this is the Arabic block, which doesn't just need a different font, but also needs the text direction reversed, as it is read right-to-left, rather than left-to-right.
+
+		\subsection{overriding ucharclass transitions}
+		
+			If you need to "override" ucharclass transition rules (for instance, you want a custom font for a bit of cross-unicode-block text), you will want to temporarily disable and reenabled XeTeX's interchartoks state. You can do this in three ways:
+			
+			\begin{numberlist}
+				\item call [\textbackslash XeTeXinterchartokstate = 0] before, and [\textbackslash XeTeXinterchartokstate = 1] after you're done,
+				\item call the macros \textbackslash disableTransitionRules before, and \textbackslash enableTransitionRules after you're done, or
+				\item call \textbackslash uccoff before, and \textbackslash uccon after you're done.
+			\end{numberlist}
+			
+			This last option is mainly there because it's nice and short, and is more convenient in a scoped environment \{\textbackslash uccoff such as this\textbackslash uccon\} where you only want to override the transition behaviour within a paragraph. If you need it disabled for a few blocks of text instead, the full name commands are probably a better choice, because it makes your .tex more readable. As the base XeTeX command uses the un\LaTeX y "... = ..." construction, it's best to avoid it outside of the preamble (and when using ucharclasses, should not be in the preamble at all).
+
+	\section{commands}
+		
+		\subsection{\textbackslash setTransitionTo[2]}
+
+			This command has two arguments:
+			
+			\begin{numberlist}
+				\item The name of the unicode class to which the transition should apply (see 'Unicode blocks' list)
+				\item The code you want used when entering this unicode block
+			\end{numberlist}
+
+		\subsection{\textbackslash setTransitionFrom[2]}
+
+			This command has two arguments:
+			
+			\begin{numberlist}
+				\item The name of the unicode class to which the transition should apply (see 'Unicode blocks' list)
+				\item The code you want used when exiting this unicode block
+			\end{numberlist}
+		
+		\subsection{\textbackslash setTransitions[3]}
+		
+			This command has three arguments:	
+		
+			\begin{numberlist}
+				\item The name of the unicode class to which the transition should apply (see 'Unicode blocks' list)
+				\item The code you want used when entering this unicode block
+				\item The code you want used when exiting this unicode block
+			\end{numberlist}
+
+		\subsection{\textbackslash setTransitionsForXXXX[2]}
+
+			There are a number of these commands, pertaining to particular "informal groups": collections of unicode blocks which can be considered part of a single meta-block. Available informal groups (the names of which replace the XXXX in the section-stated command) are:
+			
+			\begin{itemlist}
+				\item Arabic
+				\item Chinese
+				\item CJK
+				\item Cyrillic
+				\item Diacritics
+				\item Greek
+				\item Korean
+				\item Japanese
+				\item Latin
+				\item Mathematics
+				\item Phonetics
+				\item Punctuation
+				\item Symbols
+				\item Yi
+				\item Other
+			\end{itemlist}
+			
+			Furthermore, these commands have two arguments:
+			
+			\begin{numberlist}
+				\item The code you want used when entering blocks from the command's informal group
+				\item The code you want used when exiting blocks from the command's informal group
+			\end{numberlist}
+		
+		\subsection{\textbackslash setDefaultTransitions[2]}
+		
+			This is a blanket command that lets you set up the same to and from transition rules for all blocks in one go. It has (fairly obviously) two arguments:
+			
+			\begin{numberlist}
+				\item The code you want used when entering any unicode block
+				\item The code you want used when exiting any unicode block
+			\end{numberlist}
+
+	\section{Code}
+	
+		The code relies on individual tex files that define the unicode blocks, each starting with:
+		
+		\disableTransitionRules
+		\begin{verbatim}
+　　　　　　\newcommand{\UnicodeBlockNameClass}{somenumber}
+		\end{verbatim}
+		\enableTransitionRules
+		
+		The classes are automatically numbered, per run, by using the \textbackslash newXeTeXintercharclass command. The code then simply iterates over the class numbers from lower bound to upper bound; lower bound is recorded by calling \textbackslash newXeTeXintercharclass once, before loading all the unicode blocks. Every block that is loaded then increments the class counter by calling \textbackslash newXeTeXintercharclass for its class, and after the loading is done \textbackslash newXeTeXintercharclass is called once more to get the iteration upper bound. This technically wastes two class numbers, but this is fairly irrelevant given the number of classes we use for all the different unicode blocks.
+		
+		The block loading code is defined as follows:
+		
+		\disableTransitionRules
+		\begin{verbatim}
+　　　　　　\newcounter{glyphcounter}
+　　　　　　\newcommand{\@defineUnicodeClass}[3]{
+　　　　　　　　　　\newXeTeXintercharclass#1
+　　　　　　　　　　\forloop{glyphcounter}{#2}{\value{glyphcounter}<#3}{
+　　　　　　　　　　　　　　\XeTeXcharclass\value{glyphcounter}=#1}
+　　　　　　　　　　\XeTeXcharclass#3=#1}		
+
+　　　　　　\newXeTeXintercharclass\@classstart
+　　　　　　\@defineUnicodeClass{\AegeanNumbersClass}{65792}{65855}
+　　　　　　...
+　　　　　　\@defineUnicodeClass{\YijingHexagramSymbolsClass}{19904}{19967}
+　　　　　　\newXeTeXintercharclass\@classend
+		\end{verbatim}
+		\enableTransitionRules
+
+		And the transition commands are defined as follows:
+
+		\disableTransitionRules
+		\begin{verbatim}
+　　　　　　\newcommand{\setTransitionsFor}[3]{
+　　　　　　　　　　\forloop{iclass}{he\@classstart}{\value{iclass} < \@nameuse{#1Class}}{
+　　　　　　　　　　　　　　\@transition{he\value{iclass}}{\@nameuse{#1Class}}{{#2}}
+　　　　　　　　　　　　　　\@transition{\@nameuse{#1Class}}{he\value{iclass}}{{#3}}}
+　　　　　　　　　　\addtocounter{iclass}{2}
+　　　　　　　　　　\forloop{iclass}{\value{iclass}}{\value{iclass} < he\@classend}{
+　　　　　　　　　　　　　　\@transition{he\value{iclass}}{\@nameuse{#1Class}}{{#2}}
+　　　　　　　　　　　　　　\@transition{\@nameuse{#1Class}}{he\value{iclass}}{{#3}}}
+　　　　　　　　　　% and a binding for the transitions to and from boundary characters
+　　　　　　　　　　\@transition{255}{\@nameuse{#1Class}}{{#2}}
+　　　　　　　　　　\@transition{\@nameuse{#1Class}}{255}{{#3}}}
+　　　　　　
+　　　　　　\newcommand{\setTransitionTo}[2] {
+　　　　　　　　　　\forloop{iclass}{\the\@classstart}{\value{iclass} < \@nameuse{#1Class}}{
+　　　　　　　　　　　　　　\@transition{\the\value{iclass}}{\@nameuse{#1Class}}{{#2}}}
+　　　　　　　　　　\addtocounter{iclass}{2}
+　　　　　　　　　　\forloop{iclass}{\value{iclass}}{\value{iclass} < \the\@classend}{
+　　　　　　　　　　　　　　\@transition{\the\value{iclass}}{\@nameuse{#1Class}}{{#2}}}
+　　　　　　　　　　% and a binding for the transition from boundary characters
+　　　　　　　　　　\@transition{255}{\@nameuse{#1Class}}{{#2}}}						
+　　　　　　
+　　　　　　\newcommand{\setTransitionFrom}[2]{
+　　　　　　　　　　\forloop{iclass}{\the\@classstart}{\value{iclass} < \@nameuse{#1Class}}{
+　　　　　　　　　　　　　　\@transition{\@nameuse{#1Class}}{\the\value{iclass}}{{#2}}}
+　　　　　　　　　　\addtocounter{iclass}{2}
+　　　　　　　　　　\forloop{iclass}{\value{iclass}}{\value{iclass} < \the\@classend}{
+　　　　　　　　　　　　　　\@transition{\@nameuse{#1Class}}{\the\value{iclass}}{{#2}}}
+　　　　　　　　　　% and a binding for the transition to boundary characters
+　　　　　　　　　　\@transition{\@nameuse{#1Class}}{255}{{#2}}}
+		\end{verbatim}
+		\enableTransitionRules
+		
+		The broad level \textbackslash setTransitionsFor(InformalGroupName)[2] commands are essentially wrapper commands, calling \textbackslash setTransitionsFor for each blocks that is in the informal group. For Arabic, for instance, the code is:
+		
+		\disableTransitionRules
+		\begin{verbatim}
+　　　　　　\newcommand{\setTransitionsForArabic}[2]{
+　　　　　　　　　　\setTransitionsFor{Arabic}{#1}{#2}
+　　　　　　　　　　\setTransitionsFor{ArabicPresentationFormsA}{#1}{#2}
+　　　　　　　　　　\setTransitionsFor{ArabicPresentationFormsB}{#1}{#2}
+　　　　　　　　　　\setTransitionsFor{ArabicSupplement}{#1}{#2}
+　　　　　　}
+		\end{verbatim}
+		\enableTransitionRules
+		
+	\section{Unicode blocks}
+	
+		The following unicode blocks are available:
+		
+		\begin{multicols}{2}
+			\begin{itemlist}
+				\item AegeanNumbers
+				\item AlphabeticPresentationForms
+				\item AncientGreekMusicalNotation
+				\item AncientGreekNumbers
+				\item AncientSymbols
+				\item Arabic
+				\item ArabicPresentationFormsA
+				\item ArabicPresentationFormsB
+				\item ArabicSupplement
+				\item Armenian
+				\item Arrows
+				\item Balinese
+				\item BasicLatin
+				\item Bengali
+				\item BlockElements
+				\item Bopomofo
+				\item BopomofoExtended
+				\item BoxDrawing
+				\item BraillePatterns
+				\item Buginese
+				\item Buhid
+				\item ByzantineMusicalSymbols
+				\item Carian
+				\item Cham
+				\item Cherokee
+				\item CJKCompatibility
+				\item CJKCompatibilityForms
+				\item CJKCompatibilityIdeographs
+				\item CJKCompatibilityIdeographsSupplement
+				\item CJKRadicalsSupplement
+				\item CJKStrokes
+				\item CJKSymbolsandPunctuation
+				\item CJKUnifiedIdeographs
+				\item CJKUnifiedIdeographsExtensionA
+				\item CJKUnifiedIdeographsExtensionB
+				\item CombiningDiacriticalMarks
+				\item CombiningDiacriticalMarksforSymbols
+				\item CombiningDiacriticalMarksSupplement
+				\item CombiningHalfMarks
+				\item ControlPictures
+				\item Coptic
+				\item CountingRodNumerals
+				\item Cuneiform
+				\item CuneiformNumbersandPunctuation
+				\item CurrencySymbols
+				\item CypriotSyllabary
+				\item Cyrillic
+				\item CyrillicExtendedA
+				\item CyrillicExtendedB
+				\item CyrillicSupplement
+				\item Deseret
+				\item Devanagari
+				\item Dingbats
+				\item DominoTiles
+				\item EnclosedAlphanumerics
+				\item EnclosedCJKLettersandMonths
+				\item Ethiopic
+				\item EthiopicExtended
+				\item EthiopicSupplement
+				\item GeneralPunctuation
+				\item GeometricShapes
+				\item Georgian
+				\item GeorgianSupplement
+				\item Glagolitic
+				\item Gothic
+				\item GreekandCoptic
+				\item GreekExtended
+				\item Gujarati
+				\item Gurmukhi
+				\item HalfwidthandFullwidthForms
+				\item HangulCompatibilityJamo
+				\item HangulJamo
+				\item HangulSyllables
+				\item Hanunoo
+				\item Hebrew
+				\item Hiragana
+				\item IdeographicDescriptionCharacters
+				\item IPAExtensions
+				\item Kanbun
+				\item KangxiRadicals
+				\item Kannada
+				\item Katakana
+				\item KatakanaPhoneticExtensions
+				\item KayahLi
+				\item Kharoshthi
+				\item Khmer
+				\item KhmerSymbols
+				\item Lao
+				\item LatinExtendedA
+				\item LatinExtendedAdditional
+				\item LatinExtendedB
+				\item LatinExtendedC
+				\item LatinExtendedD
+				\item LatinSupplement
+				\item Lepcha
+				\item LetterlikeSymbols
+				\item Limbu
+				\item LinearBIdeograms
+				\item LinearBSyllabary
+				\item loadblocks.tex
+				\item Lycian
+				\item Lydian
+				\item MahjongTiles
+				\item Malayalam
+				\item MathematicalAlphanumericSymbols
+				\item MathematicalOperators
+				\item MiscellaneousMathematicalSymbolsA
+				\item MiscellaneousMathematicalSymbolsB
+				\item MiscellaneousSymbolsandArrows
+				\item MiscellaneousSymbols
+				\item MiscellaneousTechnical
+				\item ModifierToneLetters
+				\item Mongolian
+				\item moo.txt
+				\item MusicalSymbols
+				\item Myanmar
+				\item NewTaiLue
+				\item NKo
+				\item NumberForms
+				\item Ogham
+				\item OldChiki
+				\item OldItalic
+				\item OldPersian
+				\item OpticalCharacterRecognition
+				\item Oriya
+				\item Osmanya
+				\item PhagsPa
+				\item PhaistosDisc
+				\item Phoenician
+				\item PhoneticExtensions
+				\item PhoneticExtensionsSupplement
+				\item PrivateUseArea
+				\item Rejang
+				\item Runic
+				\item Saurashtra
+				\item Shavian
+				\item Sinhala
+				\item SmallFormVariants
+				\item SpacingModifierLetters
+				\item Specials
+				\item SuperscriptsandSubscripts
+				\item SupplementalArrowsA
+				\item SupplementalArrowsB
+				\item SupplementalMathematicalOperators
+				\item SupplementalPunctuation
+				\item SupplementaryPrivateUseAreaA
+				\item SupplementaryPrivateUseAreaB
+				\item SylotiNagri
+				\item Syriac
+				\item Tagalog
+				\item Tagbanwa
+				\item Tags
+				\item TaiLe
+				\item TaiXuanJingSymbols
+				\item Tamil
+				\item Telugu
+				\item Thaana
+				\item Thai
+				\item Tibetan
+				\item Tifinagh
+				\item Ugaritic
+				\item UnifiedCanadianAboriginalSyllabics
+				\item Vai
+				\item VariationSelectors
+				\item VariationSelectorsSupplement
+				\item VerticalForms
+				\item YijingHexagramSymbols
+				\item YiRadicals
+				\item YiSyllables
+			\end{itemlist}
+		\end{multicols}
+			
+\end{document}

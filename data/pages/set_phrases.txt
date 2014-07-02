@@ -1,0 +1,372 @@
+====== License Information ======
+
+All wiki content on the pages of grammar.nihongoresources.com are (c) Michiel Kamermans. Comment posters retain the rights to their comments, but posters understand that the improvements to the content that follow from their comments become part of the wiki content and thus fall under nihongoresources copyright. You may quote from this work, providing that proper citation is observed (one or two lines uncredited is fine, more than that and it is generally understood that you should cite your source). This website acts as the live repository for the nihongoresources grammar book, and as such should be considered a permanent draft copy of the next upcoming revision. You are not permitted to create derivative works, nor may you sell, or bundle with a sale for the purpose of enriching the sold product, the content from this website either in original or derived form. Any rights not mentioned here are implicitly reserved by nihongoresources. Should you have questions pertaining to this license, please contact me through the nihongoresources.com website.
+
+====== Set phrases ======
+
+Every language has its set phrases for things like thanking people, or excusing yourself, or phrases that are used idiomatically, meaning something other than what the words would literally imply, such as telling someone to "take a chair" or "make themselves at home". This appendix lists several common Japanese phrases, and per phrase gives the grammatical decomposition that can be made given all the material that has been presented in this book, with the phrases being ordered according to Japanese custom (starting at あ through お, and ending at ん).
+
+==== 上(あ)がって下(くだ)さい — "Please come in" ====
+
+Coming from the verb 上がる (あがる), this sentence literally says "please be raised". Its non-literal meaning comes from the fact that the traditional Japanese house has a raised floor at the entrance, where one takes off one's shoes and steps up into the house itself.
+
+==== 有(あり)難(がと)う御(ご)座(ざ)います — "Thank you" ====
+
+As mentioned in the adjective section, this is an example of classical adjective pronunciation, and is actually a long chain of conjugations:
+
+  ある in 連用形 + 難(がた)い in classical pronunciation + ござる in 連用形 + ます
+  ↓
+  あり + がとう + ござい + ます
+  ↓
+  ありがとうございます
+
+This literally means "this is a difficult thing to accept", stemming from the concept of becoming indebted to someone who helps you. As becoming (further) indebted to someone is always a hard thing to accept, this phrase is used instead of a separate word for thanking.
+
+There are various ways to use this sentence, the most indebting being どうもありがとうございます, which adds the word どうも to the phrase, meaning "in all possible ways", coming from the question pronoun どう (how, in what way) and the generalising pronoun suffix も.
+
+Still formal indebting is ありがとうございます. Just ありがとう, however, is not polite. It comes down to saying "thanks", and pays improper respect to people who do something for you and are of higher social status. Never just say ありがとう to your teacher for instance. Always use ありがとうございます.
+
+This expression can either be used in present, or future, tense (ありがとうございます) or it can be used in past tense (ありがとうございました), with the difference lying in when the thanking is being done: if it is after the fact, ありがとうございました will be used, and if it's either prior to, or during whatever we're being thankful for, ありがとうございます is used.
+
+==== いいえ — Disagreement ====
+
+The Japanese version of "no". Alternatives to いいえ are the more colloquial ううん, and the more emphatic いや.
+
+==== いけない — "Oh no", "this won't do" ====
+
+This word is often used to express that something will not do, is about to be done wrong, or is at this very moment going wrong. It's technically the short potential form of 行く, 行ける, and literally means "this cannot go". Used in this way, it is typically written in hiragana only.
+
+==== いただきます — Said when one is about to eat ====
+
+This statement literally means "I will accept [this]", in the receiving meaning of accept, and is used when one is about to eat in the company of others. This is similar to, for instance, the Christian practice of giving thanks for the food about to be received, but without the religious aspect. When one is done eating, one uses ごちそうさまでした to indicate that one is done.
+
+==== 行(い)って来(き)ます — "I will go and come back" ====
+
+This is said when one leaves a place that one expects to come back to. The most obvious example is when one goes off for one's job or school in the morning, when it is used to say goodbye to whoever is still in the house. The standard reply, if warranted, is いってらっしゃい.
+
+
+==== いって(い)らっしゃい — Said when someone who will return, leaves. ====
+
+Literally this is the honorific version of the command 行(い)って来(き)て, "go and come back", where the speaker tells the listener to go on their business and come back afterwards. This phrase is said to people who are leaving a place where they are expected to return, such as their house, typically in response to 行ってきます. The first い in the いらっしゃい part of いってらっしゃい is typically omitted after a て form, similar to how the い in いる is typically omitted when used with the て form.
+
+==== いらっしゃいませ — "Be welcome" ====
+
+This is literally the commanding form of the honorific verb いらっしゃる, and is used by tenants to welcome their customers into their place of business. It doesn't technically mean "be welcome", but that's what it has come to be considered to mean.
+
+==== お帰(かえ)りなさい — "Welcome back" ====
+
+This phrase is the typical response to ただいま, and welcomes someone back home, or back to a place that can be considered a base of departure, such as your office, when you went out for a power meeting with management and have returned unscathed.
+
+This phrase is technically the honorific commanding form of 帰る, "to return [to some base]":
+
+  お + 帰る in 連用形 + なさる in 命令形
+  ↓
+  お + 帰り + なさい
+  ↓
+  お帰りなさい
+
+==== お蔭様(かげさま)で — "Thanks to you" ====
+
+This phrase is a typical reply to the question お元気ですか ("how do you do?"), in which case it is usually preceded by an affirmative such as はい. It is also used frequently in situations where someone receives praise from someone who contributed to whatever the praise is for. Traditionally, a 陰 — meaning "shadow" or "shadow figure" — is used to mean someone who acts as the unseen driving force behind other people. Literally, saying お蔭様で means "due to your being like a shadow for me", and can be interpreted as "because of [your] contributing actions, [I am where I am now, at this moment]".
+
+==== お元気(げんき)で — "Get better", "stay well" ====
+
+This phrase can be considered the statement お元気でいて, "be well", with the いて left off. It is used as a general parting phrase with people who you will not be seeing the very next day, such as when seeing an incidental friend off, as well as a parting phrase for people who can use well-wishing, such as friends who seem a bit down.
+
+==== お元気(げんき)ですか — "How are you?" ====
+
+This is a terribly misused phrase by people who start to take an interest in Japanese, who mistaken it for "hello".
+
+お元気ですか literally asks "are you 元気", which means that it asks whether someone is feeling good about things in general. This is something you do not ask someone every day, but only when you haven't seen someone in a while, or when there is a reason to ask them, such as when someone has just recovered from an illness. In this last case, the question may also be of the form もう元気ですか, meaning "are you 元気 again (already)?".
+
+元気のない人, people who are not 元気, are typically depressed, gloomy, glum, down and out, and for all intents and purposes a mood killer for everyone around them. Asking these people whether they are 元気 is a bit like driving home the point that they aren't happy with a big pointy stick, so instead the phrase 元気ないみたいですね is typically used, carefully remarking that they "do not seem very 元気".
+
+==== お先(さき)に — Said when leaving early ====
+
+Said when leaving earlier than you normally would (namely when everyone else leaves), お先に literally says "before [you/everyone else]" and is short for お先に行(い)ってきます. This can be met with two responses, namely either a set phrase such as お疲(つか)れ様(さま)でした or ご苦労様(くろさま)でした, or with surprise at the act of leaving early for no clear reason.
+
+==== お邪魔(じゃま)します — Entering someone's house ====
+
+The noun 邪魔 means obstruction or interference, and this sentence is a particularly good example of Japanese formality: this phrase is used when one is invited into a house. Courtesy demands that you indicate that even though you have been invited, you will intrude upon their home life by accepting this invitation and entering their house.
+
+Because this phrase literally means "I'll be intruding", it can also be used when one really is intruding, such as breaking up an intimate conversation because you need to talk to one of the conversationalists, or when barging in on people.
+
+==== お世話(せわ)します — Treating someone ====
+
+世話 means caring, in the giveable caring kind of way. Paired with する, the combination 世話()(を)する means "to give care to someone" in the positive sense, and is generally understood as meaning you will be treating someone to something. This phrase is used, for instance, when picking up the tab for someone (this will naturally be paired with some refusal by the treatee, and insistence on the part of the treater, but this is part of the Japanese process of doing things for people).
+
+==== お世話(せわ)になります — To be taken care of ====
+
+Pairing 世話 with the verb なる, "become", the combination 世話になる means "to be taken care of by someone" in the positive sense. For instance, when someone is offering to do something for you like pay the bill after dinner, or take care of you when you're sick and you wish to oblige them, you use the phrase お世話になります to indicate that you will be taken care of in some way by them.
+
+==== お大事(だいじ)に(して) — "Take care" ====
+
+大事 is a "valuable thing", in the figurative sense. When someone is told お大事にして下(くだ)さい, they are told to "please act in a way so that they are treating themselves as something valuable". This full sentence is often shortened to just お大事に.
+
+For instance, when saying goodbye to someone who you will not see in a while, you typically wish them お大事に so that you may meet them again in good health at some point in the future.
+
+==== お疲(つか)れ様(さま)(です/でした) — "You've worked hard" ====
+
+お疲れ様 literally means "the appearance of tiredness", and comes from the noun form of the verb 疲れる, "to tire", prefixed with the honorific お and suffixed with the more classical likeness suffix 様(さま). This statement is used when someone has performed a tiring job, or when one goes home after a day of working.
+
+==== お腹(なか)が空(す)きました — Being hungry ====
+
+One states that one is hungry by saying their stomach has become empty. Variations on this theme are the plain past tense instead of formal past tense お腹が空いた or with the subject marker omitted, お腹すいた. Colloquial versions are 腹(はら)が減(へ)った (note the different pronunciation for 腹) or simply 腹減った.
+
+==== お願(ねが)いします — "Please" ====
+
+Literally this phrase reads "(I) wish it", but is commonly interpreted as meaning "please" in the context of prompting someone to do something for you. It comes from the verb 願う, to wish:
+
+  お + 願う in 連用形 + する in 連用形 + ます
+  ↓
+  お + 願い + します
+  ↓
+  お願いします
+
+==== お早(はよ)うございます — "Good morning" ====
+
+This phrase doesn't actually contain the word "morning" in any way, which explains why it's possible to use this phrase at later points in the day. Literally, this is the statement 早いです, only in humble classical form:
+
+  早い in classical form + 連用形 of ござる + ます
+  ↓
+  おはよう + ござい + ます
+  ↓
+  お早うございます
+
+This statement basically affirms that some meeting is reasonably early for when it occurs. For school goers, 8:30 am could be early; for bookmakers, 1 p.m. could be early. It all depends on when your daily routine day starts.
+
+==== お久(ひさ)し振(ぶ)りです — "It's been a long time" ====
+
+This phrase is actually grammatically quite interesting as it consists of a noun compound formed of the verbal adjective 久しい, "long (timed)" and the verb 振る, "to end/give up", which as compound is turned into a noun and prefixed with the honorific particle お, covering all the major word groups (verb, adjective, noun and particle) in a single term:
+
+  お + 久しい as 語幹 + 振る in 連用形 (suffering from a voiced pronunciation as compound) + です
+  ↓
+  お + 久し + ぶり + です
+  ↓
+  お久し振りです
+
+This phrase is used when a silence between two people is broken after some time, be this in writing, by virtue of a phone call, or by actually seeing someone in person again.
+
+==== おめでとうございます — Congratulations ====
+
+Literally this phrase is a combination of めでたい (meaning auspicious) in classical form paired with ござる:
+
+  お + めでたい in classical form + ござる in 連用形 + ます
+  ↓
+  お + めでとう + ございます
+  ↓
+  おめでとうございます
+
+This phrase can be used with a million and one words to congratulate on any number of things, usually following the て form of descriptions of what the congratulations are offered for:
+
+  結婚(けっこん)しておめでとうございます。
+  "Congratulations on getting married."
+
+  誕生日(たんじょうび)おめでとうございます。
+  "Congratulations on your birthday."
+
+  卒業(そつぎょう)しておめでとうございます。
+  "Congratulations on graduating."
+
+et cetera, et cetera.
+
+==== お休(やす)みなさい — "Good night" ====
+
+This phrase is said when one goes to bed, and is repeated by those who wish you a good night. It is technically the honorific commanding form of 休む, to rest, and is used to wish everyone else a good night too.
+
+  お + 休む in 連用形 + なさる in 命令形
+  ↓
+  お + 休み + なさい
+  ↓
+  お休みなさい
+
+==== 気(き)を付(つ)けて(下(くだ)さい) — "Take care", "Be careful" ====
+
+Literally, this phrase instructs someone to apply 気, in this case best translated as "vigilance", to whatever it is they are, or will be, doing. It is used when you wish someone to be careful, such as when they are about to do something potentially dangerous — whether it's rewiring a wall socket, or heading out in a storm at midnight without a torch — or when they're going to be in an environment that may be hazardous in some way — be it starting a school term at a new school, or going off to do your job as a fireman.
+
+==== ご苦労様(くろうさま)(です/でした) — "Job well done" ====
+
+Literally, this phrase doesn't say "well done" at all, but actually translates to "it would appear that you have exerted considerable effort", 苦労 (くろう), with the fact that this was actually "good" effort only being implied by the fact that you're not being told you've done a bad job instead. This phrase can be used whenever someone has finished doing a tough job, or has had a rough day.
+
+This phrase is also used as a reply to お先(さき)に, when used by someone for whom it's okay to leave work before others do (even if only by a few minutes). Colloquially the 様 in ご苦労様 can be replaced with さん, to create the more relaxed sounding ご苦労さん.
+
+==== ご馳走様(ちそうさま)(でした) — Said when one is done eating ====
+
+This expression has no usable translation because it's a customary saying. Literally this phrase means "it was a feast", stemming from the noun 馳走(ちそう) which means banquet and all the things a banquet entails such as good food and decent entertainment, and the likeness suffix 様(さま).
+
+This phrase is the counterpart to the customary saying いただきます, said prior to consuming anything in the company of others.
+
+==== ご免(めん)下(くだ)さい — "Please excuse me" ====
+
+This phrase is used in two common settings. The first is when hanging up on a phone conversation when you are the one hanging up, and the second is when you're entering a place which you know is someone else's, but you don't see anyone around. Literally, 免 means dismissal, and this phrase asks for the listener to please dismiss your behaviour as it is intrinsically rude.
+
+==== ご免(めん)なさい — "Please forgive me" ====
+
+This construction is more oriented towards asking for forgiveness rather than just being excused. When you have done something wrong, and you know you did, apologise with ごめんなさい.
+
+This phrase is also used to turn down important offers, where the act of turning down the offer may lead to problems for the other party (such as when someone is depending on you, or when someone confesses their love for you).
+
+When being specific about what you are asking forgiveness for, ごめんなさい follows the description in て form:
+
+  ケーキを食(た)べて、ごめんなさい。
+  "I'm sorry for eating (your) cake."
+
+==== 今日(こんにち)は — "Good day" ====
+
+This is the particle は (pronounced わ), added to the noun 今日 meaning "day" (pronounced こんにち instead of きょう). It's technically an unfinished phrase just raising the topic of "today" and then saying absolutely nothing in regards to it, but this has become the standard way to say "good day" in Japanese.
+
+==== 今晩(こんばん)は — "Good evening" ====
+
+Like こんにちは, this is just は added to 今晩, "this evening".
+
+==== さようなら — "Farewell" ====
+
+Realise the full meaning of this word before you use it: さようなら is short for 左様(さよう)ならばお暇(いとま)を申(もう)します, which is old Japanese for "Things being as they are, I shall speak my farewells". The modern version, too, really does mean "farewell" and not just a plain "good bye". There is a very explicit connotation that it will be a considerable time until the speaker will see again the person they're seeing off, if ever.
+
+==== 仕方(しかた)がない — "There is nothing (...) can do about it" ====
+
+This phrase is quite often (and to the horror of many a translator) translated literally as "there is no helping it". Now, the number of times you will hear that phrase used in English is probably a very small number indeed, and as such this phrase is much better translated with "there's nothing [I/he/she/we] can do about it".
+
+仕方 is a conceptual noun for a "something that can be done", and is an example of kanji being applied to a reading instead of the other way around: this is actually the "way of doing" construction for する, し方, where し has been given the kanji 仕, meaning doing/service. Variations on this theme involve omitting が, 仕方ない, or replacing し方 with the more humble 致(いた)し方, and ない with the more polite ありません, leading to statements such as 致し方がありません.
+
+==== 失礼(しつれい)しました — "I have committed a rudeness" ====
+
+This is used as an excuse after the facts, when admitting that one has committed a rudeness.
+
+==== 失礼(しつれい)します — "Excuse me" ====
+
+失礼 literally means "a rudeness", and 失礼する means to commit a rudeness. When one has to excuse oneself from somewhere, for instance, when one is talking to a superior and is called away for some reason, or one has to go before the conversation is truly over, this expression is used (in combination with the appropriate level of bowing) to indicate that one is aware that one's actions will be somewhat rude.
+
+==== じゃあ、また — "See you again (later)" ====
+
+This phrase is an unfinished phrase that literally means "well then, again [some other time]", and is used as an informal goodbye when you expect to see each other again soon. The じゃあ comes from では, which in turn is short for それでは meaning "with this" or "by this" as context. また (又) means "again", and so the whole sentence can be unwrapped to それでは、また[...], where the final part of the sentence can be things like 明日(あした), "tomorrow", 後(あと)で, "later", and so forth. Because of all this dropping of terms, there are several statements that can be used which all mean the same thing, but varying in level of formality:
+
+それでは、また後で。	formal polite
+では、また後で。	formal polite
+では、また。	casual polite
+じゃあ、また。	informal
+じゃ、また。	informal
+またね。	very informal
+
+==== 済(す)みません — "Thank you", "Excuse me" ====
+
+A prime example that Japanese conceptualises certain things differently, すみません can actually mean "thank you" and "excuse me" at the same time when used. While meaning a simple "excuse me" if used when (for instance) bumping into someone in the street, it is also used when someone does something for you that will indebt you to them, such as catching your hat and handing it back if the wind catches it, or fixing some typos in an email you had written. Using すみません in these instances means both "thank you for doing this for me" as well as "I'm sorry to have caused you to do this for me" at the same time.
+
+This is technically the polite negative of 済(す)む, "to end", indicating that the debt between the two parties involved remains unsettled. Variations on the theme include the more colloquial すいません and very informal すまない and すまん.
+
+When being specific about what you are thanking apologetically for, すみません follows the description in て form.
+
+  手伝(てつだ)ってすみません。
+  "Thank you for helping out, and sorry for somehow having made you do so."
+
+==== そうですか — "Is that so?", "Really", "I see", "Aha" ====
+
+This is a typical phrase that doesn't mean what it seems to mean, even if half the time it does. Much like how half the time when a Japanese person says はい, they won't mean "yes" but are only indicating they're listening, そうですか is used to acknowledge that the speaker is still being listened to just as much as it's used to genuinely ask "is that so?".
+
+Only the context of the conversation is an indicator whether it's just a polite way to show that someone is still being listened to, or whether the listener is genuinely wondering about something said.
+
+==== そうですね — Showing agreement ====
+
+This phrase is often used when someone wants to emphatically agree in a conversation. It may also be used to indicate that the speaker has heard what has just been said and will respond to it, similar to はい. Misinterpreting it can lead to quite a bit of confusion:
+
+  A: もう終(お)わってますか。
+  B: そうですね。まだ終わってません。
+
+  A: "Have you finished yet?"
+  B: "Ah, yes... not yet."
+
+Here, B is first merely acknowledging that they heard the question, possibly even indicating that they think it's a good question, and the real answer comes after そうですね.
+
+==== ただいま  — "I'm back", "Right away" ====
+
+There are three meanings to this phrase, although typically you will only be familiar with the first: when returning from something that one had to leave for (at which point an いってきます would have been used), this phrase is used to signal the return. It is usually met with お帰(かえ)りなさい, an idiomatic expression translating to "welcome back". 
+
+The second meaning is quite different. When given an order to perform some task, using ただいま as response idiomatically translates to "right away". This use is typical in settings where someone is commanded to do something, such as in a master/servant relationship.
+
+Lastly, ただいま can also be used as a formal version of just 今(いま), meaning "now". In this meaning, you may also find it used a lot in the expression ただいまより[...], in which より is used in its classical (literary) meaning, being the same as the modern particle から, with the expression translating to "starting now", "as of now" or "from this moment on".
+
+==== 頼(たの)む — "Please" ====
+
+This is just the verb 頼む, "to leave in someone's care", but is frequently used as an expression both when offloading something to someone else (which can be considered quite rude), to mean "please do this for me", or when someone offers to do something for you and is giving off all the signals that they're being serious instead of being polite, as an implicit "thank you".
+
+==== どう致(いた)しまして - "Don't mention it", "you're welcome" ====
+
+This phrase is used in response to an expression of gratitude. Similar to how in English one might be polite by responding to "Thank you very much" with "you're welcome" or "it was my pleasure", this phrase acts as both an acknowledgement of the gratitude, as well as an indicator that the gratitude should not be experienced to the degree that the person doing the thanking is expressing (similar to how in English one might go "no, no, it was nothing").
+
+Grammatically speaking this construction is the humble version of どうして, but idiomatically these two expressions mean wildly different things, with どういたしまして being used to acknowledge or waive gratitude, and どうして being used to enquire the "why" of something.
+
+==== どうした — "What happened?" ====
+
+Being a combination of the pronoun どう, "how" or "in what way", and the past tense of する, this literally asks "by what way did [...] happen?". However, it is interpreted to mean "what happened?", instead. どうした is a short question to enquire what happened when someone seems upset, taken aback, or give off the impression that something happened that is unusual. A more formal way to ask this, though also more effeminate, is どうかしましたか.
+
+==== どうして(ですか) — "Why?", "How come?" ====
+
+This is the combination of どう, "how", and the verb する in て form. Using just どうして is technically an incomplete sentence, and implies that it should be finished with whatever verb best describes the situation that is being questioned. For instance, if someone refuses to help, the full sentence could be どうして手伝(てつだ)わないんですか, "why won't you help?", but just saying どうして is enough to act as question.
+
+==== どうぞ — Urging someone, "If it pleases you, ..." ====
+
+One of the power words in Japanese social language, どうぞ is used whenever you wish to politely urge someone to do something. For instance, if one has just served tea to guests and wishes to urge the guests to start drinking, a どうぞ combined with a sweeping hand gesture at the cups will convey the message that they should start drinking.
+
+This word can frequently be heard in combination with urging requests, forming a more polite version of the request. For instance, the earlier entry 上(あ)がって(ください) could be made more polite by turning it into どうぞ上がって(ください).
+
+==== どうぞお先(さき)に — "After you" ====
+
+A common form of politeness in Japan (although arguably in any culture) is to repress your own feelings and desires so that others might benefit. Of the many ways in which this can be expressed, probably the most common way is letting other people do something before you get a chance to do them, such as opening a door for someone else to pass through first, or letting someone else queue up before you queue up.
+
+The phrase combines どうぞ with 先に ("before") in honorary form, translating to -- if we're translating the intention of the expression rather than the literal words -- "If it pleases [you], [allow me to let you do whatever I wanted to do] before [I do so, too]".
+
+==== どうぞよろしく — "Pleased to meet you" ====
+
+"Pleased to meet you" is actually the "best cultural approximation" translation. The Japanese statement doesn't actually mean "pleased to meet you" at all, but relies on knowing what よろしく means. Being a noun derived from よろしい, "agreeable/acceptable", this statement literally says that the speaker hopes that everything that is the result of this meeting is of a good nature. It's only used once, when you first meet someone in a setting where you will work together in some capacity, and is more accurately described as saying "please treat me well in our future dealings".
+
+The more formal version is どうぞよりしくお願(ねが)いします, which adds the verb for "wishing" to the statement, thus expressing a sincere wish to be treated favourably in the future.
+
+The short form, just よろしく, can be used in a broader setting to indicate you will leave something to someone under the assumption that all will be well, and is similar to 頼(たの)む in this use.
+
+==== なぜ(ですか) — "Why?" ====
+
+This is the most direct version of "why", and is a pure interrogative; it's short, and literally means "what reason". Being the most direct, it's also quite rude, and there is no polite way to use this word, so it's best to try and avoid using it at all. Because it is technically a noun, it can be used in a softer form using です, but even then this is still considered more direct than asking the other two versions of "why" with です: 何(なん)でですか or どうしてですか.
+
+==== 何(なん)で(ですか) — "Why?" ====
+
+This particular version of "why" is considered more direct than どうして, but less direct than なぜ. It is indirect in that it literally asks "by which means [do you reason this way]?" or "by which means [did this situation arise]?", but is more direct because it's shorter than どうして and thus sounds more curt.
+
+
+==== 喉(のど)が渇(かわ)いています — Being thirsty ====
+
+When one is thirsty in Japan, one doesn't say "I am thirsty" but instead uses the less direct statement "my throat is dry", similar to how one could say "I am a bit parched" in English rather than saying "I'm a bit thirsty".
+
+==== はい — Acknowledgement ====
+
+While generally understood to mean "yes", はい actually signifies acknowledgement in general — it can be used as an acknowledging response to questions, in which case it means the same as "yes", but it can also be used to indicate that some speaker is still being listened to. Like そうですね, this may lead to situations where はい can be interpreted as either:
+
+  A: じゃあ、分(わ)かってますね。
+  B: はい。分かりません。
+
+  A: "So, (you) know (what this means), (don't you)."
+  B: [acknowledges the question] "No."
+
+Alternatives to はい are the more colloquial うん and the more explicitly acknowledging そう.
+
+==== 始(はじ)めまして — A formal greeting used when meeting someone for the first time ====
+
+Like どうして, this is technically an unfinished sentence, being the polite て form of 始める, "to start (something)". Literally, this sentence reads "[through our meeting, something] starts ...", which is why it is only used once in your life per person that you meet. In a setting where there will be a lasting cooperation between you and whoever you say this to, the conversation will typically steer towards どうぞよろしく or よろしくお願(ねが)いします, depending on the whether you will be potentially relying on the other person a lot.
+
+==== 腹(はら)が立(た)つ — Getting upset ====
+
+This phrase literally means "to raise [my] stomach", and is used to indicate something causes genuine upset or upset anger. Like being hungry or thirsty, being upset, too, is typically indicated by describing the physical feeling.
+
+==== 申(もう)し訳(わけ)ありません — Extreme apology ====
+
+Literally this phrase reads "[this is] not [a situation in which] saying [something] [is appropriate]". Effectively it means "I have no excuse [for what I have done]" and makes it clear that the speaker is genuinely at fault for something. Grammatically decomposing the phrase, we see:
+
+  申す in 連用形 + meaning/reason nominaliser 訳 + formal polite negation of ある
+  申し + 訳 + ありません
+
+Variations on this theme involve more, or less, formal versions of the verbs "to say" and "be", such as 申し訳ない, 言(い)い訳ない, 申し訳ございません, etc.
+
+==== もしもし — Said when picking up the phone ====
+
+The story goes that this word was used because demons cannot pronounce it, and it would allow people to tell whether a real person had picked up the phone on the other end. Regardless of whether it's true (it's not, もしもし comes from 申(もう)し申(もう)し, from the humble verb 申(もう)す), it makes for a nice story to tell people when they get curious about the phrase that the Japanese use when they pick up the phone, or when it appears the signal has dropped during a conversation.
+
+This phrase is also used to call someone's attention when they seem to be lost staring into the distance, similar to how one might yell "helloooo?" to someone who seems to have started day dreaming, in English.
