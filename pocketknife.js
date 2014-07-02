@@ -257,7 +257,9 @@
     ["add", "replace"].forEach(function(fn){
       $[fn] = function() {
         var e = this[0];
-        return e[fn].apply(e, arguments);
+        if (e)
+          e[fn].apply(e, arguments);
+        return this;
       };
     });
     // functions that get applied to all elements, returning the array:

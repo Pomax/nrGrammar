@@ -4,6 +4,63 @@
  */
 schedule(function loadData() {
 
+  // menu nonsense
+  function setupMenuScrollBehaviour() {
+
+    var prev;
+    var n = 0;
+
+    var headings = find("#content h1, #content h2");
+
+    var menu = find("#menu"), sel;
+    headings.forEach(function(h) {
+      if(h.localName === "h1") {
+        sel = create("ul");
+        menu.add(sel);
+      }
+      var a = create("a", { href: "#" + h.id, class: h.localName}, h.textContent);
+      var li = create("li");
+      sel.add(li.add(a));
+    });
+
+    var headerElement = find("header");
+    headings = headings.map(function(e) {
+      return {
+        top: e.getBoundingClientRect().top - headerElement.getBoundingClientRect().top,
+        id: e.id
+      };
+    });
+
+    var closest = function() {
+      var h;
+      var top = document.documentElement.scrollTop;
+      var i = headings.length;
+      while (i--) {
+        h = headings[i];
+        if (top >= h.top - 1) return h;
+      }
+    };
+
+    document.onscroll = function() {
+      var h = closest();
+      if (!h) return;
+
+      if (prev) {
+        prev.classList.remove('active');
+        prev.parentNode.parentNode.classList.remove("active");
+      }
+
+      var a = find('nav a[href="#' + h.id + '"]');
+      a.classList.add('active');
+      a.parentNode.parentNode.classList.add("active");
+      prev = a;
+    };
+
+    window.scrollBy(0,1);
+    window.scrollBy(0,-1);
+  }
+
+
   var nav = find("nav");
   nav.listen("touchstart", function(evt) { nav.classes().add("active"); });
   find("#content").listen("touchstart", function(evt) { nav.classes().remove("active"); });
@@ -96,6 +153,7 @@ schedule(function loadData() {
      */
     (function loadFile(files, dir, destinations, fullToC) {
       if(files.length==0) {
+        setupMenuScrollBehaviour();
         document.head.add(find("link[href='counters.css']").remove());
         return;
       }
@@ -122,7 +180,7 @@ schedule(function loadData() {
                 }
                 return setTimeout(function() { process(list); }, 0);
               }
-              buildToC(evt.data.toc, destination, buildtoc);
+//              buildToC(evt.data.toc, destination, buildtoc);
               setTimeout(function() { loadFile(files, dir, destinations, fullToC); }, 25);
             }(create("div",data.html[filename])));
           }, false);
