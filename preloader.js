@@ -33,7 +33,7 @@ schedule(function loadData() {
 
     var closest = function() {
       var h;
-      var top = document.documentElement.scrollTop;
+      var top = document.body.scrollTop ? document.body.scrollTop : document.documentElement.scrollTop;
       var i = headings.length;
       while (i--) {
         h = headings[i];
