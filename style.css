@@ -223,15 +223,17 @@ a:hover {
   color: #900;
 }
 
-img.icon {
+a.icon img {
   margin-top: 2em;
   width: 1.5em;
   height: 1.5em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #999;
 }
-img.amazon.icon {
+a.icon img.amazon {
   position:relative;
-  top: 2px;
+  top: 1px;
 }
-img.icon + img.icon {
-  margin-left: 2em;
+a.icon + a.icon {
+  margin-left: 0.75em;
 }
