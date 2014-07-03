@@ -6,24 +6,27 @@ schedule(function loadData() {
 
   // menu nonsense
   function setupMenuScrollBehaviour() {
+    var prev, sel;
+    var menu = find("#menu");
+    var headerElement = find("header");
+    var headings = find("#content h1, #content h2, #content h3");
 
-    var prev;
-    var n = 0;
+    var hideh3 = function(sel) {
+      if(sel && sel.children.length > 50) {
+        sel.classList.add("hideh3");
+      }
+    }
 
-    var headings = find("#content h1, #content h2");
-
-    var menu = find("#menu"), sel;
     headings.forEach(function(h) {
       if(h.localName === "h1") {
+        hideh3(sel);
         sel = create("ul");
         menu.add(sel);
       }
-      var a = create("a", { href: "#" + h.id, class: h.localName}, h.textContent);
-      var li = create("li");
-      sel.add(li.add(a));
+      sel.add(create("li", { class: h.localName}, "<a href='#" + h.id +"'>" + h.textContent + "</a>"));
     });
+    hideh3(sel);
 
-    var headerElement = find("header");
     headings = headings.map(function(e) {
       return {
         top: e.getBoundingClientRect().top - headerElement.getBoundingClientRect().top,
@@ -32,9 +35,8 @@ schedule(function loadData() {
     });
 
     var closest = function() {
-      var h;
       var top = document.body.scrollTop ? document.body.scrollTop : document.documentElement.scrollTop;
-      var i = headings.length;
+      var h, i = headings.length;
       while (i--) {
         h = headings[i];
         if (top >= h.top - 1) return h;
@@ -47,14 +49,17 @@ schedule(function loadData() {
 
       if (prev) {
         prev.classList.remove('active');
-        prev.parentNode.parentNode.classList.remove("active");
+        prev.parent("ul").classList.remove("active");
       }
 
       var a = find('nav a[href="#' + h.id + '"]');
       a.classList.add('active');
-      a.parentNode.parentNode.classList.add("active");
+      a.parent("ul").classList.add("active");
       prev = a;
     };
+
+    var data = find("script[type='text/html']").innerHTML;
+    menu.add(data);
 
     window.scrollBy(0,1);
     window.scrollBy(0,-1);

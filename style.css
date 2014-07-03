@@ -41,10 +41,36 @@ nav {
   text-align: right;
   font-size: 13px;
   font-family: Arial;
+  z-index: 0;
 }
 
 nav ul li {
   display: none;
+}
+
+nav ul li + li.h2 {
+  margin-top: 0.5em;
+}
+
+nav ul li.h2 {
+  margin-bottom: 0.5em;
+}
+
+nav ul li.h3 {
+  font-size: 90%;
+  font-style: italic;
+}
+
+nav ul.hideh3 li.h3 {
+  display: none!important;
+}
+
+nav ul li.h3:after {
+  content: " --";
+}
+
+nav ul.hideh3 li.h3 {
+  display: none!important;
 }
 
 nav ul.active li {
@@ -57,13 +83,21 @@ nav ul li:first-child {
   font-size: 10pt;
 }
 
+nav ul li:nth-child(2) {
+  margin-top: 0.5em;
+}
+
+nav ul li:last-child {
+  margin-bottom: 0.56em;
+}
+
 nav ul li a {
   color: inherit;
 }
 
-nav a.active {
+nav ul.hideh3.active li.h1,
+nav ul li a.active {
   color: rgb(100,100,255);
-  font-size: 105%;
 }
 
 header {
@@ -82,28 +116,16 @@ nav ul {
   padding: 0;
 }
 
-li {
-}
-
 nav li {
   list-style-type: none;
 }
 
-nav li.chaptertitle {
-  list-style-type: decimal;
-  margin-left: 1.5em;
-}
-
-nav ul.depth1 { margin-left: 0.25em; }
-nav ul.depth2 { margin-left: 0.50em; }
-nav ul.depth3 { margin-left: 0.75em; }
-nav ul.depth4 { margin-left: 1.00em; display: none; }
-nav ul.depth5 { margin-left: 1.25em; display: none; }
-nav ul.depth6 { margin-left: 1.50em; display: none; }
-
 section, header {
+  position: relative;
   width: 800px;
   margin: auto;
+  background: white;
+  z-index: 1;
 }
 
 ruby {
@@ -199,4 +221,17 @@ section a {
 
 a:hover {
   color: #900;
+}
+
+img.icon {
+  margin-top: 2em;
+  width: 1.5em;
+  height: 1.5em;
+}
+img.amazon.icon {
+  position:relative;
+  top: 2px;
+}
+img.icon + img.icon {
+  margin-left: 2em;
 }

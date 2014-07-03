@@ -221,6 +221,10 @@
       }
       return false;
     };
+    // helper function for containment
+    $.contains = function(e) {
+      return this.indexOf(e) > -1;
+    };
     // make forEach() a chaining function
     $.forEach = function(forEach) {
       return function(fn) {
@@ -273,7 +277,7 @@
       };
     });
     // aggregating functions with the same aggregation shape:
-    ["find", "parent"].forEach(function(fn) {
+    ["find", "parent", "query"].forEach(function(fn) {
       $[fn] = function() {
         var results = [];
         this.forEach(function(e) {
@@ -329,6 +333,20 @@
       }
       return getComputedStyle(this).getPropertyValue(prop) || this.style[prop];
     };
+    $.qs = function(full) {
+      var n = this,
+          c = n.get("class"),
+          qs = (n.id ? n.localName + '#' + n.id : n.localName) + (c ? '.' + c.replace(/ /g,'.') : '');
+      if(!full) {
+        return qs;
+      }
+      var parent = this.parentNode;
+      while(parent.localName !== "html") {
+        qs = parent.qs() + " > " + qs;
+        parent = parent.parentNode;
+      }
+      return qs;
+    };
     $.position = function() {
       return this.getBoundingClientRect();
     };
@@ -355,6 +373,21 @@
       return this.innerHTML;
     };
     $.parent = function(newParent) {
+      if(typeof newParent === "string") {
+        var all = find(_d, newParent), i;
+        if(all.length === 1) {
+          if (all.contains(this)) return all;
+          return false;
+        }
+        var ancestor = false;
+        for(i = all.length-1; i>0; i--) {
+          if(all[i].contains(this)) {
+            ancestor = all[i];
+            break;
+          }
+        }
+        return ancestor;
+      }
       if(newParent) {
         newParent.add(this);
         return this;

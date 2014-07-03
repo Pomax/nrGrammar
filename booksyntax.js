@@ -99,7 +99,7 @@
    */
   var replaceHeading = function(line, toc, useprefix, prefix) {
     return line.replace(/(=+)\s?([^=]*)\s*=*/, function(_, spacing, htext) {
-      htext = htext.trim();
+      htext = htext.trim().replace(/"/g,'');
       var depth = 7 - spacing.length,
           id = formHeaderId(htext);
       if(depth === 1) {
@@ -112,7 +112,7 @@
         }
       }
       section_tracking = section_tracking.slice(0,depth+1);
-      var sequence = section_tracking.slice(1).join('.');
+      var sequence = section_tracking.slice(1).join('-');
       var pid = "section-" + sequence + "-" + id;
       var before = "";
 
