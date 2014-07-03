@@ -5,11 +5,13 @@
 schedule(function loadData() {
 
   // menu nonsense
-  function setupMenuScrollBehaviour() {
-    var prev, sel;
-    var menu = find("#menu");
+  var headings = [];
+
+  function extendMenu(section) {
+    var menu = find("#menu"), sel;
     var headerElement = find("header");
-    var headings = find("#content h1, #content h2, #content h3");
+    var curhs = section.find("h1, h2, h3");
+    if(curhs instanceof Array) {} else { curhs = [curhs]; }
 
     var hideh3 = function(sel) {
       if(sel && sel.children.length > 50) {
@@ -17,7 +19,7 @@ schedule(function loadData() {
       }
     }
 
-    headings.forEach(function(h) {
+    curhs.forEach(function(h) {
       if(h.localName === "h1") {
         hideh3(sel);
         sel = create("ul");
@@ -27,12 +29,18 @@ schedule(function loadData() {
     });
     hideh3(sel);
 
-    headings = headings.map(function(e) {
+    curhs = curhs.map(function(e) {
       return {
         top: e.getBoundingClientRect().top - headerElement.getBoundingClientRect().top,
         id: e.id
       };
     });
+
+    headings = headings.concat(curhs);
+  }
+
+  function setupMenuScrollBehaviour() {
+    var prev;
 
     var closest = function() {
       var top = document.body.scrollTop ? document.body.scrollTop : document.documentElement.scrollTop;
@@ -90,63 +98,19 @@ schedule(function loadData() {
         "glossary"
       ],
 
-      section = find("#content"),
+      main = find("#content"),
       ol_chapters = find("#chapters"),
       ol_appendices = find("#appendices"),
       ol_indexes = find("#indexes"),
 
       getData = function(dir, filename, callback) {
         return get(dir + filename + ".txt", callback);
-      },
-
-      getTitle = function(lines) {
-        var title = lines[0].replace(/=/g,'').trim().toLowerCase();
-        title = title[0].toUpperCase() + title.substring(1);
-        return BookToHTML.convertLine(title);
-      },
-
-      buildToC = function(toc, master, buildtoc) {
-        // ToC title for this chapter
-        var titleEntry = toc.splice(0,1)[0],
-            title = titleEntry.title[0].toUpperCase() + titleEntry.title.substring(1).toLowerCase(),
-            id = titleEntry.id;
-        master.add(create("li", {"class":"chaptertitle"}, "<a href='#" + id + "'>" + title + "</a>"));
-
-        if(!buildtoc) return;
-
-        // chapter ToC
-        var depth = 1,
-            current = create("ul", {"class": "depth1", id: "toc-" + id}),
-            previous,
-            stack = [];
-        toc.forEach(function(entry) {
-          while (entry.depth > depth) {
-            depth++;
-            stack.push(current);
-            current = create("ul", {"class": "depth"+depth});
-          }
-          while (entry.depth < depth) {
-            depth--;
-            previous = stack.pop();
-            previous.add(current);
-            current = previous;
-          }
-          current.add(create("li", {}, "<a href='#" + entry.id + "'>" + entry.title + "</a>"));
-        });
-
-        for(var len=stack.length; len>1; len=stack.length) {
-          previous = stack.pop();
-          previous.add(current);
-          current = previous;
-        }
-
-        master.add(current);
       };
 
   /**
    * Run our data injection
    */
-  (function(section, dir, pages, appendices) {
+  (function(main, dir, pages, appendices) {
     var data = { keys:[], pages: {}, html: {}},
         destinations = [ol_chapters].repeat(pages.length).concat([ol_appendices].repeat(appendices.length)),
         tocarray = [true].repeat(pages.length).concat([false].repeat(appendices.length)),
@@ -154,7 +118,7 @@ schedule(function loadData() {
         markIndicator = 0;
 
     /**
-     * ...
+     * load each file individually
      */
     (function loadFile(files, dir, destinations, fullToC) {
       if(files.length==0) {
@@ -177,17 +141,23 @@ schedule(function loadData() {
           var worker = new Worker('booksyntax.js');
           worker.addEventListener('message', function(evt) {
             data.html[filename] = evt.data.html;
+            var dataDiv = create("div", data.html[filename]);
+            var chapter = create("section", { class: filename });
+            main.add(chapter);
+
             // prevent page-blocking by not loading in the entire section in a single go!
             (function process(list) {
               if(list.children.length > 0) {
                 for(var i=0; i<100 && list.length>0; i++) {
-                  section.add(list.get(0));
+                  chapter.add(list.get(0));
                 }
                 return setTimeout(function() { process(list); }, 0);
               }
-//              buildToC(evt.data.toc, destination, buildtoc);
-              setTimeout(function() { loadFile(files, dir, destinations, fullToC); }, 25);
-            }(create("div",data.html[filename])));
+              setTimeout(function() {
+                extendMenu(chapter);
+                loadFile(files, dir, destinations, fullToC);
+              }, 25);
+            }(dataDiv));
           }, false);
 
           // start web worker in the background
@@ -202,12 +172,12 @@ schedule(function loadData() {
         else {
           var conversion = BookToHTML.convert(fileData, markIndicator++);
           data.html[filename] = conversion.html;
-          section.add(create("div",data.html[filename]));
+          main.add(create("div",data.html[filename]));
           buildToC(conversion.toc, destination, buildtoc);
           setTimeout(function() { loadFile(files, dir, destinations, fullToC); }, 25);
         }
 
       })
     }(files, dir, destinations, tocarray));
-  }(section, dir, pages, appendices));
+  }(main, dir, pages, appendices));
 });
