@@ -82,7 +82,7 @@ schedule(function loadData() {
   // =============================
 
 
-  var dir = window.GrammarLoaderConfig ? GrammarLoaderConfig.base : "./data/pages/",
+  var dir = (window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '') + "./data/pages/",
 
       pages = [
         "preface/onlinedraft",
