@@ -112,7 +112,14 @@
   /**
    * The global implementation of "find" uses the current document.
    */
-  _w.find = function(selector) { return find(_d, selector); };
+  _w.find = function(selector, _) {
+    var context = _d;
+    if (_) {
+      context = create("section",selector);
+      selector = _;
+    }
+    return find(context, selector);
+  };
 
 
 /*************************************************************************
