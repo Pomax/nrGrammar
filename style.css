@@ -1,3 +1,15 @@
+.nrGrammardata {
+  background: white;
+}
+
+.nrGrammardata section,
+.nrGrammardata header {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  z-index: 1;
+}
+
 .nrGrammardata h1 {
   border-bottom: 1px solid gray;
   font-size: 200%;
@@ -118,15 +130,6 @@
 
 .nrGrammardata nav li {
   list-style-type: none;
-}
-
-.nrGrammardata section,
-.nrGrammardata header {
-  position: relative;
-  width: 800px;
-  margin: auto;
-  background: white;
-  z-index: 1;
 }
 
 .nrGrammardata rt {
