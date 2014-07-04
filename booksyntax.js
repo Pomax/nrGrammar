@@ -43,7 +43,6 @@
   var replaceImages = function(line, base) {
     return line.replace(/\{\{([^|]+)\|([^\}]*)\}\}/, function(_, image, description) {
       var url = base + "./data/media" + image.replace(/\:/,'/');
-      console.log(url, base);
       return "<figure><img src='" + url + "'><figcaption>"+description+"</figcaption></figure>";
     });
   };
