@@ -122,6 +122,9 @@ schedule(function loadData() {
       if(files.length==0) {
         setupMenuScrollBehaviour();
         document.head.add(find("link[href='counters.css']").remove());
+        if (onGrammarLoaded) {
+          onGrammarLoaded();
+        }
         return;
       }
 
