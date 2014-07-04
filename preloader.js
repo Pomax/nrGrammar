@@ -152,7 +152,7 @@ schedule(function loadData() {
       };
 
 
-      getData(dir, filename, function (xhr) {
+      getData(dir, base + filename, function (xhr) {
         var useprefix = ([pages[0]].concat(appendices).indexOf(filename) === -1);
         var prefix = markIndicator++;
         var fileData = xhr.responseText.split("\n").slice(4).join("\n");
