@@ -82,7 +82,9 @@ schedule(function loadData() {
   // =============================
 
 
-  var dir = (window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '') + "./data/pages/",
+  var base = window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '',
+
+      dir = base + "./data/pages/",
 
       pages = [
         "preface/onlinedraft",
@@ -160,7 +162,7 @@ schedule(function loadData() {
         var useprefix = ([pages[0]].concat(appendices).indexOf(filename) === -1);
         var prefix = markIndicator++;
         var fileData = xhr.responseText.split("\n").slice(4).join("\n");
-        var conversion = BookToHTML.convert(fileData, useprefix, prefix, dir);
+        var conversion = BookToHTML.convert(fileData, useprefix, prefix, base);
         loadData(filename, conversion.html, function(chapter) {
           extendMenu(chapter);
           loadFile(files, dir, destinations, fullToC);
