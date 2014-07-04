@@ -78,7 +78,9 @@ schedule(function loadData() {
   nav.listen("touchstart", function(evt) { nav.classes().add("active"); });
   find("#content").listen("touchstart", function(evt) { nav.classes().remove("active"); });
 
-  var dir = "./data/pages/",
+  var base = window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '',
+
+      dir = "./data/pages/",
 
       pages = [
         "preface/onlinedraft",
@@ -115,6 +117,10 @@ schedule(function loadData() {
         files = pages.concat(appendices),
         markIndicator = 0;
 
+    files = files.map(function(file) {
+      return base + file;
+    });
+
     /**
      * load each file individually
      */
@@ -128,8 +134,8 @@ schedule(function loadData() {
         return;
       }
 
-      var base = window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '',
-          filename = files.splice(0,1)[0],
+
+      var filename = files.splice(0,1)[0],
           destination = destinations.splice(0,1)[0],
           buildtoc = fullToC.splice(0,1)[0];
 
@@ -152,7 +158,7 @@ schedule(function loadData() {
       };
 
 
-      getData(dir, base + filename, function (xhr) {
+      getData(dir, filename, function (xhr) {
         var useprefix = ([pages[0]].concat(appendices).indexOf(filename) === -1);
         var prefix = markIndicator++;
         var fileData = xhr.responseText.split("\n").slice(4).join("\n");
