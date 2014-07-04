@@ -1,15 +1,7 @@
 /**
  * Relaxed Dokuwiki to HTML converter
  */
-(function BookToHTML() {
-
-  var webworker = false;
-  try { if(window.console) {}}
-  catch(e) { webworker = true; }
-
-  if(webworker) {
-    importScripts('repeat.js');
-  }
+(function() {
 
   /**
    * extract a term from an index/glossary entity
@@ -38,7 +30,7 @@
   var removeLaTeX = function(line) {
     var removed = line.replace(/\\\w+\{\w*\}/g,'');
     if(removed.length != line.length) {
-      if(!webworker && window.console && console.log) {
+      if(window.console && console.log) {
         console.log("removed unknown LaTeX code from line [" + line + "]");
       }
     }
@@ -343,62 +335,46 @@
    * Convert a body of text in relaxed DokuWiki form
    * to HTML
    */
-  var convert = function(text, useprefix, prefix) {
-    var lines = text.replace(/\r\n?/g,"\n").split("\n"),
-        len = lines.length,
-        l, line, toc = [];
-    for(l=0; l<len; l++) {
-      line = lines[l];
+  window.BookToHTML = {
+    convert: function(text, useprefix, prefix) {
+      var lines = text.replace(/\r\n?/g,"\n").split("\n"),
+          len = lines.length,
+          l, line, toc = [];
 
-      // table processing
-      if (line.indexOf("\t")!==-1) {
-        l = processTable(lines, l);
+      for(l=0; l<len; l++) {
+        line = lines[l];
+
+        // table processing
+        if (line.indexOf("\t")!==-1) {
+          l = processTable(lines, l);
+        }
+
+        // unordered list processing
+        else if (line.match(/^(  )*- /)) {
+          l = processUnorderedList(lines, l);
+        }
+
+        // ordered list processing
+        else if (line.match(/^(  )*\* /)) {
+          l = processOrderedList(lines, l);
+        }
+
+        // example set
+        else if (line.substring(0,2) === "  ") {
+          l = processExampleSet(lines, l);
+        }
+
+        // vertical typesetting
+        else if (line.indexOf("<begin vertical")!==-1) {
+          l = processVertical(lines, l);
+        }
+
+        else { lines[l] = "<p>" + performLineReplacements(line, toc, useprefix, prefix) + "</p>"; }
       }
-
-      // unordered list processing
-      else if (line.match(/^(  )*- /)) {
-        l = processUnorderedList(lines, l);
-      }
-
-      // ordered list processing
-      else if (line.match(/^(  )*\* /)) {
-        l = processOrderedList(lines, l);
-      }
-
-      // example set
-      else if (line.substring(0,2) === "  ") {
-        l = processExampleSet(lines, l);
-      }
-
-      // vertical typesetting
-      else if (line.indexOf("<begin vertical")!==-1) {
-        l = processVertical(lines, l);
-      }
-
-      else { lines[l] = "<p>" + performLineReplacements(line, toc, useprefix, prefix) + "</p>"; }
+      return {
+        html: lines.join("\n"),
+        toc: toc
+      };
     }
-    return {
-      html: lines.join("\n"),
-      toc: toc
-    };
   };
-
-  // Our converter object.
-  if(!webworker) {
-    window.BookToHTML = {
-      formHeaderId: formHeaderId,
-      convertLine: performLineReplacements,
-      convert: convert
-    };
-  }
-
-  // When invoked as webworker, run in the background
-  else {
-    self.addEventListener('message', function(evt) {
-      self.postMessage(convert(evt.data.fileData, evt.data.useprefix, evt.data.prefix));
-    }, false);
-  }
-
 }());
-
-

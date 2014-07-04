@@ -78,9 +78,7 @@ schedule(function loadData() {
   nav.listen("touchstart", function(evt) { nav.classes().add("active"); });
   find("#content").listen("touchstart", function(evt) { nav.classes().remove("active"); });
 
-  var webworkers = !!window.Worker,
-
-      dir = "./data/pages/",
+  var dir = "./data/pages/",
 
       pages = [
         "preface/onlinedraft",
@@ -131,53 +129,38 @@ schedule(function loadData() {
           destination = destinations.splice(0,1)[0],
           buildtoc = fullToC.splice(0,1)[0];
 
-      var lines = getData(dir, filename, function (xhr) {
+
+
+      var loadData = function(filename, data, next) {
+        var dataDiv = create("div", data);
+        var chapter = create("section", { class: filename });
+        main.add(chapter);
+
+        // prevent page-blocking by not loading in the entire section in a single go!
+        (function process(list) {
+          if(list.children.length > 0) {
+            for(var i=0; i<100 && list.length>0; i++) {
+              chapter.add(list.get(0));
+            }
+            return setTimeout(function() { process(list); }, 0);
+          }
+          setTimeout(function() { next(chapter); }, 0);
+        }(dataDiv));
+      };
+
+
+
+      getData(dir, filename, function (xhr) {
+        var useprefix = ([pages[0]].concat(appendices).indexOf(filename) === -1);
+        var prefix = markIndicator++;
         var fileData = xhr.responseText.split("\n").slice(4).join("\n");
-        data.keys.push(filename);
-        data.pages[filename] = fileData;
+        var conversion = BookToHTML.convert(fileData, useprefix, markIndicator++);
+        loadData(filename, conversion.html, function(chapter) {
+          extendMenu(chapter);
+          loadFile(files, dir, destinations, fullToC);
+        });
+      });
 
-        // run conversion in a web worker
-        if(webworkers) {
-          var worker = new Worker('booksyntax.js');
-          worker.addEventListener('message', function(evt) {
-            data.html[filename] = evt.data.html;
-            var dataDiv = create("div", data.html[filename]);
-            var chapter = create("section", { class: filename });
-            main.add(chapter);
-
-            // prevent page-blocking by not loading in the entire section in a single go!
-            (function process(list) {
-              if(list.children.length > 0) {
-                for(var i=0; i<100 && list.length>0; i++) {
-                  chapter.add(list.get(0));
-                }
-                return setTimeout(function() { process(list); }, 0);
-              }
-              setTimeout(function() {
-                extendMenu(chapter);
-                loadFile(files, dir, destinations, fullToC);
-              }, 25);
-            }(dataDiv));
-          }, false);
-
-          // start web worker in the background
-          worker.postMessage({
-            useprefix: ([pages[0]].concat(appendices).indexOf(filename) === -1),
-            prefix: markIndicator++,
-            fileData: fileData
-          });
-        }
-
-        // legacy fallback...
-        else {
-          var conversion = BookToHTML.convert(fileData, markIndicator++);
-          data.html[filename] = conversion.html;
-          main.add(create("div",data.html[filename]));
-          buildToC(conversion.toc, destination, buildtoc);
-          setTimeout(function() { loadFile(files, dir, destinations, fullToC); }, 25);
-        }
-
-      })
     }(files, dir, destinations, tocarray));
   }(main, dir, pages, appendices));
 });
