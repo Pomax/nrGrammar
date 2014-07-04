@@ -122,16 +122,16 @@ schedule(function loadData() {
       if(files.length==0) {
         setupMenuScrollBehaviour();
         document.head.add(find("link[href='counters.css']").remove());
-        if (onGrammarLoaded) {
-          onGrammarLoaded();
+        if (window.GrammarLoaderConfig && GrammarLoaderConfig.onGrammarLoaded) {
+          GrammarLoaderConfig.onGrammarLoaded();
         }
         return;
       }
 
+
       var filename = files.splice(0,1)[0],
           destination = destinations.splice(0,1)[0],
           buildtoc = fullToC.splice(0,1)[0];
-
 
 
       var loadData = function(filename, data, next) {
@@ -152,12 +152,12 @@ schedule(function loadData() {
       };
 
 
-
       getData(dir, filename, function (xhr) {
         var useprefix = ([pages[0]].concat(appendices).indexOf(filename) === -1);
         var prefix = markIndicator++;
         var fileData = xhr.responseText.split("\n").slice(4).join("\n");
-        var conversion = BookToHTML.convert(fileData, useprefix, prefix);
+        var base = window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '';
+        var conversion = BookToHTML.convert(fileData, useprefix, prefix, base);
         loadData(filename, conversion.html, function(chapter) {
           extendMenu(chapter);
           loadFile(files, dir, destinations, fullToC);

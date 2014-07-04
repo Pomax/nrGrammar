@@ -40,10 +40,10 @@
   /**
    * Replace image links
    */
-  var replaceImages = function(line) {
+  var replaceImages = function(line, base) {
     return line.replace(/\{\{([^|]+)\|([^\}]*)\}\}/, function(_, image, description) {
       var url = "./data/media" + image.replace(/\:/,'/');
-      return "<figure><img src='" + url + "'><figcaption>"+description+"</figcaption></figure>";
+      return "<figure><img src='" + base + url + "'><figcaption>"+description+"</figcaption></figure>";
     });
   };
 
@@ -112,7 +112,7 @@
         var delimiter = " — ";
         if (depth === 1) { before = "Chapter " + sequence + delimiter; }
         else if (depth === 2) { before = "Section " + sequence + delimiter; }
-        else { before = "§" + sequence + delimiter; }
+        else { before = "§" + sequence.replace(/-/g,'.') + delimiter; }
       }
 
       var html = "<h" + depth + " id='" + pid + "' data-before='" + before + "'><a href='#" + pid + "'>" + htext + "</a></h" + depth + ">";
@@ -294,10 +294,10 @@
   /**
    * Deal with in-line replacements.
    */
-  var performLineReplacements = function(line, toc, useprefix, prefix) {
+  var performLineReplacements = function(line, toc, useprefix, prefix, base) {
     // headings
     if(line.substring(0,1)==="=") {
-      line = replaceHeading(line, toc, useprefix, prefix);
+      line = replaceHeading(line, toc, useprefix, prefix, base);
     }
 
     // emphasis
@@ -318,7 +318,7 @@
     // image links
 
     if (line.indexOf("{{")!==-1) {
-      line = replaceImages(line);
+      line = replaceImages(line, base);
     }
 
     // furi(gana) notation to <ruby> markup
@@ -336,7 +336,7 @@
    * to HTML
    */
   window.BookToHTML = {
-    convert: function(text, useprefix, prefix) {
+    convert: function(text, useprefix, prefix, base) {
       var lines = text.replace(/\r\n?/g,"\n").split("\n"),
           len = lines.length,
           l, line, toc = [];
@@ -369,7 +369,7 @@
           l = processVertical(lines, l);
         }
 
-        else { lines[l] = "<p>" + performLineReplacements(line, toc, useprefix, prefix) + "</p>"; }
+        else { lines[l] = "<p>" + performLineReplacements(line, toc, useprefix, prefix, base) + "</p>"; }
       }
       return {
         html: lines.join("\n"),
