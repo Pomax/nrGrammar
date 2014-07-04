@@ -154,7 +154,7 @@ schedule(function loadData() {
         var useprefix = ([pages[0]].concat(appendices).indexOf(filename) === -1);
         var prefix = markIndicator++;
         var fileData = xhr.responseText.split("\n").slice(4).join("\n");
-        var conversion = BookToHTML.convert(fileData, useprefix, markIndicator++);
+        var conversion = BookToHTML.convert(fileData, useprefix, prefix);
         loadData(filename, conversion.html, function(chapter) {
           extendMenu(chapter);
           loadFile(files, dir, destinations, fullToC);
