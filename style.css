@@ -1,37 +1,37 @@
-h1 {
+.nrGrammardata h1 {
   border-bottom: 1px solid gray;
   font-size: 200%;
 }
 
-h2 {
+.nrGrammardata h2 {
   font-size: 150%;
 }
 
-h3 {
+.nrGrammardata h3 {
   font-size: 125%;
 }
 
-h4 {
+.nrGrammardata h4 {
   font-size: 115%;
 }
 
-h5 {
+.nrGrammardata h5 {
   font-size: 110%;
 }
 
-h6 {
+.nrGrammardata h6 {
   font-size: 105%;
 }
 
-*[data-before]:before {
+.nrGrammardata *[data-before]:before {
   content: attr(data-before);
 }
 
-p {
+.nrGrammardata p {
   text-align: justify;
 }
 
-nav {
+.nrGrammardata nav {
   position: fixed;
   margin: 0;
   padding: 0;
@@ -44,83 +44,84 @@ nav {
   z-index: 0;
 }
 
-nav ul li {
+.nrGrammardata nav ul li {
   display: none;
 }
 
-nav ul li + li.h2 {
+.nrGrammardata nav ul li + li.h2 {
   margin-top: 0.5em;
 }
 
-nav ul li.h2 {
+.nrGrammardata nav ul li.h2 {
   margin-bottom: 0.5em;
 }
 
-nav ul li.h3 {
+.nrGrammardata nav ul li.h3 {
   font-size: 90%;
   font-style: italic;
 }
 
-nav ul.hideh3 li.h3 {
+.nrGrammardata nav ul.hideh3 li.h3 {
   display: none!important;
 }
 
-nav ul li.h3:after {
+.nrGrammardata nav ul li.h3:after {
   content: " --";
 }
 
-nav ul.hideh3 li.h3 {
+.nrGrammardata nav ul.hideh3 li.h3 {
   display: none!important;
 }
 
-nav ul.active li {
+.nrGrammardata nav ul.active li {
   display: block;
 }
 
-nav ul li:first-child {
+.nrGrammardata nav ul li:first-child {
   display: block;
   font-weight: bold;
   font-size: 10pt;
 }
 
-nav ul li:nth-child(2) {
+.nrGrammardata nav ul li:nth-child(2) {
   margin-top: 0.5em;
 }
 
-nav ul li:last-child {
+.nrGrammardata nav ul li:last-child {
   margin-bottom: 0.56em;
 }
 
-nav ul li a {
+.nrGrammardata nav ul li a {
   color: inherit;
 }
 
-nav ul.hideh3.active li.h1,
-nav ul li a.active {
+.nrGrammardata nav ul.hideh3.active li.h1,
+.nrGrammardata nav ul li a.active {
   color: rgb(100,100,255);
 }
 
-header {
+.nrGrammardata header {
   text-align: center;
 }
 
-ol {
+.nrGrammardata ol {
   padding: 0;
 }
 
-ul {
+.nrGrammardata ul {
   margin: 0.25em 0;
 }
 
-nav ul {
+.nrGrammardata nav ul {
   padding: 0;
 }
 
-nav li {
+.nrGrammardata nav li {
   list-style-type: none;
 }
 
-section, header {
+.nrGrammardata section,
+.nrGrammardata header {
   position: relative;
   width: 800px;
   margin: auto;
@@ -128,70 +129,56 @@ section, header {
   z-index: 1;
 }
 
-ruby {
-}
-
-rb {
-}
-
-rt {
+.nrGrammardata rt {
   color: rgba(0,0,0,0.4);
 }
 
-
-table {
+.nrGrammardata table {
   margin: 0.5em 1em;
   border-spacing: 1em 0.2em;
 }
 
-tr {
-}
-
-th {
+.nrGrammardata th {
   border-bottom: 1px solid gray;
   text-align: left;
   vertical-align: bottom;
 }
 
-th.noline {
+.nrGrammardata th.noline {
   border-bottom: none;
 }
 
-
-td {
-}
-
-td.label {
+.nrGrammardata td.label {
   font-weight: bold;
   padding-right: 0.5em;
 }
 
-div.example {
+.nrGrammardata div.example {
   margin: 0.5em 0 0.5em 1em;
 }
 
-header img {
+.nrGrammardata header img {
   width: 50%;
 }
 
-img {
+.nrGrammardata img {
   width: 70%;
 }
 
 only screen and (min-device-width: 768px) {
-  img {
+  .nrGrammardata img {
     width: 100%;
   }
 }
 
-figcaption {
+.nrGrammardata figcaption {
    font-size: 80%;
 }
 
 /*
   CSS3 vertical writing ftw.
 */
-div.vertical {
+.nrGrammardata div.vertical {
   margin-left: 1em;
 
   -webkit-text-orientation: upright;
@@ -210,30 +197,32 @@ div.vertical {
   writing-mode: vertical-rl;
 }
 
-a {
+.nrGrammardata a {
   color: #008;
   text-decoration: none;
 }
 
-section a {
+.nrGrammardata section a {
   color: inherit;
 }
 
-a:hover {
+.nrGrammardata a:hover {
   color: #900;
 }
 
-a.icon img {
+.nrGrammardata a.icon img {
   margin-top: 2em;
   width: 1.5em;
   height: 1.5em;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #999;
 }
-a.icon img.amazon {
+
+.nrGrammardata a.icon img.amazon {
   position:relative;
   top: 1px;
 }
-a.icon + a.icon {
+
+.nrGrammardata a.icon + a.icon {
   margin-left: 0.75em;
 }

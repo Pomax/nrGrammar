@@ -111,6 +111,8 @@
 
   /**
    * The global implementation of "find" uses the current document.
+   * find(sel) and find(string, sel) work, the latter for not needing
+   * to first build an element manually.
    */
   _w.find = function(selector, _) {
     var context = _d;
