@@ -66,11 +66,11 @@ Let us look at how the bases for both verbs and the verbal adjectives are formed
 Base	五段(ごだん) verbs	一段(いちだん) verbs	verbal adjectives
 
 stem (語幹(ごかん))	remove う—row syllable	remove る	remove い
-未然形	stem + あ—row syllable	stem	stem + かろ
-連用形	stem + い—row syllable	stem	stem + く (or かっ)
+未然形	stem + あ—row syllable	stem	stem + く
+連用形	stem + い—row syllable	stem	stem + く
 連体形	stem + う—row syllable	stem + る	stem + い
 已然形	stem + え—row syllable	stem + れ	stem + けれ
-命令形	stem + え—row syllable	stem (+ ろ/よ *)	(stem + かれ *)
+命令形	stem + え—row syllable	stem (+ ろ/よ *)	(stem + かれ*)
 
 In this table, the 命令形 for the 一段 verbs and verbal adjectives are starred, to indicate there's something special about them. First, the 一段 verb 命令形 is a bit of a problem: the word 命令形 can refer to either the grammatical base form, or to the actual verb inflection as it is used in sentences. In classical Japanese, both interpretations of the 命令形 were "stem + よ"; the grammatical base form was the same as the final inflected form. However, in modern Japanese the final inflected form is either "stem + ろ", if you're in an area that adheres to 標準語(ひょうじゅんご), 'standard Japanese' (the kind spoken in Tokyo), or fairly uniformly "stem + よ", if you're not. This raises the problem that either the 命令形 is listed as two separate forms — something I'm not too fond of — or listing it as just the stem, and then telling you the final inflected forms are either 命令形 + ろ or 命令形 + よ depending on where you are. In this book, I've taken the latter approach.
 
