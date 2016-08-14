@@ -205,6 +205,10 @@ only screen and (min-device-width: 768px) {
   text-decoration: none;
 }
 
+.nrGrammardata a.link {
+  color: #22D;
+}
+
 .nrGrammardata section a {
   color: inherit;
 }
