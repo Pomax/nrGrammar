@@ -112,6 +112,11 @@
   color: rgb(100,100,255);
 }
 
+.nrGrammardata nav div.donate {
+  margin-top: 1em;
+  text-align: center;
+}
+
 .nrGrammardata header {
   text-align: center;
 }
