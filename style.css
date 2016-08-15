@@ -238,3 +238,10 @@ only screen and (min-device-width: 768px) {
 .nrGrammardata a.icon + a.icon {
   margin-left: 0.75em;
 }
+
+@media handheld, (max-width: 1244px) {
+    .nrGrammardata nav {
+      right: 5px;
+      width: 8vw;
+    }
+}
