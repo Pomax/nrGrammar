@@ -20,4 +20,4 @@ In the end, I have fun working on this book (and putting together the technologi
 
 \vspace{2em}
 
-— Mike "Pomax" Kamermans
+— <a class="link" href="https://pomax.github.io">Mike "Pomax" Kamermans</a>
