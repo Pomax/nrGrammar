@@ -1137,7 +1137,7 @@ We've already covered this adverb by virtue of it being the adverbial form of �
 
 === {idx:english:quantifiers!余(あま)り}, {idx:english:quantifiers!あんまり} — {idx:english:quantifiers!Not often} / {idx:english:quantifiers!not much} ===
 
-This adverb actually comes from the the 五段 verb {idx:english:余る@あまる (余る)}, meaning "to be left over", and is the counterpart to よく. It is typically only be used when followed by a negative verb or verbal adjective:
+This adverb actually comes from the 五段 verb {idx:english:余る@あまる (余る)}, meaning "to be left over", and is the counterpart to よく. It is typically only be used when followed by a negative verb or verbal adjective:
 
   紅茶(こうちゃ)はあんまり好(す)きじゃありません。
   "(I) don't like (red) tea very much."

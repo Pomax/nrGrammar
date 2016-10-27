@@ -279,7 +279,7 @@ With this list explicitly ending on と. However, make sure to add direct object
   オレンジと買った。
   "(I, you, he, she, it, we, they) bought (it) with oranges."
 
-This sentence is not incorrect, but it says that we bough something in a place where oranges are considered a currency. This is probably not what we meant to say, and instead we wanted to say this:
+This sentence is not incorrect, but it says that we bought something in a place where oranges are considered a currency. This is probably not what we meant to say, and instead we wanted to say this:
 
   オレンジとを買った。
   "(I, you, he, she, it, we, they) bought (it) along with (the) oranges."
@@ -414,7 +414,7 @@ This particle is a very versatile particle because of the way the Japanese inter
   三時(さんじ)に出(で)ます。
   "(I) will head out at 3."
 
-This example indicates a {idx:english:point in time}, namely the specific moment 3 o' clock. In contrast to this, a time frame rather than a point in time can also be indicated with に:
+This example indicates a {idx:english:point in time}, namely the specific moment 3 o'clock. In contrast to this, a time frame rather than a point in time can also be indicated with に:
 
   一週(いっしゅう)に運動(うんどう)を二回(にかい)します。
   "(I) exercise twice a week."

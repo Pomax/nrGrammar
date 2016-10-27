@@ -377,7 +377,7 @@ While not required for the sentence to be grammatically correct, the addition of
 A further note on translating "and": even though a Japanese conjunction can be translated to "... and ...", going the other way — from English to Japanese — typically means you cannot translate "and" with this 連用形 construction. The reason for this is that conjunction is a very specific thing, whereas the word "and" performs many roles in English:
 
 "I ate breakfast and went to school"	{idx:english:serial action}
-"I bought juice and tomatos"	{idx:english:noun list}
+"I bought juice and tomatoes"	{idx:english:noun list}
 "It's my car, and don't you forget it"	{idx:english:emphatic}
 
 Typically, when you encounter "and" in an English sentence, the Japanese sentence (unless you're translating to formal Japanese) will not have it mapped to a 連用形 construction.

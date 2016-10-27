@@ -14,7 +14,7 @@ This book was written in several phases, using several programs. The first full-
 
 This process got changed up for the first real publication, relying on DokuWiki instead. Because DokuWiki stores its data as plain text files, I wrote a set of conversion scripts to turn the dokuwiki code into LaTeX code, which then gets run through the XeLaTeX processing engine, which results in a fully indexed, cross-referenced, ToC-ed and for all intents and purposes publication-ready PDF file.
 
-The current version is a refinement of that, taking the DokuWiki data but simply rendering it straight to a non-nonsense "github-pages" website. This lets me update content even better than DokuWiki would allow, with issue tracking added to the mix so that any errors, omissions, or ideas can be filed and simply worked through as a TODO list, rather than having to main these things by hand (digitally, but still by hand).
+The current version is a refinement of that, taking the DokuWiki data but simply rendering it straight to a non-nonsense "github-pages" website. This lets me update content even better than DokuWiki would allow, with issue tracking added to the mix so that any errors, omissions, or ideas can be filed and simply worked through as a TODO list, rather than having to maintain these things by hand (digitally, but still by hand).
 
 In the end, I have fun working on this book (and putting together the technologies to turn the book content into something you can actually read) and I hope you will have fun reading this, and find it aids you in your studies of Japanese. Thank you for making writing this worth while, and good luck!
 
