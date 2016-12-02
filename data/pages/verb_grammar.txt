@@ -589,7 +589,7 @@ Actual inflection of nouns relies on copula verbs, as it does in English. While 
 
 	です	だ	copula
 
-未然形	でしよ	だろ	だろ
+未然形	でしょ	だろ	だろ
 連用形	でし	だっ (で)	で
 終止形	です	だ	です/だ
 連体形	です	な	です/な
