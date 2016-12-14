@@ -223,7 +223,7 @@ On a final note, in classical Japanese, が has the same role as の does today.
 
 This particle is a nicely complex one. The grand unifying role that it plays is, actually, unification, but the way in which it does it is usually experienced as doing completely different things. We already saw と being used to create an {idx:english:essential particles!exhaustive noun list} in chapter 2 in the section on noun particles, but this role extends not just to things, but to people as well. In the same way that [X]と[Y]と[Z] is an exhaustive noun list (i.e., the unity of all these things), if we use people instead of Xs and Ys, we end up with a unified group:
 
-  本田(ほんだ)さんと榊(ささき)さんが映画(えいが)を見(み)に行(い)く。
+  本田(ほんだ)さんと榊(さかき)さんが映画(えいが)を見(み)に行(い)く。
   "Honda and Sakaki are going to go see a film."
 
 In this sentence, the "noun list" 本田さんと榊さん exhaustively lists all the members of the group of people that will go see a film.
