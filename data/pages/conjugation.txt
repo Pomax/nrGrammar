@@ -399,6 +399,7 @@ honorific	いらっしゃる
 ==== Special verbs: ある ====
 
 Contractions in the inflections are indicated with (c)
+標準語 indicates standard Japanese -  the language form originated after the Meiji Restoration (1868) from the language spoken in the higher-class areas of Tokyo (Yamanote).
 
 inflection	formality	affirmative	negative
 
