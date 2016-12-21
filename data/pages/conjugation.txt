@@ -402,7 +402,7 @@ Contractions in the inflections are indicated with (c)
 
 inflection	formality	affirmative	negative
 
-present	informal		未然形 + ない
+present	informal		ない
 	formal	連用形 + ます	連用形 + ません
 past	informal	連用形 + た (c)	なかった
 	formal	連用形 + ました	連用形 + ませんでした
