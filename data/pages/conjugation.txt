@@ -399,10 +399,11 @@ honorific	いらっしゃる
 ==== Special verbs: ある ====
 
 Contractions in the inflections are indicated with (c)
+標準語 indicates standard Japanese
 
 inflection	formality	affirmative	negative
 
-present	informal		未然形 + ない
+present	informal		ない (標準語), 未然形 + ない
 	formal	連用形 + ます	連用形 + ません
 past	informal	連用形 + た (c)	なかった
 	formal	連用形 + ました	連用形 + ませんでした
