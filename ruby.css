@@ -23,3 +23,7 @@ rt {
 rp {
   display: none;
 }
+
+.nrGrammardata table ruby {
+    border-spacing: 0;
+}
