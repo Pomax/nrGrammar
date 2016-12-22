@@ -398,8 +398,7 @@ honorific	いらっしゃる
 
 ==== Special verbs: ある ====
 
-Contractions in the inflections are indicated with (c)
-標準語 indicates standard Japanese
+Contractions in the inflections are indicated with (c), standard Japanese indicated with (標準語).
 
 inflection	formality	affirmative	negative
 
