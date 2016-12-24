@@ -16,7 +16,7 @@ Politeness, or the use of {idx:english:丁寧語(ていねいご)} as it is call
 
 	ます		です	だ	{idx:english:copula}
 
-未然形	ませ (ましよ)		でしよ	だろ	でしょ/だろ
+未然形	ませ (ましょ)		でしょ	だろ	でしょ/だろ
 連用形	まし		でし	だっ (で)	で
 終止形				だ	です/だ
 連体形	ます		です	な	です/な
@@ -1055,7 +1055,7 @@ irregular	pseudo-future		polite pseudo-future
 する	し + よう		し + ましょう
 来る	こ + よう		き + ましょう
 ます	まし + よう	= ましょう	already polite
-です	でしよ + う	= でしょう	already polite
+です	でしょ + う	= でしょう	already polite
 だ	で + あろう	= だろう	×
 
 For verbal adjectives, the plain pseudo-future is formed by (once again) combining the adjective's 連用形 with ある, this time in pseudo-future form. The polite version is simply the adjective followed by だ or です in pseudo-future form:
