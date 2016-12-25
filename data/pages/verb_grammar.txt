@@ -645,7 +645,7 @@ For です the story gets more complicated, because instead of using the negativ
 
 bases	form
 
-未然形	ませ (ましよ)
+未然形	ませ (ましょ)
 連用形	まし
 連体形	ます
 已然形	ませ (ますれ)
