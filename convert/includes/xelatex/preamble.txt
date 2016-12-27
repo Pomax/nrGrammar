@@ -1,0 +1,344 @@
+% --------------------------------------------------------------------
+%
+% This is a book. It isn't style with the swiss army knife equivalent of a document
+% class (memoir), because it was clashing with the glossaries package
+%
+% --------------------------------------------------------------------
+
+\documentclass[11pt, b5paper, twoside, openright, onecolumn]{book}
+
+% we will generate slightly different PDF files based on whether this is a draft or not
+\usepackage{ifthen}
+\newcommand{\true}{true}
+\newcommand{\false}{false}
+__DRAFT_OR_NOT__
+\newcommand{\ifdraft}[1]{\ifthenelse{\equal{\draft}{\true}}{#1}{}}
+\newcommand{\notdraft}[1]{\ifthenelse{\equal{\draft}{\false}}{#1}{}}
+
+%	set up page dimensions. normally, inner margin < outer margin.
+%	This makes no sense, since the binding is on inner. As such, reverse these two.
+%
+%	For draft copies, [inner:outer] ratio is kept [1:1], for publication this is set to [2:1]
+%	to compensate for the lost space due to binding
+%
+
+\ifdraft{\usepackage[b5paper, bindingoffset=0mm, inner=17mm, outer=17mm, top=21mm, bottom=24mm]{geometry}}
+\notdraft{\usepackage[b5paper, bindingoffset=0mm, inner=23mm, outer=11mm, top=21mm, bottom=24mm]{geometry}}
+
+%	half inch paragraph indentation
+
+\setlength{\parindent}{0.5in}
+
+%	using "draft" mode as document class option seriously interferes with images,
+%	so instead we just do a switch so we get a visual clue when overfull hboxes occur
+
+\ifdraft{\overfullrule=5pt}
+
+%	for publication, because my POD printer requires it, the content is centered on letter size pages
+
+\notdraft{
+	\usepackage[letter,center]{crop}
+	%	some quick hackery: intercharclasses should NOT interfere with the "crop" package,
+	%	so whenever we use a picture, we turn off intercharclass behaviour
+	\let\latexpicture=\picture
+	\def\picture{\XeTeXinterchartokenstate=0 \latexpicture}
+}
+
+
+\usepackage{tocloft}			% what book doesn't have a ToC?
+
+\usepackage{appendix}			% clearly we need appendices
+\noappendicestocpagenum		% no page number for the general ToC heading "Appendices"
+
+\usepackage{longtable}			% used for tables that run past a page
+\usepackage{needspace}		% required to make sure longtable doesn't generate
+						% an orphaned footer/header pair across two pages.
+
+\usepackage{fontspec}			% using system fonts is far better than using plain tex fonting~!
+\usepackage{relsize}			% this really should already be part of standard LaTeX, rather than requiring a package
+\renewcommand\RSsmallest{5pt}	% relzise goes to 6pt as minimum by default, but that won't cover \tiny, so we set it 5
+
+\usepackage{color}			% colors are used for debugging purposes
+\usepackage{float}			% figures
+\usepackage{graphicx}			% figures
+
+\setlength\fboxsep{5pt}
+\setlength\fboxrule{0.3mm}		% mainly the border around images
+
+% ----------------------------------------------------------------
+% which fonts to use, and when
+% ----------------------------------------------------------------
+
+\input{includes/xelatex/interchar.preamble}
+\setmainfont{Palatino Linotype}
+
+% ----------------------------------------------------------------
+% ruby markup stuff
+% ----------------------------------------------------------------
+
+\usepackage{accsupp}
+\usepackage[xetex, pdfborder=0 0 0]{hyperref}% has to be loaded as late as possible...
+
+% ----------------------------------------------------------------
+% ruby and rubystack for for use in tables.
+% This needs extra spacing to ensure visually appealing alignment,
+% but rather than using an extra argument, it figured it'd be more
+% readable, and overall less space-taking to just copy the plain
+% macro and rename it
+% ----------------------------------------------------------------
+
+\newcommand*{\rtrubystack}[2]{{\relscale{0.5}%
+  \begin{tabular}[b]{@{}c@{}}%
+    {#1}\\%
+    {\textscale{2}{#2}}%
+  \end{tabular}}%
+}
+
+\DeclareRobustCommand*{\rtruby}[2]{%
+  \mbox{%
+    \setlength{\parskip}{0ex}%
+    \BeginAccSupp{method=pdfstringdef,ActualText={#1}}%
+      \rtrubystack{\phantom{#2}}{#1}%
+      \llap{%
+        \rtrubystack{#2}{\phantom{#1}}%
+      }%
+    \EndAccSupp{}%
+  }%
+}
+
+% --------------------------------------------------------------
+% ruby and rubystack macro, effecting ghost furigana in the PDF 
+% --------------------------------------------------------------
+
+\newcommand*{\rubystack}[2]{{\relscale{0.5}%
+  \begin{tabular}[b]{@{}c@{}}%
+    {#1}\\%
+   {\textscale{2}{#2}}%
+  \end{tabular}}%
+}
+
+\DeclareRobustCommand*{\ruby}[2]{%
+  \mbox{%
+    \setlength{\parskip}{0ex}%
+%    \BeginAccSupp{method=pdfstringdef,ActualText={#1 (#2)}}%
+    \BeginAccSupp{method=pdfstringdef,ActualText={#1}}%
+      \rubystack{\phantom{#2}}{#1}%
+      \llap{%
+        \rubystack{#2}{\phantom{#1}}%
+      }%
+    \EndAccSupp{}%
+  }%
+}
+
+% --------------------------------------------------------------------------
+% helper macro: adds space between the text and the [T]op \hline in a table
+% --------------------------------------------------------------------------
+
+\newcommand\T{\rule{0pt}{2.5ex}}% zero width, 2.5ex vertical spacing, ensures a visually appealing vertical alignment
+
+% ------------------------
+% disable commands for PDF
+% ------------------------
+
+\pdfstringdefDisableCommands{%
+  \renewcommand*{\rtruby}[2]{#2 (#1)}% #1 for base, #2 for just furi, #2 (#1) for the logical choice =)
+  \renewcommand*{\ruby}[2]{#2 (#1)}%
+}
+
+% ----------------------------------------------------------------
+% set up lists to, by default, have no bullet symbol... as it should be!
+% ----------------------------------------------------------------
+
+\renewcommand{\labelitemi}{}
+
+% ----------------------------------------------------------------
+% example blocks may not be broken up. so they're in a minipage,
+% and their lines will end in \\* 
+% ----------------------------------------------------------------
+
+\newenvironment{exampleblock}{
+\setlength{\parindent}{0.6in}
+\begin{minipage}[t]{\dimexpr\textwidth-\parindent}}
+{\end{minipage}}
+  
+% ----------------------------------------------------------------
+% always indented table
+% (indented regardless of paragraphing in sections)
+% ----------------------------------------------------------------
+
+\newenvironment{mytabular}[1]{\noindent\hspace{0.4in}
+\begin{tabular}[h]{#1}}{\end{tabular}}
+
+% ----------------------------------------------------------------
+% always centered table
+% (not indented, regardless of paragraphing in sections)
+% ----------------------------------------------------------------
+
+\newenvironment{mytabularcentered}[1]{\noindent
+\begin{center}\begin{tabular}[h]{#1}}{\end{tabular}\end{center}}
+
+% ----------------------------------------------------------------
+% vertical writing (disable intercharclasses here)
+% ----------------------------------------------------------------
+
+\usepackage{includes/xelatex/vertical}
+
+% ----------------------------------------------------------------
+% set up glossary
+% ----------------------------------------------------------------
+
+% use glossary
+
+\usepackage{glossaries}% glossaries has to be loaded after hyperref, or things go wrong
+\renewcommand*{\glossaryentrynumbers}[1]{}
+\makeglossary
+
+% glossary terms placeholder (filled by texate.php script)
+__GLOSSARY__
+
+% make glossary terms in the text stand out, by making them italic
+\renewcommand*{\glstextformat}[1]{\emph{#1}}
+
+% removes the superfluous period after glossary entries
+\renewcommand{\glspostdescription}{}
+
+% ----------------------------------------------------------------
+% set up index
+% ----------------------------------------------------------------
+
+\usepackage{makeidx}
+\makeindex
+
+% index finetuning
+\usepackage{includes/xelatex/fixindex}
+
+% ----------------------------------------------------------------
+% intended headers:
+%
+% odd pages:	pgno.				chapter - section
+%
+% even pages:	chapter - section	  		pgno.
+%
+% ----------------------------------------------------------------
+
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{15pt}
+
+\fancyhead{} % clear all header fields
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO,RE]{\nouppercase{\leftmark} — § \nouppercase{\rightmark}}
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[RO,LE]{}
+\fancyfoot[LO,RE]{}
+
+% decorative line heights (mmm intuitive. calling a height a width)
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\newcommand{\nameheaders}[1]{
+	\fancyhead{} % clear all header fields
+	\fancyhead[RO,LE]{\thepage}
+	\fancyhead[LO,RE]{\nouppercase{#1}}
+	\pagestyle{fancy}}
+
+\newcommand{\glsidxheaders}{
+	\fancyhead{} % clear all header fields
+	\fancyhead[RO,LE]{\thepage}
+	\fancyhead[LO,RE]{\nouppercase{\leftmark}}
+	\pagestyle{fancy}}
+
+\pagestyle{plain}
+
+% ----------------------------------------------------------------
+% custom look for sections, subsections and subsubsections
+% ----------------------------------------------------------------
+
+\usepackage{includes/xelatex/customsections}
+\setcounter{secnumdepth}{2}
+
+% ----------------------------------------------------------------
+% blank page command
+% ----------------------------------------------------------------
+
+\newcommand{\blanco}{
+\newpage
+\thispagestyle{empty}
+\mbox{}}
+
+% ----------------------------------------------------------------
+% document start
+% ----------------------------------------------------------------
+
+\begin{document}
+
+	\frontmatter
+
+	\title{An Introduction to Japanese\\Syntax, Grammar \& Language}
+		\author{© 2009-2010, Michiel Kamermans\ifdraft{, all rights reserved \\
+					Draft copy — based on grammar.nihongoresources.com \\
+					This draft may not be reproduced in whole or in part. }}
+		\ifdraft{\date{\today}}\notdraft{\date{ }}
+	\maketitle
+
+	\pagebreak
+	
+	\notdraft{
+		\smaller
+		\begin{center}
+
+			\rule{0ex}{5em}
+			
+			"An introduction to Japanese - Syntax, Grammar \& Language"
+		
+			Copyright © Michiel Kamermans, 2009-2010.
+
+			The moral right of the author has been asserted.
+
+			\vfill
+
+			First edition, March 2010
+			
+			\vspace{2em}
+
+			ISBN 978-90-815071-1-0
+			
+			\vspace{2em}
+
+			Published by SJGR Publishing in the Netherlands.\\
+			www.sjgrpublishing.com
+			
+			All rights reserved
+		\end{center}
+
+		\vfill
+
+		\noindent Without limiting the rights under copyright reserved above, no part of this publication may be reproduced, stored in or introduced into a retrieval system (including both online and offline digital libraries) or transmitted, in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), without the prior written permission of the author.
+
+		\vspace{2em}
+			
+		\begin{center}Printed and bound by Lightning Source\\www.lightningsource.com\end{center}
+
+		\rule{0ex}{5em}
+
+		\larger
+	}
+
+	\cleardoublepage
+
+	% allow ToC up to and including subsection
+	\renewcommand\contentsname{Table of Contents}
+	\setcounter{tocdepth}{2}
+	\tableofcontents
+
+	__ACKNOWLEDGEMENTS__
+	
+	__PREFACE__
+
+	\mainmatter
+	
+	\pagestyle{fancy}
+
+	\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}

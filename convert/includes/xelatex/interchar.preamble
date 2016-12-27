@@ -1,0 +1,271 @@
+% This file defines all the fonts that should be used for the various kinds of characters used,
+% as well as the font-change rules that should occur when a transition from characters from
+% one class to characters from another class are encountered.
+
+
+% first off, the font definitions
+
+\newfontfamily{\cjkafont}{HAN NOM A}
+\newfontfamily{\cjkbfont}{HAN NOM B}
+\newfontfamily{\strokefont}{MingLiU}
+\newfontfamily{\quotefont}{Adobe Caslon Pro}
+\newfontfamily{\extlatinfont}{FreeSerif}
+\newfontfamily{\arrowfont}{HAN NOM B}
+\newfontfamily{\vparens}{FreeSerif}
+\newfontfamily{\cjkfont}{Kozuka Mincho Pro}
+\newfontfamily{\rmfont}{Palatino Linotype} 
+
+% then we turn on the interchar behaviour that makes xetex so damn awesome
+
+\XeTeXinterchartokenstate = 1
+
+% then we define the various classes. Classes 0, 1, 2, 3 and 255 are predefined by xetex,
+% and are respectively latin, CJK, CJK, CJK and "boundary". Let's extend that set a bit.
+
+% First, add some currencies to the latin group... handled quite well by palatino
+
+	%\XeTeXcharclass `\¥ 0 % yen
+	%\XeTeXcharclass `\$ 0 % dollar
+	%\XeTeXcharclass `\€ 0 % euro
+	%\XeTeXcharclass `\£ 0 % pound
+
+% We also need special instructions for some of the more problematic characters and symbols
+
+	\XeTeXcharclass `\︑ 3	% vertical writing Japanese comma
+	\XeTeXcharclass `\︒ 3	% vertical writing Japanese full stop
+	\XeTeXcharclass `⁝ 3	% vertical writing ellipsis (technically, tricolon)
+
+% Several characters from CJK ideographs extension A are used, so they need to be visible
+
+	\XeTeXcharclass `\⺾ 4
+	\XeTeXcharclass `\乀 4
+	\XeTeXcharclass `\丂 4
+	\XeTeXcharclass `\丮 4
+	\XeTeXcharclass `\兦 4
+	\XeTeXcharclass `\乴 4
+	\XeTeXcharclass `\檥 4
+	
+	\XeTeXcharclass `\「 4	% HAN NOM A has better kerning for these characters
+	\XeTeXcharclass `\」 4
+	\XeTeXcharclass `〃 4	% and HAN NOM A just looks better for the idem ditto mark
+
+% The same goes for a few characters from the CJK ideographs extension B block
+
+	\XeTeXcharclass `\𠃍 5	% L shape with the corner in the upper right
+	\XeTeXcharclass `\︴ 5	% vertical wavy line
+	
+% We use a separate class for CJK strokes
+
+	\XeTeXcharclass `\㇀ 10
+	\XeTeXcharclass `\㇏ 10
+	\XeTeXcharclass `\㇁ 10
+	\XeTeXcharclass `\㇂ 10
+	\XeTeXcharclass `\㇉ 10
+	\XeTeXcharclass `\㇈ 10
+	\XeTeXcharclass `\㇋ 10
+	\XeTeXcharclass `\㇌ 10
+	\XeTeXcharclass `\㇄ 10
+	\XeTeXcharclass `\㇅ 10
+	\XeTeXcharclass `\㇇ 10
+	\XeTeXcharclass `\㇆ 10
+
+% And one for quite a number of arrows... since they're not found in palatino linotype, so we can't rely on the latin font.
+
+	\XeTeXcharclass `\← 6
+	\XeTeXcharclass `\↑ 6
+	\XeTeXcharclass `\→ 6
+	\XeTeXcharclass `\↓ 6
+	\XeTeXcharclass `\↔ 6
+	\XeTeXcharclass `\↕ 6
+	\XeTeXcharclass `\↖ 6
+	\XeTeXcharclass `\↗ 6
+	\XeTeXcharclass `\↘ 6
+	\XeTeXcharclass `\↙ 6
+
+% Then some very special characters... vertical parentheses!
+
+	\XeTeXcharclass `\⁀ 7	% actually nowhere near the CJK blocks
+	\XeTeXcharclass `\‿ 7
+
+
+% And of course, no book is complete without proper unicode quotation marks
+
+	\XeTeXcharclass `\‘ 8
+	\XeTeXcharclass `\’ 8
+	\XeTeXcharclass `\‚ 8
+	\XeTeXcharclass `\‛ 8
+	\XeTeXcharclass `\“ 8
+	\XeTeXcharclass `\” 8
+	\XeTeXcharclass `\„ 8
+	\XeTeXcharclass `\‟ 8
+	
+% To finish up, some particularly hard extended Latin characters
+
+	\XeTeXcharclass `\ǒ 9	% o with caron (used in Pinyin orthography for Chinese)
+	\XeTeXcharclass `\′ 9	% prime and double prime for time (minute/second)
+	\XeTeXcharclass `\″ 9
+
+% and unicode factions
+
+	\XeTeXcharclass `\⅓ 9		% 1/3
+	\XeTeXcharclass `\⅔ 9		% 2/3
+	\XeTeXcharclass `\⅕ 9		% 1/5
+	\XeTeXcharclass `\⅖ 9		% 2/5
+	\XeTeXcharclass `\⅗ 9		% 3/5
+	\XeTeXcharclass `\⅘ 9		% 4/5
+	\XeTeXcharclass `\⅙ 9		% 1/6
+	\XeTeXcharclass `\⅚ 9		% 5/6
+	\XeTeXcharclass `\⅛ 9		% 1/8
+	\XeTeXcharclass `\⅜ 9		% 3/8
+	\XeTeXcharclass `\⅝ 9		% 5/8
+	\XeTeXcharclass `\⅞ 9		% 7/8
+
+% Then, we define all the transition rules that should occur when going from one class to another:
+
+% when going to latin
+
+	\XeTeXinterchartoks 1 0 = {\rmfont}
+	\XeTeXinterchartoks 2 0 = {\rmfont}
+	\XeTeXinterchartoks 3 0 = {\rmfont}
+	\XeTeXinterchartoks 4 0 = {\rmfont}
+	\XeTeXinterchartoks 5 0 = {\rmfont}
+	\XeTeXinterchartoks 6 0 = {\rmfont}
+	\XeTeXinterchartoks 7 0 = {\rmfont}
+	\XeTeXinterchartoks 8 0 = {\rmfont}
+	\XeTeXinterchartoks 9 0 = {\rmfont}
+	\XeTeXinterchartoks 10 0 = {\rmfont}
+	\XeTeXinterchartoks 255 0 = {\rmfont}
+
+% when going to CJK
+
+	\XeTeXinterchartoks 0 1 = {\cjkfont}
+	\XeTeXinterchartoks 4 1 = {\cjkfont}
+	\XeTeXinterchartoks 5 1 = {\cjkfont}
+	\XeTeXinterchartoks 6 1 = {\cjkfont}
+	\XeTeXinterchartoks 7 1 = {\cjkfont}
+	\XeTeXinterchartoks 8 1 = {\cjkfont}
+	\XeTeXinterchartoks 9 1 = {\cjkfont}
+	\XeTeXinterchartoks 10 1 = {\cjkfont}
+	\XeTeXinterchartoks 255 1 = {\cjkfont}
+
+	\XeTeXinterchartoks 0 2 = {\cjkfont}
+	\XeTeXinterchartoks 4 2 = {\cjkfont}
+	\XeTeXinterchartoks 5 2 = {\cjkfont}
+	\XeTeXinterchartoks 6 2 = {\cjkfont}
+	\XeTeXinterchartoks 7 2 = {\cjkfont}
+	\XeTeXinterchartoks 8 2 = {\cjkfont}
+	\XeTeXinterchartoks 9 2 = {\cjkfont}
+	\XeTeXinterchartoks 10 2 = {\cjkfont}
+	\XeTeXinterchartoks 255 2 = {\cjkfont}
+
+	\XeTeXinterchartoks 0 3 = {\cjkfont}
+	\XeTeXinterchartoks 4 3 = {\cjkfont}
+	\XeTeXinterchartoks 5 3 = {\cjkfont}
+	\XeTeXinterchartoks 6 3 = {\cjkfont}
+	\XeTeXinterchartoks 7 3 = {\cjkfont}
+	\XeTeXinterchartoks 8 3 = {\cjkfont}
+	\XeTeXinterchartoks 9 3 = {\cjkfont}
+	\XeTeXinterchartoks 10 3 = {\cjkfont}
+	\XeTeXinterchartoks 255 3 = {\cjkfont}
+
+% class '4' rules (CJK ideographs extension A)
+
+	\XeTeXinterchartoks 0 4 = {\cjkafont}
+	\XeTeXinterchartoks 1 4 = {\cjkafont}
+	\XeTeXinterchartoks 2 4 = {\cjkafont}
+	\XeTeXinterchartoks 3 4 = {\cjkafont}
+	\XeTeXinterchartoks 5 4 = {\cjkafont}
+	\XeTeXinterchartoks 6 4 = {\cjkafont}
+	\XeTeXinterchartoks 7 4 = {\cjkafont}
+	\XeTeXinterchartoks 8 4 = {\cjkafont}
+	\XeTeXinterchartoks 9 4 = {\cjkafont}
+	\XeTeXinterchartoks 10 4 = {\cjkafont}
+	\XeTeXinterchartoks 255 4 = {\cjkafont}
+
+% class '5' rules (CJK ideographs extension B)
+
+	\XeTeXinterchartoks 0 5 = {\cjkbfont}
+	\XeTeXinterchartoks 1 5 = {\cjkbfont}
+	\XeTeXinterchartoks 2 5 = {\cjkbfont}
+	\XeTeXinterchartoks 3 5 = {\cjkbfont}
+	\XeTeXinterchartoks 4 5 = {\cjkbfont}
+	\XeTeXinterchartoks 6 5 = {\cjkbfont}
+	\XeTeXinterchartoks 7 5 = {\cjkbfont}
+	\XeTeXinterchartoks 8 5 = {\cjkbfont}
+	\XeTeXinterchartoks 9 5 = {\cjkbfont}
+	\XeTeXinterchartoks 10 5 = {\cjkbfont}
+	\XeTeXinterchartoks 255 5 = {\cjkbfont}
+
+% class '6' rules (arrows)
+
+	\XeTeXinterchartoks 0 6 = {\arrowfont}
+	\XeTeXinterchartoks 1 6 = {\arrowfont}
+	\XeTeXinterchartoks 2 6 = {\arrowfont}
+	\XeTeXinterchartoks 3 6 = {\arrowfont}
+	\XeTeXinterchartoks 4 6 = {\arrowfont}
+	\XeTeXinterchartoks 5 6 = {\arrowfont}
+	\XeTeXinterchartoks 7 6 = {\arrowfont}
+	\XeTeXinterchartoks 8 6 = {\arrowfont}
+	\XeTeXinterchartoks 9 6 = {\arrowfont}
+	\XeTeXinterchartoks 10 6 = {\arrowfont}
+	\XeTeXinterchartoks 255 6 = {\arrowfont}
+
+% class '7' rules (only used for vertical parentheses)
+
+	\XeTeXinterchartoks 0 7 = {\vparens}
+	\XeTeXinterchartoks 1 7 = {\vparens}
+	\XeTeXinterchartoks 2 7 = {\vparens}
+	\XeTeXinterchartoks 3 7 = {\vparens}
+	\XeTeXinterchartoks 4 7 = {\vparens}
+	\XeTeXinterchartoks 5 7 = {\vparens}
+	\XeTeXinterchartoks 6 7 = {\vparens}
+	\XeTeXinterchartoks 8 7 = {\vparens}
+	\XeTeXinterchartoks 9 7 = {\vparens}
+	\XeTeXinterchartoks 10 7 = {\vparens}
+	\XeTeXinterchartoks 255 7 = {\vparens}
+
+% class '8' rules (unicode quotation marks - palatino's are quite horrible)
+
+	\XeTeXinterchartoks 0 8 = {\quotefont}
+	\XeTeXinterchartoks 1 8 = {\quotefont}
+	\XeTeXinterchartoks 2 8 = {\quotefont}
+	\XeTeXinterchartoks 3 8 = {\quotefont}
+	\XeTeXinterchartoks 4 8 = {\quotefont}
+	\XeTeXinterchartoks 5 8 = {\quotefont}
+	\XeTeXinterchartoks 6 8 = {\quotefont}
+	\XeTeXinterchartoks 7 8 = {\quotefont}
+	\XeTeXinterchartoks 9 8 = {\quotefont}
+	\XeTeXinterchartoks 10 8 = {\quotefont}
+	\XeTeXinterchartoks 255 8 = {\quotefont}
+
+% class '9' rules (extended latin - FreeSerif chosen because it's closest to Palatino Linotype)
+
+	\XeTeXinterchartoks 0 9 = {\extlatinfont}
+	\XeTeXinterchartoks 1 9 = {\extlatinfont}
+	\XeTeXinterchartoks 2 9 = {\extlatinfont}
+	\XeTeXinterchartoks 3 9 = {\extlatinfont}
+	\XeTeXinterchartoks 4 9 = {\extlatinfont}
+	\XeTeXinterchartoks 5 9 = {\extlatinfont}
+	\XeTeXinterchartoks 6 9 = {\extlatinfont}
+	\XeTeXinterchartoks 7 9 = {\extlatinfont}
+	\XeTeXinterchartoks 8 9 = {\extlatinfont}
+	\XeTeXinterchartoks 10 9 = {\extlatinfont}
+	\XeTeXinterchartoks 255 9 = {\extlatinfont}
+	
+% class '10' rules (CJK strokes)
+
+	\XeTeXinterchartoks 0 10 = {\strokefont}
+	\XeTeXinterchartoks 1 10 = {\strokefont}
+	\XeTeXinterchartoks 2 10 = {\strokefont}
+	\XeTeXinterchartoks 3 10 = {\strokefont}
+	\XeTeXinterchartoks 4 10 = {\strokefont}
+	\XeTeXinterchartoks 5 10 = {\strokefont}
+	\XeTeXinterchartoks 6 10 = {\strokefont}
+	\XeTeXinterchartoks 7 10 = {\strokefont}
+	\XeTeXinterchartoks 8 10 = {\strokefont}
+	\XeTeXinterchartoks 9 10 = {\strokefont}
+	\XeTeXinterchartoks 255 10 = {\strokefont}
+
+% This might seem like a lot of work, but the benefit of this approach is EXPLICIT control over what happenes when,
+% unlike in your standard office application, where if you can ever tell it which default font to use for CJK characters,
+% you should praise the various lords of Typesetting for their benevolence =)

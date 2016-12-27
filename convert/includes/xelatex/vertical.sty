@@ -1,0 +1,62 @@
+\ProvidesPackage{vertical}
+
+% ------------------------------------------
+%  This package deals with vertically typeset text
+%  which for the purpose of our book mostly means
+%  the いろは poem
+% ------------------------------------------
+
+\RequirePackage{ifxetex}
+\RequireXeTeX
+
+\RequirePackage{includes/xelatex/iroha}
+
+\RequirePackage{ifthen}
+\RequirePackage{graphics}
+\RequirePackage{fontspec}
+\RequirePackage{varwidth}
+\RequirePackage{relsize}
+
+
+\DeclareRobustCommand*{\vruby}[2]{%
+\mbox{%
+\setlength{\parskip}{0ex}%
+\BeginAccSupp{method=pdfstringdef,ActualText={#1}}%
+\rule{0pt}{1.7em}\rubystack{\phantom{#2}}{#1}%
+\llap{%
+\rule{0pt}{1.7em}\rubystack{\smaller #2}{\phantom{#1}}%
+}%
+\EndAccSupp{}%
+}%
+}
+
+\newcommand{\vertical}[4]{%
+\XeTeXinterchartokenstate = 0 %
+\begin{center}%
+\rotatebox{-90}{%
+\begin{varwidth}{\textwidth}%
+\fontsize{#2pt}{#2pt}
+\fontspec[RawFeature=vertical, Script=CJK]{#1}#4
+\vspace{#2pt}%
+\vspace{#2pt}%	this padding should only exist if ruby is present, for visual offset
+\vspace{#2pt}%
+\end{varwidth}}%
+\\
+\vspace{12pt}
+\XeTeXinterchartokenstate = 1 %
+\fontsize{8pt}{10pt}#3
+\end{center}%
+\XeTeXinterchartokenstate = 1 %
+}
+
+\renewcommand{\iroharuby}{%
+\vruby{色}{いろ}は\vruby{匂}{にほ}へど\\
+\vruby{散}{ち}りぬるを\\
+\vruby{我}{わ}が\vruby{世}{と}\vruby{誰}{たれ}ぞ\\
+\vruby{常}{つね}ならむ\\
+\vruby{有為}{うゐ}の\vruby{奥山}{おくやま}\\
+\vruby{今日}{けふ}\vruby{越}{こ}えて\\
+\vruby{浅}{あさ}き\vruby{夢}{ゆめ}\vruby{見}{み}じ\\
+\vruby{酔}{ゑ}ひもせず}
+
+\endinput

@@ -1,0 +1,19 @@
+% everything in this file comes at the end of our TeX document, and is considered backmatter
+
+\backmatter
+
+\glsidxheaders
+
+% show the glossaries
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Glossary}
+\printglossaries
+\markboth{Glossary}{}
+
+% show the indexes
+\cleardoublepage
+\renewcommand{\indexname}{English index}
+\printindex
+
+% and finally end the document
+\end{document}
