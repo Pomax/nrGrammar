@@ -1,9 +1,15 @@
 An introduction to Japanese - Syntax, Grammar & Language
 ========================================================
 
-This is the new repository for the data that is used to
-generate the book "An introduction to Japanese" as found
-at http://www.amazon.com/dp/9081507117 and other stores.
+This is the repository for the data that is used to
+generate the book "An introduction to Japanese",
+previously found at http://www.amazon.com/dp/9081507117
+and other stores.
+
+I've taken this book off the market (because I cancelled
+my account with my publisher and will be looking at a
+new way to do publishing) but the book is still available
+in PDF form.
 
 I've been running it as a dokuwiki for a few years on
 http://grammar.nihongoresources.com and that has proven
