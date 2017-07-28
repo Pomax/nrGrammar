@@ -99,9 +99,6 @@ Having covered the "what they look like", let's look at what this means for a nu
 死(し)ぬ	死な	死に	死ぬ	死ね	死ね
 学(まな)ぶ	学ば	学び	学ぶ	学べ	学べ
 読(よ)む	読ま	読み	読む	読め	読め
-
-一段 verbs	未然形	連用形	連体形	已然形	命令形
-
 分(わ)かる	分から	分かり	分かる	分かれ	分かれ
 切(き)る	切ら	切り	切る	切れ	切れ
 売(う)る	売ら	売り	売る	売れ	売れ
