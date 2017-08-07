@@ -895,7 +895,7 @@ bases	form
 
 However, as an inflection the first person desirative is about as simple as it gets, pairing with 連用形:
 
-verb	first person desirative
+五段 verb	first person desirative
 
 会う	会い + たい
 歩く	歩き + たい
@@ -907,13 +907,13 @@ verb	first person desirative
 待つ	待ち + たい
 分かる	分かり + たい
 
-verb	first person desirative
+一段 verb	first person desirative
 
 見る	見 + たい
 伸びる	伸び + たい
 食べる	食べ + たい
 
-verb	first person desirative
+irregular verb	first person desirative
 
 する	し + たい
 来る	き + たい
@@ -951,7 +951,7 @@ bases	form
 
 Like たい, this form does not suffer from contracted inflections, and is added directly to the 連用形:
 
-verb	second/third person desirative
+五段 verbs	second/third person desirative
 
 会う	会い + たがる
 歩く	歩き + たがる
@@ -963,13 +963,13 @@ verb	second/third person desirative
 待つ	待ち + たがる
 分かる	分かり + たがる
 
-verb	second/third person desirative
+一段 verbs	second/third person desirative
 
 見る	見 + たがる
 伸びる	伸び + たがる
 食べる	食べ + たがる
 
-verb	second/third person desirative
+irregular verb	second/third person desirative
 
 する	し + たがる
 来る	き + たがる
