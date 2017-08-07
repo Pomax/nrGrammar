@@ -1134,7 +1134,7 @@ Since the pseudo-future doesn't quite end on a verb that can be placed in a 未�
 伸びる	伸び + まい	伸び + ます + まい
 食べる	食べ + まい	食べ + ます + まい
 
-五段 verb	negative pseudo-future	polite negative pseudo-future
+irregular verb	negative pseudo-future	polite negative pseudo-future
 
 する	する + まい	し + ます + まい
 来る	くる + まい	き + ます + まい
