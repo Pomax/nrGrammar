@@ -89,7 +89,7 @@ This is a lot of inflectional potential, but as classical Japanese transitioned 
 
 Having covered the "what they look like", let's look at what this means for a number of verbs from both classes, and for verbal adjectives:
 
-五段 verbs	未然形	連用形	連体形	已然形	命令形
+五段 verb	未然形	連用形	連体形	已然形	命令形
 
 会(あ)う	会わ	会い	会う	会え	会え
 歩(ある)く	歩か	歩き	歩く	歩け	歩け
@@ -364,7 +364,7 @@ For 一段 verbs things are a lot simpler, and we see a regular table of inflect
 
 And for the irregular verbs we see the same, bearing in mind that the stems have a different pronunciation:
 
-Irregular	連用形	past tense
+irregular verb	連用形	past tense
 
 する	し	連用形+た: した
 来(く)る	き	連用形+た: きた
@@ -380,7 +380,7 @@ adjective	meaning	連用形	+ past tense of ある	resulting past tense
 薄(うす)い	thin, light	薄く	薄く + あった	薄かった
 大(おお)きい	big	大きく	大きく + あった	大きかった
 
-irregular	meaning	連用形	+ past tense of ある	resulting past tense
+irregular verb	meaning	連用形	+ past tense of ある	resulting past tense
 
 いい	good	よく	よく + あった	{idx:japanese:よかった}
 
@@ -410,7 +410,7 @@ So now we can also form the plain past negative for verbs, using 未然形 + "pa
 伸(の)びる	伸び	伸びない	伸びなかった
 食(た)べる	食べ	食べない	食べなかった
 
-Irregular	未然形	negative	past negative tense
+irregular verb	未然形	negative	past negative tense
 
 する	し	しない	しなかった
 来る	こ	こない	こなかった
