@@ -1110,6 +1110,7 @@ Similarly, on its own 思う means "to think", but when used with the pseudo-fut
 
   手紙(てがみ)を書(か)こうと思います。
   "(I)'m thinking about writing a letter."
+
 === {idx:english:inflections!Negative pseudo-future} ===
 
 Since the pseudo-future doesn't quite end on a verb that can be placed in a 未然形, creating the negative form cannot be done using {idx:english:ぬ} or {idx:english:ない}. Instead, the negative pseudo-future uses the classical helper verb {idx:english:まい}. To make matters slightly more confusing, while 一段 verbs use their 未然形 as base form, 五段 verbs use their 連体形 as base form for the negative pseudo-future.
