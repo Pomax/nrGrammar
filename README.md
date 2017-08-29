@@ -44,3 +44,37 @@ or submitting pull requests. Contributions deserve
 acknowledgements in the book's acknowledgement section.
 
 Live site: [https://Pomax.github.io/nrGrammar](https://Pomax.github.io/nrGrammar)
+
+## Development
+
+Compilation of book relies on some older technologies in
+part because it was initially created back in 2008 when
+PHP was still the king of "get shit done fast" scripting
+langauges for people who needed one scripting language
+to do everything from CLI to web content (was has since
+been replaced by JavaScript), and LuaTex was still
+four years away from a version 1, making the only
+sane TeX choice XeLaTeX (because XeTeX is natively
+utf8, rather than needing special instructions just
+to understand utf8 documents).
+
+## Localisation
+
+Localised content is housed in `./data/pages`, where each
+locale uses its own locale code as directory name. Inside
+of those, all files should follow the filename convention
+as used in the `en-GB` directory, in order for the compilation
+scripts to find them.
+
+Translations should follow the spirit of the text, not the
+letter of text: if an idiom or illustratrive piece of text
+does not work in the language you're targeting, *please do not
+translate it literally*. The worst thing you can do when
+translating is to take text that works in one language, and
+force-translating it to a weird, clunky text in a different
+language. Sometimes that might mean rewriting an entire
+paragraph, or even more than one, in order for the discourse
+to flow naturally in your target language: that is fine.
+It is in fact infinitely preferable over a literal translation
+that isn't up to whatever is considered university-level
+langauge in the country/region you're localizing for.

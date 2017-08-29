@@ -2,7 +2,8 @@
 	//日本語UTF8
 
 	// we assume we're executing from [dokuwikilocation]/bin/tex/
-	$docloc = "../../data/pages/";
+	$locale = "en-GB";
+	$docloc = "../../data/pages/$locale/";
 	$docext = ".txt";
 
 	// dump data to file
@@ -12,14 +13,14 @@
 		fclose($fh); }
 
 	// form a filename
-	function get_filename($chapter) { 
+	function get_filename($chapter) {
 		global $docloc, $docext;
 		return str_replace(" ","_", $docloc . $chapter . $docext); }
 
 	// get preface filename
-	function get_preface($preface) { 
+	function get_preface($preface) {
 		global $docloc, $docext, $quote_replace;
-		return str_replace(" ","_", $docloc . "preface/" . $preface . $docext); 
+		return str_replace(" ","_", $docloc . "preface/" . $preface . $docext);
 	}
 
 	// get the LaTeX preamble from file
@@ -34,7 +35,7 @@
 				else { $text[$l] = str_replace("__DRAFT_OR_NOT__",'\newcommand{\draft}{\false}',$text[$l]); }}}
 		return implode("",$text);
 	}
-	
+
 	// get the LaTeX postamble from file
 	function get_postamble() { return implode("",file("includes/xelatex/postamble.txt")); }
 
@@ -68,9 +69,9 @@
 			unset($quote_formatter);
 			$end = time();
 			println(" done (took ".($end-$start)."s)"); }
-		
+
 		// no quote replacement
-		else { 
+		else {
 			foreach($terms as $term => $description) {
 				$glossary[] = "\\newglossaryentry".'{'.$term.'}{'."name=".'{'.$term.'}'.", description=".'{'.$description.'}}'."\n"; }
 		}
@@ -79,12 +80,12 @@
 		unset($glossary);
 		return $text;
 	}
-	
+
 		// acknowledgements
 	function get_acknowledgements_text()
 	{
 		global $quote_replace;
-		
+
 		$lines = file(get_filename("acknowledgements"));
 		// quick replace to prevent indexing
 		for($ti=0;$ti<count($lines);$ti++) {
@@ -104,7 +105,7 @@
 
 		return $text;
 	}
-	
+
 	// preface
 	function get_preface_text()
 	{
@@ -116,7 +117,7 @@
 			$lines[$ti] = str_replace("====== Preface ======","\chapter*{Preface}",$lines[$ti]); }
 		$text = implode("",array_slice($lines,3));
 		unset($lines);
-	
+
 		// do quote replacement
 		if($quote_replace) {
 			print("[".date("H:i:s")."] - Rewriting typewriter quotes to curly quotes in preface...");
@@ -127,7 +128,7 @@
 			unset($quote_formatter);
 			$end = time();
 			println(" done (took ".($end-$start)."s)"); }
-		
+
 		// and return...
 		return $text;
 	}

@@ -84,7 +84,7 @@ schedule(function loadData() {
 
   var base = window.GrammarLoaderConfig ? GrammarLoaderConfig.base : '',
 
-      dir = base + "./data/pages/",
+      dir = base + "./data/pages/en-GB/",
 
       pages = [
         "preface/onlinedraft",
