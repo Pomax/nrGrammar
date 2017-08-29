@@ -493,7 +493,7 @@ For 五段 verbs, the combination of 連用形 with て leads to contracted form
 
 And again 行く is an exception:
 
-Irregular	連用形	{idx:english:classical continuative}	{idx:english:modern continuative}
+irregular verb	連用形	{idx:english:classical continuative}	{idx:english:modern continuative}
 
 行(い)く	行き	連用形+て	いって
 
@@ -505,7 +505,7 @@ For the 一段 verbs, as well as verbal adjectives, no contractions occur:
 伸びる	連用形+て: 伸びて
 食べる	連用形+て: 食べて
 
-Irregular	連用形	continuative
+irregular verb	連用形	continuative
 
 する	し	連用形+て: して
 来る	き	連用形+て: きて
@@ -811,7 +811,7 @@ In the same series of inflections that contract with 五段 verbs (た, て and 
 
 Noting the exception for the verb 行(い)く:
 
-Irregular	conditional
+irregular verb	conditional
 
 行く	行ったら
 
@@ -825,7 +825,7 @@ No contractions occur for 一段 verbs:
 
 And the irregular verbs get their own table:
 
-Irregular	連用形	conditional
+irregular verb	連用形	conditional
 
 する	し	したら
 来る	き	きたら
@@ -895,7 +895,7 @@ bases	form
 
 However, as an inflection the first person desirative is about as simple as it gets, pairing with 連用形:
 
-verb	first person desirative
+五段 verb	first person desirative
 
 会う	会い + たい
 歩く	歩き + たい
@@ -907,13 +907,13 @@ verb	first person desirative
 待つ	待ち + たい
 分かる	分かり + たい
 
-verb	first person desirative
+一段 verb	first person desirative
 
 見る	見 + たい
 伸びる	伸び + たい
 食べる	食べ + たい
 
-verb	first person desirative
+irregular verb	first person desirative
 
 する	し + たい
 来る	き + たい
@@ -951,7 +951,7 @@ bases	form
 
 Like たい, this form does not suffer from contracted inflections, and is added directly to the 連用形:
 
-verb	second/third person desirative
+五段 verb	second/third person desirative
 
 会う	会い + たがる
 歩く	歩き + たがる
@@ -963,13 +963,13 @@ verb	second/third person desirative
 待つ	待ち + たがる
 分かる	分かり + たがる
 
-verb	second/third person desirative
+一段 verb	second/third person desirative
 
 見る	見 + たがる
 伸びる	伸び + たがる
 食べる	食べ + たがる
 
-verb	second/third person desirative
+irregular verb	second/third person desirative
 
 する	し + たがる
 来る	き + たがる
@@ -1050,7 +1050,7 @@ For 一段 verbs, we simply add よう to the 未然形, and for the irregular v
 伸びる	伸び + よう	伸び + ましょう
 食べる	食べ + よう	食べ + ましょう
 
-irregular	pseudo-future		polite pseudo-future
+irregular verb	pseudo-future		polite pseudo-future
 
 する	し + よう		し + ましょう
 来る	こ + よう		き + ましょう
@@ -1134,7 +1134,7 @@ Since the pseudo-future doesn't quite end on a verb that can be placed in a 未�
 伸びる	伸び + まい	伸び + ます + まい
 食べる	食べ + まい	食べ + ます + まい
 
-五段 verb	negative pseudo-future	polite negative pseudo-future
+irregular verb	negative pseudo-future	polite negative pseudo-future
 
 する	する + まい	し + ます + まい
 来る	くる + まい	き + ます + まい
@@ -1200,7 +1200,7 @@ The hypothetical construction, hinted at earlier in the section on たら, is cr
 伸びる	伸びれ + ば	伸びなけれ + ば
 食べる	食べれ + ば	食べなけれ + ば
 
-irregular	hypothetical	negative hypothetical
+irregular verb	hypothetical	negative hypothetical
 
 する	すれ + ば	しなけれ + ば
 来る	くれ + ば	こなけれ + ば
@@ -1330,7 +1330,7 @@ This set tells us several things: first, it tells us that {idx:english:くださ
 伸びる	伸び + なさい
 食べる	食べ + なさい
 
-irregular	なさる imperative
+irregular verb	なさる imperative
 
 する	し + なさい
 来る	き + なさい
@@ -1374,7 +1374,7 @@ If you want to tell people to not do something, then the form of the command is 
 伸びる	伸びるな
 食べる	食べるな
 
-irregular	prohibitive form
+irregular verb	prohibitive form
 
 する	するな
 来る	くるな
@@ -1449,7 +1449,7 @@ Again, depending on intonation and context this might be experienced as anything
 伸びる	伸び + られる
 食べる 	食べ + られる
 
-irregular	passive
+irregular verb	passive
 
 する (1)	さ—未然形 + れる, forming される (most common)
 する (2)	せ—未然形 + られる, forming せられる
@@ -1547,7 +1547,7 @@ As mentioned, the way these two helper verbs are added is identical to the way (
 伸びる	伸び + させる
 食べる 	食べ + させる
 
-irregular	causative
+irregular verb	causative
 
 する	さ—未然形 + せる
 来る	こ + させる
