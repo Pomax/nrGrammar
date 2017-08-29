@@ -138,7 +138,7 @@ This also means that このように (etc.) can be used in certain situations wh
 
 == 様(よう) + に + {idx:english:する@ようにする (様にする)}/{idx:english:なる@ようになる (様になる)} ==
 
-よう can also be used in the special combination 連用形 + ように + する. This construction literally translates to "Doing, in a way that is akin to ...", which is a bit cryptic, so an example to demonstrate the use:
+よう can also be used in the special combination 連体形 + ように + する. This construction literally translates to "Doing, in a way that is akin to ...", which is a bit cryptic, so an example to demonstrate the use:
 
   電話(でんわ)をかけるようにする。
   literally: "(I) will do (something), in a way that is akin to telephoning".
