@@ -28,7 +28,7 @@ stuff, and in the same vein: just because I'm hosting
 this on a public repository does not give you the right
 to use the code and raw data for your own purposes.
 
-This book is [free for the general public in PDF form](data/pdf/draft.pdf),
+This book is [free for the general public in PDF form](data/pdf/en-GB/draft.pdf),
 and available as the more traditional (affordable, gasp!)
 paper textbook version at book retailers, but this is
 a product, not a project: all code and data is owned by
