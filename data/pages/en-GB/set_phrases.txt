@@ -83,7 +83,7 @@ This is a terribly misused phrase by people who start to take an interest in Jap
 
 ==== お先(さき)に — Said when leaving early ====
 
-Said when leaving earlier than you normally would (namely when everyone else leaves), お先に literally says "before [you/everyone else]" and is short for お先に行(い)ってきます. This can be met with two responses, namely either a set phrase such as お疲(つか)れ様(さま)でした or ご苦労様(くろさま)でした, or with surprise at the act of leaving early for no clear reason.
+Said when leaving earlier than you normally would (namely when everyone else leaves), お先に literally says "before [you/everyone else]" and is short for お先に失礼(しつれい)します, itself short for お先に[...]、失礼(しつれい)します where the placehold is some action taken at a time that would be considered inappropriate. This can be met with three responses, namely either a set phrase such as お疲(つか)れ様(さま)でした, ご苦労様(くろさま)でした, or お先にどうぞ (in context typically translated as "okay" or "sure", rather than a literal "go ahead"). Or, of course, it might be met with surprise at the act of leaving early for no clear reason.
 
 ==== お邪魔(じゃま)します — Entering someone's house ====
 
@@ -186,7 +186,7 @@ Literally, this phrase instructs someone to apply 気, in this case best transla
 
 ==== ご苦労様(くろうさま)(です/でした) — "Job well done" ====
 
-Literally, this phrase doesn't say "well done" at all, but actually translates to "it would appear that you have exerted considerable effort", 苦労 (くろう), with the fact that this was actually "good" effort only being implied by the fact that you're not being told you've done a bad job instead. This phrase can be used whenever someone has finished doing a tough job, or has had a rough day.
+Literally, this phrase doesn't say "well done" at all, but actually translates to "it would appear that you have exerted considerable effort", 苦労 (くろう), with the fact that this was actually "good" effort only being implied by the fact that you're not being told you've done a bad job instead. This phrase can be used whenever someone has finished doing a tough job, or has had a rough day, but is typically reserved as a response to those of equal or lower standing.
 
 This phrase is also used as a reply to お先(さき)に, when used by someone for whom it's okay to leave work before others do (even if only by a few minutes). Colloquially the 様 in ご苦労様 can be replaced with さん, to create the more relaxed sounding ご苦労さん.
 
@@ -350,7 +350,7 @@ Alternatives to はい are the more colloquial うん and the more explicitly ac
 
 ==== 始(はじ)めまして — A formal greeting used when meeting someone for the first time ====
 
-Like どうして, this is technically an unfinished sentence, being the polite て form of 始める, "to start (something)". Literally, this sentence reads "[through our meeting, something] starts ...", which is why it is only used once in your life per person that you meet. In a setting where there will be a lasting cooperation between you and whoever you say this to, the conversation will typically steer towards どうぞよろしく or よろしくお願(ねが)いします, depending on the whether you will be potentially relying on the other person a lot.
+Like どうして, this is technically an unfinished sentence, being the polite て form of 始める, "to start (something)", and comes from the original expression 初めてお目(め)にかかります literally translating to an acknowledgement that "this is the first time I have come before you". Consequently, 初めまして is used as a set phrase greeting when meeting someone for the first time. In a setting where there will be a lasting cooperation between you and whoever you say this to, the conversation will typically steer towards どうぞよろしく or よろしくお願(ねが)いします, depending on the whether you will be potentially relying on the other person a lot.
 
 ==== 腹(はら)が立(た)つ — Getting upset ====
 
