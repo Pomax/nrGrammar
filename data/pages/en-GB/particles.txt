@@ -670,6 +670,7 @@ interrogative	+ particle	combination
 どこも	に	どこにも
 何(なに)も	で	何(なん)でも
 誰(だれ)も	を	誰をも
+
 === {idx:english:particles!を} — {idx:english:essential particles!Direct verb object} ===
 
 The last particle in the list, but also the simplest to explain. In modern Japanese, this particle marks a direct verb object, and acts as indicator for "what is being traversed" in traversal verbs. We have already looked at both of these roles in chapter 1, in the section on verbs, as well as in chapter 2, in the section on verb particles; the particle is always pronounced as お, and there isn't really anything else to say about this particle that hasn't been said already.
