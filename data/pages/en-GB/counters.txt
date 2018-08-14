@@ -167,6 +167,7 @@ And we can ask how many samurai there are by using:
 When followed by a counter starting with a は—column syllable, the counter voices to a 'b' sound:
 
   なん + はい becomes なんばい
+
 ==== The rules in summary ====
 
 In summary, there are four different numeral readings:
