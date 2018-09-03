@@ -319,7 +319,7 @@ stroke	drawing order	examples
 ㇐	left to right	二, 三
 ㇀	starting at the lower left	冫
 ㇔	called a "tick mark", starting upper left	冫, 丸, 犬
-㇏	starting at the top	乂, 又
+㇏乀	starting at the top	乂, 又
 ㇓	starting at the top	乂
 ㇑	starting at the top	十
 ㇚	starting at the top, with a serif to the left at the end	了, 小
