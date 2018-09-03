@@ -316,13 +316,13 @@ Writing kanji follows relatively strict rules. Because kanji are mostly composed
 
 stroke	drawing order	examples
 
-一	left to right	二, 三
+㇐	left to right	二, 三
 ㇀	starting at the lower left	冫
-丶	called a "tick mark", starting upper left	冫, 丸, 犬
-㇏乀	starting at the top	乂, 又
-丿	starting at the top	乂
-丨	starting at the top	十
-亅	starting at the top, with a serif to the left at the end	了, 小
+㇔	called a "tick mark", starting upper left	冫, 丸, 犬
+㇏	starting at the top	乂, 又
+㇓	starting at the top	乂
+㇑	starting at the top	十
+㇚	starting at the top, with a serif to the left at the end	了, 小
 ㇁	starting upper left, and then pulling back at the end	犭
 ㇂	starting at the top, with an upward serif at the end	弌, 戈
 
@@ -334,16 +334,16 @@ stroke	drawing order	examples
 ㇅	left to right, then top to bottom, then left to right	凹
 ㇇	left to right, then a hook curving down left	水
 ㇆	left to right, then top to bottom with a serif to the upper left	刀, 方
-𠃍	left to right, then top to bottom	囗
-乚	top to bottom, then left to right with a serif upward at the end	礼
-乁	top left to right, then down right with an upward serif at the end	虱,丮
+㇕	left to right, then top to bottom	囗
+㇟	top to bottom, then left to right with a serif upward at the end	礼
+⺄	top left to right, then down right with an upward serif at the end	虱,丮
 
 === {idx:english:strokes!multi-angled strokes} ===
 
 stroke	drawing order	examples
 
 ㇉	top to bottom, then the same as ㇆	丂
-㇈	top left to right, then the same as 乚	九
+㇈	top left to right, then the same as ㇟	九
 ㇋	top left to right, top to bottom, then the same as ㇇	乃, 廴
 ㇌	a connected stroke consisting of ㇇ and ㇁	阝
 
@@ -358,7 +358,7 @@ Several compositional rules apply when a kanji consists of more than one stroke:
     - For a vertical/horizontal intersection where the vertical stroke does protrude at the bottom, such as in 十, 牛 or 年, draw all horizontals first, and finally the vertical.
     - For 乂 crossed strokes such as in 文 or 父, the stroke that runs upper-right to lower-left is drawn first.
     - Strokes that intersect complete shapes, such as the vertical in 中 or the horizontal in 母, are written last.
-  - Box {idx:english:strokes!enclosures}, such as in 国, are written left｜first, then followed up with ㇆ to form 冂, then have their content drawn, and are then closed at the bottom with 一.
+  - Box {idx:english:strokes!enclosures}, such as in 国, are written left㇑first, then followed up with ㇆ to form 冂, then have their content drawn, and are then closed at the bottom with ㇐.
   - Semi enclosures, such as around 入 in 込 or around 聿 in 建, are written last, after the semi-enclosed component.
 
 There are a few exceptions to these rules (of course), so when learning kanji, one should always have some reference on how to draw kanji.
