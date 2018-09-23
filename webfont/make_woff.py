@@ -11,7 +11,7 @@ def error(*args):
 
 
 if sys.version_info[0:2] < (3, 6):
-    error("This script requires Python version 3.6")
+    error("This script requires Python version 3.6 or later.")
     exit(1)
 
 
@@ -146,9 +146,9 @@ class FilterPipeLine():
 
 class BaseFilter():
     def feed(self, codepoint):
-        """Let the filter handle the codepoint.
+        """Let a subclassing filter handle the codepoint.
 
-        Returning True means that the codepoint was handled subsequent filters
+        Returning True means that the codepoint was handled, subsequent filters
         will be skipped.
 
         """
