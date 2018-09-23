@@ -33,10 +33,6 @@ these comments in the JSON file):
   "dataFiles": [
     "../data/pages/en-GB/**/*.txt"
   ],
-  // List of individual code points and ranges (list with start an end).
-  "excludeCodepoints": [
-    [0, 127]
-  ],
   // The order of fonts are important, fonts will be checked for every code
   // point until one has a glyph. First element is the input, second is the
   // output.
@@ -47,6 +43,10 @@ these comments in the JSON file):
   // Missing characters will be written to this file in utf-8. relative to
   // config file's location.
   "missingOutput": "missing.txt",
+  // TAB and LFD don't have a glyph
+  "ignore_missing": [
+    9, 10
+  ],
   // if true, only print which fonts are used and missing characters
   "justCheck": false
 }}"""
@@ -181,17 +181,16 @@ class UniqueFilter(BaseFilter):
 
 class ExcludeFilter(BaseFilter):
     def __init__(self):
-        self.exclude_ranges = []
+        self.excluded = set()
 
-    def exclude_range(self, unicode_range):
-        self.exclude_ranges.append(unicode_range)
+    def exclude(self, codepoint):
+        self.excluded.add(codepoint)
 
     def feed(self, codepoint):
-        for range_ in self.exclude_ranges:
-            if codepoint in range_:
-                return True
-            else:
-                return False
+        if codepoint in self.excluded:
+            return True
+        else:
+            return False
 
 
 def main():
@@ -231,14 +230,6 @@ def main():
     uniq_filt = UniqueFilter()
     pipeline.add_filter(uniq_filt)
 
-    excl_filt = ExcludeFilter()
-    for excl in config['excludeCodepoints']:
-        if isinstance(excl, list):
-            excl_filt.exclude_range(range(excl[0], excl[1]))
-        else:
-            excl_filt.exclude_range(range(excl, excl+1))
-    pipeline.add_filter(excl_filt)
-
     fonts = []
     for font_conf in config['fonts']:
         infile = configdir / font_conf[0]
@@ -250,11 +241,16 @@ def main():
     for filt in font_filts:
         pipeline.add_filter(filt)
 
+    missing = set()
+
+    excl_filt = ExcludeFilter()
+    for excl in config['ignore_missing']:
+        excl_filt.exclude(excl)
+    pipeline.add_filter(excl_filt)
+
     paths = []
     for pattern in config['dataFiles']:
         paths.extend(configdir.glob(pattern))
-
-    missing = set()
 
     for path in paths:
         with path.open(encoding='utf_8') as file:
