@@ -4,6 +4,7 @@ from sys import exit, argv
 from pathlib import Path
 import json
 import logging
+import argparse
 
 
 def error(*args):
@@ -23,33 +24,6 @@ try:
 except ImportError:
     error("Please install the fontTools python module.")
     exit(1)
-
-_USAGE = f"""usage: {argv[0]} conffile
-
-conffile is in JSON format. Example with explanatory comments (don't include
-these comments in the JSON file):
-{{
-  // List of files or globs relative to the config file's dir.
-  "dataFiles": [
-    "../data/pages/en-GB/**/*.txt"
-  ],
-  // The order of fonts are important, fonts will be checked for every code
-  // point until one has a glyph. First element is the input, second is the
-  // output.
-  "fonts": [
-    ["HanaMinA.ttf", "../HanaMinA.woff"],
-    ["HanaMinB.ttf", "../HanaMinB.woff"]
-  ],
-  // Missing characters will be written to this file in utf-8. relative to
-  // config file's location.
-  "missingOutput": "missing.txt",
-  // TAB and LFD don't have a glyph
-  "ignore_missing": [
-    9, 10
-  ],
-  // if true, only print which fonts are used and missing characters
-  "justCheck": false
-}}"""
 
 
 class Font:
@@ -193,30 +167,58 @@ class ExcludeFilter(BaseFilter):
             return False
 
 
+JSON_help = """\
+conffile is in JSON format. Example with explanatory comments (don't include
+these comments in the JSON file):
+{
+  // List of files or globs relative to the config file's dir.
+  "dataFiles": [
+    "../data/pages/en-GB/**/*.txt"
+  ],
+  // The order of fonts are important, fonts will be checked for every code
+  // point until one has a glyph. First element is the input, second is the
+  // output.
+  "fonts": [
+    ["HanaMinA.ttf", "../HanaMinA.woff"],
+    ["HanaMinB.ttf", "../HanaMinB.woff"]
+  ],
+  // Missing characters will be written to this file in utf-8. relative to
+  // config file's location.
+  "missingOutput": "missing.txt",
+  // TAB and LFD don't have a glyph
+  "ignoreMissing": [
+    9, 10
+  ],
+}"""
+
+
 def main():
-    argc = len(argv)
-    if argc == 1:
-        print(_USAGE)
-        exit(0)
-    elif argc == 2:
-        if argv[1] in ['-h', '--help']:
-            print(_USAGE)
-            exit(0)
-        else:
-            try:
-                configpath = argv[1]
-                with open(configpath) as configfile:
-                    config = json.load(configfile)
-            except FileNotFoundError as err:
-                error(f'Config file "{configpath}" not found: {err.strerror}')
-                exit(1)
-            except OSError as err:
-                error(f'Error reading "{configpath}": {err.strerror}')
-                exit(1)
-            except json.JSONDecodeError as err:
-                error(f'JSON error in "{configpath}": {err}')
-                exit(1)
-            configdir = Path(argv[1]).parent
+    argp = argparse.ArgumentParser(
+        epilog=JSON_help,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        description="Subsets font files into webfonts.")
+
+    argp.add_argument(
+        '-k', action='store_true', dest='only_check',
+        help="don't subset, just check for missing glyphs")
+    argp.add_argument(
+        'conffile', type=argparse.FileType("r", encoding='utf_8'),
+        help="config file in JSON format, check below for details")
+
+    args = argp.parse_args()
+    conffile = args.conffile
+    only_check = args.only_check
+
+    configdir = Path(conffile.name).parent
+    try:
+        with conffile as f:
+            config = json.load(f)
+    except OSError as err:
+        error(f'Error reading "{conffile.name}": {err.strerror}')
+        exit(1)
+    except json.JSONDecodeError as err:
+        error(f'JSON error in "{conffile.name}": {err}')
+        exit(1)
 
     ft_logger = logging.getLogger('fontTools.subset')
 
@@ -244,7 +246,7 @@ def main():
     missing = set()
 
     excl_filt = ExcludeFilter()
-    for excl in config['ignore_missing']:
+    for excl in config['ignoreMissing']:
         excl_filt.exclude(excl)
     pipeline.add_filter(excl_filt)
 
@@ -275,8 +277,7 @@ def main():
             error(f'Error writing "{missing_path}": {err.strerror}')
         print(f"{len(missing)} chars were written to {missing_path}")
 
-    just_check = config['justCheck']
-    if just_check:
+    if only_check:
         exit(0)
 
     for font in fonts:
