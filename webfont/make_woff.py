@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-from sys import exit, argv
 from pathlib import Path
 import json
 import logging
@@ -13,7 +12,7 @@ def error(*args):
 
 if sys.version_info[0:2] < (3, 6):
     error("This script requires Python version 3.6 or later.")
-    exit(1)
+    sys.exit(1)
 
 
 try:
@@ -23,7 +22,7 @@ try:
     import fontTools.misc.loggingTools
 except ImportError:
     error("Please install the fontTools python module.")
-    exit(1)
+    sys.exit(1)
 
 
 class Font:
@@ -49,10 +48,10 @@ class Font:
                 self.ttf = fontTools.ttLib.TTFont(font, recalcBBoxes=False)
             except FileNotFoundError as err:
                 error(f'Font file "{font}" not found: {err.strerror}')
-                exit(1)
+                sys.exit(1)
             except OSError as err:
                 error(f'Error reading "{font}": {err.strerror}')
-                exit(1)
+                sys.exit(1)
             self.fontpath = font
         self.cmap = self.ttf.getBestCmap()
         self.familyname = self.ttf['name'].getDebugName(1)
@@ -81,12 +80,17 @@ class Font:
         subsetter.subset(self.ttf)
 
     def save(self, outpath):
-        self.ttf.flavor = 'woff'
+        outpath = Path(outpath)
+        flavor = 'woff'
+        if outpath.suffix == '.woff2':
+            flavor = 'woff2'
+
+        self.ttf.flavor = flavor
         try:
             self.ttf.save(outpath)
         except OSError as err:
             error(f'Error creating "{outpath}": {err.strerror}')
-            exit(1)
+            sys.exit(1)
 
 
 class MissingGlyphError(Exception):
@@ -176,10 +180,10 @@ these comments in the JSON file):
     "../data/pages/en-GB/**/*.txt"
   ],
   // The order of fonts are important, fonts will be checked for every code
-  // point until one has a glyph. First element is the input, second is the
-  // output.
+  // point until one has a glyph. First element is the input, others are the
+  // outputs.
   "fonts": [
-    ["HanaMinA.ttf", "../HanaMinA.woff"],
+    ["HanaMinA.ttf", "../HanaMinA.woff", "../HanaMinA.woff2"],
     ["HanaMinB.ttf", "../HanaMinB.woff"]
   ],
   // Missing characters will be written to this file in utf-8. relative to
@@ -215,10 +219,10 @@ def main():
             config = json.load(f)
     except OSError as err:
         error(f'Error reading "{conffile.name}": {err.strerror}')
-        exit(1)
+        sys.exit(1)
     except json.JSONDecodeError as err:
         error(f'JSON error in "{conffile.name}": {err}')
-        exit(1)
+        sys.exit(1)
 
     ft_logger = logging.getLogger('fontTools.subset')
 
@@ -234,10 +238,9 @@ def main():
 
     fonts = []
     for font_conf in config['fonts']:
-        infile = configdir / font_conf[0]
-        outfile = configdir / font_conf[1]
+        infile, *outfiles = map(configdir.joinpath, font_conf)
         font = Font(infile)
-        font.outfile = outfile
+        font.outfiles = outfiles
         fonts.append(font)
     font_filts = map(FontFilter, fonts)
     for filt in font_filts:
@@ -278,13 +281,14 @@ def main():
         print(f"{len(missing)} chars were written to {missing_path}")
 
     if only_check:
-        exit(0)
+        sys.exit(0)
 
     for font in fonts:
         if font.subset_len():
             font.subset()
-            font.save(font.outfile)
-            print(f'Webfont saved as {font.outfile}.')
+            for outf in font.outfiles:
+                font.save(outf)
+                print(f'Webfont saved as {outf}.')
 
 
 if __name__ == '__main__':
