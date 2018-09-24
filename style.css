@@ -1,11 +1,12 @@
 @font-face {
   font-family: HanaMinA;
-  src: url(HanaMinA.woff);
+  src: local("HanaMinA")
+       url("HanaMinA.woff");
 }
 
 .nrGrammardata {
   background: white;
-  font-family: serif, HanaMinA;
+  font-family: Times, HanaMinA, serif;
 }
 
 .nrGrammardata section,
@@ -58,7 +59,7 @@
   height: 500px;
   text-align: right;
   font-size: 13px;
-  font-family: Arial, HanaMinA;
+  font-family: Arial, HanaMinA, sans-serif;
   z-index: 0;
   max-width: 15em;
 }
