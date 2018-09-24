@@ -1,7 +1,6 @@
 @font-face {
   font-family: HanaMinA;
-  src: local("HanaMinA")
-       url("HanaMinA.woff");
+  src: url("HanaMinA.woff") format("woff");
 }
 
 .nrGrammardata {
