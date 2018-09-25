@@ -4,6 +4,10 @@ from pathlib import Path
 import json
 import logging
 import argparse
+import importlib
+import importlib.util
+import subprocess
+from subprocess import CalledProcessError
 
 
 def error(*args):
@@ -15,14 +19,108 @@ if sys.version_info[0:2] < (3, 6):
     sys.exit(1)
 
 
+class PipNotFoundError(Exception):
+    pass
+
+
+class DependenciesMissingError(Exception):
+    def __init__(self, missings):
+        self.missings = missings
+
+
+class UserPip():
+    """pip launcher using the user scheme.
+
+    Methods that call pip can raise PipNotFoundError if the pip module is not
+    available or subprocess.CalledProcessError if pip exited with nonzero
+    status.
+    """
+    def __init__(self):
+        self.pip_installed = importlib.util.find_spec("pip") is not None
+
+    def ask_install(self, packages):
+        """Ask user for permission to install packages.
+
+        Assumes that running from tty.
+        """
+        print("Following packages are required:")
+        for package in packages:
+            print(f"  {package}")
+
+        answer = input(
+            "Do you want them to be installed "
+            "(pip install --user <deps>)? [Y/n]")
+
+        if answer in ("Y", "y", "yes", ""):
+            return self.install(packages)
+
+    def install(self, packages):
+        """Installs packages into user site-packages
+
+        Invalidates import caches after installing.
+        """
+        self.run_pip(["install", "--user", *packages])
+        importlib.invalidate_caches()
+
+    def run_pip(self, args):
+        if not self.pip_installed:
+            raise PipNotFoundError()
+        subprocess.run(
+            [sys.executable, "-m", "pip", *args], check=True)
+
+    def require(self, packages):
+        """Asks to install dependencies.
+
+        Raises DependenciesMissigError if couldn't install for any reason."""
+        missings = []
+        for p in packages:
+            try:
+                importlib.import_module(p)
+            except ImportError:
+                missings.append(p)
+        if not missings:
+            return
+
+        interactive = sys.stdin.isatty() and sys.stdout.isatty()
+        if not interactive:
+            raise DependenciesMissingError(missings)
+
+        if not self.pip_installed:
+            error("pip not found. Can't install dependencies.")
+            raise DependenciesMissingError(missings)
+
+        try:
+            self.ask_install(missings)
+        except CalledProcessError:
+            error("Something went wrong with pip.")
+            raise DependenciesMissingError(missings)
+
+        # pip finished, recheck importing
+        still_missings = []
+        for p in missings:
+            try:
+                importlib.import_module(p)
+            except ImportError:
+                still_missings.append(p)
+
+        if still_missings:
+            raise DependenciesMissingError(still_missings)
+
+
+pip = UserPip()
 try:
-    import fontTools.ttLib
-    import fontTools.subset
-    import fontTools.merge
-    import fontTools.misc.loggingTools
-except ImportError:
-    error("Please install the fontTools python module.")
-    sys.exit(1)
+    pip.require(["fontTools"])
+except DependenciesMissingError as err:
+    error("Unable to continue, some dependencies are missing:")
+    for mp in err.missings:
+        error(f"  {mp}")
+    exit(1)
+
+
+import fontTools.ttLib
+import fontTools.subset
+import fontTools.merge
+import fontTools.misc.loggingTools
 
 
 class Font:
@@ -193,7 +291,8 @@ these comments in the JSON file):
   "ignoreMissing": [
     9, 10
   ],
-}"""
+}
+"""
 
 
 def main():
