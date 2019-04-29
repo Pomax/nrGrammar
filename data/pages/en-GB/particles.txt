@@ -1470,7 +1470,7 @@ This is just the particle もの, used to indicate a custom or social expectatio
 
 The particle のみ is a literary particle comparable in meaning to {idx:english:だけ} or {idx:english:ばかり}, and is used in essentially the same way, marking something as an "only thing" or "only option":
 
-  卒業(そつぎょう)のみで考(かんが)えて試験(しかん)がまだあるのを忘(わす)れないもの。
+  卒業(そつぎょう)のみで考(かんが)えて試験(しけん)がまだあるのを忘(わす)れないもの。
   "If (you)'re only thinking about graduating, don't forget that there are still exams to be taken."
 
   今(いま)のはただ待(ま)つのみです。
