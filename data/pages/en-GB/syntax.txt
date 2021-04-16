@@ -229,7 +229,7 @@ Less used, but always good to have seen are the following:
 {idx:english:interpunction!idem dito}	〃
 {idx:english:interpunction!hiragana repeater}s	ゝ, ゞ
 {idx:english:interpunction!katakana repeater}s	ヽ, ヾ
-kanji {idx:english:interpunction!sentence finaliser}	〆
+kanji {idx:english:interpunction!closing mark}	〆
 
 And then there are western {idx:english:punctuation}s which have Japanese counterparts, but tend to be expressed differently instead:
 
