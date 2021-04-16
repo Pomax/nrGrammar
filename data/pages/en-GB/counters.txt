@@ -41,12 +41,12 @@ Using kanji forms to {idx:english:create large numbers@forming numbers} relies o
   90 = 9 × 10 = 九十
 
   100 = {idx:english:numbers!百(ひゃく)}, formally written as 佰
-  120 = 100 + 2 × 10 = 百二十
-  780 = 7 × 100 + 8 × 10 = 七百八十
+  120 = 100 + (2 × 10) = 百二十
+  780 = (7 × 100) + (8 × 10) = 七百八十
 
   1000 = {idx:english:numbers!千(せん)}, formally written as 阡
-  1300 = 1000 + 3 × 100 = 千三百
-  4826 = 4 × 1000 + 8 × 100 + 2 × 10 + 6 = 四千八百二十六
+  1300 = 1000 + (3 × 100) = 千三百
+  4826 = (4 × 1000) + (8 × 100) + (2 × 10) + 6 = 四千八百二十六
 
   10000 = {idx:english:numbers!万(まん)}, formally written as 萬.
 
