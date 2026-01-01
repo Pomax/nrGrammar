@@ -24,7 +24,7 @@
 	{
 		/**
 		 * Tablify - runs through the base text, and replaces tab delimited table data
-		 * with proper docuwiki table syntax 
+		 * with proper docuwiki table syntax
 		 */
 		function format(&$text)
 		{
@@ -41,7 +41,7 @@
 				// aggregate tabling lines (a tabling line either contains tabs, or is either empty after trimming)
 				if(strpos($line,"\t")!==false || ($in_block && $line=="\n")) {
 					$ntbt_lock = true;
-					
+
 					// set up table block if not aggregating yet
 					if(!$in_block) {
 						$in_block=true;
@@ -62,7 +62,7 @@
 			// In case the table was the last thing on the page, we still have a table block to process
 			if($in_block) { $this->finalise($_table_data, $table_position, $text); }
 
-		}  
+		}
 
 		/**
 		 * Gets the table data rewritten, then updates the modified container. returns false, so that
@@ -78,7 +78,7 @@
 					if(strpos($line, "section{")!==false) {
 						$immediate_table = true; }
 					break; }}
-			
+
 			// splice the data
 			$pre = array_slice($text,0,$table_position);
 			$replaced = $this->replace($_table_data, $immediate_table);
@@ -93,7 +93,7 @@
 		{
 			// our new table code
 			$new_table_block = array();
-			
+
 			// table width starts at 1em for the table sides
 			$new_table_width = 1;
 
@@ -118,15 +118,15 @@
 			$ruby_strutting = "\\rule{0pt}{3.6ex}";		// strutting for row with japanese that has furigana
 			$japanese_strutting = "\\rule{0pt}{2.4ex}";	// strutting for a row with japanese, but no furigana
 			$normal_strutting = "\\rule{0pt}{2.4ex}";	// strutting for regular text
-			
+
 			$longtable_security = ($immediate_table) ? "" : "\\Needspace{6\\baselineskip}\n";	// required to ensure longtable doesn't yield an orphaned footer/header pair across two pags.
-			
-			$cells = count(split("\t",$original[0]));	// how many cells are we actually dealing with?
+
+			$cells = count(explode("\t",$original[0]));	// how many cells are we actually dealing with?
 			$empty_line = str_repeat($tex_cell_separator,$cells-1) . " \\\\ \n";
 
 			// replace the tabulation with TeX table syntax
 			$has_headers=false;
-			for($r=0; $r<count($original); $r++) { 
+			for($r=0; $r<count($original); $r++) {
 				$row = $original[$r];
 				$new_table_block[$r] = (trim($row)=="") ?
 					$empty_line : str_replace("\n", "\\\\ \n", str_replace("\t",$tex_cell_separator,$row));
@@ -138,7 +138,7 @@
 				$new_table_block[$r] = preg_replace("/\\\\ruby/","\\rtruby",$new_table_block[$r]); }
 
 			// is the last line for this table empty? if so, clear it so that it doesn't become an empty table line.
-			if($new_table_block[count($new_table_block)-1]==$empty_line) { 
+			if($new_table_block[count($new_table_block)-1]==$empty_line) {
 				unset($new_table_block[count($new_table_block)-1]); }
 
 			// guess width and determine if the table's too wide
@@ -149,7 +149,7 @@
 
 			// add strutting
 			$japanese_pattern = "[\x{4E00}-\x{9FFF}\x{3005}\x{30F6}\x{3040}-\x{30FF}]+";
-			for($r=0; $r<count($new_table_block); $r++) { 
+			for($r=0; $r<count($new_table_block); $r++) {
 				$row = &$new_table_block[$r];
 				if($row==$empty_line) { $row = ($longtable ? "" : "\\hline\n"); continue; }
 				if(strpos($row, "rtruby{")!==false) { $row = $ruby_strutting . $row; }
@@ -168,7 +168,7 @@
 
 			$begin="";
 			$end="";
-			
+
 			// if this is a longtable, centering requires setting the LTleft and LTright values to \fill
 			if($longtable) {
 				$calign = "\\setlength\\LTleft\\fill\n\\setlength\\LTright\\fill\n";
@@ -187,7 +187,7 @@
 			$pre = array(($immediate_table? "__IMMEDIATE_TABLE__\n":""), $tablevspace . $begin . "{" . $def . "}", $border);
 			$post = array($border, $end . $tablevspace . "\n");
 			$table = array_merge($pre, $new_table_block, $post);
-			
+
 			// done
 			return $table;
 		}
@@ -222,14 +222,14 @@
 			$longtable_block[] = "\\endfoot\n";
 			// last footer
 			$longtable_block[] = "\\hline\n";
-			$longtable_block[] = "\\endlastfoot\n";	
+			$longtable_block[] = "\\endlastfoot\n";
 
 			for($ltb=($has_headers?1:0); $ltb<count($new_table_block); $ltb++) {
 				$longtable_block[] = $new_table_block[$ltb]; }
 
 			$new_table_block = $longtable_block;
 		}
-		
+
 
 		/**
 		 *	What follows is experimental code, which is GUARANTEED to get the table width wrong.
@@ -265,12 +265,12 @@
 			if($wdebug) print_r($widths);
 			for($w=0; $w<count($widths); $w++) { $new_table_width += $widths[$w]; }
 			if($wdebug) echo "  table width: $new_table_width\n\n";
-			
+
 			// debug: add list of column sizes to table
 			return $new_table_width;
 		}
-		
-		
+
+
 		/**
 		 * gives a rough estimation of the width of a character, in em
 		 */
@@ -307,16 +307,16 @@
 			else return 0.45;
 		}
 	}
-	
+
 	/*
-	
+
 		I wrote this formatter before I knew how to do box evaluation in latex, so technically this entire formatter
 		can be replaced with something that doesn't do the whole font profiling. Instead, it should create a wad of
-		TeX code that basically sticks the table data in a box, and then evaluates the box's width. If it's greater 
+		TeX code that basically sticks the table data in a box, and then evaluates the box's width. If it's greater
 		than the allowed width, it should unbox without indent space, otherwise it should unbox with indent.
-		
+
 		It's a really simple trick, and since this actually worked perfectly fine for me until I discovered that trick
 		(thank you, XeTeX mailing list!) I didn't have a need to actually modify the code.
-	
+
 	*/
 ?>

@@ -65,7 +65,7 @@
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace ruby
 	function replace_ruby(&$text, $op, $ops)
 	{
@@ -73,16 +73,16 @@
 		$start = time();
 		$kanji = "[\x{4E00}-\x{9FFF}\x{3005}\x{30F6}]+";
 		$kana = "[\x{3040}-\x{30FF}]*";
-		
+
 		$search = "/(".$kanji.")\((".$kana.")\)/u";
 		$replace = "\\ruby".'{'."$1".'}{'."$2".'}';
-		
+
 		for($line = 0; $line<count($text); $line++) {
 			$text[$line] = preg_replace($search, $replace, $text[$line]); }
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace the example phrase text formatting with something that TeX understands
 	function replace_examples(&$text, $op, $ops)
 	{
@@ -94,7 +94,7 @@
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace tabling markup
 	function replace_tabling(&$text, $op, $ops)
 	{
@@ -107,7 +107,7 @@
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace numbered and itemised lists
 	function replace_lists(&$text, $op, $ops)
 	{
@@ -119,7 +119,7 @@
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace indexing and glossary markup
 	function replace_idx(&$text, $op, $ops)
 	{
@@ -131,29 +131,29 @@
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace image links
 	function replace_images(&$text, $op, $ops)
 	{
 		print("[".date("H:i:s")."] - [$op/$ops] Converting image links...");
 		$start = time();
-		
+
 		//{{:gyousou.jpg|}}
 		$search = "/{{([^:]*):([^|]+)\|([^}]*)}}/u";
-		$replace = "\n\\vspace{0.5em}\n\\begin{center}\n\\fbox{\\includegraphics{".'../../data/media/'."$2}}\\nopagebreak[4]\\par {\\smaller \\smaller $3}\\end{center}\n";
-		
-		for($line = 0; $line<count($text); $line++) { 
+		$replace = "\n\\vspace{0.5em}\n\\begin{center}\n\\fbox{\\includegraphics{".'../data/media/'."$2}}\\nopagebreak[4]\\par {\\smaller \\smaller $3}\\end{center}\n";
+
+		for($line = 0; $line<count($text); $line++) {
 			$text[$line] = preg_replace($search, $replace, $text[$line]); }
 		$end = time();
 		println(" done (took ".($end-$start)."s)");
 	}
-	
+
 	// replace ruby in vertical macro to vruby
 	function replace_verticalruby(&$text, $op, $ops)
 	{
 		print("[".date("H:i:s")."] - [$op/$ops] Setting up vertical text (and correcting ruby to vruby)...");
 		$start = time();
-		
+
 		$invertical = false;
 		for($line = 0; $line<count($text); $line++) {
 			if(strpos($text[$line],"<begin vertical")!==false) {

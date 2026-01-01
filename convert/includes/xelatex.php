@@ -14,7 +14,7 @@
 		exec($xelatex_command, $result, $status);
 		$end = time();
 		println(" done (took ".($end-$start)."s).");
-		if($status != 0) { 
+		if($status != 0) {
 			print("\n\nERRORS OCCURED WHILE RUNNING XELATEX (STATUS RETURN:$status) - LISTING OUTPUT\n\n");
 			foreach($result as $line) { fwrite(STDERR, $line."\n"); }
 			exit(-1); }
@@ -30,15 +30,15 @@
 
 		print("[".date("H:i:s")."] - Running makeindex to generated the glossary...");
 		$start = time();
-		exec("makeindex -s $filename.ist -t $filename.glg -o $filename.gls $filename.glo", $result, $status);
+		exec("makeglossaries $filename", $result, $status);
 		$end = time();
 		println(" done (took ".($end-$start)."s).");
-		if($status != 0) { 
+		if($status != 0) {
 			print("\n\nERRORS OCCURED WHILE RUNNING MAKEINDEX FOR THE GLOSSARY (STATUS RETURN:$status) - SHOWING OUTPUT\n\n");
 			foreach($result as $line) { fwrite(STDERR, $line."\n"); }
 			exit(-1); }
 	}
-	
+
 	/**
 	 * makes the index file, and corrects it
 	 */
@@ -49,8 +49,8 @@
 		exec("makeindex $filename.idx", $result, $status);
 		$end = time();
 		println(" done (took ".($end-$start)."s).");
-		
-		if($status != 0) { 
+
+		if($status != 0) {
 			print("\n\nERRORS OCCURED WHILE RUNNING MAKEINDEX FOR THE INDEX (STATUS RETURN:$status) - SHOWING OUTPUT\n\n");
 			foreach($result as $line) { fwrite(STDERR, $line."\n"); }
 			exit(-1); }
@@ -108,7 +108,7 @@
 		unlink($filename.".out");
 		unlink($filename.".toc");
 		unlink($filename.".log");
-		
+
 		// glossaries related
 		unlink($filename.".ist");
 		unlink($filename.".glg");
@@ -143,7 +143,7 @@
 		if($stepthrough) copy($filename.".pdf", $filename.".".($op++).".pdf");
 		xelatex($filename, "Running final XeLaTeX realignment run...");
 		if($stepthrough) copy($filename.".pdf", $filename.".".($op++).".pdf");
-		
+
 		// if we've not exited by now, leave only the .tex, .log and .pdf file
 		if($unlink) { unlinkfiles($filename); }
 	}

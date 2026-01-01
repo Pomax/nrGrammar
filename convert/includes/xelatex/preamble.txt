@@ -107,7 +107,7 @@ __DRAFT_OR_NOT__
 }
 
 % --------------------------------------------------------------
-% ruby and rubystack macro, effecting ghost furigana in the PDF 
+% ruby and rubystack macro, effecting ghost furigana in the PDF
 % --------------------------------------------------------------
 
 \newcommand*{\rubystack}[2]{{\relscale{0.5}%
@@ -153,14 +153,14 @@ __DRAFT_OR_NOT__
 
 % ----------------------------------------------------------------
 % example blocks may not be broken up. so they're in a minipage,
-% and their lines will end in \\* 
+% and their lines will end in \\*
 % ----------------------------------------------------------------
 
 \newenvironment{exampleblock}{
 \setlength{\parindent}{0.6in}
 \begin{minipage}[t]{\dimexpr\textwidth-\parindent}}
 {\end{minipage}}
-  
+
 % ----------------------------------------------------------------
 % always indented table
 % (indented regardless of paragraphing in sections)
@@ -191,7 +191,7 @@ __DRAFT_OR_NOT__
 
 \usepackage{glossaries}% glossaries has to be loaded after hyperref, or things go wrong
 \renewcommand*{\glossaryentrynumbers}[1]{}
-\makeglossary
+\makeglossaries
 
 % glossary terms placeholder (filled by texate.php script)
 __GLOSSARY__
@@ -206,7 +206,7 @@ __GLOSSARY__
 % set up index
 % ----------------------------------------------------------------
 
-\usepackage{makeidx}
+\usepackage{imakeidx}
 \makeindex
 
 % index finetuning
@@ -283,15 +283,15 @@ __GLOSSARY__
 	\maketitle
 
 	\pagebreak
-	
+
 	\notdraft{
 		\smaller
 		\begin{center}
 
 			\rule{0ex}{5em}
-			
+
 			"An introduction to Japanese - Syntax, Grammar \& Language"
-		
+
 			Copyright © Michiel Kamermans, 2009-2010.
 
 			The moral right of the author has been asserted.
@@ -299,16 +299,16 @@ __GLOSSARY__
 			\vfill
 
 			First edition, March 2010
-			
+
 			\vspace{2em}
 
 			ISBN 978-90-815071-1-0
-			
+
 			\vspace{2em}
 
 			Published by SJGR Publishing in the Netherlands.\\
 			www.sjgrpublishing.com
-			
+
 			All rights reserved
 		\end{center}
 
@@ -317,7 +317,7 @@ __GLOSSARY__
 		\noindent Without limiting the rights under copyright reserved above, no part of this publication may be reproduced, stored in or introduced into a retrieval system (including both online and offline digital libraries) or transmitted, in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), without the prior written permission of the author.
 
 		\vspace{2em}
-			
+
 		\begin{center}Printed and bound by Lightning Source\\www.lightningsource.com\end{center}
 
 		\rule{0ex}{5em}
@@ -333,11 +333,11 @@ __GLOSSARY__
 	\tableofcontents
 
 	__ACKNOWLEDGEMENTS__
-	
+
 	__PREFACE__
 
 	\mainmatter
-	
+
 	\pagestyle{fancy}
 
 	\renewcommand{\chaptermark}[1]{\markboth{#1}{}}

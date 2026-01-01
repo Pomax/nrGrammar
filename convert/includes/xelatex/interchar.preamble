@@ -2,18 +2,65 @@
 % as well as the font-change rules that should occur when a transition from characters from
 % one class to characters from another class are encountered.
 
-
 % first off, the font definitions
 
-\newfontfamily{\cjkafont}{HAN NOM A}
-\newfontfamily{\cjkbfont}{HAN NOM B}
-\newfontfamily{\strokefont}{MingLiU}
-\newfontfamily{\quotefont}{Adobe Caslon Pro}
-\newfontfamily{\extlatinfont}{FreeSerif}
-\newfontfamily{\arrowfont}{HAN NOM B}
-\newfontfamily{\vparens}{FreeSerif}
-\newfontfamily{\cjkfont}{Kozuka Mincho Pro}
-\newfontfamily{\rmfont}{Palatino Linotype} 
+\newfontfamily{\cjkafont}{HAN NOM A}[
+	Path = ./fonts/,
+	UprightFont = han/han nom/HAN NOM A.ttf
+]
+
+\newfontfamily{\cjkbfont}{HAN NOM B}[
+	Path = ./fonts/,
+	UprightFont = han/han nom/HAN NOM B.ttf
+]
+
+\newfontfamily{\strokefont}{MingLiu}[
+	Path = ./fonts/,
+	UprightFont = han/mingliu/mingliu.ttf
+]
+
+\newfontfamily{\quotefont}{Adobe Caslon Pro}[
+	Path = ./fonts/,
+	UprightFont = western/caslon/ACaslonPro-Regular.otf,
+	BoldFont = western/caslon/ACaslonPro-Bold.otf,
+	ItalicFont = western/caslon/ACaslonPro-Italic.otf,
+	BoldItalicFont = western/caslon/ACaslonPro-BoldItalic.otf,
+]
+
+\newfontfamily{\extlatinfont}{FreeSerif}[
+	Path = ./fonts/,
+	UprightFont = western/freefont/FreeSerif.otf,
+    ItalicFont = western/freefont/FreeSerifItalic.otf,
+    BoldFont = western/freefont/FreeSerifBold.otf,
+    BoldItalicFont = western/freefont/FreeSerifBoldItalic.otf
+]
+
+\newfontfamily{\arrowfont}{HAN NOM B}[
+	Path = ./fonts/,
+	UprightFont = han/han nom/HAN NOM B.ttf
+]
+
+\newfontfamily{\vparens}{FreeSerif}[
+	Path = ./fonts/,
+	UprightFont = western/freefont/FreeSerif.otf,
+    ItalicFont = western/freefont/FreeSerifItalic.otf,
+    BoldFont = western/freefont/FreeSerifBold.otf,
+    BoldItalicFont = western/freefont/FreeSerifBoldItalic.otf
+]
+
+\newfontfamily{\cjkfont}{Kozuka Mincho}[
+	Path = ./fonts/,
+	UprightFont = japanese/kozuka/KozMinPro-Regular.otf,
+	BoldFont = japanese/kozuka/KozMinPro-Bold.otf
+]
+
+\newfontfamily{\rmfont}{Palatino Linotype}[
+	Path = ./fonts/,
+	UprightFont = western/palatino/pala.ttf,
+    ItalicFont = western/palatino/palai.ttf,
+    BoldFont = western/palatino/palab.ttf,
+    BoldItalicFont = western/palatino/palabi.ttf
+]
 
 % then we turn on the interchar behaviour that makes xetex so damn awesome
 
@@ -44,7 +91,7 @@
 	\XeTeXcharclass `\兦 4
 	\XeTeXcharclass `\乴 4
 	\XeTeXcharclass `\檥 4
-	
+
 	\XeTeXcharclass `\「 4	% HAN NOM A has better kerning for these characters
 	\XeTeXcharclass `\」 4
 	\XeTeXcharclass `〃 4	% and HAN NOM A just looks better for the idem ditto mark
@@ -53,7 +100,7 @@
 
 	\XeTeXcharclass `\𠃍 5	% L shape with the corner in the upper right
 	\XeTeXcharclass `\︴ 5	% vertical wavy line
-	
+
 % We use a separate class for CJK strokes
 
 	\XeTeXcharclass `\㇀ 10
@@ -98,7 +145,7 @@
 	\XeTeXcharclass `\” 8
 	\XeTeXcharclass `\„ 8
 	\XeTeXcharclass `\‟ 8
-	
+
 % To finish up, some particularly hard extended Latin characters
 
 	\XeTeXcharclass `\ǒ 9	% o with caron (used in Pinyin orthography for Chinese)
@@ -251,7 +298,7 @@
 	\XeTeXinterchartoks 8 9 = {\extlatinfont}
 	\XeTeXinterchartoks 10 9 = {\extlatinfont}
 	\XeTeXinterchartoks 255 9 = {\extlatinfont}
-	
+
 % class '10' rules (CJK strokes)
 
 	\XeTeXinterchartoks 0 10 = {\strokefont}
