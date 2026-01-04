@@ -6,14 +6,22 @@
 
 % show the glossaries
 \cleardoublepage
+\phantomsection
 \addcontentsline{toc}{chapter}{Glossary}
-\printglossaries
 \markboth{Glossary}{}
+
+\printglossaries
 
 % show the indexes
 \cleardoublepage
-\renewcommand{\indexname}{English index}
-\printindex
+\phantomsection
+\addcontentsline{toc}{chapter}{Index}
+
+\markboth{Index - English}{}
+\printindex[english]
+
+\markboth{Index - Japanese}{}
+\printindex[japanese]
 
 % and finally end the document
 \end{document}

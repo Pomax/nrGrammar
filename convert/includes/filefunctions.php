@@ -92,7 +92,7 @@ function make_glossary()
 		$quote_formatter = new QuoteFormatter();
 		foreach ($terms as $term => $description) {
 			$quote_formatter->format($description);
-			$glossary[] = '\newglossaryentry{' . $term . '}{ name={' . $term . '}, description={' . $description . '}}' . "\n";
+			$glossary[] = '\newglossaryentry{' . strtolower($term) . '}{ name={' . $term . '}, description={' . $description . '}}' . "\n";
 		}
 		unset($quote_formatter);
 		$end = time();
@@ -102,7 +102,7 @@ function make_glossary()
 	// no quote replacement
 	else {
 		foreach ($terms as $term => $description) {
-			$glossary[] = '\newglossaryentry{' . $term . '}{ name={' . $term. '}, description={' . $description . '}}' . "\n";
+			$glossary[] = '\newglossaryentry{' . strtolower($term) . '}{ name={' . $term. '}, description={' . $description . '}}' . "\n";
 		}
 	}
 

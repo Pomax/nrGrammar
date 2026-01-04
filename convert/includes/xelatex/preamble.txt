@@ -22,8 +22,8 @@ __DRAFT_OR_NOT__
 %	to compensate for the lost space due to binding
 %
 
-\ifdraft{\usepackage[b5paper, bindingoffset=0mm, inner=17mm, outer=17mm, top=21mm, bottom=24mm]{geometry}}
-\notdraft{\usepackage[b5paper, bindingoffset=0mm, inner=23mm, outer=11mm, top=21mm, bottom=24mm]{geometry}}
+\ifdraft{\usepackage[b5paper, bindingoffset=0mm, inner=17mm, outer=17mm, top=21mm, bottom=24mm,driver=xetex]{geometry}}
+\notdraft{\usepackage[b5paper, bindingoffset=0mm, inner=23mm, outer=11mm, top=21mm, bottom=24mm,driver=xetex]{geometry}}
 
 %	half inch paragraph indentation
 
@@ -120,7 +120,6 @@ __DRAFT_OR_NOT__
 \DeclareRobustCommand*{\ruby}[2]{%
   \mbox{%
     \setlength{\parskip}{0ex}%
-%    \BeginAccSupp{method=pdfstringdef,ActualText={#1 (#2)}}%
     \BeginAccSupp{method=pdfstringdef,ActualText={#1}}%
       \rubystack{\phantom{#2}}{#1}%
       \llap{%
@@ -206,8 +205,10 @@ __GLOSSARY__
 % set up index
 % ----------------------------------------------------------------
 
-\usepackage{imakeidx}
-\makeindex
+\usepackage[splitindex]{imakeidx}
+
+\makeindex[name=english, title=English Index, columns=2]
+\makeindex[name=japanese, title=Japanese Index, columns=2]
 
 % index finetuning
 \usepackage{includes/xelatex/fixindex}
@@ -215,9 +216,8 @@ __GLOSSARY__
 % ----------------------------------------------------------------
 % intended headers:
 %
-% odd pages:	pgno.				chapter - section
-%
-% even pages:	chapter - section	  		pgno.
+% odd pages:    pgno.                 chapter - section
+% even pages:   chapter - section                  pgno.
 %
 % ----------------------------------------------------------------
 
@@ -270,6 +270,8 @@ __GLOSSARY__
 % ----------------------------------------------------------------
 % document start
 % ----------------------------------------------------------------
+
+\XeTeXinterchartokenstate = 1
 
 \begin{document}
 

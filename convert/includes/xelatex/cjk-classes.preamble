@@ -1,0 +1,36 @@
+% Assign CJK Unicode ranges to character classes
+% This is needed because XeTeX doesn't automatically assign CJK to classes 1/2/3
+
+\newXeTeXintercharclass\cjkideographs      % class for CJK Unified Ideographs
+\newXeTeXintercharclass\cjkhiragana        % class for Hiragana
+\newXeTeXintercharclass\cjkkatakana        % class for Katakana
+
+% Helper macro to assign a range of characters to a class
+\makeatletter
+\newcount\@rangecount
+\newcommand{\AssignCharRange}[3]{%
+    \@rangecount="#1\relax
+    \loop\ifnum\@rangecount<"#2\relax
+        \XeTeXcharclass\@rangecount=#3\relax
+        \advance\@rangecount by 1
+    \repeat
+}
+\makeatother
+
+% CJK Unified Ideographs (U+4E00–U+9FFF)
+\AssignCharRange{4E00}{A000}{\cjkideographs}
+
+% CJK Unified Ideographs Extension A (U+3400–U+4DBF)
+\AssignCharRange{3400}{4DC0}{\cjkideographs}
+
+% Hiragana (U+3040–U+309F)
+\AssignCharRange{3040}{30A0}{\cjkhiragana}
+
+% Katakana (U+30A0–U+30FF)
+\AssignCharRange{30A0}{3100}{\cjkkatakana}
+
+% CJK Punctuation (U+3000–U+303F)
+\AssignCharRange{3000}{3040}{\cjkideographs}
+
+% Halfwidth and Fullwidth Forms (U+FF00–U+FFEF)
+\AssignCharRange{FF00}{FFF0}{\cjkideographs}

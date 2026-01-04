@@ -1495,7 +1495,7 @@ Second, what used to be the {idx:english:verb actor} has become a {idx:english:v
   "(I) was barked at by (a) dog, (and that) was scary."
   Passive, actor is marked with に.
 
-In addition to the regular passive construction, these verbs are also used to form what is known as the {idx:english:迷惑(めいわく)の受身(うけみ)}, or "{idx:english:inflections!passive form of bother}". A somewhat inelegant name, this specific passive is used to indicate that some action (taken by someone) has inconvenienced you, or someone else. Let us look at how this works:
+In addition to the regular passive construction, these verbs are also used to form what is known as the {idx:japanese:迷惑(めいわく)の受身(うけみ)}, or "{idx:english:inflections!passive form of bother}". A somewhat inelegant name, this specific passive is used to indicate that some action (taken by someone) has inconvenienced you, or someone else. Let us look at how this works:
 
   誰(だれ)かが弟(おとうと)の自転車(じてんしゃ)を盗(ぬす)みました。
   "Someone stole my (younger) brother's bicycle."
@@ -1513,7 +1513,7 @@ However, this "form of bother" only applies to actions that were taken by someon
 While inconvenient, this is not a 迷惑の受身, because the rain isn't actively inconveniencing you — it is simply something that happens. Remember that for a passive to also be a 迷惑の受身, the act has to have been performed, intentionally, by someone.
 
 In addition to describing the passive and passive form of bother, the helper verbs れる and られる are also used to form {gls:glossary:potential} verb constructions, as well as honorific verb forms, and we shall look at these later on in this chapter.
-==== {idx:english:inflections!Causative}: {idx:english:せる}/{idx:english:させる} ====
+==== {idx:english:inflections!Causative}: {idx:english:せる}/{idx:japanese:させる} ====
 
 Causative constructions are, as their name implies, constructions which indicate something was caused by someone. In English, this comes down to statements such as "I was made to do the dishes by my mom", and in Japanese, these constructions use the verbs せる (for 五段 verbs) and させる (for 一段 verbs). These are paired, like れる/られる with the 未然形.
 

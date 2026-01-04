@@ -1,0 +1,823 @@
+{idx:english:kanji readings!呉音(ごおん)}
+{idx:english:kanji readings!漢音(かんおん)}
+{idx:english:kanji readings!唐音(とうおん)}
+{idx:english:kanji readings!宋音(そうおん)}
+{idx:english:Shuōwén Jiězì (說文解字)}
+{idx:english:inflection bases!未然形(みぜんけい)}
+{idx:english:inflection bases!連用形(れんようけい)}
+{idx:english:inflection bases!終止形(しゅうしけい)}
+{idx:english:inflection bases!連体形(れんたいけい)}
+{idx:english:inflection bases!已然形(いぜんけい)}
+{idx:english:inflection bases!仮定形(かていけい)}
+{idx:english:inflection bases!命令形(めいれいけい)}
+{idx:english:verb particles!を}
+{idx:english:verb particles!に}
+{idx:english:verb particles!が}
+{idx:english:verb particles!は}
+{idx:english:て form}
+{idx:english:kansaiben!へん}
+{idx:english:kansaiben!あらへん}
+{idx:english:noun particles!の}
+{idx:english:[X]の[Y]}
+{idx:english:noun particles!と}
+{idx:english:noun particles!や}
+{idx:english:あすこ}
+{idx:english:verb particles!に}
+{idx:english:verb particles!と}
+{idx:english:verb particles!を}
+{idx:english:verb particles!に}
+{idx:english:verb particles!と}
+{idx:english:丁寧語(ていねいご)}
+{idx:english:です}
+{idx:english:ます}
+{idx:english:連体形@れんたいけい (連体形)}
+{idx:english:連体形@れんたいけい (連体形)}
+{idx:english:だ}
+{idx:english:な}
+{idx:english:quantifiers!時々(ときどき)}
+{idx:english:verb particles!に}
+{idx:english:noun forms!さ}
+{idx:english:noun forms!み}
+{idx:english:気@noun forms!け, げ, ぎ (気)}
+{idx:english:noun forms!方(かた)}
+{idx:english:ず}
+{idx:english:ん}
+{idx:english:ぬ}
+{idx:english:ます}
+{idx:english:です}
+{idx:english:だ}
+{idx:english:いい}
+{idx:english:よい}
+{idx:english:ない}
+{idx:english:ある}
+{idx:english:来(く)る}
+{idx:english:する}
+{idx:english:連用形@れんようけい (連用形)}
+{idx:english:special compound verbs!直(なお)す}
+{idx:english:special compound verbs!込(こ)む}
+{idx:english:special compound verbs!切(き)る}
+{idx:english:special compound verbs!出(だ)す}
+{idx:english:易(やす)い}
+{idx:english:難(にく)い}
+{idx:english:難(がた)い}
+{idx:english:inflections!て form}
+{idx:english:連用形@れんようけい (連用形)}
+{idx:english:つ}
+{idx:english:change rule@て form!change rules}
+{idx:english:negative@て form!negative}
+{idx:english:continuative!で}
+{idx:english:ず}
+{idx:english:Special て form conjunctions}
+{idx:english:Special conjunctions!ている}
+{idx:english:Special conjunctions!てある}
+{idx:english:て+る@special conjunctions!てる}
+{idx:english:Special conjunctions!ていく}
+{idx:english:Special conjunctions!てくる}
+{idx:english:てくる@doing and coming back}
+{idx:english:Special conjunctions!てください}
+{idx:english:Special conjunctions!てしまう}
+{idx:english:ちまう}
+{idx:english:ちゃう}
+{idx:english:じまう}
+{idx:english:じゃう}
+{idx:english:Special conjunctions!ておく}
+{idx:english:と@special conjunctions!とく}
+{idx:english:Special conjunctions!てみる}
+{idx:english:たり}
+{idx:english:たら}
+{idx:english:たら}
+{idx:english:なら}
+{idx:english:仮定形(かていけい)}
+{idx:english:なら}
+{idx:english:たい}
+{idx:english:度い@たい (度い)}
+{idx:english:たがる}
+{idx:english:そう}
+{idx:english:て欲(ほ)しい}
+{idx:english:pseudo-future + と + verb}
+{idx:english:ぬ}
+{idx:english:ない}
+{idx:english:まい}
+{idx:english:なかろう}
+{idx:english:だ}
+{idx:english:です}
+{idx:english:えば@…えば}
+{idx:english:已然形@いぜんけい (已然形)}
+{idx:english:仮定形(かていけい)}
+{idx:english:ます}
+{idx:english:ぬ}
+{idx:english:なら}
+{idx:english:ば@ならば}
+{idx:english:命令形@めいれいけい (命令形)}
+{idx:english:命令形 + ろ@めいれいけい (命令形)! + ろ}
+{idx:english:命令形 + よ@めいれいけい (命令形)! + よ}
+{idx:english:標準語(ひょうじゅんご)}
+{idx:english:関東(かんとう)}
+{idx:english:しろ}
+{idx:english:せよ}
+{idx:english:こい}
+{idx:english:こよ}
+{idx:english:なさる}
+{idx:english:する}
+{idx:english:ください}
+{idx:english:ござる}
+{idx:english:ございます}
+{idx:english:なさい}
+{idx:english:である}
+{idx:english:な}
+{idx:english:て@て form}
+{idx:english:—て下(くだ)さい}
+{idx:english:ないで}
+{idx:english:れる}
+{idx:english:られる}
+{idx:english:受身(うけみ)}
+{idx:english:verb particles!に}
+{idx:english:せる}
+{idx:english:verb particles!が}
+{idx:english:verb particles!に}
+{idx:english:せられる}
+{idx:english:させられる}
+{idx:english:られる}
+{idx:english:する}
+{idx:english:出来(でき)る}
+{idx:english:verb particles!が}
+{idx:english:verb particles!を}
+{idx:english:れる}
+{idx:english:られる}
+{idx:english:得(え)る}
+{idx:english:いける}
+{idx:english:事(こと)が出来(でき)る}
+{idx:english:謙譲(けんじょう)}
+{idx:english:尊敬(そんけい)}
+{idx:english:御@お, ご, み, おん, ぎょ (御)}
+{idx:english:音読(おんよ)み}
+{idx:english:致(いた)す}
+{idx:english:参(まい)る}
+{idx:english:おる}
+{idx:english:申(もう)す}
+{idx:english:致(いた)す}
+{idx:english:存(ぞん)じる}
+{idx:english:拝見(はいけん)する}
+{idx:english:いただく}
+{idx:english:伺(うかが)う}
+{idx:english:承(うけたまわ)る}
+{idx:english:差(さ)し上(あ)げる}
+{idx:english:お目(め)に掛(か)かる}
+{idx:english:ご覧(らん)に入(い)れる}
+{idx:english:でござる}
+{idx:english:でございます}
+{idx:english:だ}
+{idx:english:です}
+{idx:english:である}
+{idx:english:なさる}
+{idx:english:いらっしゃる}
+{idx:english:お出(い)でになる}
+{idx:english:お出でなさる@おいでなさる (お出でなさる)}
+{idx:english:おっしゃる}
+{idx:english:なさる}
+{idx:english:ご存知(ぞんじ)る}
+{idx:english:ご存知でいらっしゃる@ごぞんじでいらっしゃる (ご存知でいらっしゃる)}
+{idx:english:ご覧(らん)になる}
+{idx:english:ご覧(らん)なさる}
+{idx:english:召(め)し上(あ)がる}
+{idx:english:召(め)し}
+{idx:english:お休(やす)みになる}
+{idx:english:お休みなさる@おやすみなさる (お休みなさる)}
+{idx:english:思(おぼ)し召(め)す}
+{idx:english:お召しになる@おめしになる (お召しになる)}
+{idx:english:召(め)し}
+{idx:english:でいらっしゃる}
+{idx:english:でいらっしゃいます}
+{idx:english:歳(さい)}
+{idx:english:才@さい (才)}
+{idx:english:何歳(なんさい)}
+{idx:english:いくつ@いくつ (幾つ)}
+{idx:english:ござる}
+{idx:english:出(い)でる}
+{idx:english:有(あり)難(がと)う}
+{idx:english:助詞(じょし)}
+{idx:english:てにをは}
+{idx:english:御@お, ご, み, おん, ぎょ (御)}
+{idx:english:訓読(くんよ)み}
+{idx:english:音読(おんよ)み}
+{idx:english:prefixes!未(み)}
+{idx:english:prefixes!不(ふ)}
+{idx:english:prefixes!無(む)}
+{idx:english:prefixes!非(ひ)}
+{idx:english:prefixes!全(ぜん)}
+{idx:english:prefixes!毎(まい)}
+{idx:english:prefixes!新(しん)}
+{idx:english:prefixes!大(だい・おお)}
+{idx:english:prefixes!小(こ・しょう)}
+{idx:english:prefixes!再(さい)}
+{idx:english:prefixes!最(さい)}
+{idx:english:prefixes!超(ちょう)}
+{idx:english:prefixes!対(たい)}
+{idx:english:prefixes!半(はん)}
+{idx:english:prefixes!以(い)}
+{idx:english:prefixes!真(ま)っ}
+{idx:english:particles!か}
+{idx:english:かどうか@…かどうか}
+{idx:english:よ}
+{idx:english:interrogatives@interrogatives!か}
+{idx:english:particles!が}
+{idx:english:particles!と}
+{idx:english:は}
+{idx:english:が}
+{idx:english:擬音語(ぎおんご)}
+{idx:english:擬態語(ぎたいご)}
+{idx:english:を}
+{idx:english:か}
+{idx:english:particles!で}
+{idx:english:です}
+{idx:english:で}
+{idx:english:particles!に}
+{idx:english:[…](の)為(ため) + に@…のために (…の為に)}
+{idx:english:particles!へ}
+{idx:english:に}
+{idx:english:particles!の}
+{idx:english:事(こと)}
+{idx:english:の事@のこと (の事)}
+{idx:english:particles!は}
+{idx:english:を}
+{idx:english:が}
+{idx:english:いけません}
+{idx:english:駄目(だめ)}
+{idx:english:particles!も}
+{idx:english:と}
+{idx:english:か}
+{idx:english:て form + も@て form!も}
+{idx:english:て+も+いい@て form!もいい}
+{idx:english:か}
+{idx:english:interrogatives@interrogatives!も}
+{idx:english:particles!を}
+{idx:english:particles!よ}
+{idx:english:particles!ね}
+{idx:english:ねえ}
+{idx:english:ねー}
+{idx:english:ねぇ}
+{idx:english:うん}
+{idx:english:そうねえ}
+{idx:english:particles!な}
+{idx:english:なさい}
+{idx:english:なあ}
+{idx:english:なー}
+{idx:english:なぁ}
+{idx:english:particles!さ}
+{idx:english:particles!ぜ}
+{idx:english:particles!ぞ}
+{idx:english:particles!し}
+{idx:english:particles!って}
+{idx:english:と言(い)って(も)@といっても (と言っても)}
+{idx:english:として(も)}
+{idx:english:と}
+{idx:english:と}
+{idx:english:particles!っけ}
+{idx:english:particles!かな}
+{idx:english:か}
+{idx:english:な}
+{idx:english:particles!かしら}
+{idx:english:かしら}
+{idx:english:particles!がな}
+{idx:english:が}
+{idx:english:な}
+{idx:english:particles!や}
+{idx:english:と}
+{idx:english:だ}
+{idx:english:やない}
+{idx:english:particles!わ}
+{idx:english:よ}
+{idx:english:や}
+{idx:english:particles!のです}
+{idx:english:particles!んです}
+{idx:english:particles!のだ}
+{idx:english:particles!んだ}
+{idx:english:の}
+{idx:english:のですか@…のですか}
+{idx:english:particles!ので}
+{idx:english:から}
+{idx:english:particles!から}
+{idx:english:から!て-form + から}
+{idx:english:から!た + から}
+{idx:english:particles!まで}
+{idx:english:から}
+{idx:english:particles!までに}
+{idx:english:まで}
+{idx:english:particles!より}
+{idx:english:から}
+{idx:english:particles!ながら}
+{idx:english:残念(ざんねん)}
+{idx:english:残念ながら@ざんねんながら (残念ながら)}
+{idx:english:particles!がてら}
+{idx:english:がてらに}
+{idx:english:particles!つつ}
+{idx:english:particles!けれども}
+{idx:english:けど}
+{idx:english:けれども}
+{idx:english:けれど}
+{idx:english:けども}
+{idx:english:けど}
+{idx:english:particles!程(ほど)}
+{idx:english:するほど}
+{idx:english:[X]も[Y]も}
+{idx:english:[X]より[Y]}
+{idx:english:[X], the construction [X]ほど[Y]}
+{idx:english:[X]ほど[Y]}
+{idx:english:particles!しか}
+{idx:english:particles!だけ}
+{idx:english:で}
+{idx:english:だけ}
+{idx:english:出来るだけ@できるだけ (出来るだけ)}
+{idx:english:なるべく}
+{idx:english:でなく@だけでなく}
+{idx:english:でなく}
+{idx:english:particles!ばかり}
+{idx:english:particles!ばっかり}
+{idx:english:particles!ばかし}
+{idx:english:particles!ばっかし}
+{idx:english:particles!ばっか}
+{idx:english:バカ}
+{idx:english:ばかり@ばかりでなく}
+{idx:english:でなく}
+{idx:english:particles!でも}
+{idx:english:interrogatives@interrogatives!でも}
+{idx:english:どうにでも}
+{idx:english:particles!のに}
+{idx:english:particles!とか}
+{idx:english:と}
+{idx:english:や}
+{idx:english:particles!など}
+{idx:english:など}
+{idx:english:particles!なんか}
+{idx:english:particles!やら}
+{idx:english:interrogatives@interrogatives!やら}
+{idx:english:particles!くらい}
+{idx:english:particles!ぐらい}
+{idx:english:particles!ころ}
+{idx:english:particles!ごろ}
+{idx:english:particles!きり}
+{idx:english:particles!ぎり}
+{idx:english:particles!っきり}
+{idx:english:切(き)る}
+{idx:english:particles!ずつ}
+{idx:english:particles!こそ}
+{idx:english:も}
+{idx:english:particles!もの}
+{idx:english:particles!かも}
+{idx:english:かも知(し)れません}
+{idx:english:particles!さえ}
+{idx:english:で@でさえ}
+{idx:english:particles!すら}
+{idx:english:particles!とも}
+{idx:english:particles!なり}
+{idx:english:particles!ものの}
+{idx:english:け(れ)ど(も)}
+{idx:english:particles!ものか}
+{idx:english:か}
+{idx:english:particles!もので}
+{idx:english:で}
+{idx:english:のみ}
+{idx:english:だけ}
+{idx:english:ばかり}
+{idx:english:のみ@のみならず}
+{idx:english:ならず}
+{idx:english:particles!どころ + Negative}
+{idx:english:ほど}
+{idx:english:所(ところ)}
+{idx:english:particles!どころか}
+{idx:english:より}
+{idx:english:particles!だの}
+{idx:english:と}
+{idx:english:や}
+{idx:english:particles!にて}
+{idx:english:Formal で@enrichment particles!formal で}
+{idx:english:particles!には}
+{idx:english:に}
+{idx:english:は}
+{idx:english:particles!や否(いな)や}
+{idx:english:なり}
+{idx:english:particles!だって}
+{idx:english:でも}
+{idx:english:だ}
+{idx:english:とて}
+{idx:english:たって}
+{idx:english:って}
+{idx:english:particles!たって}
+{idx:english:ても@て form + も}
+{idx:english:particles!ったって}
+{idx:english:particles!だけに}
+{idx:english:ので}
+{idx:english:particles!ったら}
+{idx:english:と言(い)ったら}
+{idx:english:ね}
+{idx:english:particles!ってば}
+{idx:english:と言(い)えば}
+{idx:english:particles!なんと}
+{idx:english:何(なに)}
+{idx:english:と}
+{idx:english:なんとなく}
+{idx:english:particles!なんて}
+{idx:english:何と言(い)う@なんという (何と言う)}
+{idx:english:particles!までも}
+{idx:english:にしても}
+{idx:english:いつまでも}
+{idx:english:どこまでも}
+{idx:english:particles!ほか + Negative}
+{idx:english:ほかならない}
+{idx:english:[X](の)[Y]に/で[Z]}
+{idx:english:prepositional nouns!上(うえ)}
+{idx:english:prepositional nouns!下(した)}
+{idx:english:prepositional nouns!右(みぎ)}
+{idx:english:prepositional nouns!左(ひだり)}
+{idx:english:prepositional nouns!前(まえ)}
+{idx:english:prepositional nouns!表(おもて)}
+{idx:english:prepositional nouns!中(ちゅう)}
+{idx:english:prepositional nouns!中(じゅう)}
+{idx:english:prepositional nouns!中(なか)}
+{idx:english:で@なかで (中で)}
+{idx:english:[X]の中で[Y]}
+{idx:english:prepositional nouns!後(うし)ろ}
+{idx:english:prepositional nouns!裏(うら)}
+{idx:english:prepositional nouns!後(あと)}
+{idx:english:prepositional nouns!後(ご)}
+{idx:english:prepositional nouns!後(のち)}
+{idx:english:prepositional nouns!のちほど (後程)}
+{idx:english:prepositional nouns!外(そと)}
+{idx:english:prepositional nouns!間(あいだ)}
+{idx:english:[X]から[X]まで}
+{idx:english:prepositional nouns!近(ちか)く}
+{idx:english:近(ちか)い}
+{idx:english:prepositional nouns!向(む)こう}
+{idx:english:prepositional nouns!辺(へん)}
+{idx:english:prepositional nouns!横(よこ)}
+{idx:english:prepositional nouns!隣(となり)}
+{idx:english:東(ひがし)}
+{idx:english:南(みなみ)}
+{idx:english:西(にし)}
+{idx:english:北(きた)}
+{idx:english:～側(がわ)@prepositional nouns!側(がわ)}
+{idx:english:上側(うわがわ)}
+{idx:english:下側(したがわ)}
+{idx:english:表側(おもてがわ)}
+{idx:english:裏側(うらがわ)}
+{idx:english:内側(うちがわ)}
+{idx:english:外側(そとがわ)}
+{idx:english:左側(ひだりがわ)}
+{idx:english:右側(みぎがわ)}
+{idx:english:向(む)こう側(がわ)}
+{idx:english:北側(きたがわ)}
+{idx:english:南側(みなみがわ)}
+{idx:english:東側(ひがしがわ)}
+{idx:english:西側(にしがわ)}
+{idx:english:一(いち)@いち (一, 壱)}
+{idx:english:二(に)@に (二, 弐)}
+{idx:english:三(さん)@さん (三, 参)}
+{idx:english:四(し)@し, よん (四)}
+{idx:english:五(ご)}
+{idx:english:六(ろく)}
+{idx:english:七(しち)@しち, なな (七)}
+{idx:english:八(はち)}
+{idx:english:九(きゅう)}
+{idx:english:十(じゅう)@じゅう (十, 拾)}
+{idx:english:numbers!百(ひゃく)}
+{idx:english:numbers!千(せん)}
+{idx:english:numbers!万(まん)}
+{idx:english:Numbers!億(おく)}
+{idx:english:兆(ちょう)}
+{idx:english:京(けい)}
+{idx:english:numbers!ゼロ}
+{idx:english:零(れい)}
+{idx:english:ひ@ひ, ひと (一)}
+{idx:english:ふ@ふ, ふた, ふつ (二)}
+{idx:english:み@み, みっ (三)}
+{idx:english:よ@よ, よっ (四)}
+{idx:english:い　(いっ)@い(っ), いつ (五)}
+{idx:english:む@む, むつ, むい (六)}
+{idx:english:な@な, なな, なの (七)}
+{idx:english:や@や, よう (八)}
+{idx:english:こ@こ, ここの (九)}
+{idx:english:と@と, とお (十)}
+{idx:english:counters!つ}
+{idx:english:日@counters!か (日)}
+{idx:english:Rules for 一(いち)@counting pronunciation rules!一(いち)}
+{idx:english:Rules for 三(さん)@counting pronunciation rules!三(さん)}
+{idx:english:Rules for 六(ろく)@counting pronunciation rules!六(ろく)}
+{idx:english:Rules for 八(はち)@counting pronunciation rules!八(はち)}
+{idx:english:Rules for 十(じゅう)@counting pronunciation rules!十(じゅう)}
+{idx:english:何—@なん (何)}
+{idx:english:幾—@いく (幾)}
+{idx:english:Rules for 何(なん)@counting pronunciation rules!何(なん)}
+{idx:english:counters!百(ひゃく)}
+{idx:english:counters!千(せん)}
+{idx:english:counters!万(まん)}
+{idx:english:counters!億(おく)}
+{idx:english:恒河沙(ごうがしゃ)}
+{idx:english:阿僧祇(あそうぎ)}
+{idx:english:那由他(なゆた)}
+{idx:english:不可思議(ふかしぎ)}
+{idx:english:無量大数(むりょうだいすう)}
+{idx:english:counters!第(だい)}
+{idx:english:counters!本(ほん)}
+{idx:english:counters!冊(さつ)}
+{idx:english:counters!巻(かん)}
+{idx:english:counters!課(か)}
+{idx:english:counters!枚(まい)}
+{idx:english:counters!杯(はい)}
+{idx:english:一杯@いっぱい (一杯)}
+{idx:english:counters!台(だい)}
+{idx:english:counters!階(かい)}
+{idx:english:地下(ちか)}
+{idx:english:最上階(さいじょうかい)}
+{idx:english:中二階(ちゅうにかい)}
+{idx:english:counters!個(こ)}
+{idx:english:counters!つ}
+{idx:english:幾つ@いくつ (幾つ)}
+{idx:english:何才@なんさい (何才)}
+{idx:english:何歳@なんさい (何歳)}
+{idx:english:counters!円(えん)}
+{idx:english:ドル}
+{idx:english:ユーロ}
+{idx:english:ポンド}
+{idx:english:counters!畳(じょう)}
+{idx:english:畳(たたみ)}
+{idx:english:四畳()半(はん)@よんじょうはん (四畳半)}
+{idx:english:六畳@ろくじょう (六畳)}
+{idx:english:八畳@はちじょう (八畳)}
+{idx:english:枚@まい (枚)}
+{idx:english:counters!匹(ひき)}
+{idx:english:counters!羽(わ)}
+{idx:english:はね@はね (羽)}
+{idx:english:counters!頭(とう)}
+{idx:english:counters!人(にん・り)}
+{idx:english:counters!度(ど)}
+{idx:english:たび@たび (度)}
+{idx:english:counters!回(かい)}
+{idx:english:counters!番(ばん)}
+{idx:english:一番@いちばん (一番)}
+{idx:english:counters!号(ごう)}
+{idx:english:counters!番号(ばんごう)}
+{idx:english:counters!～目(め)}
+{idx:english:counters!番目(ばんめ)}
+{idx:english:counters!秒(びょう)}
+{idx:english:counters!分(ふん)}
+{idx:english:半分(はんぷん)}
+{idx:english:counters!時(じ)}
+{idx:english:午前(ごぜん)}
+{idx:english:午後(ごご)}
+{idx:english:正午(しょうご)}
+{idx:english:零時(れいじ)}
+{idx:english:counters!時間(じかん)}
+{idx:english:counters!日(か)}
+{idx:english:counters!日(にち)}
+{idx:english:はつか@はつか (二十日)}
+{idx:english:ついたち@ついたち (一日)}
+{idx:english:いちにち}
+{idx:english:counters!泊(はく)}
+{idx:english:いつ}
+{idx:english:何日(なんにち)}
+{idx:english:どのぐらい}
+{idx:english:一昨昨日(さきおととい)}
+{idx:english:一昨日(おととい)}
+{idx:english:昨日(きのう)}
+{idx:english:今日(きょう)}
+{idx:english:明日(あした・あす)}
+{idx:english:明後日(あさって)}
+{idx:english:明々後日(しあさって)}
+{idx:english:本日(ほんじつ)}
+{idx:english:counters!週(しゅう)}
+{idx:english:先先週(せんせんしゅう)}
+{idx:english:先週(せんしゅう)}
+{idx:english:今週(こんしゅう)}
+{idx:english:来週(らいしゅう)}
+{idx:english:再来週(さらいしゅう)}
+{idx:english:counters!週間(しゅうかん)}
+{idx:english:counters!がつ (月)}
+{idx:english:一月(いちがつ)}
+{idx:english:二月(にがつ)}
+{idx:english:三月(さんがつ)}
+{idx:english:四月(しがつ)}
+{idx:english:五月(ごがつ)}
+{idx:english:六月(ろくがつ)}
+{idx:english:七月(しちがつ)}
+{idx:english:八月(はちがつ)}
+{idx:english:九月(くがつ)}
+{idx:english:十月(じゅうがつ)}
+{idx:english:十一月(じゅういちがつ)}
+{idx:english:十二月(じゅうにがつ)}
+{idx:english:何月(なんがつ)}
+{idx:english:先先月(せんせんげつ)}
+{idx:english:先月(せんげつ)}
+{idx:english:今月(こんげつ)}
+{idx:english:来月(らいげつ)}
+{idx:english:再来月(さらいげつ)}
+{idx:english:睦月(むつき)}
+{idx:english:如月(きさらぎ)}
+{idx:english:弥生(やよい)}
+{idx:english:卯月(うづき)}
+{idx:english:皐月(さつき)}
+{idx:english:水無月(みなづき)}
+{idx:english:文月(ふみづき)}
+{idx:english:葉月(はづき)}
+{idx:english:長月(ながつき)}
+{idx:english:神無月(かんなづき)}
+{idx:english:霜月(しもつき)}
+{idx:english:師走(しわす)}
+{idx:english:counters!月(つき)}
+{idx:english:counters!ヶ月(かげつ)}
+{idx:english:counters!年(ねん)}
+{idx:english:一昨昨年(さきおととし)}
+{idx:english:一昨年(おととし)}
+{idx:english:去年(きょねん)}
+{idx:english:今年(ことし)}
+{idx:english:来年(らいねん)}
+{idx:english:再来年(さらいねん)}
+{idx:english:counters!年生(ねんせい)}
+{idx:english:学部生(がくぶせい)}
+{idx:english:院生(いんせい)}
+{idx:english:counters!年間(ねんかん)}
+{idx:english:counters!歳(さい)}
+{idx:english:counters!才(さい)}
+{idx:english:はたち@はたち (二十歳)}
+{idx:english:はつか@はつか (二十日)}
+{idx:english:quantifiers!いつも}
+{idx:english:quantifiers!大抵(たいてい)}
+{idx:english:quantifiers!よく}
+{idx:english:quantifiers!余(あま)り}
+{idx:english:quantifiers!あんまり}
+{idx:english:余る@あまる (余る)}
+{idx:english:あまり}
+{idx:english:あんまり}
+{idx:english:quantifiers!とても}
+{idx:english:quantifiers!時々(ときどき)}
+{idx:english:quantifiers!全然(ぜんぜん)}
+{idx:english:quantifiers!可(か)なり}
+{idx:english:quantifiers!さっぱり}
+{idx:english:さっぱり}
+{idx:english:quantifiers!少(すこ)し}
+{idx:english:quantifiers!ちょっと}
+{idx:english:quantifiers!一杯(いっぱい)}
+{idx:english:quantifiers!もっと}
+{idx:english:quantifiers!ずっと}
+{idx:english:quantifiers!全部(ぜんぶ)}
+{idx:english:quantifiers!全(すべ)て}
+{idx:english:午前(ごぜん)}
+{idx:english:午後(ごご)}
+{idx:english:半(はん)}
+{idx:english:朝(あさ)}
+{idx:english:昼(ひる)}
+{idx:english:晩(ばん)}
+{idx:english:夜(よる)}
+{idx:english:毎@まい (毎)}
+{idx:english:今朝(けさ)}
+{idx:english:今晩(こんばん)}
+{idx:english:今夜(こんや)}
+{idx:english:今日(きょう)}
+{idx:english:平成(へいせい)}
+{idx:english:era@Japanese eras!Heisei (平成)}
+{idx:english:昭和(しょうわ)}
+{idx:english:era@japanese eras!Shouwa (昭和)}
+{idx:english:大正(たいしょう)}
+{idx:english:era@japanese eras!Taishou (大正)}
+{idx:english:明治(めいじ)}
+{idx:english:era@japanese eras!Meiji (明治)}
+{idx:english:日曜日(にちようび)}
+{idx:english:月曜日(げつようび)}
+{idx:english:火曜日(かようび)}
+{idx:english:水曜日(すいようび)}
+{idx:english:木曜日(もくようび)}
+{idx:english:金曜日(きんようび)}
+{idx:english:土曜日(どようび)}
+{idx:english:足(た)す}
+{idx:english:引(ひ)く}
+{idx:english:分@ぶん (分)}
+{idx:english:重@じゅう, ちょう, え (重)}
+{idx:english:平方(へいほう)}
+{idx:english:立方(りっぽう)}
+{idx:english:乗(じょう)}
+{idx:english:乗根(じょうこん)}
+{idx:english:どちらも}
+{idx:english:どっちも}
+{idx:english:… の中(なか)で@…のなかで (…の中で)}
+{idx:english:何も@なにも (何も)}
+{idx:english:何でも@なんでも (何でも)}
+{idx:english:そう}
+{idx:english:よさそう}
+{idx:english:なさそう}
+{idx:english:様(よう)}
+{idx:english:このように@このように (この様に)}
+{idx:english:そのように@そのように (その様に)}
+{idx:english:あのように@あのように (あの様に)}
+{idx:english:どのように@どのように (どの様に)}
+{idx:english:する@ようにする (様にする)}
+{idx:english:なる@ようになる (様になる)}
+{idx:english:風(ふう)}
+{idx:english:こんな風に@こんなふうに (こんな風に)}
+{idx:english:そんな風に@そんなふうに (そんな風に)}
+{idx:english:あんな風に@あんなふうに (あんな風に)}
+{idx:english:どんな風に@どんなふうに (どんな風に)}
+{idx:english:らしい}
+{idx:english:みたい}
+{idx:english:的(てき)}
+{idx:english:っぽい}
+{idx:english:同(おな)じ}
+{idx:english:同じく@おなじく (同じく)}
+{idx:english:勝(が)ち}
+{idx:english:似(に)る}
+{idx:english:かも知(し)れない}
+{idx:english:かもしれません@かもしれません (かも知れません)}
+{idx:english:かも知れん@かもしれん (かも知れん)}
+{idx:english:かも}
+{idx:english:多分(たぶん)}
+{idx:english:可能性(かのうせい)}
+{idx:english:きっと}
+{idx:english:必(かなら)ず}
+{idx:english:[X]かどうか[Y]@…かどうか}
+{idx:english:nominalisers!の}
+{idx:english:nominalisers!事(こと)}
+{idx:english:nominalisers!物(もの)}
+{idx:english:nominalisers!場合(ばあい)}
+{idx:english:nominalisers!次第(しだい)}
+{idx:english:nominalisers!度(たび)}
+{idx:english:nominalisers!時(とき)}
+{idx:english:nominalisers!筈(はず)}
+{idx:english:nominalisers!べき}
+{idx:english:べからず}
+{idx:english:nominalisers!所(ところ)}
+{idx:english:nominalisers!積(つ)もり}
+{idx:english:積もる@つもる (積もる)}
+{idx:english:nominalisers!訳(わけ)}
+{idx:english:言う paired with 訳@nominalisers!というわけ (と言う訳)}
+{idx:english:nominalisers!様(よう)}
+{idx:english:nominalisers!まま}
+{idx:english:nominalisers!為(ため)}
+{idx:english:nominalisers!真似(まね)}
+{idx:english:nominalisers!と言(い)う}
+{idx:english:うち}
+{idx:english:そと}
+{idx:english:丁寧語(ていねいご)}
+{idx:english:尊敬語(そんけいご)}
+{idx:english:謙遜語(けんそんご)}
+{idx:english:先輩(せんぱい)}
+{idx:english:personal pronouns!私(わたくし)}
+{idx:english:personal pronouns!私(わたし)}
+{idx:english:personal pronouns!私(あたし)}
+{idx:english:personal pronouns!私(わし)}
+{idx:english:personal pronouns!僕(ぼく)}
+{idx:english:personal pronouns!俺(おれ)}
+{idx:english:personal pronouns!拙者(せっしゃ)}
+{idx:english:personal pronouns!君(きみ)}
+{idx:english:personal pronouns!お前(まえ)}
+{idx:english:personal pronouns!貴方(あなた)}
+{idx:english:personal pronouns!あんた}
+{idx:english:personal pronouns!貴様(きさま)}
+{idx:english:personal pronouns!己(おのれ)}
+{idx:english:personal pronouns!お主(ぬし)}
+{idx:english:personal pronouns!彼(かれ)}
+{idx:english:personal pronouns!彼女(かのじょ)}
+{idx:english:personal pronouns!奴(やつ)}
+{idx:english:達(たち)}
+{idx:english:等(ら)}
+{idx:english:お前等@おまえら (お前ら)}
+{idx:english:彼等@かれら (彼等)}
+{idx:english:貴様等@きさまら (貴様等)}
+{idx:english:personal pronouns!我(わ)}
+{idx:english:personal pronouns!我(われ)}
+{idx:english:name suffixes!さん}
+{idx:english:name suffixes!様(さま)}
+{idx:english:name suffixes!殿(どの)}
+{idx:english:name suffixes!氏(し)}
+{idx:english:name suffixes!先生(せんせい)}
+{idx:english:name suffixes!ちゃん}
+{idx:english:name suffixes!君(くん)}
+{idx:english:name suffixes!呼(よ)び捨(す)て}
+{idx:english:giving!やる}
+{idx:english:giving!上(あ)げる}
+{idx:english:giving!差(さ)し上(あ)げる}
+{idx:english:上げる@giving!上(あ)げる}
+{idx:english:verb particles!に}
+{idx:english:giving!やる}
+{idx:english:する}
+{idx:english:giving!下(くだ)さる}
+{idx:english:giving!呉(く)れる}
+{idx:english:giving!下(くだ)さる}
+{idx:english:verb particles!が}
+{idx:english:giving!呉(く)れる}
+{idx:english:verb particles!に}
+{idx:english:receiving!貰(もら)う}
+{idx:english:receiving!頂(いただ)く}
+{idx:english:receiving!戴(いただ)く}
+{idx:english:もらう}
+{idx:english:いただく}
+{idx:english:いただきます}
+{idx:english:verb particles!に}
+{idx:english:から}
+{idx:english:そう}
+{idx:english:方(ほう)がいい@方(ほう)がいい}
+{idx:english:-ば@…えば}
+{idx:english:-たらどう@…たらどう}
+{idx:english:なければ}
+{idx:english:ならない@なければならない}
+{idx:english:いけない@なければいけない}
+{idx:english:文語(ぶんご)}
+{idx:english:口語(こうご)}
+{idx:english:語幹(ごかん)}

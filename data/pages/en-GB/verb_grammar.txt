@@ -105,7 +105,7 @@ Having covered the "what they look like", let's look at what this means for a nu
 帰(かえ)る	帰ら	帰り	帰る	帰れ	帰れ
 怒(おこ)る	怒ら	怒り	怒る	怒れ	怒れ
 
-There are two things worth noting in these tables. Firstly, the 未然形 for 会う is not a typographical error; it really is わ, not あ. This is a left-over from classical Japanese: 五段 verbs ending on う used to be verbs ending on ふ and う (being 'wu', rather than 'u'), which inflected respectively as -は, -ひ, -ふ, -へ, -へ and -わ, -ゐ, -う, -ゑ, -ゑ ({idx:english:ゐ@obsolete kana} and ゑ being the now obsolete Japanese syllables for 'wi' and 'we', which have not been in use since the written language was reformed in 1946 by cabinet order). However, both were pronounced as -わ, -い, -う, -え and -え. When these two verb classes were simplified to today's 五段 verbs ending on the modern う, the 未然形 pronunciation わ was kept, as well as its written form.
+There are two things worth noting in these tables. Firstly, the 未然形 for 会う is not a typographical error; it really is わ, not あ. This is a left-over from classical Japanese: 五段 verbs ending on う used to be verbs ending on ふ and う (being 'wu', rather than 'u'), which inflected respectively as -は, -ひ, -ふ, -へ, -へ and -わ, -ゐ, -う, -ゑ, -ゑ ({idx:japanese:obsolete kana!ゐ} and {idx:japanese:obsolete kana!ゑ} being the now obsolete Japanese syllables for 'wi' and 'we', which have not been in use since the written language was reformed in 1946 by cabinet order). However, both were pronounced as -わ, -い, -う, -え and -え. When these two verb classes were simplified to today's 五段 verbs ending on the modern う, the 未然形 pronunciation わ was kept, as well as its written form.
 
 The second thing worth noting in the table is the seemingly disproportionate number of examples for 五段 verbs ending on -る. The reason for this is that for some verbs ending on る, just looking at the verb's dictionary form is not enough to determine whether it's actually a 五段 or an 一段 verb, so a few examples are needed to show how to tell the two apart. If a verb ends on る, and the syllable preceding it in the あ—, う— or お—row (such as is the case for 分かる, 売る and 起こる) then this is always a 五段 verb. However, if the syllable before the る is in the い— or え—row, then it might be an 一段 verb instead. The annoying thing is that without actually looking up the verb in a dictionary, or seeing it used in some inflected form that lets you spot the difference between a 五段 base and an 一段 base being used, there is no way to tell what kind of verb you're dealing with. Luckily, telling the difference when we do have an inflected form is really easy, as we can tell from the following 一段 inflection examples (taking note that the 命令形 as used in this book is just the stem):
 
@@ -574,7 +574,7 @@ The other two particles, {idx:english:noun particles!と} and {idx:english:noun 
   "(I) bought juice, milk and tea."
 
 However, if they instead bought a lot of refreshments (say they were planning a party), then the following sentence would be easier than listing every individual item on the shopping list:
-	
+
   ジュースや牛乳やお茶を買った。
   "(I) bought juice, milk, tea (and the like)."
 

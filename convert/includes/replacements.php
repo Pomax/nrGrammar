@@ -4,28 +4,28 @@
 	// run all dokuwiki->tex replacements
 	function run_replacements(&$text)
 	{
-		global $stepthrough;
+		global $step_through;
 		$start = time();
 		$ops = 9;
 		$op = 0;
 		general_replacements($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_headings($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_idx($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_ruby($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_tabling($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_lists($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_examples($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_images($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		replace_verticalruby($text, ++$op, $ops);
-		if($stepthrough) dump($text,"replace $op.txt");
+		if($step_through) dump($text,"replace $op.txt");
 		$end = time();
 		println("Conversion steps took ".($end-$start)."s.");
 	}
